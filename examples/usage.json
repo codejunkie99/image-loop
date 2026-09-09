@@ -1,0 +1,94 @@
+[
+  {
+    "example": "product",
+    "round": 0,
+    "model_requested": "gpt-5.6-luna",
+    "adapter": "codex exec",
+    "seconds": 15.04,
+    "usage": [
+      {
+        "input_tokens": 35079,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 298,
+        "reasoning_output_tokens": 31
+      }
+    ],
+    "returncode": 0,
+    "source_sha256": "62f04c5b6243159022fb45d10a319a1c202aedff1d94ea099c3bc74d95a81137",
+    "candidate_sha256": "62f04c5b6243159022fb45d10a319a1c202aedff1d94ea099c3bc74d95a81137",
+    "repairs_used": 0,
+    "max_repairs": 3,
+    "cost_usd": null,
+    "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+  },
+  {
+    "example": "product",
+    "round": 1,
+    "model_requested": "gpt-5.6-luna",
+    "adapter": "codex exec",
+    "seconds": 19.3,
+    "usage": [
+      {
+        "input_tokens": 35257,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 347,
+        "reasoning_output_tokens": 109
+      }
+    ],
+    "returncode": 0,
+    "source_sha256": "62f04c5b6243159022fb45d10a319a1c202aedff1d94ea099c3bc74d95a81137",
+    "candidate_sha256": "f94a512b4dc2f331cccea22dfa65cace568bcc5986dd83ffbb5c5d8c3e4eb2e5",
+    "repairs_used": 1,
+    "max_repairs": 3,
+    "cost_usd": null,
+    "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+  },
+  {
+    "example": "diagram",
+    "round": 0,
+    "model_requested": "gpt-5.6-luna",
+    "adapter": "codex exec",
+    "seconds": 15.62,
+    "usage": [
+      {
+        "input_tokens": 35094,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 65
+      }
+    ],
+    "returncode": 0,
+    "source_sha256": "3c81dc08f20ea71d63e842c761ea655aadd7c8fc61d92cffb4b2b933a21f9ceb",
+    "candidate_sha256": "3c81dc08f20ea71d63e842c761ea655aadd7c8fc61d92cffb4b2b933a21f9ceb",
+    "repairs_used": 0,
+    "max_repairs": 3,
+    "cost_usd": null,
+    "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+  },
+  {
+    "example": "diagram",
+    "round": 1,
+    "model_requested": "gpt-5.6-luna",
+    "adapter": "codex exec",
+    "seconds": 13.52,
+    "usage": [
+      {
+        "input_tokens": 35272,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 346,
+        "reasoning_output_tokens": 82
+      }
+    ],
+    "returncode": 0,
+    "source_sha256": "3c81dc08f20ea71d63e842c761ea655aadd7c8fc61d92cffb4b2b933a21f9ceb",
+    "candidate_sha256": "4088812df8573935f9e0e757fecfe6c316f66e411f49ddd2e06ea1af476e5208",
+    "repairs_used": 1,
+    "max_repairs": 3,
+    "cost_usd": null,
+    "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+  }
+]

@@ -1,0 +1,21 @@
+Edit the supplied clean image according to this brief:
+Add exactly one blue return arrow below the row from Check back to Create, labeled Revise, without changing the existing diagram.
+
+Correct these observed failures:
+- D1 (new return connector): Exactly one muted-blue return path starts at the bottom of Check, goes below the row, and ends with an arrowhead entering the bottom of Create. Its direction is Check to Create.
+  Reviewer observation: The candidate shows only the three left-to-right arrows between the cards; no muted-blue return path appears below the row from Check to Create.
+  Suggested minimal fix: Add exactly one muted-blue curved or routed arrow from the bottom of Check below the row, with its arrowhead entering the bottom of Create.
+- D2 (return label): The new path is labeled exactly Revise once, clearly readable below the main row.
+  Reviewer observation: No “Revise” label is visible below the main row in the candidate.
+  Suggested minimal fix: Add the label “Revise” exactly once below the main row alongside the return path.
+
+Maintain every requirement below; do not introduce unrelated improvements:
+- D1: Exactly one muted-blue return path starts at the bottom of Check, goes below the row, and ends with an arrowhead entering the bottom of Create. Its direction is Check to Create.
+- D2: The new path is labeled exactly Revise once, clearly readable below the main row.
+- D3: Exactly four original cards remain ordered Brief, Create, Check, Deliver, with the three existing arrows pointing left to right. No added node.
+- D4: Preserve the title From idea to image, card positions, labels, icons, blue Create fill, and ivory background visually.
+- D5: No connector or label crosses existing card text or title; no extra words besides Revise.
+
+Output file requirements: {"width": 1254, "height": 1254, "format": "PNG", "alpha_required": false}
+Do not add review badges, numbering, or annotation arrows.
+If source and candidate are both supplied, use the source for preserved appearance and the stated edit for changes.

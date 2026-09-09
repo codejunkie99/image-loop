@@ -1,0 +1,789 @@
+{
+  "schema_version": "1.0",
+  "mode": "reverse_engineer",
+  "coverage": {
+    "status": "complete_visible_inventory",
+    "notes": [
+      "Single square product photograph analyzed from visible pixels.",
+      "Coordinates are normalized x,y,width,height from the original image's top-left.",
+      "Hidden source layers, exact font, camera metadata, and production settings are not recoverable."
+    ]
+  },
+  "coordinate_system": "normalized_original_image_top_left_xywh",
+  "images": [
+    {
+      "id": "img_01",
+      "source": "attached product photograph",
+      "role": "target",
+      "reference_roles": [],
+      "version": "observed",
+      "metadata": {
+        "width_px": {
+          "value": 1248,
+          "basis": "pixel_measurement",
+          "confidence": "high",
+          "note": "Observed square raster dimensions."
+        },
+        "height_px": {
+          "value": 1248,
+          "basis": "pixel_measurement",
+          "confidence": "high",
+          "note": "Observed square raster dimensions."
+        },
+        "aspect_ratio": {
+          "value": "1:1",
+          "basis": "pixel_measurement",
+          "confidence": "high",
+          "note": "Square canvas."
+        },
+        "orientation": {
+          "value": "square",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Neither portrait nor landscape."
+        },
+        "transparency": {
+          "value": "not visibly transparent",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Appears to be a fully opaque photograph."
+        },
+        "color_profile": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "Embedded profile was not available in the supplied view."
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_full",
+      "image_id": "img_01",
+      "name": "full composition",
+      "bbox": [0, 0, 1, 1],
+      "geometry_basis": "pixel_measurement"
+    },
+    {
+      "id": "sec_headline",
+      "image_id": "img_01",
+      "name": "left headline area",
+      "bbox": [0.06, 0.40, 0.49, 0.20],
+      "geometry_basis": "visual_estimate"
+    },
+    {
+      "id": "sec_product",
+      "image_id": "img_01",
+      "name": "bottle product area",
+      "bbox": [0.57, 0.14, 0.27, 0.75],
+      "geometry_basis": "visual_estimate"
+    },
+    {
+      "id": "sec_ground",
+      "image_id": "img_01",
+      "name": "ground and shadow area",
+      "bbox": [0, 0.73, 1, 0.27],
+      "geometry_basis": "visual_estimate"
+    }
+  ],
+  "elements": [
+    {
+      "id": "el_headline",
+      "image_id": "img_01",
+      "section_id": "sec_headline",
+      "number": 1,
+      "name": "headline",
+      "kind": "typographic text block",
+      "bbox": [0.075, 0.422, 0.47, 0.16],
+      "anchor": [0.075, 0.50],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["text", "font_size", "weight", "tracking", "line_spacing", "color", "position"],
+      "locked_properties": ["headline wording unless intentionally changed"],
+      "attributes": {
+        "line_count": {
+          "value": 2,
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Two stacked lines."
+        },
+        "alignment": {
+          "value": "left",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Both lines share a left edge."
+        }
+      }
+    },
+    {
+      "id": "el_bottle_body",
+      "image_id": "img_01",
+      "section_id": "sec_product",
+      "number": 2,
+      "name": "bottle body",
+      "kind": "physical product container",
+      "bbox": [0.596, 0.221, 0.236, 0.666],
+      "anchor": [0.714, 0.554],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["position", "scale", "shape", "material", "label placement", "highlight intensity"],
+      "locked_properties": ["product identity", "overall cylindrical silhouette"],
+      "attributes": {
+        "shape": {
+          "value": "tall rounded cylindrical bottle with gently tapered shoulder and rounded base",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Body is wider through the lower/middle section and narrows toward the neck."
+        },
+        "surface": {
+          "value": "matte off-white finish",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Soft diffuse highlights with minimal specular reflection."
+        }
+      }
+    },
+    {
+      "id": "el_bottle_cap",
+      "image_id": "img_01",
+      "section_id": "sec_product",
+      "number": 3,
+      "name": "bottle cap",
+      "kind": "physical closure",
+      "bbox": [0.636, 0.14, 0.158, 0.087],
+      "anchor": [0.715, 0.184],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["position", "scale", "shape", "material", "highlight intensity"],
+      "locked_properties": ["cap-to-bottle relationship", "off-white product identity"],
+      "attributes": {
+        "shape": {
+          "value": "short rounded rectangular/cylindrical screw cap",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Top corners and side transitions are visibly rounded."
+        },
+        "seam": {
+          "value": "dark narrow horizontal seam below cap",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Separates cap from bottle neck."
+        }
+      }
+    },
+    {
+      "id": "el_brand_lettering",
+      "image_id": "img_01",
+      "section_id": "sec_product",
+      "number": 4,
+      "name": "brand lettering",
+      "kind": "printed wordmark",
+      "bbox": [0.666, 0.462, 0.106, 0.025],
+      "anchor": [0.719, 0.474],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["text", "tracking", "font approximation", "color", "position"],
+      "locked_properties": ["brand wording unless intentionally changed"],
+      "attributes": {
+        "transcript": {
+          "value": "FIELD",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Letters are legible."
+        },
+        "case": {
+          "value": "uppercase",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "All visible letters are capitals."
+        },
+        "tracking": {
+          "value": "widely spaced",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Noticeable letter spacing; exact tracking unknown."
+        }
+      }
+    },
+    {
+      "id": "el_olive_dot",
+      "image_id": "img_01",
+      "section_id": "sec_full",
+      "number": 5,
+      "name": "olive dot",
+      "kind": "small circular graphic mark",
+      "bbox": [0.034, 0.932, 0.029, 0.029],
+      "anchor": [0.048, 0.946],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["position", "diameter", "fill color", "opacity"],
+      "locked_properties": ["presence unless intentionally removed"],
+      "attributes": {
+        "shape": {
+          "value": "filled circle",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Small olive-green circular mark near lower-left corner."
+        },
+        "color": {
+          "value": "muted olive green",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Approximate appearance only."
+        }
+      }
+    },
+    {
+      "id": "el_background",
+      "image_id": "img_01",
+      "section_id": "sec_full",
+      "number": 6,
+      "name": "background",
+      "kind": "photographic wall and tabletop environment",
+      "bbox": [0, 0, 1, 1],
+      "anchor": [0.5, 0.5],
+      "geometry_basis": "pixel_measurement",
+      "editable_properties": ["tone", "texture", "light pattern", "horizon placement", "grain"],
+      "locked_properties": ["neutral warm photographic character"],
+      "attributes": {
+        "color": {
+          "value": "warm light gray / ivory",
+          "basis": "visual_estimate",
+          "confidence": "high",
+          "note": "Wall and tabletop are near-neutral with warm bias."
+        },
+        "texture": {
+          "value": "subtle fine photographic texture",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Not a flat digital fill."
+        }
+      }
+    },
+    {
+      "id": "el_cast_shadow",
+      "image_id": "img_01",
+      "section_id": "sec_ground",
+      "number": 7,
+      "name": "cast shadow",
+      "kind": "photographic shadow",
+      "bbox": [0.58, 0.79, 0.38, 0.15],
+      "anchor": [0.77, 0.86],
+      "geometry_basis": "visual_estimate",
+      "editable_properties": ["direction", "opacity", "softness", "length", "warmth"],
+      "locked_properties": ["shadow-contact relationship with bottle"],
+      "attributes": {
+        "direction": {
+          "value": "toward lower-right",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Shadow extends rightward from the bottle base."
+        },
+        "softness": {
+          "value": "soft-edged diffuse",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "No hard contour."
+        }
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_01",
+      "image_id": "img_01",
+      "from_id": "el_bottle_cap",
+      "to_id": "el_bottle_body",
+      "kind": "in_front_of",
+      "direction": "from_to",
+      "label": {
+        "value": "cap sits above and closes bottle neck",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": "Visible seam indicates physical attachment."
+      },
+      "confidence": "high",
+      "note": "Spatial and material continuity are clear."
+    },
+    {
+      "id": "rel_02",
+      "image_id": "img_01",
+      "from_id": "el_brand_lettering",
+      "to_id": "el_bottle_body",
+      "kind": "grouped_with",
+      "direction": "none",
+      "label": {
+        "value": "wordmark printed on front face",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": "Lettering follows the bottle-facing presentation."
+      },
+      "confidence": "high",
+      "note": "Appears integrated with product surface."
+    },
+    {
+      "id": "rel_03",
+      "image_id": "img_01",
+      "from_id": "el_bottle_body",
+      "to_id": "el_cast_shadow",
+      "kind": "other",
+      "direction": "from_to",
+      "label": {
+        "value": "bottle casts shadow onto tabletop",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": "Physical lighting relationship."
+      },
+      "confidence": "high",
+      "note": "Shadow originates at the bottle base."
+    },
+    {
+      "id": "rel_04",
+      "image_id": "img_01",
+      "from_id": "el_headline",
+      "to_id": "el_bottle_body",
+      "kind": "other",
+      "direction": "none",
+      "label": {
+        "value": "headline balances product in left-right composition",
+        "basis": "visual_estimate",
+        "confidence": "medium",
+        "note": "Graphic hierarchy is compositional rather than a physical connector."
+      },
+      "confidence": "medium",
+      "note": "No literal connector line is present."
+    }
+  ],
+  "picture_types": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "medium": {
+          "value": "studio-style product photograph with overlaid typography and graphic mark",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Photographic bottle, environment, lighting, and text composition are visible."
+        },
+        "regional_medium_difference": {
+          "value": "photographic realism for bottle/background; flat graphic treatment for headline, wordmark, and olive dot",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Different visual regimes coexist in one square asset."
+        }
+      }
+    }
+  ],
+  "composition": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "hierarchy": {
+          "value": "bottle first, headline second, small olive dot third",
+          "basis": "visual_estimate",
+          "confidence": "high",
+          "note": "Bottle has greatest visual mass; headline provides strong counterweight."
+        },
+        "layout": {
+          "value": "asymmetric two-column composition",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Text occupies left; bottle occupies right."
+        },
+        "whitespace": {
+          "value": "substantial negative space around headline and above tabletop",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Minimalist advertising layout."
+        },
+        "visual_path": {
+          "value": "headline to bottle cap/body to FIELD wordmark to lower-left olive dot",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Reading path inferred from scale and contrast."
+        },
+        "safe_area": {
+          "value": "headline and bottle remain inset from all edges; olive dot is near lower-left margin",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "No major subject is clipped."
+        }
+      }
+    }
+  ],
+  "text_content": [
+    {
+      "target_id": "el_headline",
+      "attributes": {
+        "transcript": {
+          "value": "Carry less.\nNotice more.",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Two lines with periods."
+        }
+      }
+    },
+    {
+      "target_id": "el_brand_lettering",
+      "attributes": {
+        "transcript": {
+          "value": "FIELD",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Legible uppercase wordmark."
+        }
+      }
+    }
+  ],
+  "typography": [
+    {
+      "target_id": "el_headline",
+      "attributes": {
+        "font_class": {
+          "value": "bold geometric or neo-grotesque sans serif",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Exact font family is unverified."
+        },
+        "weight": {
+          "value": "bold",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Heavy strokes."
+        },
+        "size_relative_to_canvas": {
+          "value": "large; approximately 0.075 canvas height per line",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Estimated from visible glyph height."
+        },
+        "line_spacing": {
+          "value": "tight-to-moderate",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Two lines are closely stacked."
+        },
+        "color": {
+          "value": "near-black charcoal",
+          "basis": "visual_estimate",
+          "confidence": "high",
+          "note": "Not pure measured black."
+        }
+      }
+    },
+    {
+      "target_id": "el_brand_lettering",
+      "attributes": {
+        "font_class": {
+          "value": "light-to-regular sans serif wordmark",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Exact family is unverified."
+        },
+        "weight": {
+          "value": "regular",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Thin-to-moderate strokes."
+        },
+        "tracking": {
+          "value": "wide",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Letters visibly separated."
+        },
+        "color": {
+          "value": "dark charcoal",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Printed on off-white bottle."
+        }
+      }
+    }
+  ],
+  "palette": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "background_warm_ivory": {
+          "value": "#d8d3c9 approximate",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "Approximate screen-rendered value, not sampled."
+        },
+        "bottle_off_white": {
+          "value": "#e9e6dd approximate",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "Bottle is slightly warmer/darker than pure white."
+        },
+        "headline_charcoal": {
+          "value": "#252426 approximate",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "Near-black text."
+        },
+        "olive_dot": {
+          "value": "#7b8243 approximate",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "Muted olive-green accent."
+        },
+        "shadow_gray": {
+          "value": "#aaa59d approximate",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "Shadow is translucent and spatially varying."
+        }
+      }
+    }
+  ],
+  "color_grading": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "scope": {
+          "value": "global photographic regions, with graphic text retaining strong contrast",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Typography appears comparatively crisp against softly graded photo."
+        },
+        "white_balance": {
+          "value": "warm-neutral",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Ivory/beige cast throughout environment."
+        },
+        "contrast": {
+          "value": "moderate, with soft highlights and restrained blacks",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Low-drama editorial product treatment."
+        },
+        "saturation": {
+          "value": "low overall except olive accent",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Nearly monochromatic scene."
+        },
+        "grain": {
+          "value": "subtle photographic texture possible",
+          "basis": "visual_estimate",
+          "confidence": "low",
+          "note": "May be sensor/resize texture rather than intentional grain."
+        },
+        "vignette": {
+          "value": "none clearly visible",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Edges are not strongly darkened."
+        }
+      }
+    }
+  ],
+  "lighting": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "key_direction": {
+          "value": "upper-left/front-left",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Bright illumination and diagonal wall shadow originate from left."
+        },
+        "quality": {
+          "value": "soft diffused daylight or large softbox",
+          "basis": "visual_estimate",
+          "confidence": "high",
+          "note": "Gradual transitions and soft cast shadow."
+        },
+        "wall_pattern": {
+          "value": "diagonal window-like light/shadow bands on upper-left wall",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Visible architectural light pattern."
+        },
+        "ambient_fill": {
+          "value": "high",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Bottle shadow side remains readable."
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "target_id": "el_bottle_body",
+      "attributes": {
+        "material": {
+          "value": "matte painted or powder-coated plastic/metal",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Appearance suggests a smooth matte coating; substrate is unknown."
+        },
+        "surface_response": {
+          "value": "diffuse with broad soft highlight",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Little sharp specular reflection."
+        }
+      }
+    },
+    {
+      "target_id": "el_bottle_cap",
+      "attributes": {
+        "material": {
+          "value": "matching matte off-white closure",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Visually coordinated with bottle body."
+        }
+      }
+    },
+    {
+      "target_id": "el_background",
+      "attributes": {
+        "material": {
+          "value": "painted wall and matte tabletop",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "Exact surface materials are not identifiable."
+        }
+      }
+    }
+  ],
+  "layers": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "front_to_back_order": {
+          "value": "headline/olive graphic and bottle details visually over photographic environment; bottle in front of background; shadow on tabletop beneath bottle",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": "This is an inferred visual ordering, not recovered editable layers."
+        },
+        "occlusion": {
+          "value": "bottle occludes part of background; cap overlaps neck",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "No hidden content is asserted."
+        },
+        "source_layer_recovery": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "Original editable layer structure cannot be determined from the flattened image."
+        }
+      }
+    }
+  ],
+  "preservation": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "identity": {
+          "value": "minimalist FIELD bottle advertisement",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Preserve product and restrained editorial tone."
+        },
+        "exact_text": {
+          "value": "Carry less. Notice more. / FIELD",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Keep wording unless intentionally revising copy."
+        },
+        "composition": {
+          "value": "left headline balanced by right bottle",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Core layout relationship."
+        },
+        "lighting": {
+          "value": "soft upper-left illumination and lower-right cast shadow",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": "Key photographic character."
+        }
+      }
+    }
+  ],
+  "export": [
+    {
+      "target_id": "img_01",
+      "attributes": {
+        "observed_flatness": {
+          "value": "appears to be a flattened opaque raster asset",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "No alpha or editable layers are observable."
+        },
+        "canvas_constraint": {
+          "value": "preserve 1:1 square composition",
+          "basis": "pixel_measurement",
+          "confidence": "high",
+          "note": "Current image is 1248 by 1248 pixels."
+        },
+        "alpha": {
+          "value": "not visibly present",
+          "basis": "visual_observation",
+          "confidence": "medium",
+          "note": "Transparency metadata was not supplied."
+        },
+        "target_output": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "No alternate export format or size was requested."
+        }
+      }
+    }
+  ],
+  "unknowns": [
+    {
+      "target_id": "el_headline",
+      "property": "font_family",
+      "reason": "Visual appearance supports a sans-serif classification but not exact family identification.",
+      "question": "Should a specific brand font be supplied for reconstruction?"
+    },
+    {
+      "target_id": "el_brand_lettering",
+      "property": "font_family",
+      "reason": "Wordmark lettering may be custom or modified.",
+      "question": "Is an original FIELD wordmark asset available?"
+    },
+    {
+      "target_id": "img_01",
+      "property": "camera_and_lens_metadata",
+      "reason": "No EXIF or capture metadata is available in the supplied view.",
+      "question": "Should metadata be inspected from the original file?"
+    },
+    {
+      "target_id": "img_01",
+      "property": "color_profile",
+      "reason": "Embedded ICC profile cannot be confirmed.",
+      "question": "Should the original file's profile be checked?"
+    },
+    {
+      "target_id": "img_01",
+      "property": "production_layers",
+      "reason": "The image is visually flattened; hidden/editable layers cannot be inferred reliably.",
+      "question": "Is a layered source file available?"
+    }
+  ],
+  "reconstruction": {
+    "is_original_prompt": false,
+    "brief": "Create a square, warm-neutral minimalist product advertisement. Place a tall matte off-white cylindrical bottle with a rounded shoulder, rounded base, and matching rounded cap on the right side of a softly lit ivory wall and tabletop. Add a subtle lower-right cast shadow and a small uppercase, widely tracked FIELD wordmark centered on the bottle. On the left, set the bold charcoal headline on two lines: 'Carry less.' and 'Notice more.' Add a small muted olive-green dot near the lower-left corner. Preserve generous negative space, soft upper-left illumination, restrained saturation, and an editorial photographic feel.",
+    "preserve": [
+      "Square 1:1 canvas",
+      "Right-weighted bottle placement",
+      "Left-aligned two-line headline",
+      "Warm ivory monochrome palette",
+      "Soft upper-left light and lower-right shadow",
+      "FIELD wordmark and olive dot"
+    ],
+    "unverified": [
+      "Exact font families and numeric typography settings",
+      "Exact bottle substrate and dimensions",
+      "Exact camera, lens, exposure, and color-grading recipe",
+      "Whether headline and olive dot were added photographically or digitally",
+      "Original editable layer structure"
+    ]
+  }
+}

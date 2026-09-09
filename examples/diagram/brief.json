@@ -1,0 +1,42 @@
+{
+  "name": "Add a diagram feedback path",
+  "intent": "Add exactly one blue return arrow below the row from Check back to Create, labeled Revise, without changing the existing diagram.",
+  "criteria": [
+    {
+      "id": "D1",
+      "target": "new return connector",
+      "kind": "requested",
+      "requirement": "Exactly one muted-blue return path starts at the bottom of Check, goes below the row, and ends with an arrowhead entering the bottom of Create. Its direction is Check to Create."
+    },
+    {
+      "id": "D2",
+      "target": "return label",
+      "kind": "requested",
+      "requirement": "The new path is labeled exactly Revise once, clearly readable below the main row."
+    },
+    {
+      "id": "D3",
+      "target": "nodes and main arrows",
+      "kind": "protected",
+      "requirement": "Exactly four original cards remain ordered Brief, Create, Check, Deliver, with the three existing arrows pointing left to right. No added node."
+    },
+    {
+      "id": "D4",
+      "target": "title and card visuals",
+      "kind": "protected",
+      "requirement": "Preserve the title From idea to image, card positions, labels, icons, blue Create fill, and ivory background visually."
+    },
+    {
+      "id": "D5",
+      "target": "legibility",
+      "kind": "protected",
+      "requirement": "No connector or label crosses existing card text or title; no extra words besides Revise."
+    }
+  ],
+  "file_checks": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "alpha_required": false
+  }
+}

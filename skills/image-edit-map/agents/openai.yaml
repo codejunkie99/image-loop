@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Edit Map"
+  short_description: "Number image elements, guide edits, extract visual JSON"
+  default_prompt: "Use $image-edit-map to inspect my image, ask what should change, and create a numbered map before editing."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,42 @@
+{
+  "name": "Product color and brand revision",
+  "intent": "Change the bottle and cap to muted cobalt blue, replace FIELD with TIDELINE, preserve the rest of the campaign visually.",
+  "criteria": [
+    {
+      "id": "P1",
+      "target": "bottle and cap",
+      "kind": "requested",
+      "requirement": "Bottle body AND cap have a muted cobalt-blue finish, rather than ivory."
+    },
+    {
+      "id": "P2",
+      "target": "bottle label",
+      "kind": "requested",
+      "requirement": "Bottle label reads exactly TIDELINE once, with legible uppercase letters. FIELD is absent."
+    },
+    {
+      "id": "P3",
+      "target": "headline",
+      "kind": "protected",
+      "requirement": "Headline remains exactly Carry less. on the first line and Notice more. on the second; preserve its placement, appearance and charcoal color visually."
+    },
+    {
+      "id": "P4",
+      "target": "bottle geometry",
+      "kind": "protected",
+      "requirement": "Preserve bottle silhouette, cap geometry, position, and scale relative to the source. Assess visual similarity, not exact pixels."
+    },
+    {
+      "id": "P5",
+      "target": "background and accent",
+      "kind": "protected",
+      "requirement": "Preserve warm light-gray background, lighting/shadow direction, and small olive dot bottom-left visually; no new objects or extra text."
+    }
+  ],
+  "file_checks": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "alpha_required": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "action": "repair",
+  "reason": "Repair only the failed requirements; recheck all criteria.",
+  "ids": [
+    "P1",
+    "P2"
+  ],
+  "protected_failed": []
+}

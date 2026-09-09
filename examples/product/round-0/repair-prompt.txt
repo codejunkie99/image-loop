@@ -1,0 +1,21 @@
+Edit the supplied clean image according to this brief:
+Change the bottle and cap to muted cobalt blue, replace FIELD with TIDELINE, preserve the rest of the campaign visually.
+
+Correct these observed failures:
+- P1 (bottle and cap): Bottle body AND cap have a muted cobalt-blue finish, rather than ivory.
+  Reviewer observation: The candidate bottle body and cap are visibly ivory/white, not muted cobalt blue.
+  Suggested minimal fix: Recolor both the bottle body and cap to a muted cobalt-blue finish.
+- P2 (bottle label): Bottle label reads exactly TIDELINE once, with legible uppercase letters. FIELD is absent.
+  Reviewer observation: The candidate label visibly reads FIELD, not TIDELINE.
+  Suggested minimal fix: Replace FIELD with one legible uppercase TIDELINE label and remove FIELD.
+
+Maintain every requirement below; do not introduce unrelated improvements:
+- P1: Bottle body AND cap have a muted cobalt-blue finish, rather than ivory.
+- P2: Bottle label reads exactly TIDELINE once, with legible uppercase letters. FIELD is absent.
+- P3: Headline remains exactly Carry less. on the first line and Notice more. on the second; preserve its placement, appearance and charcoal color visually.
+- P4: Preserve bottle silhouette, cap geometry, position, and scale relative to the source. Assess visual similarity, not exact pixels.
+- P5: Preserve warm light-gray background, lighting/shadow direction, and small olive dot bottom-left visually; no new objects or extra text.
+
+Output file requirements: {"width": 1254, "height": 1254, "format": "PNG", "alpha_required": false}
+Do not add review badges, numbering, or annotation arrows.
+If source and candidate are both supplied, use the source for preserved appearance and the stated edit for changes.

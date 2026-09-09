@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "alpha_channel": false,
+    "has_transparent_pixels": false,
+    "sha256": "4088812df8573935f9e0e757fecfe6c316f66e411f49ddd2e06ea1af476e5208"
+  },
+  "failures": []
+}

@@ -1,0 +1,8 @@
+{
+  "changes": [
+    "Corrected width_px and height_px from model-claimed 1248 to file-verified 1254.",
+    "Aligned element numbers with published annotation manifest.",
+    "Removed unsolicited locked_properties and preservation records; retained reconstruction suggestions."
+  ],
+  "visual_estimates_remain_unverified_as_measurements": true
+}

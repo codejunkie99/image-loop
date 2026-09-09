@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Loop"
+  short_description: "Create, independently review, and repair images"
+  default_prompt: "Use $image-loop to create or edit an image, check it with an independent vision reviewer, and repair concrete failures."
+policy:
+  allow_implicit_invocation: true

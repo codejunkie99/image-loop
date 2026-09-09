@@ -1,0 +1,4 @@
+{
+  "action": "stop_provider",
+  "reason": "Reviewer failed; see local private diagnostics. No automatic retry or model substitution."
+}

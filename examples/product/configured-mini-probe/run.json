@@ -1,0 +1,13 @@
+{
+  "model_requested": "gpt-5.4-mini",
+  "adapter": "codex exec",
+  "seconds": 5.63,
+  "usage": [],
+  "returncode": 1,
+  "source_sha256": "62f04c5b6243159022fb45d10a319a1c202aedff1d94ea099c3bc74d95a81137",
+  "candidate_sha256": "62f04c5b6243159022fb45d10a319a1c202aedff1d94ea099c3bc74d95a81137",
+  "repairs_used": 0,
+  "max_repairs": 3,
+  "cost_usd": null,
+  "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+}

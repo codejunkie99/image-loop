@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "mode": "reverse_engineer",
+  "coverage": {
+    "status": "partial",
+    "notes": [
+      "Fictional banner specification, not an analysis of any actual image. Only one text element is demonstrated."
+    ]
+  },
+  "coordinate_system": "normalized_original_image_top_left_xywh",
+  "images": [
+    {
+      "id": "A",
+      "source": "synthetic-example-no-source-image",
+      "role": "analysis",
+      "reference_roles": [],
+      "version": "v0",
+      "metadata": {
+        "width_px": {
+          "value": 1600,
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "height_px": {
+          "value": 900,
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "alpha_present": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "No actual image file exists."
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "A:S1",
+      "image_id": "A",
+      "name": "Heading area",
+      "bbox": [
+        0.05,
+        0.1,
+        0.45,
+        0.35
+      ],
+      "geometry_basis": "user_supplied"
+    }
+  ],
+  "elements": [
+    {
+      "id": "A:1",
+      "image_id": "A",
+      "section_id": "A:S1",
+      "number": 1,
+      "name": "Main headline",
+      "kind": "text",
+      "bbox": [
+        0.08,
+        0.15,
+        0.38,
+        0.2
+      ],
+      "anchor": [
+        0.27,
+        0.25
+      ],
+      "geometry_basis": "user_supplied",
+      "editable_properties": [
+        "text",
+        "font",
+        "color",
+        "position"
+      ],
+      "locked_properties": [
+        "text"
+      ],
+      "attributes": {
+        "description": {
+          "value": "Two-line headline in the left region.",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "picture_types": [
+    {
+      "target_id": "A",
+      "attributes": {
+        "medium": {
+          "value": "Mixed-media banner",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "purpose": {
+          "value": "Product launch cover",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "composition": [
+    {
+      "target_id": "A",
+      "attributes": {
+        "hierarchy": {
+          "value": [
+            "headline",
+            "product"
+          ],
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "layout": {
+          "value": "Headline left; product area right. Product element intentionally omitted from this partial example.",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "text_content": [
+    {
+      "target_id": "A:1",
+      "attributes": {
+        "transcript": {
+          "value": "Make room\nfor ideas",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "line_breaks": {
+          "value": [
+            "Make room",
+            "for ideas"
+          ],
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "typography": [
+    {
+      "target_id": "A:1",
+      "attributes": {
+        "font_family": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "Pixels alone would not verify an exact font family."
+        },
+        "font_class": {
+          "value": "sans serif",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "weight": {
+          "value": "bold",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "size_relative_to_canvas_height": {
+          "value": 0.07,
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "palette": [
+    {
+      "target_id": "A:1",
+      "attributes": {
+        "fill_srgb_hex": {
+          "value": "#FFFFFF",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "role": {
+          "value": "primary text",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "color_grading": [
+    {
+      "target_id": "A",
+      "attributes": {
+        "recipe": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "No original grading settings are supplied."
+        }
+      }
+    }
+  ],
+  "lighting": [],
+  "materials": [],
+  "layers": [
+    {
+      "target_id": "A:1",
+      "attributes": {
+        "stack_role": {
+          "value": "foreground text",
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        },
+        "original_layer_name": {
+          "value": null,
+          "basis": "unknown",
+          "confidence": "unknown",
+          "note": "No layered source file is supplied."
+        }
+      }
+    }
+  ],
+  "preservation": [
+    {
+      "target_id": "A:1",
+      "attributes": {
+        "text_locked": {
+          "value": true,
+          "basis": "user_supplied",
+          "confidence": "high",
+          "note": "Synthetic example supplied for demonstrating the contract."
+        }
+      }
+    }
+  ],
+  "export": [],
+  "unknowns": [
+    {
+      "target_id": "A:1",
+      "property": "font_family",
+      "reason": "Exact family is not supplied.",
+      "question": "Is an exact font match required, and is the source font available?"
+    }
+  ],
+  "reconstruction": {
+    "is_original_prompt": false,
+    "brief": "Illustrative reconstruction brief: create a wide launch banner with a two-line white headline on the left and a product area on the right.",
+    "preserve": [
+      "Two headline lines"
+    ],
+    "unverified": [
+      "Exact font family",
+      "Actual rendering",
+      "Hidden layers",
+      "Original production settings"
+    ]
+  }
+}
