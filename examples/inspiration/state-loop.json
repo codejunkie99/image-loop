@@ -1,0 +1,31 @@
+{
+  "mode": "loop",
+  "judge": "llm",
+  "rounds_completed": 1,
+  "max_rounds": 3,
+  "images_used": 2,
+  "max_images": 6,
+  "no_improvement_rounds": 0,
+  "incumbent_id": null,
+  "candidates": [
+    {
+      "id": "C001",
+      "checks": "pass"
+    },
+    {
+      "id": "C002",
+      "checks": "pass"
+    }
+  ],
+  "judgment": {
+    "by": "llm",
+    "ranking": [
+      "C002",
+      "C001"
+    ],
+    "reason": "C002 is the stronger fit: its warm off-white palette, centered bottle, generous spacing, and thin rounded frame create a quiet, premium editorial mood aligned with a calm daily routine. The headline is highly readable and presented exactly. C001 has a compelling asymmetrical layout and larger product presence, but the cool blue bottle shifts the mood slightly away from the softer STILL identity, and the two-line headline feels heavier and more promotional. Both are coherent and legible.",
+    "feedback": "For C002, slightly reduce the headline scale or increase its top breathing room so it feels less dominant. For C001, warm the bottle color toward a softer neutral and tighten the headline line spacing while preserving the strong left-right balance.",
+    "stop": true,
+    "improved": null
+  }
+}

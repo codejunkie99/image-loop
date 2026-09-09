@@ -2,7 +2,7 @@
 
 **Point at an image. Name the change. Check the result. Repair what failed.**
 
-An agent skill for guided image editing with numbered visual maps, independent vision review, and a bounded repair loop. Includes `/image-loop`, `/image-edit-map`, and `/reverse-engineer` skills, a working reviewer/controller, original prompts, and real before/after examples.
+An agent skill package for guided image editing and reference-driven creation with numbered visual maps, independent vision review, and bounded feedback loops. Includes `/image-loop`, `/image-edit-map`, `/reverse-engineer`, and `/inspiration` skills, working planners/controllers, original prompts, and real before/after examples.
 
 ![Workflow diagram after the loop added its feedback arrow](examples/diagram/candidate-1.png)
 
@@ -14,6 +14,7 @@ Clone this repository and open it in Claude Code. The committed `.claude/skills/
 /image-loop Create a product graphic. Check the result and repair failed requirements.
 /image-edit-map Number the elements in this image so I can choose what to change.
 /reverse-engineer Extract this image's visual design into JSON.
+/inspiration Mix these references into four directions --mode batch --judge human
 ```
 
 Attach the image for editing or reverse engineering. Example edit:
@@ -23,7 +24,7 @@ Attach the image for editing or reverse engineering. Example edit:
 and keep the headline, composition, background, and olive accent unchanged.
 ```
 
-For use outside the repository, install the three skills:
+For use outside the repository, install the four skills:
 
 ```bash
 git clone https://github.com/codejunkie99/image-loop.git
@@ -33,7 +34,37 @@ python3 scripts/install.py --to ~/.claude/skills
 python3 scripts/install.py --to ~/.codex/skills
 ```
 
-The installer refuses to overwrite existing skills. Review existing files before explicitly using `--replace`. In Codex, invoke `$image-loop`, `$image-edit-map`, or `$reverse-engineer`, or select through `/skills` where supported. Custom `/skill-name` invocation is a [Claude Code feature](https://code.claude.com/docs/en/skills); Codex's [command surface](https://learn.chatgpt.com/docs/developer-commands) differs. A bare custom slash command is not promised on every host.
+The installer refuses to overwrite existing skills. Review existing files before explicitly using `--replace`. In Codex, invoke `$image-loop`, `$image-edit-map`, `$reverse-engineer`, or `$inspiration`, or select through `/skills` where supported. Custom `/skill-name` invocation is a [Claude Code feature](https://code.claude.com/docs/en/skills); Codex's [command surface](https://learn.chatgpt.com/docs/developer-commands) differs. A bare custom slash command is not promised on every host.
+
+## Mix your inspiration
+
+Drop images, accessible links, or written ideas alongside a brief:
+
+```text
+/inspiration Create a launch poster using these references.
+Borrow the first image's lighting, the second's typography, and the third's layout.
+--mode batch --judge human --count 4
+
+/inspiration Explore these references for a launch poster.
+Keep my product and headline fixed; refine the strongest combination.
+--mode loop --judge llm --count 3 --rounds 3 --max-images 9
+```
+
+The agent inventories named elements, separates typography from text and palette from grading, and shows traceable combinations before generating images. Each recipe records which property came from which reference. Fixed traits and incompatible pairs constrain the combinations.
+
+| Mode or judge | Behavior |
+| --- | --- |
+| `batch` / `--no-loop` | One generation batch and one judgment; no automatic repairs or further images. |
+| `loop` / `--loop` | Select a parent, fix liked traits, vary one or two properties, recheck and compare with the incumbent. |
+| `human` | Show candidates and wait for the person's selection and feedback. |
+| `llm` | An independent vision model ranks eligible images against the brief. |
+| `hybrid` | Model ranking first, then a real human choice before proceeding. |
+
+Default: four images, one batch, human judge. Loop defaults: at most three rounds and twelve generation attempts total, including failures and repairs. Every candidate must pass hard requirements before becoming a parent. The loop retains the best eligible image and stops on budget, uncertainty, provider failure, or two rounds without improvement. Ranking is a preference, not proof of quality or human approval.
+
+Read the [inspiration skill](skills/inspiration/SKILL.md), [board/planner format](skills/inspiration/references/board.md), and [judgment contract](skills/inspiration/references/judging.md). The helpers plan and gate; the host agent uses its image tools to create the actual images.
+
+[See the live inspiration example](examples/inspiration/RESULTS.md): two reference combinations generated, independently checked, and ranked by a vision model. The judge recommended stopping; no extra iteration was forced. Loop continuation and human pauses are tested offline.
 
 ## What happens
 
@@ -91,7 +122,7 @@ uv run --with jsonschema python skills/image-edit-map/scripts/validate_spec.py \
   skills/image-edit-map/examples/image-spec.example.json
 ```
 
-Offline tests exercise acceptance, missing/duplicate IDs, uncertainty, protected failures, retry limits, repeated failures, image-file checks, and installer overwrite protection. Live examples exercise real generation, independent review, repair, and review again. Neither establishes human approval or guaranteed correctness.
+Offline tests exercise acceptance, missing/duplicate IDs, uncertainty, protected failures, retry limits, repeated failures, image-file checks, installer overwrite protection, inspiration provenance/constraints, bounded combination search, human/hybrid pauses, batch stopping, loop budgets, and incumbent retention. Live examples exercise real generation and independent review. Neither establishes human approval or guaranteed correctness.
 
 ## Sources and scope
 

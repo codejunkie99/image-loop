@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "by": {
+      "type": "string",
+      "enum": [
+        "llm"
+      ]
+    },
+    "ranking": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "C002",
+          "C001"
+        ]
+      }
+    },
+    "reason": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "stop": {
+      "type": "boolean"
+    },
+    "improved": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "by",
+    "ranking",
+    "reason",
+    "feedback",
+    "stop",
+    "improved"
+  ],
+  "additionalProperties": false
+}

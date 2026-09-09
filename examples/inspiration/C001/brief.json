@@ -1,0 +1,54 @@
+{
+  "name": "C001",
+  "intent": "Original editorial poster for a reusable bottle named STILL.",
+  "criteria": [
+    {
+      "id": "text",
+      "target": "all text",
+      "kind": "requested",
+      "requirement": "Headline reads exactly A quieter everyday. and the bottle label reads STILL. No other words or logos."
+    },
+    {
+      "id": "subject",
+      "target": "image",
+      "kind": "requested",
+      "requirement": "Exactly one reusable bottle, with legible headline and generous margins."
+    },
+    {
+      "id": "composition",
+      "target": "composition",
+      "kind": "requested",
+      "requirement": "An asymmetrical layout: two-line headline at middle left, large bottle at right, generous space above."
+    },
+    {
+      "id": "lighting",
+      "target": "lighting",
+      "kind": "requested",
+      "requirement": "Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface."
+    },
+    {
+      "id": "palette",
+      "target": "palette",
+      "kind": "requested",
+      "requirement": "Powder blue bottle, warm off-white background, charcoal text, and one restrained blue accent."
+    },
+    {
+      "id": "picture_type",
+      "target": "picture_type",
+      "kind": "requested",
+      "requirement": "Photorealistic studio product photography with editorial typography."
+    },
+    {
+      "id": "typography",
+      "target": "typography",
+      "kind": "requested",
+      "requirement": "Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified."
+    }
+  ],
+  "file_checks": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "alpha_required": false
+  }
+}

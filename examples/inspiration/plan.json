@@ -1,0 +1,101 @@
+{
+  "seed": 7,
+  "requested": 2,
+  "space_size": 4,
+  "evaluated": 4,
+  "combinations": [
+    {
+      "id": "C001",
+      "recipe": {
+        "composition": {
+          "id": "R1:layout",
+          "source_id": "R1",
+          "element": "headline left and bottle right",
+          "description": "An asymmetrical layout: two-line headline at middle left, large bottle at right, generous space above.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "lighting": {
+          "id": "R1:light",
+          "source_id": "R1",
+          "element": "bottle and ground shadow",
+          "description": "Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "palette": {
+          "id": "R2:palette",
+          "source_id": "R2",
+          "element": "blue Create card and charcoal outlines",
+          "description": "Powder blue bottle, warm off-white background, charcoal text, and one restrained blue accent.",
+          "confidence": "high",
+          "source": "../diagram/source.png"
+        },
+        "picture_type": {
+          "id": "R1:photo",
+          "source_id": "R1",
+          "element": "bottle photograph",
+          "description": "Photorealistic studio product photography with editorial typography.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "typography": {
+          "id": "R1:type",
+          "source_id": "R1",
+          "element": "Carry less headline",
+          "description": "Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        }
+      },
+      "prompt": "Create a square original editorial poster for a reusable bottle named STILL. Exact headline: \"A quieter everyday.\" Exact bottle label: \"STILL\". One bottle only, no other words or logos. Large legible headline, generous margins. Use the reference images only for assigned visual properties; do not copy their words or subjects.\nVisual recipe:\n- composition: An asymmetrical layout: two-line headline at middle left, large bottle at right, generous space above. (borrow only this property from R1, element headline left and bottle right).\n- lighting: Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface. (borrow only this property from R1, element bottle and ground shadow).\n- palette: Powder blue bottle, warm off-white background, charcoal text, and one restrained blue accent. (borrow only this property from R2, element blue Create card and charcoal outlines).\n- picture_type: Photorealistic studio product photography with editorial typography. (borrow only this property from R1, element bottle photograph).\n- typography: Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified. (borrow only this property from R1, element Carry less headline)."
+    },
+    {
+      "id": "C002",
+      "recipe": {
+        "composition": {
+          "id": "R2:layout",
+          "source_id": "R2",
+          "element": "heading above horizontal cards",
+          "description": "A large heading across the upper third, with a centered single bottle below in one thin rounded rectangular frame; borrow the vertical hierarchy, not the four-card diagram.",
+          "confidence": "high",
+          "source": "../diagram/source.png"
+        },
+        "lighting": {
+          "id": "R1:light",
+          "source_id": "R1",
+          "element": "bottle and ground shadow",
+          "description": "Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "palette": {
+          "id": "R1:palette",
+          "source_id": "R1",
+          "element": "ivory background and olive accent",
+          "description": "Warm ivory, charcoal typography, a small olive accent, and an ivory bottle.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "picture_type": {
+          "id": "R1:photo",
+          "source_id": "R1",
+          "element": "bottle photograph",
+          "description": "Photorealistic studio product photography with editorial typography.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        },
+        "typography": {
+          "id": "R1:type",
+          "source_id": "R1",
+          "element": "Carry less headline",
+          "description": "Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified.",
+          "confidence": "high",
+          "source": "../product/source.png"
+        }
+      },
+      "prompt": "Create a square original editorial poster for a reusable bottle named STILL. Exact headline: \"A quieter everyday.\" Exact bottle label: \"STILL\". One bottle only, no other words or logos. Large legible headline, generous margins. Use the reference images only for assigned visual properties; do not copy their words or subjects.\nVisual recipe:\n- composition: A large heading across the upper third, with a centered single bottle below in one thin rounded rectangular frame; borrow the vertical hierarchy, not the four-card diagram. (borrow only this property from R2, element heading above horizontal cards).\n- lighting: Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface. (borrow only this property from R1, element bottle and ground shadow).\n- palette: Warm ivory, charcoal typography, a small olive accent, and an ivory bottle. (borrow only this property from R1, element ivory background and olive accent).\n- picture_type: Photorealistic studio product photography with editorial typography. (borrow only this property from R1, element bottle photograph).\n- typography: Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified. (borrow only this property from R1, element Carry less headline)."
+    }
+  ],
+  "note": "Requested count found."
+}

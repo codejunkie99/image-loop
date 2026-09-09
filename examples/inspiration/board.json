@@ -1,0 +1,80 @@
+{
+  "brief": "Create a square original editorial poster for a reusable bottle named STILL. Exact headline: \"A quieter everyday.\" Exact bottle label: \"STILL\". One bottle only, no other words or logos. Large legible headline, generous margins. Use the reference images only for assigned visual properties; do not copy their words or subjects.",
+  "references": [
+    {
+      "id": "R1",
+      "source": "../product/source.png"
+    },
+    {
+      "id": "R2",
+      "source": "../diagram/source.png"
+    }
+  ],
+  "axes": {
+    "composition": [
+      {
+        "id": "R1:layout",
+        "source_id": "R1",
+        "element": "headline left and bottle right",
+        "description": "An asymmetrical layout: two-line headline at middle left, large bottle at right, generous space above.",
+        "confidence": "high"
+      },
+      {
+        "id": "R2:layout",
+        "source_id": "R2",
+        "element": "heading above horizontal cards",
+        "description": "A large heading across the upper third, with a centered single bottle below in one thin rounded rectangular frame; borrow the vertical hierarchy, not the four-card diagram.",
+        "confidence": "high"
+      }
+    ],
+    "lighting": [
+      {
+        "id": "R1:light",
+        "source_id": "R1",
+        "element": "bottle and ground shadow",
+        "description": "Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface.",
+        "confidence": "high"
+      }
+    ],
+    "palette": [
+      {
+        "id": "R1:palette",
+        "source_id": "R1",
+        "element": "ivory background and olive accent",
+        "description": "Warm ivory, charcoal typography, a small olive accent, and an ivory bottle.",
+        "confidence": "high"
+      },
+      {
+        "id": "R2:palette",
+        "source_id": "R2",
+        "element": "blue Create card and charcoal outlines",
+        "description": "Powder blue bottle, warm off-white background, charcoal text, and one restrained blue accent.",
+        "confidence": "high"
+      }
+    ],
+    "typography": [
+      {
+        "id": "R1:type",
+        "source_id": "R1",
+        "element": "Carry less headline",
+        "description": "Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified.",
+        "confidence": "high"
+      }
+    ],
+    "picture_type": [
+      {
+        "id": "R1:photo",
+        "source_id": "R1",
+        "element": "bottle photograph",
+        "description": "Photorealistic studio product photography with editorial typography.",
+        "confidence": "high"
+      }
+    ]
+  },
+  "fixed": {
+    "lighting": "R1:light",
+    "typography": "R1:type",
+    "picture_type": "R1:photo"
+  },
+  "incompatible": []
+}

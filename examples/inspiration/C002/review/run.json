@@ -1,0 +1,21 @@
+{
+  "model_requested": "gpt-5.6-luna",
+  "adapter": "codex exec",
+  "seconds": 37.79,
+  "usage": [
+    {
+      "input_tokens": 32511,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 428,
+      "reasoning_output_tokens": 126
+    }
+  ],
+  "returncode": 0,
+  "source_sha256": null,
+  "candidate_sha256": "495796f8ebbc911f8c85c6f96bdd2bf6c32ffeae0d6d6f4054bb506f25b93f3a",
+  "repairs_used": 0,
+  "max_repairs": 0,
+  "cost_usd": null,
+  "cost_note": "Account usage recorded where exposed; monetary cost and savings not established."
+}

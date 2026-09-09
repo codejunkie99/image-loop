@@ -1,0 +1,25 @@
+{
+  "model_requested": "gpt-5.6-luna",
+  "adapter": "codex exec",
+  "seconds": 24.61,
+  "returncode": 0,
+  "usage": [
+    {
+      "input_tokens": 34221,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 313,
+      "reasoning_output_tokens": 133
+    }
+  ],
+  "presentation_order": [
+    "C002",
+    "C001"
+  ],
+  "incumbent_id": null,
+  "image_sha256": {
+    "C002": "495796f8ebbc911f8c85c6f96bdd2bf6c32ffeae0d6d6f4054bb506f25b93f3a",
+    "C001": "5f6ed204e43d792046e8b1020f3a84d7044fae1ab1e6e923c9ca0c1c4fc68625"
+  },
+  "cost_usd": null
+}

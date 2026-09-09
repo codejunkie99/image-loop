@@ -1,0 +1,6 @@
+interface:
+  display_name: "Inspiration"
+  short_description: "Mix image references, generate, judge, and refine"
+  default_prompt: "Use $inspiration to extract ingredients from my references, create distinct combinations, generate images, and judge them in batch or loop mode."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r1-C001",
+    "parent_id": null,
+    "recipe": "plan.json#C001",
+    "changed_axes": [
+      "composition",
+      "palette"
+    ],
+    "fixed_axes": [
+      "lighting",
+      "typography",
+      "picture_type"
+    ]
+  },
+  {
+    "id": "r1-C002",
+    "parent_id": null,
+    "recipe": "plan.json#C002",
+    "changed_axes": [
+      "composition",
+      "palette"
+    ],
+    "fixed_axes": [
+      "lighting",
+      "typography",
+      "picture_type"
+    ]
+  }
+]

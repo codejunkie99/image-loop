@@ -4,7 +4,7 @@ import argparse
 import shutil
 from pathlib import Path
 
-NAMES = ('image-loop', 'image-edit-map', 'reverse-engineer')
+NAMES = ('image-loop', 'image-edit-map', 'reverse-engineer', 'inspiration')
 
 
 def install(source_root, destination, replace=False):

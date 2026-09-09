@@ -1,0 +1,8 @@
+Create a square original editorial poster for a reusable bottle named STILL. Exact headline: "A quieter everyday." Exact bottle label: "STILL". One bottle only, no other words or logos. Large legible headline, generous margins. Use the reference images only for assigned visual properties; do not copy their words or subjects.
+Visual recipe:
+- composition: A large heading across the upper third, with a centered single bottle below in one thin rounded rectangular frame; borrow the vertical hierarchy, not the four-card diagram. (borrow only this property from R2, element heading above horizontal cards).
+- lighting: Soft natural window light from the upper left; a realistic grounded shadow and subtle tactile surface. (borrow only this property from R1, element bottle and ground shadow).
+- palette: Warm ivory, charcoal typography, a small olive accent, and an ivory bottle. (borrow only this property from R1, element ivory background and olive accent).
+- picture_type: Photorealistic studio product photography with editorial typography. (borrow only this property from R1, element bottle photograph).
+- typography: Bold clean sans-serif headline; brand label in small spaced uppercase. Font identity is unspecified. (borrow only this property from R1, element Carry less headline).
+Reference attachment 1 is R1 (product photo); attachment 2 is R2 (diagram). Generate only this one finished poster, no comparison sheet, no annotations or recipe IDs. Square PNG.

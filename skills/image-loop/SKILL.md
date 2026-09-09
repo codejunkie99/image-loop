@@ -12,6 +12,7 @@ Convert an image brief into checkable requirements, generate a candidate, review
 - Claude Code: `/image-loop [brief]` after installing this folder under `.claude/skills/` or `~/.claude/skills/`.
 - Codex: `$image-loop [brief]` or select through `/skills` where supported. Do not claim a custom `/image-loop` command is registered on every host.
 - Analysis mode: `image-loop reverse-engineer [image]` routes to the companion `image-edit-map` skill. Installing the repo's skill set also exposes `/reverse-engineer` in Claude Code.
+- For multiple inspirations and combination search, route to the companion `inspiration` skill. It supports one batch or a bounded human/vision-judged loop and reuses this skill's hard checks.
 
 ## Establish the brief
 

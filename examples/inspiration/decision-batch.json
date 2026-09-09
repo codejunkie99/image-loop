@@ -1,0 +1,7 @@
+{
+  "action": "stop_judge",
+  "eligible": [
+    "C001",
+    "C002"
+  ]
+}
