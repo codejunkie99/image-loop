@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "article": "../image-prompting-article-with-prompts-and-results.md",
+  "html": "../image-prompting-article-with-prompts-and-results.html",
+  "main_sections": 14,
+  "submitted_prompts_preserved": 14,
+  "inline_images": 17,
+  "html_local_links_verified": 42,
+  "maps": [
+    {
+      "path": "vellum-visual-map.html",
+      "local_links": 3,
+      "elements": 15,
+      "embedded_source_matches": true
+    },
+    {
+      "path": "../standalone-skill/image-reconstruction/visual-map.html",
+      "local_links": 3,
+      "elements": 15,
+      "embedded_source_matches": true
+    }
+  ],
+  "compiler_checks": [
+    "Original submitted reconstruction prompt reproduced exactly",
+    "JavaScript and Python full prompts match",
+    "JavaScript and Python selected-edit prompts match",
+    "Review flags match",
+    "Conflicting source color suppressed",
+    "Source observations preserved",
+    "Property lock conflict rejected"
+  ],
+  "archive": {
+    "path": "../image-reconstruction-premium-skill.zip",
+    "files": 12,
+    "bytes": 5413077,
+    "sha256": "0bca374621331551d72bc829570e0203113eaf2777469c29131fb1fd52f629cc",
+    "extracted_portability": "passed",
+    "self_check": "PASS: valid examples, 19 rejection cases, restyle/remove/replace compilation, group movement, palette-only reference isolation, and stale-color constraint regression."
+  },
+  "browser_ui": "Not verified: URL policy blocked browser preview in the authoring environment; no alternate route attempted.",
+  "style_check": "Only length exceeds the short-form Machina default; the user explicitly requested a comprehensive long-form article.",
+  "scope": "Merged existing methodology and premium evidence. No additional image experiments were run for this merge."
+}

@@ -1,0 +1,7 @@
+# Generative map review
+
+The in-chat annotation pass completed with all 24 requested IDs visible once each. Most tips identify their intended target well, including face, hair, shirt, jacket, straps, both hands, chair, cooler, pot, tent and landscape layers. A-01 marks the whole-figure group from inside the trousers, which is usable with a legend but less obvious without one. A-24 points to dust near the front leg rather than clearly to the originally specified dust behind the runner. Fine scene appearance changes remain; this is not an exact overlay or a source for pixel measurements.
+
+The practical correction is a separate HTML overlay on the unchanged image. The live mapper uses the clean Rain Engine source with 50 individually named elements. Its crop previews are rectangular source regions, not recovered transparent layers. Coordinates are estimates in source space, and a person can refine them. Generative badges help explain an image; they are not the ground truth for later region edits.
+
+One separate mapping request was submitted in Safari before the user clarified that generation should remain in chat. No Safari output was inspected, downloaded or counted in the completed image results. All subsequent image generation uses the in-chat tool. The authenticated Images page title identified ChatGPT Images 2.5; internal Flare/Sunburst selection was not visible. Native Sketch drawing controls were not tested.

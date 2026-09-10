@@ -1,0 +1,72 @@
+{
+  "canonical_intent": "An intricate, beautiful fictional water-cycle world, readable as a five-tier exploded atlas. Visual compliance and aesthetic appeal are evaluated separately.",
+  "checks": [
+    {
+      "id": "L01",
+      "criterion": "Portrait canvas with width:height 2:3 (actual file dimensions)."
+    },
+    {
+      "id": "L02",
+      "criterion": "Exactly five visually separated tiers, vertical order preserved, one central stack, air gaps visible."
+    },
+    {
+      "id": "L03",
+      "criterion": "Top tier has exactly three slender white harvesting masts beneath one curling cloud."
+    },
+    {
+      "id": "L04",
+      "criterion": "Second tier has three distinguishable exposed filter layers: rough basalt, black carbon, pale ceramic."
+    },
+    {
+      "id": "L05",
+      "criterion": "Middle tier is one clear glass sphere, visibly about half filled with turquoise water."
+    },
+    {
+      "id": "L06",
+      "criterion": "Fourth tier shows leafy stepped garden terraces and tiny gold bridges between terraces."
+    },
+    {
+      "id": "L07",
+      "criterion": "Bottom tier shows one large copper coil with white vapor emerging."
+    },
+    {
+      "id": "L08",
+      "criterion": "Exactly four thin copper downward arrows link each adjacent pair of tiers in the air gaps."
+    },
+    {
+      "id": "L09",
+      "criterion": "Exactly one turquoise return arrow on the right curves from bottom coil toward top cloud, with upward direction clear."
+    },
+    {
+      "id": "L10",
+      "criterion": "Title THE RAIN ENGINE is spelled exactly once and is the largest text above the stack."
+    },
+    {
+      "id": "L11",
+      "criterion": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear exactly once each, spelled correctly, on the left beside the corresponding tiers."
+    },
+    {
+      "id": "L12",
+      "criterion": "Tier labels have thin leader lines, remain readable, and do not overlap illustrated components."
+    },
+    {
+      "id": "L13",
+      "criterion": "Museum atlas treatment, ivory/teal/moss/copper/gold palette, fine contours and soft 3D material shading visibly present."
+    },
+    {
+      "id": "L14",
+      "criterion": "Consistent elevated three-quarter perspective and broadly upper-left illumination, without obvious contradictory lighting."
+    },
+    {
+      "id": "L15",
+      "criterion": "Full stack/labels inside generous margins; no text beyond six strings; no people, logos, watermark, or decorative border."
+    }
+  ],
+  "review_order": [
+    "A8",
+    "N4",
+    "V6",
+    "S2"
+  ],
+  "review_order_method": "SystemRandom shuffle of neutral codes after generation; condition submission order remained interleaved, not randomized."
+}

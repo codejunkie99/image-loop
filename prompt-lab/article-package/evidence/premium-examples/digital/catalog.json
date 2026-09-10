@@ -1,0 +1,60 @@
+[
+  {
+    "category": "Mobile app mockup",
+    "title": "offday — Boutique travel booking",
+    "image": "travel-app-v1.png",
+    "prompt_file": "travel-app.prompt.txt",
+    "sources": [
+      {
+        "title": "Welcome Beyond — design-led boutique hotels and holiday homes",
+        "url": "https://www.welcomebeyond.com/",
+        "learned_decisions": [
+          "Use a clear photo → property → location → price hierarchy.",
+          "Put the app price on ivory below the photo so it remains easy to read.",
+          "Carry property identity, dates and pricing through a small number of purposeful screens.",
+          "Avoid copying the site category-tag density or its exact properties."
+        ]
+      },
+      {
+        "title": "Norm Architects — 262 Fifth Avenue",
+        "url": "https://normcph.com/project/262-fifth-avenue-2/",
+        "learned_decisions": [
+          "Use coherent warm material photography and restrained navigation."
+        ]
+      }
+    ],
+    "review": "Selected first pass; no repair needed. At 1536×1024, all three upright screens are aligned and readable. Lume House, 19–22 Sep and two guests remain consistent. €285 × 3 nights = €855; with €45 taxes the displayed total is €900. The courtyard, suite doorway and review thumbnail share plausible property identity. Primary actions are distinct and unclipped. No obvious invented text or hand/geometry artifact was visible.",
+    "limitations": [
+      "Raster concept only; controls, navigation, responsive behavior and accessibility are not implemented or tested.",
+      "Three selected screens omit the room-selection step; this is not a complete interaction specification. Dates omit the year.",
+      "The hotel, room, photography, amenities and prices are fictional. Photographs were generated, not sourced from the reference.",
+      "One chosen prompt and one generation are evidence of this result, not evidence that this prompting method outperforms a baseline.",
+      "Built-in tool did not expose a model identifier or seed."
+    ]
+  },
+  {
+    "category": "Editorial website mockup",
+    "title": "FORMAE — Architecture and hospitality studio",
+    "image": "studio-website-v1.png",
+    "prompt_file": "studio-website.prompt.txt",
+    "sources": [
+      {
+        "title": "Norm Architects — 262 Fifth Avenue",
+        "url": "https://normcph.com/project/262-fifth-avenue-2/",
+        "learned_decisions": [
+          "Use one dominant architectural photograph and a coherent material palette.",
+          "Keep navigation brief.",
+          "Put our primary copy and captions on a solid background for clearer reading rather than duplicating the reference overlay."
+        ]
+      }
+    ],
+    "review": "Selected first pass; no repair needed. At 1536×1024, the wordmark, navigation, headline, captions and Start a project action are readable. One dark CTA provides the main action. The large hillside/pool photograph dominates, followed by two distinct smaller interior projects. Whitespace, rules and edges create a coherent editorial grid. No clipped copy or obvious impossible architectural structure was visible. The lower two teasers rendered almost equal in width, whereas the prompt asked for a slightly unequal split; this minor deviation does not weaken the design enough to justify regeneration.",
+    "limitations": [
+      "Raster concept only; links, interactions, semantic structure, responsive layouts and accessibility are not implemented or tested.",
+      "Architecture, studio and projects are fictional; visual plausibility does not establish construction feasibility or geographic accuracy.",
+      "The generated image approximates the requested layout; it is not a deterministic 12-column design file.",
+      "One chosen prompt and one generation do not establish a prompting-method advantage.",
+      "Built-in tool did not expose a model identifier or seed."
+    ]
+  }
+]

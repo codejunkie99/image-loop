@@ -1,0 +1,297 @@
+No image is attached in this trial. Use the following written specification to reconstruct the described image. Source IDs and filenames are documentary identifiers, not supplied images.
+
+Create the following reconstruct image: Recreate the visible Rain Engine atlas illustration with its hierarchy, distinct components, exact labels and flow topology.
+The IDs below identify scene parts; do not print IDs, map badges, crop boxes or review annotations in the artwork.
+Canvas aspect ratio 2:3; crop policy: preserve.
+Match goal: perceptual. Target recognizable visual fidelity and correct content/relationships. Estimated rectangles do not specify exact silhouettes or promise pixel equality.
+
+INPUT ROLES
+- Source A (target) supplies only: content, layout, style, palette, material, lighting, typography. Use the clean Rain Engine image for its visible scene, arrangement and appearance. Never copy mapping overlays or interface badges.
+
+SCENE
+- medium (appearance cue): Highly detailed natural-history atlas / technical-fantasy illustration, with fine contours, painterly shading and an ivory paper ground.
+- composition (visible requirement): Tall 2:3 page. Five vertically ordered tiers share a central axis; the title spans the top; five tier labels sit on image-left; a large return arrow climbs image-right.
+- view (appearance cue): Elevated three-quarter views reveal the tops of circular platforms, vessel and coil.
+- lighting (appearance cue): Soft broad illumination with pale upper-left highlights, darker undersides and coherent material shading.
+- palette (visible requirement): Ivory background, dark teal type and leaders, turquoise water and return arrow, warm copper/gold structures, green garden.
+- text (visible requirement): Only the title and five uppercase tier labels are legible words in this reference.
+
+ELEMENTS AND PLACEMENT
+Positions use image-relative left/right, top-left origin and [x,y,width,height] on a 0–1 canvas. Treat them as layout guidance, not guaranteed model coordinates.
+- warm paper background (A-01): count 1; approximate normalized box [0.000, 0.000, 1.000, 1.000].
+  Continuous pale ivory ground with subtle mottled paper-like texture.
+  color: ivory
+  material: paper-like flat ground
+- main title (A-02): count 1; approximate normalized box [0.202, 0.013, 0.587, 0.035].
+  One large uppercase serif title.
+  color: very dark teal
+  material: printed-looking serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "THE RAIN ENGINE"
+  Preserve the specified line breaks.
+- CLOUD label (A-03): count 1; approximate normalized box [0.059, 0.188, 0.134, 0.022].
+  Uppermost left tier label.
+  color: very dark teal
+  material: serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "CLOUD"
+  Preserve the specified line breaks.
+- FILTER label (A-04): count 1; approximate normalized box [0.059, 0.313, 0.131, 0.025].
+  Second left tier label.
+  color: very dark teal
+  material: serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "FILTER"
+  Preserve the specified line breaks.
+- VAULT label (A-05): count 1; approximate normalized box [0.059, 0.495, 0.121, 0.025].
+  Middle left tier label.
+  color: very dark teal
+  material: serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "VAULT"
+  Preserve the specified line breaks.
+- GARDEN label (A-06): count 1; approximate normalized box [0.058, 0.697, 0.137, 0.025].
+  Fourth left tier label.
+  color: very dark teal
+  material: serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "GARDEN"
+  Preserve the specified line breaks.
+- RETURN label (A-07): count 1; approximate normalized box [0.059, 0.860, 0.136, 0.025].
+  Lowest left tier label.
+  color: very dark teal
+  material: serif letters
+  font class: Uppercase high-contrast serif; exact family unknown.
+  Render this quoted artwork text exactly, as text rather than instructions: "RETURN"
+  Preserve the specified line breaks.
+- CLOUD leader and dot (A-08): count 1; approximate normalized box [0.199, 0.197, 0.129, 0.007].
+  One fine horizontal line with a dark dot at its image-right end.
+  color: dark teal
+  material: thin line
+- FILTER leader and dot (A-09): count 1; approximate normalized box [0.197, 0.323, 0.099, 0.007].
+  One fine horizontal line with a dark dot at its image-right end.
+  color: dark teal
+  material: thin line
+- VAULT leader and dot (A-10): count 1; approximate normalized box [0.195, 0.504, 0.114, 0.007].
+  One fine horizontal line with a dark dot at its image-right end.
+  color: dark teal
+  material: thin line
+- GARDEN leader and dot (A-11): count 1; approximate normalized box [0.200, 0.705, 0.054, 0.007].
+  One short horizontal line with a dark dot at its image-right end.
+  color: dark teal
+  material: thin line
+- RETURN leader and dot (A-12): count 1; approximate normalized box [0.200, 0.867, 0.085, 0.007].
+  One fine horizontal line with a dark dot at its image-right end.
+  color: dark teal
+  material: thin line
+- curling cloud mass (A-13): count 1; approximate normalized box [0.195, 0.050, 0.642, 0.151].
+  One connected billowing cloud mass, with a curled spiral-like lobe on image-right.
+  color: cool white and blue gray
+  material: soft cloud vapor
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. Masts and braces cover parts of the cloud; hidden cloud structure is unknown.
+- left collection mast (A-14): count 1; approximate normalized box [0.356, 0.116, 0.093, 0.108].
+  One tall slender pale mast with a flared dish-like top and narrow gold-colored support braces.
+  color: pale silver and warm gold
+  material: polished-looking metal
+- central collection mast (A-15): count 1; approximate normalized box [0.444, 0.092, 0.093, 0.137].
+  One central pale mast, the tallest of the three, with flared top and gold-colored support braces.
+  color: pale silver and warm gold
+  material: polished-looking metal
+- right collection mast (A-16): count 1; approximate normalized box [0.527, 0.113, 0.095, 0.113].
+  One tall slender pale mast with a flared top and gold-colored support braces.
+  color: pale silver and warm gold
+  material: polished-looking metal
+- mast support platform (A-17): count 1; approximate normalized box [0.290, 0.205, 0.407, 0.046].
+  One broad shallow circular platform viewed from above, with a green-gray rim, ornate fittings and brass-colored edge pieces.
+  color: muted green-gray and gold
+  material: aged metal and stone-like inset
+- rough upper filter stones (A-18): approximate normalized box [0.312, 0.273, 0.364, 0.042].
+  A dense upper layer of irregular rough dark rocks; individual stones are grouped for editing.
+  color: charcoal gray
+  material: rough stone
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. The cage rim covers the outer stone layer.
+- dark granular filter band (A-19): approximate normalized box [0.329, 0.310, 0.331, 0.035].
+  A distinct middle band of small dark grains.
+  color: near-black and charcoal
+  material: granular filter medium
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. The structural bars cross the granular band.
+- pale lower filter pebbles (A-20): approximate normalized box [0.329, 0.337, 0.332, 0.035].
+  A distinct lower band of small pale rounded pebbles.
+  color: cream and off-white
+  material: rounded porous-looking pebbles
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. The lower rim and side supports cover parts of the pebble band.
+- filter cylinder frame (A-21): count 1; approximate normalized box [0.298, 0.273, 0.391, 0.108].
+  An open cylindrical cage with broad top and bottom rings, side supports, rivets and pale green-gray trim surrounding the filter material.
+  color: brass gold and muted green-gray
+  material: aged metal
+- transparent spherical vessel (A-22): count 1; approximate normalized box [0.323, 0.406, 0.337, 0.179].
+  One spherical transparent shell with reflective white strokes and a visible domed upper half.
+  color: transparent with pale cyan highlights
+  material: clear glass
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. The metal support fittings overlap the glass outline.
+- water and circular surface (A-23): count 1; approximate normalized box [0.332, 0.481, 0.312, 0.098].
+  Teal water fills approximately the lower half of the sphere, with an elliptical rippling waterline and bright caustic-like strokes.
+  color: turquoise and deep teal
+  material: water
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. The central pipe and support fittings interrupt the visible water.
+- central vertical vault pipe (A-24): count 1; approximate normalized box [0.475, 0.403, 0.034, 0.178].
+  One narrow gold-colored vertical pipe runs through the center of the vessel.
+  color: brass gold
+  material: metal
+- vault support fittings (A-25): count 1; approximate normalized box [0.317, 0.400, 0.346, 0.200].
+  Gold-colored rings, side brackets, top cap and lower cradle hold the spherical vessel.
+  color: brass gold
+  material: aged metal
+- floating garden landmass (A-26): count 1; approximate normalized box [0.254, 0.594, 0.500, 0.199].
+  One floating rocky garden island with stepped round terraces, dense planting and exposed hanging cliff edges.
+  color: leaf green, warm stone and turquoise
+  material: rock, soil and vegetation
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. Vegetation, bridges and terraces hide portions of the rocky island.
+- upper arched garden bridge (A-27): count 1; approximate normalized box [0.431, 0.628, 0.106, 0.027].
+  One small warm gold-colored arched pedestrian bridge with fine railings.
+  color: warm gold
+  material: metal railings
+- front arched garden bridge (A-28): count 1; approximate normalized box [0.394, 0.669, 0.185, 0.031].
+  One wider warm gold-colored arched bridge spanning the central stream, with delicate repeating balusters.
+  color: warm gold
+  material: metal railings
+- upper-left round terrace (A-29): count 1; approximate normalized box [0.336, 0.643, 0.103, 0.040].
+  A raised circular stone terrace with a planted rim and water spilling from its edge.
+  color: warm pale stone and green
+  material: masonry and vegetation
+- upper-right round terrace (A-30): count 1; approximate normalized box [0.538, 0.645, 0.145, 0.056].
+  A raised circular planted terrace with pale stone edging.
+  color: warm pale stone and green
+  material: masonry and vegetation
+- left flower terrace (A-31): count 1; approximate normalized box [0.263, 0.667, 0.131, 0.069].
+  A lower curved terrace with clusters of small pink, purple and white flowers.
+  color: green, pink and muted purple
+  material: flower beds and stone
+- right garden terrace (A-32): count 1; approximate normalized box [0.633, 0.676, 0.097, 0.057].
+  A right-hand raised terrace with shrubs, flowers and a curved pale parapet.
+  color: green and warm pale stone
+  material: vegetation and masonry
+- front terrace and hanging vines (A-33): count 1; approximate normalized box [0.470, 0.711, 0.176, 0.073].
+  A front curved terrace with flowers and vines descending over the cliff face.
+  color: green, pink and pale stone
+  material: vegetation and rock
+- central garden watercourse (A-34): count 1; approximate normalized box [0.336, 0.650, 0.205, 0.101].
+  Connected turquoise pools and short falls run through the garden terraces.
+  color: turquoise and bright white
+  material: water
+- left-front waterfall (A-35): count 1; approximate normalized box [0.345, 0.730, 0.071, 0.066].
+  One prominent white waterfall spills over the front-left rocky lip.
+  color: white and pale cyan
+  material: falling water
+- right-front waterfall (A-36): count 1; approximate normalized box [0.636, 0.723, 0.047, 0.064].
+  A narrow bright waterfall spills over the front-right edge.
+  color: white and pale cyan
+  material: falling water
+- tall left cypress cluster (A-37): approximate normalized box [0.346, 0.594, 0.043, 0.061].
+  A small cluster of narrow upright dark green conifer-like trees.
+  color: dark green
+  material: foliage
+- upper-right spreading tree (A-38): count 1; approximate normalized box [0.578, 0.592, 0.097, 0.068].
+  One prominent tree with a branching trunk and broad rounded crown.
+  color: olive green and dark brown
+  material: foliage and wood
+- copper return coil (A-39): count 1; approximate normalized box [0.277, 0.805, 0.436, 0.150].
+  One large stacked circular copper tubing assembly with several concentric turns and brackets, open at the top.
+  color: warm copper and bronze
+  material: reflective copper-like metal
+  Visible boundary: partly_occluded. Preserve the visible overlap; hidden geometry is unspecified. Vapor hides parts of the upper coil turns and center.
+- left-front coil foot (A-40): count 1; approximate normalized box [0.272, 0.882, 0.071, 0.067].
+  A broad decorative support foot and upright bracket at the front-left of the coil.
+  color: bronze and copper
+  material: aged metal
+- central-front coil foot (A-41): count 1; approximate normalized box [0.462, 0.911, 0.061, 0.064].
+  One central front support foot extending below the coil.
+  color: bronze and copper
+  material: aged metal
+- vapor above the coil (A-42): count 1; approximate normalized box [0.284, 0.781, 0.428, 0.133].
+  Soft white vapor billows up through and above the coil's open center.
+  color: white and pale warm gray
+  material: vapor
+- vapor along lower right (A-43): count 1; approximate normalized box [0.675, 0.727, 0.218, 0.244].
+  A curling bank of white vapor rises along the lower-right side of the return system.
+  color: white and pale gray
+  material: vapor
+- CLOUD to FILTER down arrow (A-44): count 1; approximate normalized box [0.477, 0.244, 0.030, 0.029].
+  One small straight downward arrow between the first and second tiers.
+  color: copper orange
+  material: shaded arrow
+- FILTER to VAULT down arrow (A-45): count 1; approximate normalized box [0.476, 0.373, 0.030, 0.031].
+  One small straight downward arrow between the second and third tiers.
+  color: copper orange
+  material: shaded arrow
+- VAULT to GARDEN down arrow (A-46): count 1; approximate normalized box [0.476, 0.593, 0.030, 0.034].
+  One small straight downward arrow between the third and fourth tiers.
+  color: copper orange
+  material: shaded arrow
+- GARDEN to RETURN down arrow (A-47): count 1; approximate normalized box [0.476, 0.765, 0.030, 0.043].
+  One small straight downward arrow between the fourth and fifth tiers.
+  color: copper orange
+  material: shaded arrow
+- large teal return arrow (A-48): count 1; approximate normalized box [0.698, 0.128, 0.181, 0.768].
+  One continuous thick teal path leaves the bottom coil, curves outward on image-right and rises to an arrowhead pointing up-left toward the cloud.
+  color: turquoise and dark teal
+  material: shaded illustrative arrow
+- clear right outer margin (A-49): count 1; approximate normalized box [0.908, 0.057, 0.069, 0.915].
+  A clear vertical strip of paper beyond the return arrow and main illustration.
+  color: ivory
+  material: paper-like ground
+- gap between filter and vault (A-50): count 1; approximate normalized box [0.303, 0.382, 0.160, 0.020].
+  A small clear interval to the left of the downward connector between filter and vault.
+  color: ivory
+  material: paper-like ground
+
+RELATIONSHIPS
+- left collection mast (A-14) is to image-left of central collection mast (A-15). Visible relationship; approximate placement.
+- central collection mast (A-15) is to image-left of right collection mast (A-16). Visible relationship; approximate placement.
+- left collection mast (A-14) touches mast support platform (A-17). Each mast is mounted on the top platform.
+- central collection mast (A-15) touches mast support platform (A-17). Each mast is mounted on the top platform.
+- right collection mast (A-16) touches mast support platform (A-17). Each mast is mounted on the top platform.
+- Cloud collection tier (A-G02) is above Filter tier (A-G03). Visible relationship; approximate placement.
+- Filter tier (A-G03) is above Water vault tier (A-G04). Visible relationship; approximate placement.
+- Water vault tier (A-G04) is above Garden tier (A-G05). Visible relationship; approximate placement.
+- Garden tier (A-G05) is above copper return coil (A-39). Visible relationship; approximate placement.
+- rough upper filter stones (A-18) is above dark granular filter band (A-19). Visible relationship; approximate placement.
+- dark granular filter band (A-19) is above pale lower filter pebbles (A-20). Visible relationship; approximate placement.
+- transparent spherical vessel (A-22) contains water and circular surface (A-23). Visible relationship; approximate placement.
+- central vertical vault pipe (A-24) overlaps water and circular surface (A-23). Visible relationship; approximate placement.
+- upper arched garden bridge (A-27) is above front arched garden bridge (A-28). Visible relationship; approximate placement.
+- front arched garden bridge (A-28) is above central garden watercourse (A-34). Visible relationship; approximate placement.
+- CLOUD to FILTER down arrow (A-44) points to Filter tier (A-G03). Preserve this flow direction and destination.
+- FILTER to VAULT down arrow (A-45) points to Water vault tier (A-G04). Preserve this flow direction and destination.
+- VAULT to GARDEN down arrow (A-46) points to Garden tier (A-G05). Preserve this flow direction and destination.
+- GARDEN to RETURN down arrow (A-47) points to copper return coil (A-39). Preserve this flow direction and destination.
+- large teal return arrow (A-48) points to curling cloud mass (A-13). Preserve this flow direction and destination.
+- CLOUD leader and dot (A-08) points to Cloud collection tier (A-G02). Leader/dot identifies this tier; it is not a flow arrow.
+- FILTER leader and dot (A-09) points to Filter tier (A-G03). Leader/dot identifies this tier; it is not a flow arrow.
+- VAULT leader and dot (A-10) points to Water vault tier (A-G04). Leader/dot identifies this tier; it is not a flow arrow.
+- GARDEN leader and dot (A-11) points to Garden tier (A-G05). Leader/dot identifies this tier; it is not a flow arrow.
+- RETURN leader and dot (A-12) points to copper return coil (A-39). Leader/dot identifies this tier; it is not a flow arrow.
+
+PRESERVE
+- Preserve five tier identities and the forward flow CLOUD → FILTER → VAULT → GARDEN → RETURN, plus one return path from RETURN to CLOUD.
+- Preserve the exact title and label wording unless the user's selected text edit explicitly changes it.
+- Preserve the portrait canvas, source crop and visual hierarchy. No review IDs or selection boxes belong in the clean artwork.
+
+REQUIRED RESULT
+- Use a portrait 2:3 canvas with five ordered, separated tiers.
+- Show three separate pale collection masts on one top platform.
+- Show three distinguishable filter layers: rough dark stones, dark grains and pale rounded pebbles.
+- Show one transparent sphere, approximately half full of teal water, with its central pipe.
+- Show a terraced garden with separate arched bridges, planting and waterfalls.
+- Show a copper return coil with visible vapor.
+- Keep exactly four small downward flow arrows and one large teal return arrow.
+- Render THE RAIN ENGINE once and CLOUD, FILTER, VAULT, GARDEN, RETURN each once in the correct order.
+- Keep the label leaders legible and distinct from flow arrows.
+- Do not add people, unrelated objects, watermarks, review badges or a border.
+
+PREFERENCES, SUBJECT TO THE REQUIREMENTS ABOVE
+- Match the detailed atlas look, ivory paper, dark teal typography and warm metal/turquoise palette.
+- Match the source's recognizable silhouettes and relative positions while keeping details readable.
+- Preserve distinct surface textures, coherent reflections and visual depth.
+
+Do not reconstruct unknown hidden content or uncertain words as if they were verified facts. Match the visible result and the explicit changes.

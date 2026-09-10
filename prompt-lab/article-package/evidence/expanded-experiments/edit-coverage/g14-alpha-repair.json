@@ -1,0 +1,74 @@
+{
+  "id": "G14-R1",
+  "purpose": "One authorized repair attempt after the original RGB checkerboard failure. Stronger file-property wording with the clean original reference, not the failed grid image.",
+  "prompt": "Extract only the peach-orange shampoo bottle from the attached original product photo. The deliverable is a real transparent PNG file in RGBA mode: every background pixel outside the bottle must have alpha 0, the opaque bottle interior must have alpha 255, and only boundary antialiasing may use intermediate alpha. Do not depict transparency as an image. Do not paint any checkerboard, grid, gray tiles, white backdrop, black backdrop, wall, table, cast shadow or reflection outside the object.\n\nKeep the original bottle silhouette, flip-top cap, orange color, warm shading, orientation and label layout. Preserve the printed words WOMEN, SHAMPOO, FOR, NORMAL HAIR, and 12 FL OZ (355 mL). Center the whole bottle on a square canvas with a small genuinely transparent margin. This is an extraction, not a packaging redesign. Return the actual transparent RGBA PNG, not a preview of an object on a transparency pattern.",
+  "references": [
+    {
+      "path": "outputs/expanded-experiments/edit-coverage/inputs/shampoo.webp",
+      "role": "clean original product; no checkerboard",
+      "inspected_before_generation": true,
+      "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp"
+    }
+  ],
+  "output": "outputs/expanded-experiments/edit-coverage/g14-alpha-repair.png",
+  "checks": [
+    {
+      "id": "A1",
+      "criterion": "Saved PNG actually has alpha/transparency metadata and nonzero zero-alpha pixels.",
+      "result": "fail",
+      "evidence": "Saved PNG is RGB with no transparency metadata; zero transparent pixels."
+    },
+    {
+      "id": "A2",
+      "criterion": "All four corner pixels are transparent and no opaque checkerboard or solid background appears.",
+      "result": "fail",
+      "evidence": "Opaque checkerboard is painted into the background; all corners have alpha 255."
+    },
+    {
+      "id": "A3",
+      "criterion": "Bottle interior stays opaque, full silhouette present, square centered framing.",
+      "result": "pass",
+      "evidence": "Bottle remains opaque and fully visible, centered on a square canvas; the exterior margin fails transparency in A1/A2."
+    },
+    {
+      "id": "A4",
+      "criterion": "Original label words and recognizable bottle color/cap/shape retained.",
+      "result": "pass",
+      "evidence": "Orange bottle, flip cap and all label words remain recognizable and correctly spelled."
+    }
+  ],
+  "backend_model": "not exposed",
+  "seed": "not exposed",
+  "quality": "not exposed",
+  "tool": "built-in image_gen",
+  "max_calls": 1,
+  "status": "generated_and_reviewed",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "alpha_verification": {
+    "has_alpha_channel_or_transparency": false,
+    "extrema": [
+      255,
+      255
+    ],
+    "transparent_pixels": 0,
+    "opaque_pixels": 1572516,
+    "partial_alpha_pixels": 0,
+    "total_pixels": 1572516,
+    "corner_alpha": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "center_alpha": 255
+  },
+  "sha256": "aef39fd84567611852c3891ccbabaaee8361a44d3d4c82783990fcf9fcf35e90",
+  "visually_inspected": true,
+  "output_unmodified": true,
+  "summary": "The single repair attempt still failed: stronger RGBA/alpha-value wording produced a second opaque painted checkerboard. No actual cutout was achieved.",
+  "next_step_not_run": "Stop repeating text-only transparency instructions through this opaque-output path; use actual alpha/background-removal controls and verify resulting file pixels. This experiment does not establish that the underlying named GPT Image 2.5 models cannot return alpha, because the backend was unexposed.",
+  "raw_source": "g14-alpha-repair.png"
+}

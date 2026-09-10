@@ -1,0 +1,171 @@
+{
+  "design": "Matched visual information; headings/format only. This is not a test of prompt length or fancy vocabulary.",
+  "source_url": "https://developers.openai.com/api/docs/guides/image-prompting",
+  "source_sections": [
+    "Explain a process visually",
+    "Render exact text",
+    "Create scientific and educational visuals"
+  ],
+  "canonical_intent": "An intricate, beautiful fictional water-cycle world, readable as a five-tier exploded atlas. Visual compliance and aesthetic appeal are evaluated separately.",
+  "sample_size": 4,
+  "independent_samples_per_condition": 2,
+  "randomization": "Conditions interleaved rather than randomly assigned; preassigned neutral codes with separate decoding key. Independent reviewer receives codes and checks before decoding. Display order generated with SystemRandom shuffle; operator not blind.",
+  "checks": [
+    {
+      "id": "L01",
+      "criterion": "Portrait canvas with width:height 2:3 (actual file dimensions)."
+    },
+    {
+      "id": "L02",
+      "criterion": "Exactly five visually separated tiers, vertical order preserved, one central stack, air gaps visible."
+    },
+    {
+      "id": "L03",
+      "criterion": "Top tier has exactly three slender white harvesting masts beneath one curling cloud."
+    },
+    {
+      "id": "L04",
+      "criterion": "Second tier has three distinguishable exposed filter layers: rough basalt, black carbon, pale ceramic."
+    },
+    {
+      "id": "L05",
+      "criterion": "Middle tier is one clear glass sphere, visibly about half filled with turquoise water."
+    },
+    {
+      "id": "L06",
+      "criterion": "Fourth tier shows leafy stepped garden terraces and tiny gold bridges between terraces."
+    },
+    {
+      "id": "L07",
+      "criterion": "Bottom tier shows one large copper coil with white vapor emerging."
+    },
+    {
+      "id": "L08",
+      "criterion": "Exactly four thin copper downward arrows link each adjacent pair of tiers in the air gaps."
+    },
+    {
+      "id": "L09",
+      "criterion": "Exactly one turquoise return arrow on the right curves from bottom coil toward top cloud, with upward direction clear."
+    },
+    {
+      "id": "L10",
+      "criterion": "Title THE RAIN ENGINE is spelled exactly once and is the largest text above the stack."
+    },
+    {
+      "id": "L11",
+      "criterion": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear exactly once each, spelled correctly, on the left beside the corresponding tiers."
+    },
+    {
+      "id": "L12",
+      "criterion": "Tier labels have thin leader lines, remain readable, and do not overlap illustrated components."
+    },
+    {
+      "id": "L13",
+      "criterion": "Museum atlas treatment, ivory/teal/moss/copper/gold palette, fine contours and soft 3D material shading visibly present."
+    },
+    {
+      "id": "L14",
+      "criterion": "Consistent elevated three-quarter perspective and broadly upper-left illumination, without obvious contradictory lighting."
+    },
+    {
+      "id": "L15",
+      "criterion": "Full stack/labels inside generous margins; no text beyond six strings; no people, logos, watermark, or decorative border."
+    }
+  ],
+  "trials": [
+    {
+      "call_order": 1,
+      "code": "N4",
+      "condition": "plain_prose",
+      "replicate": 1,
+      "prompt": "Create a portrait 2:3 illustrated atlas poster called THE RAIN ENGINE. It shows a fictional floating ecosystem as five separated tiers, stacked vertically on one central axis. Leave visible air gaps between tiers. This is imaginative concept art, not a validated engineering schematic. The top tier is a circular platform with exactly three slender white cloud-harvesting masts under one curling cloud. The second tier is an exposed filter, with three clearly different layers: rough basalt, black carbon, and pale ceramic. The middle tier is one clear glass spherical reservoir, half filled with turquoise water. The fourth tier is a lush garden on stepped terraces, with tiny gold bridges between terraces. The bottom tier is one large copper coil releasing a plume of white vapor. Show exactly four thin copper downward arrows in the gaps: top to second, second to middle, middle to fourth, and fourth to bottom. Show one turquoise return arrow outside the stack on the right, curving from the bottom coil up to the top cloud. Keep all five arrows distinct and readable. Print THE RAIN ENGINE exactly once, as the large title centered above the stack. Place these five smaller labels on the left, aligned with their respective tiers from top to bottom: CLOUD, FILTER, VAULT, GARDEN, RETURN. Use simple thin leader lines to the tiers. These six strings are the only text. Keep the labels large enough to read and clear of the illustration. Use an elegant museum atlas style: precise fine ink contours, softly shaded three-dimensional cutaways, a warm ivory background, deep teal and moss green forms, copper machinery, and restrained gold accents. Use one consistent elevated three-quarter view, with light from the upper left. Give the surfaces intricate mineral, glass, leaf, and machined-metal detail. Keep the full stack and all labels inside generous margins. Do not include people, logos, watermarks, or decorative borders.",
+      "output": "outputs/expanded-experiments/language/trial-N4.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images": [],
+      "status": "generated_and_file_verified",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "aspect_ratio_pass": true,
+      "sha256": "58de371471aa311c590ed4dabaa3fd4b44af2e4033bfc97233e658c31dcc341f",
+      "raw_source": "trial-N4.png",
+      "visually_inspected": true,
+      "output_unmodified": true
+    },
+    {
+      "call_order": 2,
+      "code": "V6",
+      "condition": "labeled_sections",
+      "replicate": 1,
+      "prompt": "Purpose and composition:\nCreate a portrait 2:3 illustrated atlas poster called THE RAIN ENGINE. It shows a fictional floating ecosystem as five separated tiers, stacked vertically on one central axis. Leave visible air gaps between tiers. This is imaginative concept art, not a validated engineering schematic.\n\nTier contents, top to bottom:\nThe top tier is a circular platform with exactly three slender white cloud-harvesting masts under one curling cloud. The second tier is an exposed filter, with three clearly different layers: rough basalt, black carbon, and pale ceramic. The middle tier is one clear glass spherical reservoir, half filled with turquoise water. The fourth tier is a lush garden on stepped terraces, with tiny gold bridges between terraces. The bottom tier is one large copper coil releasing a plume of white vapor.\n\nRelationships:\nShow exactly four thin copper downward arrows in the gaps: top to second, second to middle, middle to fourth, and fourth to bottom. Show one turquoise return arrow outside the stack on the right, curving from the bottom coil up to the top cloud. Keep all five arrows distinct and readable.\n\nText and hierarchy:\nPrint THE RAIN ENGINE exactly once, as the large title centered above the stack. Place these five smaller labels on the left, aligned with their respective tiers from top to bottom: CLOUD, FILTER, VAULT, GARDEN, RETURN. Use simple thin leader lines to the tiers. These six strings are the only text. Keep the labels large enough to read and clear of the illustration.\n\nAppearance and constraints:\nUse an elegant museum atlas style: precise fine ink contours, softly shaded three-dimensional cutaways, a warm ivory background, deep teal and moss green forms, copper machinery, and restrained gold accents. Use one consistent elevated three-quarter view, with light from the upper left. Give the surfaces intricate mineral, glass, leaf, and machined-metal detail. Keep the full stack and all labels inside generous margins. Do not include people, logos, watermarks, or decorative borders.",
+      "output": "outputs/expanded-experiments/language/trial-V6.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images": [],
+      "status": "generated_and_file_verified",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "aspect_ratio_pass": true,
+      "sha256": "0c931254c9e44fefea378c0846eb1a5cb5b3f658a3a20a37f21e477a86155d67",
+      "raw_source": "trial-V6.png",
+      "visually_inspected": true,
+      "output_unmodified": true
+    },
+    {
+      "call_order": 3,
+      "code": "A8",
+      "condition": "plain_prose",
+      "replicate": 2,
+      "prompt": "Create a portrait 2:3 illustrated atlas poster called THE RAIN ENGINE. It shows a fictional floating ecosystem as five separated tiers, stacked vertically on one central axis. Leave visible air gaps between tiers. This is imaginative concept art, not a validated engineering schematic. The top tier is a circular platform with exactly three slender white cloud-harvesting masts under one curling cloud. The second tier is an exposed filter, with three clearly different layers: rough basalt, black carbon, and pale ceramic. The middle tier is one clear glass spherical reservoir, half filled with turquoise water. The fourth tier is a lush garden on stepped terraces, with tiny gold bridges between terraces. The bottom tier is one large copper coil releasing a plume of white vapor. Show exactly four thin copper downward arrows in the gaps: top to second, second to middle, middle to fourth, and fourth to bottom. Show one turquoise return arrow outside the stack on the right, curving from the bottom coil up to the top cloud. Keep all five arrows distinct and readable. Print THE RAIN ENGINE exactly once, as the large title centered above the stack. Place these five smaller labels on the left, aligned with their respective tiers from top to bottom: CLOUD, FILTER, VAULT, GARDEN, RETURN. Use simple thin leader lines to the tiers. These six strings are the only text. Keep the labels large enough to read and clear of the illustration. Use an elegant museum atlas style: precise fine ink contours, softly shaded three-dimensional cutaways, a warm ivory background, deep teal and moss green forms, copper machinery, and restrained gold accents. Use one consistent elevated three-quarter view, with light from the upper left. Give the surfaces intricate mineral, glass, leaf, and machined-metal detail. Keep the full stack and all labels inside generous margins. Do not include people, logos, watermarks, or decorative borders.",
+      "output": "outputs/expanded-experiments/language/trial-A8.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images": [],
+      "status": "generated_and_file_verified",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "aspect_ratio_pass": true,
+      "sha256": "add636fe9ae85e3bee0cee07fde865e2ee87b3a4ae1687149aa611f4afd243e8",
+      "raw_source": "trial-A8.png",
+      "visually_inspected": true,
+      "output_unmodified": true
+    },
+    {
+      "call_order": 4,
+      "code": "S2",
+      "condition": "labeled_sections",
+      "replicate": 2,
+      "prompt": "Purpose and composition:\nCreate a portrait 2:3 illustrated atlas poster called THE RAIN ENGINE. It shows a fictional floating ecosystem as five separated tiers, stacked vertically on one central axis. Leave visible air gaps between tiers. This is imaginative concept art, not a validated engineering schematic.\n\nTier contents, top to bottom:\nThe top tier is a circular platform with exactly three slender white cloud-harvesting masts under one curling cloud. The second tier is an exposed filter, with three clearly different layers: rough basalt, black carbon, and pale ceramic. The middle tier is one clear glass spherical reservoir, half filled with turquoise water. The fourth tier is a lush garden on stepped terraces, with tiny gold bridges between terraces. The bottom tier is one large copper coil releasing a plume of white vapor.\n\nRelationships:\nShow exactly four thin copper downward arrows in the gaps: top to second, second to middle, middle to fourth, and fourth to bottom. Show one turquoise return arrow outside the stack on the right, curving from the bottom coil up to the top cloud. Keep all five arrows distinct and readable.\n\nText and hierarchy:\nPrint THE RAIN ENGINE exactly once, as the large title centered above the stack. Place these five smaller labels on the left, aligned with their respective tiers from top to bottom: CLOUD, FILTER, VAULT, GARDEN, RETURN. Use simple thin leader lines to the tiers. These six strings are the only text. Keep the labels large enough to read and clear of the illustration.\n\nAppearance and constraints:\nUse an elegant museum atlas style: precise fine ink contours, softly shaded three-dimensional cutaways, a warm ivory background, deep teal and moss green forms, copper machinery, and restrained gold accents. Use one consistent elevated three-quarter view, with light from the upper left. Give the surfaces intricate mineral, glass, leaf, and machined-metal detail. Keep the full stack and all labels inside generous margins. Do not include people, logos, watermarks, or decorative borders.",
+      "output": "outputs/expanded-experiments/language/trial-S2.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images": [],
+      "status": "generated_and_file_verified",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "aspect_ratio_pass": true,
+      "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64",
+      "raw_source": "trial-S2.png",
+      "visually_inspected": true,
+      "output_unmodified": true
+    }
+  ],
+  "review_order": [
+    "A8",
+    "N4",
+    "V6",
+    "S2"
+  ]
+}

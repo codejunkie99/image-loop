@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "checks": {
+    "files": 759,
+    "json_files": 182,
+    "images": 271,
+    "pdf_pages": 50,
+    "archives": 3,
+    "local_links": 2318,
+    "javascript_blocks": 12,
+    "selected_studies": 44,
+    "additional_records": 49,
+    "saved_prompt_files": 95,
+    "library_prompts_matched": 93,
+    "table_graphics": 12
+  },
+  "privacy": "checked text, filenames, image/PDF metadata, PDF text, and ZIP members",
+  "javascript_syntax": "checked",
+  "errors": []
+}

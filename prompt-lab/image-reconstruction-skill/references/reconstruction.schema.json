@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:image-reconstruction:1.0.0",
+  "title": "Image reconstruction interchange format 1.0.0",
+  "description": "Agent and UI contract; not an image-model API or a guarantee of reconstruction fidelity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "document_id", "revision", "coordinate_system", "provenance", "intent", "coverage", "source_images", "scene", "groups", "elements", "relations", "selections", "invariants", "unknowns", "criteria"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "review_flags": {
+      "description": "Derived warnings after selected edits. Named baseline statements remain evidence and require reconciliation before scoring; the compiler omits them as current rendering requirements.",
+      "type": "object", "additionalProperties": false,
+      "required": ["revision", "scene_fields", "invariant_ids", "criterion_ids", "notes"],
+      "properties": {
+        "revision": {"type": "integer", "minimum": 1},
+        "scene_fields": {"$ref": "#/$defs/ids"},
+        "invariant_ids": {"$ref": "#/$defs/ids"},
+        "criterion_ids": {"$ref": "#/$defs/ids"},
+        "notes": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "document_id": {"type": "string", "minLength": 1},
+    "revision": {"type": "integer", "minimum": 1},
+    "coordinate_system": {"const": "normalized_top_left_xywh"},
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "note"],
+      "properties": {"kind": {"enum": ["image_analysis", "synthetic_example", "user_brief"]}, "note": {"type": "string"}}
+    },
+    "intent": {
+      "type": "object", "additionalProperties": false,
+      "required": ["task", "purpose", "exactness", "exactness_note", "output"],
+      "properties": {
+        "task": {"enum": ["reconstruct", "edit", "remix", "create"]},
+        "purpose": {"type": "string", "minLength": 1},
+        "exactness": {"enum": ["semantic", "perceptual", "geometry", "pixel"]},
+        "exactness_note": {"type": "string"},
+        "output": {
+          "type": "object", "additionalProperties": false,
+          "required": ["width_px", "height_px", "format", "crop_policy"],
+          "properties": {
+            "width_px": {"type": ["integer", "null"], "minimum": 1},
+            "height_px": {"type": ["integer", "null"], "minimum": 1},
+            "format": {"enum": ["png", "jpeg", "webp", "svg", "unspecified"]},
+            "crop_policy": {"enum": ["preserve", "crop", "pad", "outpaint", "unspecified"]}
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "granularity", "excluded_regions", "notes"],
+      "properties": {
+        "status": {"enum": ["complete_visible_inventory", "partial"]},
+        "granularity": {"type": "string", "minLength": 1},
+        "excluded_regions": {"type": "array", "items": {"$ref": "#/$defs/excluded_region"}},
+        "notes": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "source_images": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "scene": {"type": "object", "additionalProperties": {"$ref": "#/$defs/evidence"}},
+    "groups": {"type": "array", "items": {"$ref": "#/$defs/group"}},
+    "elements": {"type": "array", "items": {"$ref": "#/$defs/element"}},
+    "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+    "selections": {"type": "array", "items": {"$ref": "#/$defs/selection"}},
+    "invariants": {"type": "array", "items": {"$ref": "#/$defs/invariant"}},
+    "unknowns": {"type": "array", "items": {"$ref": "#/$defs/unknown"}},
+    "criteria": {
+      "type": "object", "additionalProperties": false,
+      "required": ["hard", "soft"],
+      "properties": {
+        "hard": {"type": "array", "items": {"$ref": "#/$defs/hard_criterion"}},
+        "soft": {"type": "array", "items": {"$ref": "#/$defs/soft_criterion"}}
+      }
+    }
+  },
+  "$defs": {
+    "strings": {"type": "array", "items": {"type": "string"}},
+    "ids": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "bbox": {"type": ["array", "null"], "items": {"type": "number", "minimum": 0, "maximum": 1}, "minItems": 4, "maxItems": 4},
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["value", "status", "basis", "confidence", "note"],
+      "properties": {
+        "value": {"type": ["string", "null"]},
+        "status": {"enum": ["observed", "inferred", "unknown"]},
+        "basis": {"enum": ["visual_observation", "visual_estimate", "file_metadata", "pixel_measurement", "user_supplied", "unknown"]},
+        "confidence": {"enum": ["high", "medium", "low", "unknown"]},
+        "note": {"type": "string"}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "path", "version", "width_px", "height_px", "dimensions_basis", "role", "selected_for_use", "allowed_roles", "scope_note"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Z]+$"},
+        "path": {"type": ["string", "null"]},
+        "version": {"type": "string", "minLength": 1},
+        "width_px": {"type": ["integer", "null"], "minimum": 1},
+        "height_px": {"type": ["integer", "null"], "minimum": 1},
+        "dimensions_basis": {"enum": ["file_metadata", "user_supplied", "unknown"]},
+        "role": {"enum": ["target", "reference", "analysis"]},
+        "selected_for_use": {"type": "boolean"},
+        "allowed_roles": {"type": "array", "uniqueItems": true, "items": {"enum": ["content", "identity", "layout", "pose", "style", "palette", "material", "lighting", "typography", "background"]}},
+        "scope_note": {"type": "string"}
+      }
+    },
+    "group": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_id", "parent_id", "name", "bbox", "geometry_basis", "note"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Z]+-G[0-9]{2,}$"},
+        "source_id": {"type": "string"}, "parent_id": {"type": ["string", "null"]},
+        "name": {"type": "string", "minLength": 1}, "bbox": {"$ref": "#/$defs/bbox"},
+        "geometry_basis": {"enum": ["pixel_measurement", "visual_estimate", "user_supplied", "unknown"]},
+        "note": {"type": "string"}
+      }
+    },
+    "element": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_id", "parent_id", "name", "kind", "bbox", "geometry_basis", "count", "description", "appearance", "text", "occlusion", "asset", "editable_properties", "locked_properties"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Z]+-[0-9]{2,}$"},
+        "source_id": {"type": "string"}, "parent_id": {"type": ["string", "null"]},
+        "name": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["subject", "object", "text", "connector", "background", "negative_space", "effect", "repeated_detail"]},
+        "bbox": {"$ref": "#/$defs/bbox"},
+        "geometry_basis": {"enum": ["pixel_measurement", "visual_estimate", "user_supplied", "unknown"]},
+        "count": {"type": ["integer", "null"], "minimum": 1},
+        "description": {"$ref": "#/$defs/evidence"},
+        "appearance": {"type": "object", "additionalProperties": {"$ref": "#/$defs/evidence"}},
+        "text": {
+          "type": ["object", "null"], "additionalProperties": false,
+          "required": ["transcript", "certainty", "uncertain_spans", "line_breaks_preserved"],
+          "properties": {
+            "transcript": {"type": ["string", "null"]}, "certainty": {"enum": ["exact", "uncertain"]},
+            "uncertain_spans": {"$ref": "#/$defs/strings"}, "line_breaks_preserved": {"type": "boolean"}
+          }
+        },
+        "occlusion": {
+          "type": "object", "additionalProperties": false,
+          "required": ["boundary", "occluded_by", "hidden_content", "note"],
+          "properties": {
+            "boundary": {"enum": ["complete", "partly_occluded", "off_frame", "uncertain"]},
+            "occluded_by": {"$ref": "#/$defs/ids"},
+            "hidden_content": {"enum": ["not_applicable", "unknown"]}, "note": {"type": "string"}
+          }
+        },
+        "asset": {
+          "type": "object", "additionalProperties": false,
+          "required": ["kind", "path", "alpha_verified", "note"],
+          "properties": {
+            "kind": {"enum": ["none", "bounding_crop", "segmented_layer", "source_layer"]},
+            "path": {"type": ["string", "null"]}, "alpha_verified": {"type": "boolean"}, "note": {"type": "string"}
+          }
+        },
+        "editable_properties": {"$ref": "#/$defs/strings"},
+        "locked_properties": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "relation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "from_id", "to_id", "kind", "status", "confidence", "note"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "from_id": {"type": "string"}, "to_id": {"type": "string"},
+        "kind": {"enum": ["left_of", "right_of", "above", "below", "in_front_of", "behind", "contains", "overlaps", "touches", "points_to", "same_group", "other"]},
+        "status": {"enum": ["observed", "inferred", "unknown"]},
+        "confidence": {"enum": ["high", "medium", "low", "unknown"]}, "note": {"type": "string"}
+      }
+    },
+    "selection": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_id", "action", "properties", "instruction", "destination_bbox", "reference_ids", "preserve", "allow"],
+      "properties": {
+        "target_id": {"type": "string"}, "action": {"enum": ["keep", "remove", "replace", "restyle", "move"]},
+        "properties": {"$ref": "#/$defs/strings"}, "instruction": {"type": "string"},
+        "destination_bbox": {"$ref": "#/$defs/bbox"}, "reference_ids": {"$ref": "#/$defs/ids"},
+        "preserve": {"$ref": "#/$defs/strings"}, "allow": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "invariant": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "target_ids", "description", "origin"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "target_ids": {"$ref": "#/$defs/ids"},
+        "description": {"type": "string", "minLength": 1}, "origin": {"enum": ["user", "reconstruction_brief"]}
+      }
+    },
+    "unknown": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_id", "property", "reason", "resolution"],
+      "properties": {
+        "target_id": {"type": "string"}, "property": {"type": "string"}, "reason": {"type": "string", "minLength": 1},
+        "resolution": {"enum": ["leave_unspecified", "ask_if_needed", "approximate_with_disclosure"]}
+      }
+    },
+    "excluded_region": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "bbox", "reason"],
+      "properties": {"source_id": {"type": "string"}, "bbox": {"$ref": "#/$defs/bbox"}, "reason": {"type": "string", "minLength": 1}}
+    },
+    "hard_criterion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "description", "target_ids", "depends_on", "check"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "description": {"type": "string", "minLength": 1},
+        "target_ids": {"$ref": "#/$defs/ids"}, "depends_on": {"$ref": "#/$defs/ids"},
+        "check": {"type": "string", "minLength": 1}
+      }
+    },
+    "soft_criterion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "description", "target_ids", "depends_on", "check", "weight"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "description": {"type": "string", "minLength": 1},
+        "target_ids": {"$ref": "#/$defs/ids"}, "depends_on": {"$ref": "#/$defs/ids"},
+        "check": {"type": "string", "minLength": 1}, "weight": {"type": "number", "exclusiveMinimum": 0}
+      }
+    }
+  }
+}

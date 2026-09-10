@@ -1,0 +1,7 @@
+Use image 1 only as a visual-style reference. Extract its crisp square pixel clusters, stepped diagonals, small restricted color ramps, near-black negative space, bright cobalt/cyan, warm orange-yellow highlights and restrained magenta stars. Do not copy its words, spacecraft, planets, layout, scores, menus or logos.
+
+Create a new landscape 3:2 illustrated game-poster scene called NIGHT COURIER. Foreground: exactly one motorcycle with two clearly visible wheels, ridden by one courier in a red jacket and ivory full-face helmet, crossing a narrow elevated bridge from left to right. Both gloved hands meet the handlebars and the boots meet the foot pegs. Show the whole motorcycle and rider, occupying the lower middle of the frame.
+
+Middle ground: a dense rain-soaked market city built over a deep canal, with stacked shop awnings, hanging lanterns, service pipes and a few small moored boats. Background: tall cobalt towers and two arched skybridges disappearing into wet night haze. Use three clear depth layers so the foreground silhouette reads immediately. Render rain, warm window lights and cyan reflections as deliberate pixel clusters, not smooth photographic effects.
+
+Place NIGHT COURIER exactly once in bold readable pixel lettering inside the upper-left sky area. No other letters, HUD, numbers, watermark or border. Keep all important content within a 5% margin. The result must be coherent detailed pixel art, without antialiased vector edges, painted blur, or a photograph underneath.

@@ -1,0 +1,729 @@
+{
+  "design": "Guide adaptations plus matched G22 combined/sequential final-goal comparison. No seed or fixed backend exposed.",
+  "records": [
+    {
+      "id": "G18",
+      "guide_stage": "G18",
+      "heading": "Product campaign starting image",
+      "prompt": "Create a polished landscape 3:2 photographic campaign image. Image 1 supplies the exact peach shampoo bottle: preserve its cylindrical proportions, cap, peach color and the visible label spelling. Place one bottle in the lower-middle on a wet dark basalt pedestal. Build an intricate miniature botanical conservatory around it: three tall glass arches in the background, broad fern fronds at image-left, a single pale orchid stem at image-right, and fine suspended water droplets. Late afternoon sunlight from upper-left passes through humid air; glass, droplets and polished basalt have coherent reflections. The bottle is the clear focal point and its front label faces the viewer. Keep every prop behind or beside the bottle rather than covering it. Reserve the top quarter as softly lit atmosphere without lettering. This is a fictional art-directed campaign, not a claim about ingredients. No added words, people, logos or second bottle. Preserve readable source label rather than inventing new brand copy.",
+      "references": [
+        "../../../../expanded-experiments/official-references/shampoo.webp"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g18.png",
+      "checks": [
+        "3:2 canvas",
+        "Exactly one peach source bottle",
+        "Bottle silhouette and cap retained",
+        "Source label spelling retained/readable",
+        "Three glass arches",
+        "Ferns left and one orchid stem right",
+        "Bottle label unobscured",
+        "Top quarter without text",
+        "Upper-left afternoon light",
+        "No additional text or people"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "60b4fc4007f4ddbd5d17acd52cec662e020b02aafd75f107aebc86de78a2ae33",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "3:2 canvas",
+          "result": "pass",
+          "evidence": "1536\u00d71024 PNG."
+        },
+        {
+          "criterion": "Exactly one peach source bottle",
+          "result": "pass",
+          "evidence": "One peach bottle dominates the center."
+        },
+        {
+          "criterion": "Bottle silhouette and cap retained",
+          "result": "pass",
+          "evidence": "Cylindrical body, rounded shoulder and flip-top cap remain recognizable."
+        },
+        {
+          "criterion": "Source label spelling retained/readable",
+          "result": "pass",
+          "evidence": "All source words and volume survive; typeface is redrawn."
+        },
+        {
+          "criterion": "Three glass arches",
+          "result": "uncertain",
+          "evidence": "Several glass ribs and a central arch are clear, but blur and crop make exactly three arches uncertain."
+        },
+        {
+          "criterion": "Ferns left and one orchid stem right",
+          "result": "pass",
+          "evidence": "Fern foliage is on the left and one flowering orchid stem is on the right."
+        },
+        {
+          "criterion": "Bottle label unobscured",
+          "result": "pass",
+          "evidence": "Front label remains unobscured."
+        },
+        {
+          "criterion": "Top quarter without text",
+          "result": "pass",
+          "evidence": "The top quarter has atmosphere and architecture, no copy."
+        },
+        {
+          "criterion": "Upper-left afternoon light",
+          "result": "pass",
+          "evidence": "Warm upper-left rays and coherent wet highlights."
+        },
+        {
+          "criterion": "No additional text or people",
+          "result": "pass",
+          "evidence": "No added lettering, people or duplicate bottle."
+        }
+      ],
+      "posthoc_observations": [
+        "Readable bottle spelling survives, but the brand typeface and exact fine geometry do not."
+      ]
+    },
+    {
+      "id": "G19",
+      "guide_stage": "G19",
+      "heading": "Change one condition",
+      "prompt": "Edit the supplied accepted campaign image. Change only the time and weather from late-afternoon sunlight to a blue-hour rainstorm: cool ambient sky, rain streaks and damp atmospheric haze. Preserve the bottle identity, exact label, cap, position and proportions; pedestal, three glass arches, ferns, orchid, camera, crop and overall composition. Allow physically necessary changes to light, reflections, wet highlights and atmosphere. Keep the label readable without adding a spotlight object. No extra plants, lettering, people or bottles. Return the same 3:2 framing.",
+      "references": [
+        "../../../../expanded-experiments/continuity/g18.png"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g19.png",
+      "checks": [
+        "Same 3:2 framing",
+        "Blue-hour storm visibly established",
+        "Bottle silhouette/cap preserved",
+        "Label retained",
+        "Three arches preserved",
+        "Fern and orchid positions preserved",
+        "Pedestal and crop preserved",
+        "No extra props/words",
+        "Physical lighting changes coherent"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "1287161637df7cd78282d7175e86d246382cb2df65ffd8c990525473817a0ea8",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "Same 3:2 framing",
+          "result": "pass",
+          "evidence": "1536\u00d71024; camera and broad framing retained."
+        },
+        {
+          "criterion": "Blue-hour storm visibly established",
+          "result": "pass",
+          "evidence": "Blue ambient light, visible rain streaks and haze."
+        },
+        {
+          "criterion": "Bottle silhouette/cap preserved",
+          "result": "pass",
+          "evidence": "Bottle body and cap retain their broad outline."
+        },
+        {
+          "criterion": "Label retained",
+          "result": "pass",
+          "evidence": "All visible label strings retained."
+        },
+        {
+          "criterion": "Three arches preserved",
+          "result": "uncertain",
+          "evidence": "Same major conservatory ribs; exact three-arch count remains uncertain."
+        },
+        {
+          "criterion": "Fern and orchid positions preserved",
+          "result": "pass",
+          "evidence": "Fern and orchid remain in the same regions."
+        },
+        {
+          "criterion": "Pedestal and crop preserved",
+          "result": "pass",
+          "evidence": "Wet pedestal and framing closely match."
+        },
+        {
+          "criterion": "No extra props/words",
+          "result": "fail",
+          "evidence": "Several new warm light points appear behind the bottle; this violates the strict no-extra-props intent or at least requires approval."
+        },
+        {
+          "criterion": "Physical lighting changes coherent",
+          "result": "pass",
+          "evidence": "Cool wet highlights and rain are coherent; light changes are intentional."
+        }
+      ]
+    },
+    {
+      "id": "G20",
+      "guide_stage": "G20",
+      "heading": "Establish recurring character",
+      "prompt": "Create a visually rich 3:2 landscape storybook diorama of an Atlas Keeper discovering a floating library at dawn. The Keeper is a small ivory ceramic robot, full body visible in the left foreground, with a round head, two circular eyes (amber on image-left, cyan on image-right), one tiny gold crescent on its forehead, short jointed arms and legs, a teal neckerchief and one red rectangular satchel at its right hip. One hand rests on an open brass compass. In the middle distance a vast circular library is built into a floating stone island: curved shelves, delicate brass bridges, hanging gardens, warm reading-room windows, and a tall central glass dome. A broad stone stair curves from the Keeper toward the library; an immense sea of clouds gives clear depth and scale. Use tactile stop-motion ceramic and paper materials with meticulous miniature details, warm ivory, copper, deep teal and small red accents. Warm sunlight enters from upper-left. Keep the Keeper's eyes, crescent and satchel easy to inspect. One robot only. No people, extra eyes, titles or written labels.",
+      "references": [],
+      "output": "../../../../expanded-experiments/continuity/g20.png",
+      "checks": [
+        "3:2 landscape",
+        "One ivory ceramic robot full body left foreground",
+        "Exactly two round eyes amber image-left cyan image-right",
+        "One forehead gold crescent",
+        "Teal neckerchief",
+        "One red rectangular satchel at hip",
+        "Hand contacts open brass compass",
+        "Floating library with central glass dome",
+        "Stone stair leads toward library",
+        "Sea of clouds and depth",
+        "No people or lettering"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "f0be3f5647edc99409f13412aa8f9513b9e1aaa357484094443f6caceb6a5c02",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "3:2 landscape",
+          "result": "pass",
+          "evidence": "1536\u00d71024."
+        },
+        {
+          "criterion": "One ivory ceramic robot full body left foreground",
+          "result": "pass",
+          "evidence": "One full-body ivory ceramic robot at image-left."
+        },
+        {
+          "criterion": "Exactly two round eyes amber image-left cyan image-right",
+          "result": "pass",
+          "evidence": "Two eyes: amber image-left, cyan image-right."
+        },
+        {
+          "criterion": "One forehead gold crescent",
+          "result": "pass",
+          "evidence": "One small gold crescent on forehead."
+        },
+        {
+          "criterion": "Teal neckerchief",
+          "result": "pass",
+          "evidence": "Teal scarf visible."
+        },
+        {
+          "criterion": "One red rectangular satchel at hip",
+          "result": "pass",
+          "evidence": "One red rectangular satchel at the hip."
+        },
+        {
+          "criterion": "Hand contacts open brass compass",
+          "result": "pass",
+          "evidence": "One hand touches the open compass lid."
+        },
+        {
+          "criterion": "Floating library with central glass dome",
+          "result": "pass",
+          "evidence": "Floating circular library with shelves and tall glass dome."
+        },
+        {
+          "criterion": "Stone stair leads toward library",
+          "result": "pass",
+          "evidence": "Stone stairs connect foreground to library."
+        },
+        {
+          "criterion": "Sea of clouds and depth",
+          "result": "pass",
+          "evidence": "Cloud sea, overlapping islands and distant structures establish depth."
+        },
+        {
+          "criterion": "No people or lettering",
+          "result": "pass",
+          "evidence": "No people or readable lettering."
+        }
+      ]
+    },
+    {
+      "id": "G21",
+      "guide_stage": "G21",
+      "heading": "Continue the story",
+      "prompt": "Use image 1 solely as the Atlas Keeper character reference. Continue the story in a new 3:2 landscape scene: the same small ivory ceramic robot now stands on the right side of a vast midnight observatory, holding its open brass compass in both hands while looking toward an enormous suspended brass armillary sphere at image-left. Preserve the same round head, exactly two round eyes (amber on image-left and cyan on image-right in the visible near-frontal face), one tiny gold forehead crescent, teal neckerchief, short jointed limbs and red rectangular satchel. Surround the observatory with intricate arched shelves, spiral stairs, blue glass star windows and fine brass measuring instruments. Moonlight enters from upper-left; warm lamps give restrained amber accents. Keep tactile ceramic and paper miniature craft, with great depth and readable silhouettes. The original library exterior and cloud sea should not be copied into this new room. Exactly one Keeper and one huge armillary sphere. No added words, people or extra eyes.",
+      "references": [
+        "../../../../expanded-experiments/continuity/g20.png"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g21.png",
+      "checks": [
+        "3:2 landscape",
+        "One Keeper at right",
+        "Round ivory head and two correct eye colors",
+        "Gold crescent preserved",
+        "Teal scarf and red satchel preserved",
+        "Compass held by hands",
+        "One large armillary at left",
+        "New indoor observatory setting",
+        "No copied outdoor island",
+        "No words or additional figures"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "6f9d4d1b0b60a9eb0375b275735a1ea684c78c786c2ce5ab7783f727cc891c9a",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "3:2 landscape",
+          "result": "pass",
+          "evidence": "1536\u00d71024."
+        },
+        {
+          "criterion": "One Keeper at right",
+          "result": "pass",
+          "evidence": "One Keeper at image-right."
+        },
+        {
+          "criterion": "Round ivory head and two correct eye colors",
+          "result": "pass",
+          "evidence": "Ivory round head and correct two eye colors retained."
+        },
+        {
+          "criterion": "Gold crescent preserved",
+          "result": "pass",
+          "evidence": "Gold forehead crescent visible."
+        },
+        {
+          "criterion": "Teal scarf and red satchel preserved",
+          "result": "pass",
+          "evidence": "Teal scarf and red satchel retained."
+        },
+        {
+          "criterion": "Compass held by hands",
+          "result": "pass",
+          "evidence": "Both hands cradle the open compass."
+        },
+        {
+          "criterion": "One large armillary at left",
+          "result": "pass",
+          "evidence": "One enormous armillary sphere at image-left."
+        },
+        {
+          "criterion": "New indoor observatory setting",
+          "result": "pass",
+          "evidence": "New indoor observatory with arched windows and shelves."
+        },
+        {
+          "criterion": "No copied outdoor island",
+          "result": "pass",
+          "evidence": "The outdoor floating island is absent."
+        },
+        {
+          "criterion": "No words or additional figures",
+          "result": "pass",
+          "evidence": "No people or readable words."
+        }
+      ],
+      "posthoc_observations": [
+        "The prompt requested a suspended armillary; it is visibly supported on a pedestal. The preregistered checklist omitted suspended, so the all-checks pass does not imply the full brief passed."
+      ]
+    },
+    {
+      "id": "G22",
+      "guide_stage": "G22",
+      "heading": "Two edits together",
+      "prompt": "Edit the supplied kitchen photo with two precisely scoped changes. First, recolor the upholstery of all four existing white dining chairs to deep forest green, retaining their exact shapes, stitched channels, positions and black legs. Second, change the black metal cage and chain of the hanging pendant lamp to brushed copper, retaining the lamp's exact geometry and hanging position. Preserve all other source content: four-chair count, circular glass table, striped vase and dried flowers, window frames and outdoor view, refrigerator, cabinetry, globe, countertop, plants, ceiling vent, floor, camera, crop and daylight. Allow local reflections and small color spill needed by the new materials. No other changes; same 4:3 image framing.",
+      "references": [
+        "../../../../expanded-experiments/official-references/kitchen.webp"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g22.png",
+      "checks": [
+        "4:3 same framing",
+        "Four chairs all green",
+        "Chair shape/stitching/positions retained",
+        "Chair legs remain black",
+        "Pendant cage and chain copper",
+        "Pendant shape/position preserved",
+        "Table and vase preserved",
+        "Refrigerator/cabinets/windows preserved",
+        "No extra/deleted objects",
+        "Daylight/view/crop preserved"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB",
+      "sha256": "2fb052ed7bbc09f10e8f706f6d0bf7c15ec7ec737a3244b70dff25d77657c819",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "4:3 same framing",
+          "result": "pass",
+          "evidence": "1448\u00d71086; exact4:3, different pixel dimensions from1200\u00d7900 source."
+        },
+        {
+          "criterion": "Four chairs all green",
+          "result": "pass",
+          "evidence": "Four chairs are green."
+        },
+        {
+          "criterion": "Chair shape/stitching/positions retained",
+          "result": "pass",
+          "evidence": "Channel stitching, silhouettes and locations broadly retained."
+        },
+        {
+          "criterion": "Chair legs remain black",
+          "result": "pass",
+          "evidence": "Black legs remain black."
+        },
+        {
+          "criterion": "Pendant cage and chain copper",
+          "result": "pass",
+          "evidence": "Pendant cage and chain are copper."
+        },
+        {
+          "criterion": "Pendant shape/position preserved",
+          "result": "pass",
+          "evidence": "Same hanging cage shape and position."
+        },
+        {
+          "criterion": "Table and vase preserved",
+          "result": "pass",
+          "evidence": "Circular glass table and striped vase retained."
+        },
+        {
+          "criterion": "Refrigerator/cabinets/windows preserved",
+          "result": "pass",
+          "evidence": "Fridge, cabinets and window arrangement retained."
+        },
+        {
+          "criterion": "No extra/deleted objects",
+          "result": "pass",
+          "evidence": "No conspicuous object additions/deletions."
+        },
+        {
+          "criterion": "Daylight/view/crop preserved",
+          "result": "pass",
+          "evidence": "Daylight and view retained; fine foliage/texture is regenerated."
+        }
+      ],
+      "posthoc_observations": [
+        "Fresh reviewer: the ceiling mounting canopy also becomes copper, although only the cage and chain were selected. This is an unrequested material change."
+      ]
+    },
+    {
+      "id": "E22A",
+      "guide_stage": "G22",
+      "heading": "First edit separately",
+      "prompt": "Edit the supplied kitchen photo. Recolor only the upholstery of all four white dining chairs to deep forest green. Retain their exact shapes, stitched channels, positions and black legs. Preserve the black pendant lamp, circular glass table, striped vase, dried flowers, windows and outdoor view, refrigerator, cabinetry, globe, countertop, plants, ceiling vent, floor, camera, crop and daylight. Allow only necessary small local reflections from the upholstery. No other changes; keep 4:3 framing.",
+      "references": [
+        "../../../../expanded-experiments/official-references/kitchen.webp"
+      ],
+      "output": "../../../../expanded-experiments/continuity/e22a.png",
+      "checks": [
+        "Four chairs green",
+        "Shapes/stitching/black legs preserved",
+        "Pendant still black",
+        "All named surrounding objects/crop retained"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB",
+      "sha256": "9d5e0cbc82b2c5be3f4256de8a255cc2cb29af0868817d89a4ce436e1dc251ed",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "Four chairs green",
+          "result": "pass",
+          "evidence": "Four chairs are forest green."
+        },
+        {
+          "criterion": "Shapes/stitching/black legs preserved",
+          "result": "pass",
+          "evidence": "Chair silhouettes, channel stitching and black legs retained."
+        },
+        {
+          "criterion": "Pendant still black",
+          "result": "pass",
+          "evidence": "Pendant cage and chain remain black."
+        },
+        {
+          "criterion": "All named surrounding objects/crop retained",
+          "result": "pass",
+          "evidence": "Named surrounding objects and broad crop retained; fine pixels are redrawn."
+        }
+      ]
+    },
+    {
+      "id": "E22B",
+      "guide_stage": "G22",
+      "heading": "Second edit separately",
+      "prompt": "Edit the supplied green-chair kitchen image. Change only the metal cage and chain of the hanging black pendant lamp to brushed copper. Keep the precise lamp shape and hanging position. Preserve all four forest-green chairs, stitched channels and black legs; glass table, striped vase, dried flowers, windows/outdoor view, refrigerator, cabinets, globe, countertop, plants, ceiling vent, floor, crop and daylight. Allow necessary small copper reflections. No other changes. Same 4:3 framing.",
+      "references": [
+        "../../../../expanded-experiments/continuity/e22a.png"
+      ],
+      "output": "../../../../expanded-experiments/continuity/e22b.png",
+      "checks": [
+        "4:3 same framing",
+        "Four chairs all green",
+        "Chair shape/stitching/positions retained",
+        "Chair legs remain black",
+        "Pendant cage and chain copper",
+        "Pendant shape/position preserved",
+        "Table and vase preserved",
+        "Refrigerator/cabinets/windows preserved",
+        "No extra/deleted objects",
+        "Daylight/view/crop preserved"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB",
+      "sha256": "2463b32b2c574558cdebe168c25cacea6f077457ddfba57245f0d61d926c3b29",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "4:3 same framing",
+          "result": "pass",
+          "evidence": "1448\u00d71086; exact4:3, same as preceding edit."
+        },
+        {
+          "criterion": "Four chairs all green",
+          "result": "pass",
+          "evidence": "All four chairs remain green."
+        },
+        {
+          "criterion": "Chair shape/stitching/positions retained",
+          "result": "pass",
+          "evidence": "Chair shapes and channel seams broadly retained."
+        },
+        {
+          "criterion": "Chair legs remain black",
+          "result": "pass",
+          "evidence": "Legs remain black."
+        },
+        {
+          "criterion": "Pendant cage and chain copper",
+          "result": "pass",
+          "evidence": "Pendant cage and chain now copper."
+        },
+        {
+          "criterion": "Pendant shape/position preserved",
+          "result": "pass",
+          "evidence": "Lamp location and broad geometry retained."
+        },
+        {
+          "criterion": "Table and vase preserved",
+          "result": "pass",
+          "evidence": "Table and vase retained."
+        },
+        {
+          "criterion": "Refrigerator/cabinets/windows preserved",
+          "result": "pass",
+          "evidence": "Fridge, cabinetry and windows remain in place."
+        },
+        {
+          "criterion": "No extra/deleted objects",
+          "result": "pass",
+          "evidence": "No conspicuous extra/deleted objects."
+        },
+        {
+          "criterion": "Daylight/view/crop preserved",
+          "result": "pass",
+          "evidence": "Broad daylight/view/crop retained; leaf and surface details drift again."
+        }
+      ],
+      "posthoc_observations": [
+        "Fresh reviewer: the ceiling mounting canopy also becomes copper, although only the cage and chain were selected. This is an unrequested material change."
+      ]
+    },
+    {
+      "id": "G23",
+      "guide_stage": "G23",
+      "heading": "Holiday card",
+      "prompt": "Create a finished portrait 2:3 winter greeting card using image 1 as the Atlas Keeper character identity reference only. Show the same ivory ceramic robot, two colored round eyes, forehead gold crescent, teal scarf and red satchel walking on a snowy stone bridge toward an illuminated glass observatory. Layer intricate dark evergreen silhouettes, drifting snow and a navy twilight sky; warm gold light glows from tiny windows. Use beautifully detailed cut-paper and ceramic miniature illustration with an elegant cream outer paper margin. Reserve the upper 18 percent for the exact heading \"WINTER ATLAS\" in large refined serif lettering. Below the illustrated scene, typeset exactly \"MEET ME WHERE THE LIGHT RETURNS\" in small widely spaced uppercase. Those are the only two text strings. One robot, no human figures, no religious symbols. Keep all letters readable, the robot inside the frame, and the source face/outfit recognizable.",
+      "references": [
+        "../../../../expanded-experiments/continuity/g20.png"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g23.png",
+      "checks": [
+        "2:3 portrait",
+        "Exact heading once",
+        "Exact footer once",
+        "Only two text strings",
+        "Robot identity traits retained",
+        "One robot on snowy bridge",
+        "Illuminated observatory and evergreen layers",
+        "Cream paper margins",
+        "No cropped lettering or extrafigures"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "sha256": "5fe03600554628e1d52651beab3f682298b8b3d3a402b6c9877b38b3dfac9fb8",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "2:3 portrait",
+          "result": "pass",
+          "evidence": "1024\u00d71536."
+        },
+        {
+          "criterion": "Exact heading once",
+          "result": "pass",
+          "evidence": "WINTER ATLAS correctly spelled once."
+        },
+        {
+          "criterion": "Exact footer once",
+          "result": "pass",
+          "evidence": "MEET ME WHERE THE LIGHT RETURNS correctly spelled once."
+        },
+        {
+          "criterion": "Only two text strings",
+          "result": "pass",
+          "evidence": "Only two prominent text strings."
+        },
+        {
+          "criterion": "Robot identity traits retained",
+          "result": "pass",
+          "evidence": "Eyes, crescent, scarf, ceramic body and satchel recognizable."
+        },
+        {
+          "criterion": "One robot on snowy bridge",
+          "result": "fail",
+          "evidence": "One robot on snowy bridge, but pose faces the viewer rather than clearly walking toward the observatory."
+        },
+        {
+          "criterion": "Illuminated observatory and evergreen layers",
+          "result": "pass",
+          "evidence": "Illuminated glass observatory and layered evergreens visible."
+        },
+        {
+          "criterion": "Cream paper margins",
+          "result": "pass",
+          "evidence": "Cream frame/paper margin present."
+        },
+        {
+          "criterion": "No cropped lettering or extrafigures",
+          "result": "pass",
+          "evidence": "No cropped copy or extra people."
+        }
+      ]
+    },
+    {
+      "id": "G24",
+      "guide_stage": "G24",
+      "heading": "Collectible merchandise",
+      "prompt": "Create a high-end 3:2 landscape studio photograph of a collectible Atlas Keeper toy in a clear molded blister on an off-white illustrated backing card. Image 1 controls the toy character only: ivory ceramic round head, amber image-left eye and cyan image-right eye, one gold forehead crescent, teal neckerchief, short jointed limbs and red rectangular satchel. The figure stands in the left compartment. Three separate accessory compartments stacked at right contain exactly one brass compass, one closed teal book and one tiny copper lantern. Printed heading on the card: \"ATLAS KEEPER\". Small subtitle: \"FIELD EDITION\". A single circular badge says \"01\". No other text. Include a finely drawn faint observatory pattern on the backing without extra letters. Use precise product photography, subtle clear-plastic reflections, paper texture and soft upper-left studio light on a dark teal tabletop. Entire package fully visible, no hands or extra toys. Preserve the character's signature details; do not reproduce the reference environment.",
+      "references": [
+        "../../../../expanded-experiments/continuity/g20.png"
+      ],
+      "output": "../../../../expanded-experiments/continuity/g24.png",
+      "checks": [
+        "3:2 landscape",
+        "One packaged Keeper full package visible",
+        "Character signature features",
+        "Three separate accessories only",
+        "Compass/book/lantern distinct",
+        "ATLAS KEEPER exactly once",
+        "FIELD EDITION exactly once",
+        "01 badge exactly once",
+        "No other text/figures",
+        "Coherent clear blister and studio light"
+      ],
+      "status": "completed",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "tool": "built-in image_gen",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "cfb6b02f8d9caf7719f3145d3f3a282697294ccb82ddbb09f15437b87cb78497",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "review": [
+        {
+          "criterion": "3:2 landscape",
+          "result": "pass",
+          "evidence": "1536\u00d71024."
+        },
+        {
+          "criterion": "One packaged Keeper full package visible",
+          "result": "pass",
+          "evidence": "One figure inside one fully visible package."
+        },
+        {
+          "criterion": "Character signature features",
+          "result": "pass",
+          "evidence": "Both eye colors, crescent, scarf, satchel and ivory limbs retained."
+        },
+        {
+          "criterion": "Three separate accessories only",
+          "result": "pass",
+          "evidence": "Three separate accessory compartments."
+        },
+        {
+          "criterion": "Compass/book/lantern distinct",
+          "result": "pass",
+          "evidence": "Compass, teal book and copper lantern distinct."
+        },
+        {
+          "criterion": "ATLAS KEEPER exactly once",
+          "result": "pass",
+          "evidence": "ATLAS KEEPER once."
+        },
+        {
+          "criterion": "FIELD EDITION exactly once",
+          "result": "pass",
+          "evidence": "FIELD EDITION once."
+        },
+        {
+          "criterion": "01 badge exactly once",
+          "result": "pass",
+          "evidence": "01 badge once."
+        },
+        {
+          "criterion": "No other text/figures",
+          "result": "uncertain",
+          "evidence": "Tiny compass markings may include letters; cannot confidently certify only three text strings."
+        },
+        {
+          "criterion": "Coherent clear blister and studio light",
+          "result": "pass",
+          "evidence": "Clear plastic compartments, paper backing and consistent studio illumination."
+        }
+      ]
+    }
+  ]
+}

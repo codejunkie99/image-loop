@@ -1,0 +1,199 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to direct an image · the image prompting field guide</title><meta name="description" content="A practical image prompting article and 50-page visual guide with 44 actual studies, exact prompts, reference roles, and honest reviews."><link rel="stylesheet" href="style.css"></head><body><a href="#main" class="skip">Skip to content</a><nav class="nav" aria-label="Primary"><a class="brand" href="index.html">THE IMAGE FIELD GUIDE</a><div class="navlinks"><a class="active" href="index.html">Article</a><a class="" href="guide.html">50-page guide</a><a class="" href="prompt-library.html">Prompts & results</a><a class="download" href="README.md">Start here</a></div></nav><div class="shell"><main id="main" class="article"><p class="eyebrow">The practical image prompting article</p><h1>how to turn an image in your head into an image you can actually use</h1><div class="meta">3,000 words · 44 visual studies · exact prompts and real results</div>
+<p>i’ve always struggled with image prompting. the prompts people share often feel made up: a pile of impressive words, followed by a beautiful result, with no explanation of which decisions mattered.</p>
+<p>when my result looks wrong, that gives me very little to work with.</p>
+<p>so we built a workflow around something more useful: making the visual decisions visible, generating an image, and checking whether those decisions survived.</p>
+<p>we tried it on luxury product photography, fashion apps, packaging, interiors, posters, illustrations, character scenes, and complicated diagrams. the accompanying guide contains 44 studies, their actual prompts, and their results.</p>
+<p>some worked. some needed repairs. some repairs made other details worse.</p>
+<p>that last part matters. learning to direct an image includes learning when to keep it, when to change it, and when to use a different tool.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/premium-examples/images/01-fashion-app.png" alt="The generated SABLE fashion app presentation, showing three aligned screens."><figcaption>SABLE: our generated fashion app concept after correcting the middle screen’s selected category and navigation. a convincing interface still needs a functional review.</figcaption></figure>
+<h2 id="1-start-by-deciding-what-the-image-must-do">1. start by deciding what the image must do</h2>
+<p>“make it premium” expresses a preference. you still have to decide what someone will see.</p>
+<p>for a fashion app, that might mean generous spacing, consistent product photography, quiet typography, and a bag that looks identical across screens.</p>
+<p>for a perfume campaign, it might mean garnet glass, a walnut cap, believable reflections, and enough contrast to read the label.</p>
+<p>for a thumbnail, it might mean one room, one transformation, and four words that survive being viewed on a phone.</p>
+<p>write a brief in this order:</p>
+<ol>
+<li><strong>purpose:</strong> what will the image help someone understand, feel, or do?</li>
+<li><strong>canvas:</strong> where will it appear, and what shape must it have?</li>
+<li><strong>contents:</strong> which subjects, objects, and exact words belong in it?</li>
+<li><strong>relationships:</strong> where are they, what touches what, and what comes first?</li>
+<li><strong>appearance:</strong> what should the materials, light, color, and typography look like?</li>
+<li><strong>checks:</strong> what would make the result unusable, even if it looks beautiful?</li>
+</ol>
+<p>this becomes the prompt’s structure. every sentence should make a visible decision or protect one.</p>
+<h2 id="2-understand-why-complex-images-work">2. understand why complex images work</h2>
+<p>look at OpenAI’s published coffee-machine infographic.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/official-references/infographic-coffee-machine-gpt-image-2-5-sunburst.webp" alt="OpenAI’s published coffee-machine infographic, with a central cutaway, numbered components, flow legend, and process steps."><figcaption>source: <a href="https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#explain-a-process-visually">OpenAI’s GPT Image 2.5 prompting guide</a>, Sunburst example. this is OpenAI’s image. its engineering details were not independently validated here.</figcaption></figure>
+<p>the complexity has an organization. a central cutaway explains the machine. numbered components identify its parts. colored paths distinguish flows. a separate strip explains the sequence.</p>
+<p>you can name these systems before writing the prompt:</p>
+<ul>
+<li>the subject people should notice first;</li>
+<li>the parts they need to identify;</li>
+<li>the connections they need to follow;</li>
+<li>the labels that explain those connections;</li>
+<li>the space that keeps everything readable.</li>
+</ul>
+<p>we used that principle for a fictional ecosystem called THE RAIN ENGINE: five separated tiers, distinct materials, four downward arrows, one return arrow, and six exact text strings.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/language/trial-S2.png" alt="Our generated Rain Engine poster with five separated tiers."><figcaption>G02: our adaptation changes the subject and purpose. it demonstrates a workflow; it cannot establish that our prompt is better than OpenAI’s.</figcaption></figure>
+<p>the awe comes from a coherent world that rewards inspection. adding objects without deciding their relationships usually makes the image harder to read.</p>
+<h2 id="3-create-a-new-image-by-building-its-hierarchy">3. create a new image by building its hierarchy</h2>
+<p>our SABLE app started with three screen roles: discovery, collection, and product detail.</p>
+<p>then we specified the product inventory, prices, active controls, material treatment, and recurring bag design. the model had a concrete interface to compose.</p>
+<p>this passage is an exact excerpt from the submitted prompt:</p>
+<blockquote>
+<p>Make the bag design match between middle and right screens. No gibberish microcopy or extra badges. The premium quality comes from typography, photography, material fidelity and restraint.</p>
+</blockquote>
+<p>the initial result looked polished, but the collection mixed clothes and accessories under the wrong selected category. the navigation state also needed correction.</p>
+<p>we repaired those two functional details. the accepted version selects “All” and activates “Shop” on the middle screen, while the discovery screen keeps “Discover” active.</p>
+<p><strong>the lesson:</strong> review what the design means, as well as how it looks.</p>
+<p>for your own app, write the screen roles first. for a poster, write the reading order. for a product image, decide the product’s size, placement, and relationship to the light.</p>
+<p>the accompanying examples let you practice that translation across formats:</p>
+<ul>
+<li><strong>book covers and posters:</strong> specify the title, visual metaphor, reading order, and clear margins;</li>
+<li><strong>flyers and advertisements:</strong> separate the message, product, supporting information, and action;</li>
+<li><strong>icons and logos:</strong> define silhouette, stroke consistency, small-size readability, and background requirements;</li>
+<li><strong>headshots:</strong> preserve identity while changing wardrobe, framing, or light;</li>
+<li><strong>interiors and cross-sections:</strong> distinguish visible design from hidden construction you are asking the model to invent.</li>
+</ul>
+<p>our thumbnail reads clearly, but misses its requested margin. our icons improved after cleanup, but still contain faint texture. those details help you decide which outputs are ready for your actual use.</p>
+<h2 id="4-make-premium-quality-observable">4. make premium quality observable</h2>
+<p>our VELLUM perfume study used a garnet bottle, walnut cap, restrained label, and an architectural setting. glass, wood, and stone needed visibly different behavior.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/premium-examples/images/02-luxury-product.png" alt="VELLUM perfume in a warm architectural product photograph."><figcaption>the generated result has strong material separation and readable label copy. the cap is taller and the surface more veined than requested.</figcaption></figure>
+<p>that is a useful result with specific deviations. “looks expensive” would have missed them.</p>
+<p>our synthetic skincare UGC image needed different decisions: believable phone-camera framing, natural skin, a relaxed hand holding the product, and ordinary bathroom light.</p>
+<p>polishing that image into a flawless studio advertisement would undermine its purpose.</p>
+<p>before generating, translate your aesthetic into observable choices:</p>
+<ul>
+<li><strong>materials:</strong> fine leather grain, weighted wool, brushed metal, translucent glass;</li>
+<li><strong>light:</strong> direction, softness, reflections, and shadows that agree;</li>
+<li><strong>composition:</strong> clear emphasis, breathing room, intentional cropping;</li>
+<li><strong>finish:</strong> readable type, clean edges, believable contact between objects.</li>
+</ul>
+<p>use only the choices the image needs. contradictory directions create another problem for the model to resolve.</p>
+<h2 id="5-reconstruct-a-reference-with-a-visual-map">5. reconstruct a reference with a visual map</h2>
+<p>when you already have an image, start by inventorying it.</p>
+<p>separate meaningful elements: background, subjects, objects, text, arrows, shadows, and groups. give each one a stable name and identifier.</p>
+<p>for THE RAIN ENGINE, we created 50 named regions. the interface shows the unchanged source image, selection overlays, and individual crop previews.</p>
+<p>you can select the return arrow without repeatedly describing “the big curved thing on the right.” it has an identifier: <code>A-48</code>.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/mapping/selected-arrow-edit.png" alt="Rain Engine after changing its large return arrow to deep magenta."><figcaption>the selected edit changed the arrow’s color while retaining the five tiers, six strings, turquoise water, and four copper arrows. fine textures were redrawn.</figcaption></figure>
+<p>the map should record:</p>
+<ol>
+<li>the element’s name and visible description;</li>
+<li>its approximate position and size;</li>
+<li>its color, material, and relevant text;</li>
+<li>its relationships with other elements;</li>
+<li>what may change and what must remain;</li>
+<li>what cannot be inferred from the pixels.</li>
+</ol>
+<p>a bounding box gives you a location. a crop gives you a preview. neither automatically provides a transparent layer or an exact object mask.</p>
+<p>build the inventory in three passes. first, map the large silhouettes and empty spaces. second, record relationships: behind, inside, touching, pointing toward. third, add surface details and exact text.</p>
+<p>this prevents a detailed description of the bottle label from distracting you from a bottle that occupies the wrong half of the frame.</p>
+<p>then show the map to the person directing the image. let them select, rename, lock, remove, or replace the parts that matter. keep their choices attached to stable identifiers so the next edit can reuse them.</p>
+<p>ChatGPT’s image comments are useful for a quick local request. a reusable map becomes valuable when you need a persistent inventory, several edits, or decisions another agent can follow.</p>
+<h2 id="6-save-those-decisions-as-reconstruction-json">6. save those decisions as reconstruction JSON</h2>
+<p>the JSON is a structured description of the visible image, with a separate record of requested changes.</p>
+<p>it cannot recover the original prompt, hidden geometry, source layers, or exact font from appearance alone. mark those unknowns explicitly.</p>
+<p>this excerpt uses the actual selected-edit fields from our reconstruction file:</p>
+<pre><code class="language-json">{
+  &quot;target_id&quot;: &quot;A-48&quot;,
+  &quot;action&quot;: &quot;restyle&quot;,
+  &quot;properties&quot;: [&quot;appearance.color&quot;],
+  &quot;instruction&quot;: &quot;Change only the turquoise color of the large return arrow to deep magenta. Preserve its existing light-to-dark shading pattern; do not change the teal water or dark teal lettering.&quot;
+}
+</code></pre>
+<p>the full file also holds the other elements, relationships, protected properties, and checks. the compiler turns that inventory into readable instructions.</p>
+<p>for a close recreation, prioritize silhouette, proportions, spacing, and the relationships that make the source recognizable. then refine surfaces and small details. if you want a new composition using selected ingredients, state that explicitly before compiling the prompt.</p>
+<p>keep the original observations intact when an edit changes something. the source arrow was turquoise; the requested arrow is magenta. those facts belong in different fields, otherwise the agent can accidentally ask for both colors.</p>
+<p>also update the checks after a deliberate change. a rule that still requires a turquoise arrow would incorrectly reject the very edit you approved. the included skill carries that distinction into its workflow.</p>
+<p>we tested a compiled description alone and the description with the source image. both preserved the broad five-tier idea. the version with the reference stayed closer to the source’s typography, spacing, and silhouettes.</p>
+<p>each condition had one completed result. this suggests a useful workflow; it does not establish a success rate.</p>
+<p>one raw-JSON request was rejected before generating an image. that is recorded separately from visual failures.</p>
+<h2 id="7-assign-every-reference-a-job">7. assign every reference a job</h2>
+<p>references can supply different information. one might define a person, another a garment, another the composition, and another the palette.</p>
+<p>write those roles down. otherwise you leave the model to decide which aspects to borrow.</p>
+<p>in our botanical railway experiment, we tried the same descriptive scene with a person reference, a dog reference, and both references.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/reference-matrix/trial-M3.png" alt="Botanical railway scene generated with both subject references."><figcaption>the two-reference result stayed closer to the intended subjects in this small comparison. all three variants still added marks to a clock that should have been blank.</figcaption></figure>
+<p>references helped identity while another constraint continued to fail.</p>
+<p>our OFFDAY studies show how this transfers to commercial work. the packaging supplied the visual identity for a can advertisement, merchandise, and a logo extraction.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/premium-examples/brand/packaging.png" alt="OFFDAY packaging with coordinated coral and blue cans."><figcaption>packaging became an input to related assets. the extracted logo remains a raster study, and the mockups are not production packaging files.</figcaption></figure>
+<p>when combining references, say which image controls identity, layout, materials, or style. also say which visible details should not carry over.</p>
+<h2 id="8-use-sketches-when-placement-is-the-problem">8. use sketches when placement is the problem</h2>
+<p>if you keep explaining where a window, person, or building should go, draw the arrangement.</p>
+<p>a useful sketch can be rectangles, silhouettes, a horizon, and a few arrows. its job is to communicate placement and relationships.</p>
+<p>our uploaded room sketch carried the broad layout into a rendered interior. the first render added unwanted foliage outside the window; a targeted repair removed it.</p>
+<p>in a richer study, a mountain sketch became an alpine botanical station. the prompt deliberately added three glasshouses and a bridge, while using the sketch for the valley composition.</p>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/edit-coverage/g15.png" alt="Alpine botanical station generated from the supplied mountain sketch."><figcaption>G15: the uploaded drawing guided the scene. the output approximates the terrain rather than tracing every contour.</figcaption></figure>
+<p>OpenAI documents a native <code>@Sketch</code> feature in ChatGPT: draw a reference, then describe the style and details you want. our experiments used uploaded drawings; we did not separately verify that native interface. <a href="https://openai.com/index/introducing-chatgpt-images-2-5/">OpenAI announcement</a></p>
+<p>keep the drawing simple enough to read. explain which marks represent objects, which indicate motion, and which should disappear from the finished image.</p>
+<h2 id="9-use-simpler-language-then-test-the-difference">9. use simpler language, then test the difference</h2>
+<p>we compared plain prose with labeled sections using the same visual requirements. there were two outputs per format.</p>
+<p>the main objects and text survived in both. a later review found clearer leader-line placement in the labeled versions, but the reviewers did not agree on every judgment.</p>
+<p>that is a limited observation, not a universal formatting rule.</p>
+<p>we also compared the plain wording with more technical vocabulary. those samples did not demonstrate that jargon was necessary or generally better.</p>
+<p>start with words you can explain. use a technical term when it specifies something useful, such as an isometric view or a soft light source.</p>
+<p>research supports breaking evaluation into concrete questions. GenEval examines objects, counts, position, and color; Davidsonian Scene Graphs organize checks around individual facts and their dependencies. neither promises a universal prompt formula. <a href="https://arxiv.org/abs/2310.11513">GenEval</a>, <a href="https://arxiv.org/abs/2310.18235">DSG</a></p>
+<p>a better-caption training study also cannot prove that making your prompt longer will improve every image. <a href="https://cdn.openai.com/papers/dall-e-3.pdf">OpenAI’s DALL·E 3 paper</a></p>
+<h2 id="10-change-one-thing-when-you-need-to-diagnose-it">10. change one thing when you need to diagnose it</h2>
+<p>one change at a time makes cause and effect easier to inspect. it can also add more generation steps, each with another opportunity for drift.</p>
+<p>we compared changing upholstery and a pendant together with doing those edits sequentially. both routes achieved the broad requested changes. both changed fine textures.</p>
+<p>the sequential route did not earn a universal advantage.</p>
+<p>use this decision rule:</p>
+<ul>
+<li><strong>one uncertain change:</strong> isolate it so you can inspect the consequence;</li>
+<li><strong>two clear, compatible changes:</strong> a combined edit may be sufficient;</li>
+<li><strong>dependent changes:</strong> sequence them when the second needs the first result;</li>
+<li><strong>exact preservation:</strong> use a mask, layer, or deterministic editing tool when available.</li>
+</ul>
+<p>write each edit as <strong>change / preserve / allow</strong>. changing sunlight into a rainstorm should allow reflections and wet highlights to change too.</p>
+<p>otherwise your preservation instructions may conflict with the effect you requested.</p>
+<p>here is the exact storm-edit prompt we submitted:</p>
+<blockquote>
+<p>Edit the supplied accepted campaign image. Change only the time and weather from late-afternoon sunlight to a blue-hour rainstorm: cool ambient sky, rain streaks and damp atmospheric haze. Preserve the bottle identity, exact label, cap, position and proportions; pedestal, three glass arches, ferns, orchid, camera, crop and overall composition. Allow physically necessary changes to light, reflections, wet highlights and atmosphere. Keep the label readable without adding a spotlight object. No extra plants, lettering, people or bottles. Return the same 3:2 framing.</p>
+</blockquote>
+<figure><img loading="lazy" decoding="async" src="evidence/expanded-experiments/continuity/g19.png" alt="The conservatory product campaign after a blue-hour storm edit."><figcaption>G19: the scene and bottle remained recognizable, but the edit introduced unrequested warm light points. the next correction would target those lights while protecting the accepted weather and composition.</figcaption></figure>
+<h2 id="11-inspect-the-failure-before-writing-another-prompt">11. inspect the failure before writing another prompt</h2>
+<p>our color-only upholstery edit also changed the fabric’s visible texture. an additional repair did not restore it. the sensible choice was to keep the earlier acceptable image.</p>
+<p>a shampoo cutout looked transparent because it showed a checkerboard. the saved file was opaque RGB. the repair repeated the problem.</p>
+<p>an infographic printed the right numbers while its bar lengths were only approximate. a leaf cutaway looked educational while one label pointed to the wrong structure.</p>
+<p>these are different failures. each needs a different check:</p>
+<ol>
+<li>read every required word;</li>
+<li>count objects and follow arrows to their endpoints;</li>
+<li>compare protected regions against the accepted source;</li>
+<li>inspect dimensions and transparency in the actual file;</li>
+<li>measure charts and verify factual labels before publishing them.</li>
+</ol>
+<p>check accuracy before rewarding beauty. a polished image can make an error harder to notice.</p>
+<h2 id="12-let-agents-explore-controlled-alternatives">12. let agents explore controlled alternatives</h2>
+<p>sub-agents can prepare different reference combinations, write candidate briefs, or review results independently.</p>
+<p>give them the same target and checklist. change one meaningful input between branches, such as the reference set or the layout description.</p>
+<p>ask each branch to return its exact prompt, attachments, output, observed failures, and proposed repair. keep filenames neutral for a reviewer where practical.</p>
+<p>we used multiple agents across this project. that helped divide generation and review work; we did not establish that adding agents automatically improves image quality.</p>
+<p>set a small candidate budget. compare the results before expanding it. more branches create more material to judge, including more ways to overlook the same mistake.</p>
+<h2 id="13-what-changes-with-gpt-image-2-5">13. what changes with GPT Image 2.5?</h2>
+<p>OpenAI describes stronger editing and detail handling, offers Flare and Sunburst variants, and adds drawing and image-comment workflows in ChatGPT. those are vendor descriptions and documented product features. <a href="https://openai.com/index/introducing-chatgpt-images-2-5/">OpenAI announcement</a></p>
+<p>our built-in generation tool did not expose the executing model, variant, seed, or quality setting. these experiments therefore cannot measure GPT Image 2.5 against an earlier version.</p>
+<p>what you can reuse is the method: specify the result, provide the right visual information, inspect the output, and repair a diagnosed failure.</p>
+<h2 id="14-give-your-agent-the-whole-loop">14. give your agent the whole loop</h2>
+<p>this is a reusable instruction for future work. it is separate from the exact image prompts used in the studies.</p>
+<blockquote>
+<p>inspect my idea and any references. identify the purpose, canvas, subjects, relationships, exact text, appearance, and nonnegotiable checks.</p>
+<p>for a reference, create a named visual inventory and reconstruction JSON. separate observations, unknowns, and requested changes. assign each attachment a role.</p>
+<p>choose text, references, a sketch, or a local edit according to the problem. write a clear prompt, generate a candidate, and save the actual prompt and inputs.</p>
+<p>inspect every hard requirement and protected region. report pass, fail, or uncertain. repair the most important diagnosed failure, then check for new damage.</p>
+<p>stop when the requirements pass, the agreed budget ends, or a different tool is needed. return the image, prompt, inputs, and remaining limitations.</p>
+</blockquote>
+<p>the full prompt library, reconstruction skill, and 50-page guide make this workflow concrete. choose a study close to your task, inspect its result, and adapt its decisions.</p>
+<p>for your first attempt, keep the process small:</p>
+<ol>
+<li>choose one output you need, such as a product advertisement;</li>
+<li>choose one reference and name the information it supplies;</li>
+<li>write five requirements you can check by looking at the result;</li>
+<li>generate a candidate and inspect those requirements before judging its overall appeal;</li>
+<li>repair the largest failure, then compare everything you wanted to preserve;</li>
+<li>save the accepted image with the prompt and the remaining limitations.</li>
+</ol>
+<p>when a result improves, record the visible reason: the label became readable, the object count became correct, or the product matched its reference more closely.</p>
+<p>that gives you a useful personal library of decisions and outcomes. repeating a successful choice is much easier when you know what it solved.</p>
+<p>you do not have to memorize someone else’s paragraph. you need to know what you want to see, how you will recognize it, and what to change when the image misses.</p>
+<section class="resource-box" aria-label="Article companion resources"><h2>put the workflow to work.</h2><p>Use a study close to your task, inspect its actual result, and adapt the visual decisions. Full submitted prompts, references, repairs, source notes, and file checks stay attached to the evidence.</p><div class="links"><a class="pill" href="visual-guide.pdf">Read the 50-page PDF</a><a class="pill" href="prompt-library.html">Open all prompts & results</a><a class="pill" href="evidence/visual-map.html">Try the visual map</a><a class="pill" href="evidence/image-reconstruction-skill/SKILL.md">Get the reconstruction skill</a><a class="pill" href="evidence/master-image-prompt.md">Full master prompt</a><a class="pill" href="article.md">Editable article</a></div></section></main><aside aria-label="Article contents"><p class="eyebrow">In this article</p><div class="toc"><a href="#1-start-by-deciding-what-the-image-must-do">1. start by deciding what the image must do</a><a href="#2-understand-why-complex-images-work">2. understand why complex images work</a><a href="#3-create-a-new-image-by-building-its-hierarchy">3. create a new image by building its hierarchy</a><a href="#4-make-premium-quality-observable">4. make premium quality observable</a><a href="#5-reconstruct-a-reference-with-a-visual-map">5. reconstruct a reference with a visual map</a><a href="#6-save-those-decisions-as-reconstruction-json">6. save those decisions as reconstruction JSON</a><a href="#7-assign-every-reference-a-job">7. assign every reference a job</a><a href="#8-use-sketches-when-placement-is-the-problem">8. use sketches when placement is the problem</a><a href="#9-use-simpler-language-then-test-the-difference">9. use simpler language, then test the difference</a><a href="#10-change-one-thing-when-you-need-to-diagnose-it">10. change one thing when you need to diagnose it</a><a href="#11-inspect-the-failure-before-writing-another-prompt">11. inspect the failure before writing another prompt</a><a href="#12-let-agents-explore-controlled-alternatives">12. let agents explore controlled alternatives</a><a href="#13-what-changes-with-gpt-image-2-5">13. what changes with GPT Image 2.5?</a><a href="#14-give-your-agent-the-whole-loop">14. give your agent the whole loop</a></div><p class="aside-note">This is a workflow with observed limits. Every selected image has an exact prompt and a review in the companion library.</p><a class="pill" href="guide.html">Browse the visual guide</a></aside></div><footer class="footer">44 selected studies · 50 guide pages · 3,000-word article<br>Generated study model, variant, seed and quality were not exposed. Published reference images are separately credited. <a href="README.md">Read the package notes</a>.</footer></body></html>

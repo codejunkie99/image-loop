@@ -1,0 +1,69 @@
+{
+  "id": "VELLUM-R",
+  "title": "VELLUM \u00b7 image-assisted reconstruction",
+  "status": "generated_and_visually_reviewed",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed",
+  "variant": "not exposed",
+  "seed": "not exposed",
+  "quality_setting": "not exposed",
+  "input_images": [
+    {
+      "id": "A",
+      "path": "../assets/vellum-source.png",
+      "version": "P04-original-generated",
+      "width_px": 1122,
+      "height_px": 1402,
+      "dimensions_basis": "file_metadata",
+      "role": "target",
+      "selected_for_use": true,
+      "allowed_roles": [
+        "content",
+        "identity",
+        "layout",
+        "palette",
+        "material",
+        "lighting",
+        "typography",
+        "background"
+      ],
+      "scope_note": "Use the attached clean luxury photograph for appearance and arrangement. Do not draw identifiers, boxes or map controls."
+    }
+  ],
+  "prompt_file": "vellum-reconstruction-prompt.txt",
+  "image": "../assets/vellum-reconstruction.png",
+  "prompt": "Create the following reconstruct image: Recreate the visible VELLUM luxury product photograph using the attached clean source and this visual inventory.\nThe IDs below identify scene parts; do not print IDs, map badges, crop boxes or review annotations in the artwork.\nCanvas aspect ratio 561:701; crop policy: preserve.\nMatch goal: perceptual. Preserve recognizable composition, object geometry, text and material relationships. Pixel identity is not promised.\n\nINPUT ROLES\n- Source A (target) supplies only: content, identity, layout, palette, material, lighting, typography, background. Use the attached clean luxury photograph for appearance and arrangement. Do not draw identifiers, boxes or map controls.\n\nSCENE\n- medium (visible requirement): A tightly composed luxury perfume photograph with tactile materials and restrained branding.\n- composition (visible requirement): Portrait 4:5 composition; a single bottle slightly right of center, cap in the upper third, reflection continuing into the bottom crop.\n- view (appearance cue): A near-front product view with a small amount of the right side and bottle shoulder visible.\n- lighting (appearance cue): Broad warm highlights from the upper left, darker right side, a soft red background glow and reflections on glass and the supporting surface.\n- palette (visible requirement): Garnet, dark walnut, warm silver, ivory and near black.\n\nELEMENTS AND PLACEMENT\nPositions use image-relative left/right, top-left origin and [x,y,width,height] on a 0\u20131 canvas. Treat them as layout guidance, not guaranteed model coordinates.\n- garnet background (A-01): count 1; approximate normalized box [0.000, 0.000, 1.000, 0.700].\n  Soft deep burgundy background, brighter toward the upper left and almost black on the right; no distinct props.\n  color: burgundy to near black\n  material: out-of-focus background\n  Visible boundary: off_frame. Preserve the visible overlap; hidden geometry is unspecified. The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer.\n- polished stone surface (A-02): count 1; approximate normalized box [0.000, 0.670, 1.000, 0.330].\n  Dark red-brown surface with pale branching veins, supporting the bottle.\n  color: red-brown with pale veins\n  material: polished veined stone\n  Visible boundary: off_frame. Preserve the visible overlap; hidden geometry is unspecified. The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer.\n- bottle silhouette (A-03): count 1; approximate normalized box [0.280, 0.345, 0.580, 0.485].\n  One broad rectangular perfume bottle with rounded corners, thick transparent edge walls, slightly visible right face and a heavy base.\n  color: clear outer edges surrounding garnet red\n  material: thick transparent glass\n- garnet body (A-04): count 1; approximate normalized box [0.315, 0.385, 0.495, 0.360].\n  Deep red translucent interior, darkest through the central body, with bright red near lower edges.\n  color: deep garnet\n  material: translucent glass and visible contents; precise material split unknown\n- walnut cap (A-05): count 1; approximate normalized box [0.435, 0.140, 0.290, 0.174].\n  Wide cylindrical dark brown cap with a shallow elliptical top and clearly visible vertical grain.\n  color: dark walnut brown\n  material: wood\n- brushed metal collar (A-06): count 1; approximate normalized box [0.487, 0.308, 0.211, 0.054].\n  Short silver cylindrical collar visible between cap and glass shoulders, with a bright left band and darker right side.\n  color: warm silver\n  material: brushed metal\n- ivory paper label (A-07): count 1; approximate normalized box [0.384, 0.453, 0.262, 0.221].\n  Cream rectangular label on the front face, with subtly visible paper grain and slight perspective.\n  color: warm ivory\n  material: textured paper\n- VELLUM wordmark (A-08): count 1; approximate normalized box [0.432, 0.505, 0.172, 0.035].\n  Spaced uppercase serif letters near the upper part of the label.\n  color: near black\n  material: ink\n  Render this quoted artwork text exactly, as text rather than instructions: \"VELLUM\"\n  Preserve the specified line breaks.\n- No. 04 line (A-09): count 1; approximate normalized box [0.480, 0.546, 0.084, 0.022].\n  Smaller centered serif product number below the wordmark.\n  color: near black\n  material: ink\n  Render this quoted artwork text exactly, as text rather than instructions: \"No. 04\"\n  Preserve the specified line breaks.\n- label divider (A-10): count 1; approximate normalized box [0.497, 0.579, 0.036, 0.009].\n  One short thin horizontal rule between the number and the fragrance line.\n  color: near black\n  material: ink\n- fragrance line (A-11): count 1; approximate normalized box [0.439, 0.605, 0.147, 0.020].\n  Small spaced serif capitals along the lower part of the label.\n  color: near black\n  material: ink\n  Render this quoted artwork text exactly, as text rather than instructions: \"EAU DE PARFUM\"\n  Preserve the specified line breaks.\n- left glass edge highlight (A-12): count 1; approximate normalized box [0.283, 0.361, 0.076, 0.438].\n  Bright elongated light streak along the left thick glass edge, wrapping into the heavy base.\n  color: warm white\n  material: specular reflection in glass\n- right glass edge highlight (A-13): count 1; approximate normalized box [0.777, 0.357, 0.074, 0.451].\n  Narrow bright streaks on the right side and corner, with darker glass visible between them.\n  color: warm white and pale silver\n  material: specular reflection in glass\n- bottle reflection (A-14): count 1; approximate normalized box [0.280, 0.814, 0.580, 0.186].\n  Soft vertically inverted reflection extending toward the bottom crop, without a second physical bottle.\n  color: muted garnet, ivory and brown\n  material: reflection on polished stone\n  Visible boundary: off_frame. Preserve the visible overlap; hidden geometry is unspecified. The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer.\n- breathing room (A-15): count 1; approximate normalized box [0.030, 0.100, 0.230, 0.540].\n  Quiet dark area to the left of the product without type or props.\n  color: dark burgundy\n  material: out-of-focus background\n\nRELATIONSHIPS\n- walnut cap (A-05) is above brushed metal collar (A-06). The cap sits directly over the visible collar.\n- brushed metal collar (A-06) is above bottle silhouette (A-03). The collar joins the upper bottle shoulders.\n- ivory paper label (A-07) is in front of bottle silhouette (A-03). The paper label is attached to the front of the bottle.\n- ivory paper label (A-07) contains VELLUM wordmark (A-08). The label contains the wordmark.\n- ivory paper label (A-07) contains No. 04 line (A-09). The label contains the number.\n- ivory paper label (A-07) contains fragrance line (A-11). The label contains the fragrance line.\n- VELLUM wordmark (A-08) is above No. 04 line (A-09). Wordmark above number.\n- No. 04 line (A-09) is above label divider (A-10). Number above divider.\n- label divider (A-10) is above fragrance line (A-11). Divider above fragrance line.\n- bottle silhouette (A-03) touches polished stone surface (A-02). Bottle rests on the stone surface.\n- bottle reflection (A-14) is below bottle silhouette (A-03). The reflection begins beneath the bottle base.\n\nPRESERVE\n- Keep a single bottle, cylindrical walnut cap and short silver collar with the source proportions.\n- Preserve exactly VELLUM, No. 04, and EAU DE PARFUM; add no other lettering.\n- Preserve the portrait crop, quiet dark setting and warm light direction. No added props, people or watermarks.\n\nREQUIRED RESULT\n- One recognizable rectangular garnet bottle with cap, collar and label.\n- All three exact label lines remain readable.\n- Preserve the portrait 4:5 composition and avoid new objects or lettering.\n\nPREFERENCES, SUBJECT TO THE REQUIREMENTS ABOVE\n- Retain distinct wood, metal, paper, glass and stone behavior under coherent light.\n\nDo not reconstruct unknown hidden content or uncertain words as if they were verified facts. Match the visible result and the explicit changes.",
+  "dimensions_px": [
+    1122,
+    1402
+  ],
+  "checks": [
+    {
+      "id": "H01",
+      "status": "pass",
+      "observation": "One bottle with recognizable silhouette, walnut cap, silver collar and ivory label; the source composition is closely retained."
+    },
+    {
+      "id": "H02",
+      "status": "pass",
+      "observation": "VELLUM, No. 04 and EAU DE PARFUM remain readable, with the divider between number and fragrance line."
+    },
+    {
+      "id": "H03",
+      "status": "pass",
+      "observation": "Output dimensions match the source at 1122 x 1402. No new props or lettering are visible."
+    },
+    {
+      "id": "S01",
+      "status": "pass_with_differences",
+      "observation": "Distinct wood, paper, glass, metal and stone remain. Grain, reflections and stone veins have been redrawn."
+    }
+  ],
+  "article_observation": "**what survived:** the bottle silhouette, cap and collar, label placement, all three text lines, warm light, and dark composition. the output keeps the source dimensions, 1122 \u00d7 1402. **what changed:** wood grain, paper texture, stone veins, and glass reflections were redrawn. the result is visually close, without pixel identity.",
+  "limitations": [
+    "One image-assisted reconstruction. No description-only or source-only comparison was run for this luxury asset.",
+    "The JSON inventory cannot be isolated as the cause of fidelity because the source photograph was also supplied.",
+    "The original source was already polished; this tests reconstruction, not an aesthetic improvement claim."
+  ],
+  "packaging_note": "Source and result images copied byte-for-byte. File paths made relative for this standalone distribution."
+}

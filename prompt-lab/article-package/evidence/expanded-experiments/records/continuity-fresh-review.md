@@ -1,0 +1,17 @@
+# Fresh visual review of the nine continuity outputs
+
+Reviewed all nine saved PNGs against their actual prompts and available source images in `parent-records.json`: G18, G19, G20, G21, G22, E22A, E22B, G23 and G24. All nine output hashes match the supplied records. This review is fresh but not blinded: the author supplied earlier observations and those records were visible. Findings below concern material mismatches or unresolved requirements, not aesthetic preference.
+
+## Confirmed brief mismatches
+
+- **G21 — The armillary is supported, not suspended.** A large solid plinth and mounting assembly visibly support it from below. The prompt specifically requested a suspended armillary. The checklist's broader “one large armillary at left” item omitted that relationship, so its pass cannot establish full brief compliance. Preserve this as a clear example of a checklist missing a constraint.
+- **G23 — The robot walks toward the foreground, away from the observatory.** Its stride advances toward the viewer while the observatory stands behind it. The image contains the correct robot, bridge and building, but the action relationship is reversed. A visible face does not compensate for a wrong travel direction.
+- **G22 and E22B — The cage/chain recolor also changes the ceiling mounting canopy.** In the source and E22A the ceiling canopy is black; in both copper-lamp finals it is copper. The stated edit targets were the metal cage and chain, with all other content preserved. This is a small but unambiguous scope expansion under a strict region-preservation reading. If the intended target was the whole metal fixture, say so explicitly; otherwise the canopy belongs in the preserve list. This issue occurs in both combined and sequential finals, so it does not establish an advantage for either method.
+
+## Material qualifications
+
+- **G19 — New warm light sources need a qualified description.** At least five warm lamp-like points appear in the conservatory after the cool storm edit; corresponding points are absent from G18. This exceeds a strict cool-ambient-only lighting plan. However, blur prevents confidently distinguishing new physical fixtures from newly glowing existing fixtures or reflections. Say “new warm light points,” not that definite new lamp objects were proven. The prompt allowed physically necessary lighting changes, so the intended boundary should be made explicit.
+- **G18/G19 — Exactly three arches remain unverified.** The greenhouse has multiple curved ribs, cropped spans and overlapping structures. Three discrete arches cannot be certified from these images. Retain the author's uncertainty instead of reporting a complete count pass.
+- **G24 — The only-three-text-strings claim remains unverified.** The small compass dial contains tiny glyph-like directional markings. Their exact letters are not confidently readable at the saved inspection scale. The three required packaging strings are clear, but that does not prove there is no other lettering. Keep this uncertain rather than inventing an exact transcription or declaring a confirmed extra word.
+
+No further material mismatch was found beyond the above in the remaining inspected outputs. Fine textures are regenerated in the kitchen edits; none of these images should be described as preserving source pixels exactly. A count of passed checklist items is not a substitute for checking the complete prompt.

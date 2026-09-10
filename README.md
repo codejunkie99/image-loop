@@ -2,7 +2,20 @@
 
 **Point at an image. Name the change. Check the result. Repair what failed.**
 
-An agent skill package for guided image editing and reference-driven creation with numbered visual maps, independent vision review, and bounded feedback loops. Includes `/image-loop`, `/image-edit-map`, `/reverse-engineer`, and `/inspiration` skills, working planners/controllers, original prompts, and real before/after examples.
+An agent skill package for guided image editing and reference-driven creation with numbered visual maps, independent vision review, and bounded feedback loops. Includes `/image-loop`, `/image-edit-map`, `/reverse-engineer`, `/inspiration`, and `/image-reconstruction` skills, working planners/controllers, original prompts, and real before/after examples.
+
+## The complete Prompt Lab
+
+**[Start with the collection](prompt-lab/README.md)** — the full illustrated article, all prompt libraries and experiment records, the 50-page visual guide, reconstruction JSON and visual maps, premium applications, and 12 blue/light visual aids.
+
+![SABLE fashion app study](prompt-lab/premium-examples/images/01-fashion-app.png)
+
+- [Read the illustrated article with prompts and results](prompt-lab/image-prompting-article-with-prompts-and-results.md).
+- [Browse the full prompt library](prompt-lab/article-package/prompt-library.md) or [download the 50-page PDF](prompt-lab/article-package/visual-guide.pdf).
+- [Use the reconstruction skill](skills/image-reconstruction/SKILL.md) or [download its portable ZIP](prompt-lab/image-reconstruction-premium-skill.zip).
+- [Get all 12 visual aids](prompt-lab/table-images/) or [download the PNG archive](prompt-lab/article-table-images.zip).
+
+To use the searchable library and interactive maps, run `python3 -m http.server 8000` from the repository root and open **http://localhost:8000/prompt-lab/**. GitHub renders Markdown and images; the HTML tools run from the downloaded repository.
 
 ![Workflow diagram after the loop added its feedback arrow](examples/diagram/candidate-1.png)
 
@@ -15,6 +28,7 @@ Clone this repository and open it in Claude Code. The committed `.claude/skills/
 /image-edit-map Number the elements in this image so I can choose what to change.
 /reverse-engineer Extract this image's visual design into JSON.
 /inspiration Mix these references into four directions --mode batch --judge human
+/image-reconstruction Map this reference into named parts and reconstruction JSON.
 ```
 
 Attach the image for editing or reverse engineering. Example edit:
@@ -24,7 +38,7 @@ Attach the image for editing or reverse engineering. Example edit:
 and keep the headline, composition, background, and olive accent unchanged.
 ```
 
-For use outside the repository, install the four skills:
+For use outside the repository, install the five skills:
 
 ```bash
 git clone https://github.com/codejunkie99/image-loop.git
@@ -34,7 +48,7 @@ python3 scripts/install.py --to ~/.claude/skills
 python3 scripts/install.py --to ~/.codex/skills
 ```
 
-The installer refuses to overwrite existing skills. Review existing files before explicitly using `--replace`. In Codex, invoke `$image-loop`, `$image-edit-map`, `$reverse-engineer`, or `$inspiration`, or select through `/skills` where supported. Custom `/skill-name` invocation is a [Claude Code feature](https://code.claude.com/docs/en/skills); Codex's [command surface](https://learn.chatgpt.com/docs/developer-commands) differs. A bare custom slash command is not promised on every host.
+The installer refuses to overwrite existing skills. Review existing files before explicitly using `--replace`. In Codex, invoke `$image-loop`, `$image-edit-map`, `$reverse-engineer`, `$inspiration`, or `$image-reconstruction`, or select through `/skills` where supported. Custom `/skill-name` invocation is a [Claude Code feature](https://code.claude.com/docs/en/skills); Codex's [command surface](https://learn.chatgpt.com/docs/developer-commands) differs. A bare custom slash command is not promised on every host.
 
 ## Mix your inspiration
 

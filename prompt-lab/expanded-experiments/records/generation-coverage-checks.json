@@ -1,0 +1,779 @@
+[
+  {
+    "id": "G01",
+    "prepared_at": "2026-09-09T20:40:45.698Z",
+    "criteria": [
+      {
+        "id": "G01-C1",
+        "description": "Landscape 3:2 composition",
+        "result": "pass",
+        "evidence": "1536 × 1024, exact 3:2."
+      },
+      {
+        "id": "G01-C2",
+        "description": "One elderly sailor visibly working on a net",
+        "result": "pass",
+        "evidence": "One sailor, seated and repairing the net."
+      },
+      {
+        "id": "G01-C3",
+        "description": "Both hands plausible and interacting with net",
+        "result": "pass",
+        "evidence": "Both hands visible at a plausible tying junction."
+      },
+      {
+        "id": "G01-C4",
+        "description": "One black-and-white dog fully visible on sailor's right",
+        "result": "pass",
+        "evidence": "Black-and-white dog shown ears to paws, right of sailor in image."
+      },
+      {
+        "id": "G01-C5",
+        "description": "Net reads diagonally from lap toward lower-right float",
+        "result": "pass",
+        "evidence": "Net runs from hands/lap to wooden float lower-right."
+      },
+      {
+        "id": "G01-C6",
+        "description": "Rope and wet deck visible in foreground",
+        "result": "pass",
+        "evidence": "Ochre coils and wet boards occupy lower foreground."
+      },
+      {
+        "id": "G01-C7",
+        "description": "Wheelhouse and harbor add distinct depth layers",
+        "result": "pass",
+        "evidence": "Blue wheelhouse, winch, buoys and distant harbor are separately readable."
+      },
+      {
+        "id": "G01-C8",
+        "description": "Warm light from upper-left and cool fill stay coherent",
+        "result": "pass",
+        "evidence": "Sun appears upper-left; highlights and fill agree across major surfaces."
+      },
+      {
+        "id": "G01-C9",
+        "description": "Skin, fiber, canvas and wood have different natural textures",
+        "result": "pass",
+        "evidence": "Different texture cues visible for skin, wool, canvas, wood and net."
+      },
+      {
+        "id": "G01-C10",
+        "description": "No visible text or logos",
+        "result": "pass",
+        "evidence": "No legible incidental text or logos observed."
+      }
+    ],
+    "summary": "The mapped editorial scene succeeded: a legible hand-and-net action, fully framed dog, strong foreground fibers, and a detailed but subordinate harbor.",
+    "outcome": "passes visible brief",
+    "observations": [
+      "The two hands meet at the net rather than hovering; no obvious extra fingers are visible at the inspection scale.",
+      "Warm light from the left catches the face, dog fur, rope and wet deck consistently.",
+      "The foreground net and float, seated figures, wheelhouse and harbor form four readable depth layers."
+    ],
+    "limitations": [
+      "Exact lens simulation and material identity are not established by appearance alone.",
+      "Aesthetic preference is subjective; the wider scene gives less facial prominence than the source portrait."
+    ],
+    "source_comparison": "The official Sunburst sailor image is a close vertical portrait with the dog behind the sailor. This adaptation deliberately widens the view and maps the action, dog and working equipment. It demonstrates greater scene breadth, not a measured improvement over an equivalent prompt.",
+    "repair_if_needed": "No hard failure observed. If a face-led story were the goal, crop/framing should prioritize the portrait rather than add more background."
+  },
+  {
+    "id": "G03",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G03-C1",
+        "description": "Portrait 2:3 complete poster",
+        "result": "pass",
+        "evidence": "1024 × 1536, exact 2:3."
+      },
+      {
+        "id": "G03-C2",
+        "description": "AFTERLIGHT appears exactly once and is correctly spelled",
+        "result": "pass",
+        "evidence": "AFTERLIGHT exactly once, all letters readable."
+      },
+      {
+        "id": "G03-C3",
+        "description": "Footer ART AFTER DARK is exact",
+        "result": "pass",
+        "evidence": "ART AFTER DARK exact."
+      },
+      {
+        "id": "G03-C4",
+        "description": "Footer 19–21 OCT is exact",
+        "result": "pass",
+        "evidence": "19–21 OCT exact visually, with generous character spacing."
+      },
+      {
+        "id": "G03-C5",
+        "description": "No additional text or branding",
+        "result": "pass",
+        "evidence": "No extra copy or branding observed."
+      },
+      {
+        "id": "G03-C6",
+        "description": "Headline remains clear above sculpture",
+        "result": "fail",
+        "evidence": "The arch apex touches/enters the headline baseline zone; clear separation requested in prompt was not fully respected."
+      },
+      {
+        "id": "G03-C7",
+        "description": "Cobalt folded arch and amber glass read as different materials",
+        "result": "pass",
+        "evidence": "Faceted cobalt shell and amber glass visually distinct."
+      },
+      {
+        "id": "G03-C8",
+        "description": "Orange disc is visible through arch opening",
+        "result": "pass",
+        "evidence": "Luminous orange circular disc centered through the arch."
+      },
+      {
+        "id": "G03-C9",
+        "description": "Exactly three distinct tiny visitors on steps",
+        "result": "pass",
+        "evidence": "Three visitors counted."
+      },
+      {
+        "id": "G03-C10",
+        "description": "Foreground steps, arch and backlight have coherent depth",
+        "result": "pass",
+        "evidence": "Steps and scale relationship read coherently."
+      },
+      {
+        "id": "G03-C11",
+        "description": "Ribbons and wires do not cross headline",
+        "result": "pass",
+        "evidence": "Ribbons and copper supports remain below the headline; issue is arch apex, not ribbons."
+      }
+    ],
+    "summary": "The poster delivers the requested dramatic arch, three visitors and all three exact text lines. The arch apex intrudes slightly into the headline's lower zone, compromising the requested separation.",
+    "outcome": "striking result with one layout repair recommended",
+    "observations": [
+      "AFTERLIGHT, ART AFTER DARK and 19–21 OCT are all manually legible and correctly rendered.",
+      "Exactly three visitors occupy separate steps beneath a large orange disc.",
+      "Folded cobalt metal and amber glass provide a strong blue-orange material contrast.",
+      "The apex reaches the headline baseline around its center; it should have been lower for an entirely separate text zone."
+    ],
+    "limitations": [
+      "The artwork adds reflective foreground flooring and atmospheric haze beyond the explicit map.",
+      "Typography quality does not establish an editable typesetting deliverable."
+    ],
+    "source_comparison": "The official Sunburst source uses a five-person streetwear photograph and a single tagline beneath the Thread wordmark. Our poster changes genre to architectural festival art and increases the exact-copy burden to three lines. It shows variety and explicit hierarchy; it is not a fair causal comparison of prompting methods.",
+    "repair_if_needed": "Keep the poster, typography and colors fixed. Lower or shorten only the arch apex so the complete sculpture stays below the headline with a clear ivory-text/black gap; preserve the three visitors and exact footer."
+  },
+  {
+    "id": "G04",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G04-C1",
+        "description": "Square 1:1 canvas",
+        "result": "pass",
+        "evidence": "1254 × 1254, exact square."
+      },
+      {
+        "id": "G04-C2",
+        "description": "Exactly one symbol and one wordmark",
+        "result": "pass",
+        "evidence": "One circular symbol above one wordmark."
+      },
+      {
+        "id": "G04-C3",
+        "description": "TIDELINE correctly spelled exactly once",
+        "result": "pass",
+        "evidence": "TIDELINE exact once."
+      },
+      {
+        "id": "G04-C4",
+        "description": "Symbol combines wave and right-facing shorebird",
+        "result": "pass",
+        "evidence": "Right-facing long-beaked bird integrated with curling wave."
+      },
+      {
+        "id": "G04-C5",
+        "description": "Broad simple shapes rather than detailed illustration",
+        "result": "pass",
+        "evidence": "Broad silhouette and channel; no feather detail."
+      },
+      {
+        "id": "G04-C6",
+        "description": "Dark navy single-color treatment",
+        "result": "pass",
+        "evidence": "Navy appearance, with raster antialiasing at edges."
+      },
+      {
+        "id": "G04-C7",
+        "description": "Wordmark centered below symbol and narrower than symbol",
+        "result": "fail",
+        "evidence": "Measured alpha>128 widths: symbol 670 px, wordmark 727 px. Requested narrower wordmark failed."
+      },
+      {
+        "id": "G04-C8",
+        "description": "Generous clear margin",
+        "result": "pass",
+        "evidence": "Large clear margin around entire lockup."
+      },
+      {
+        "id": "G04-C9",
+        "description": "Decoded file has actual transparent alpha pixels",
+        "result": "pass",
+        "evidence": "RGBA alpha extrema 0–255; 1,244,861 of 1,572,516 pixels fully transparent."
+      },
+      {
+        "id": "G04-C10",
+        "description": "No drawn checkerboard, shadows or backdrop",
+        "result": "pass",
+        "evidence": "No painted checkerboard, visible drop shadow or backdrop."
+      }
+    ],
+    "summary": "A recognizable bird-and-wave mark with genuine alpha transparency and correct TIDELINE lettering. The wordmark is wider than the symbol, contradicting the requested hierarchy.",
+    "outcome": "usable logo exploration with measurable proportion failure",
+    "observations": [
+      "The bird silhouette and wave share a broad near-circular shape, without feathers or scenic clutter.",
+      "TIDELINE is manually legible and correctly spelled.",
+      "Decoded RGBA pixels include fully transparent and fully opaque values.",
+      "At alpha >128, the symbol spans 670 pixels and wordmark 727 pixels; the latter is about 8.5% wider instead of narrower."
+    ],
+    "limitations": [
+      "This is a raster exploration, not an editable vector identity asset.",
+      "Its small-size semantic recognition was judged visually, not tested with users.",
+      "The exported size is 1254 × 1254, showing why actual output metadata must be recorded instead of assuming an API size."
+    ],
+    "source_comparison": "The official Sunburst comparison is a warm brown bakery mark with loaf and wheat motifs on transparent pixels. This adaptation deliberately tests a simpler one-color coast/bird identity. It reduces decorative detail but is not a same-brand or same-prompt quality comparison.",
+    "repair_if_needed": "Keep symbol and alpha untouched; scale only TIDELINE to about 80–85% of the symbol width and recenter. For production, rebuild the approved mark and wordmark as editable vectors and check small-size legibility."
+  },
+  {
+    "id": "G05",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G05-C1",
+        "description": "Wide 3:2 composition",
+        "result": "pass",
+        "evidence": "1536 × 1024, exact 3:2."
+      },
+      {
+        "id": "G05-C2",
+        "description": "Grassy sloping rural field descends toward stage",
+        "result": "pass",
+        "evidence": "Sloping field and stage at lower distant basin are visible."
+      },
+      {
+        "id": "G05-C3",
+        "description": "Large crowd with coherent diminishing scale",
+        "result": "pass",
+        "evidence": "People diminish plausibly into crowded middle/background."
+      },
+      {
+        "id": "G05-C4",
+        "description": "Five distinguishable foreground attendees",
+        "result": "pass",
+        "evidence": "Two standing and three seated figures form foreground group."
+      },
+      {
+        "id": "G05-C5",
+        "description": "Foreground dress avoids visible modern anachronisms",
+        "result": "pass",
+        "evidence": "Denim, patterned skirt, blankets and canvas bag; no clear modern dress artifact observed."
+      },
+      {
+        "id": "G05-C6",
+        "description": "Muddy footpath is visible",
+        "result": "pass",
+        "evidence": "Central muddy path leads down the slope."
+      },
+      {
+        "id": "G05-C7",
+        "description": "Canvas tents and wooded edge remain subordinate",
+        "result": "pass",
+        "evidence": "Canvas tents at wooded left edge; distant rural landscape."
+      },
+      {
+        "id": "G05-C8",
+        "description": "No visible smartphones, LED screens or modern logos",
+        "result": "pass",
+        "evidence": "No clear smartphones, LED displays or modern sponsor logos seen."
+      },
+      {
+        "id": "G05-C9",
+        "description": "No obvious repeated foreground faces or fused limbs",
+        "result": "pass",
+        "evidence": "No obvious fused limbs in the five foreground figures; most faces face away."
+      },
+      {
+        "id": "G05-C10",
+        "description": "Stage is distant rather than dominating",
+        "result": "pass",
+        "evidence": "Stage remains a small distant element."
+      },
+      {
+        "id": "G05-C11",
+        "description": "Image contains no invented historical caption",
+        "result": "pass",
+        "evidence": "No embedded caption or spurious historical text."
+      }
+    ],
+    "summary": "The broad historical scene follows the planned topography, five foreground figures, muddy route and distant stage. It looks plausible but remains an invented reconstruction rather than a verified historic photograph.",
+    "outcome": "passes planned visible scene; historical specificity remains limited",
+    "observations": [
+      "Five foreground attendees form a distinct group while the crowd descends toward the stage.",
+      "The muddy path, blankets and tents make the spatial brief readable at several depths.",
+      "The museum's cultural-landscape report confirms the bowl-shaped field and stage at the hill bottom (PDF pages 41 and 48)."
+    ],
+    "limitations": [
+      "No exact viewpoint, people, clothing combination, moment or stage measurements were independently matched to an archive photograph.",
+      "Distant people are too small to verify individual anatomy.",
+      "Period plausibility is not proof of complete historical accuracy."
+    ],
+    "source_comparison": "The official Sunburst image emphasizes nearby faces and a stage at upper-right. Our adaptation chooses an elevated wide view, with an explicit foreground group and path leading to the distant stage. It offers spatial scale and contextual organization at the expense of close facial intimacy.",
+    "repair_if_needed": "For a documentary reconstruction, choose an identified archival viewpoint and separately map the actual stage, structures and period details. Do not attempt to fix missing historical evidence by adding confident adjectives."
+  },
+  {
+    "id": "G06",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G06-C1",
+        "description": "Exactly four stacked horizontal panels",
+        "result": "pass",
+        "evidence": "Four full-width stacked panels with ivory gutters."
+      },
+      {
+        "id": "G06-C2",
+        "description": "No printed text or dialogue",
+        "result": "uncertain",
+        "evidence": "No dialogue, sound effects or obvious caption; tiny book-spine marks remain too small to certify as text-free."
+      },
+      {
+        "id": "G06-C3",
+        "description": "One recognizable orange tabby per panel",
+        "result": "pass",
+        "evidence": "Same orange tabby appears as the main living cat in each panel."
+      },
+      {
+        "id": "G06-C4",
+        "description": "White muzzle/paws and blue collar retained",
+        "result": "uncertain",
+        "evidence": "White muzzle/paws recur; blue collar is clear in most poses but obscured in the sleeping panel."
+      },
+      {
+        "id": "G06-C5",
+        "description": "Terracotta sofa left and teal record player right remain consistent",
+        "result": "pass",
+        "evidence": "Terracotta sofa is consistently left of the teal player."
+      },
+      {
+        "id": "G06-C6",
+        "description": "Person leaves in panel1 and returns in panel4",
+        "result": "fail",
+        "evidence": "Panel 1 clearly leaves; panel 4 again faces away/outward rather than making an unambiguous return."
+      },
+      {
+        "id": "G06-C7",
+        "description": "No person in panels2 and3",
+        "result": "pass",
+        "evidence": "Person absent in panels 2 and 3."
+      },
+      {
+        "id": "G06-C8",
+        "description": "Panel2 cat visibly interacts with player lid",
+        "result": "pass",
+        "evidence": "Cat has a white paw at the raised lid in panel 2."
+      },
+      {
+        "id": "G06-C9",
+        "description": "Panel3 cat lounges on sofa with open player",
+        "result": "pass",
+        "evidence": "Cat lounges on sofa while player stays open in panel 3."
+      },
+      {
+        "id": "G06-C10",
+        "description": "Panel4 player is closed",
+        "result": "pass",
+        "evidence": "Player lid is closed again in panel 4."
+      },
+      {
+        "id": "G06-C11",
+        "description": "Popcorn visual punchline survives in panel4",
+        "result": "pass",
+        "evidence": "Popcorn remains beside the cat, although as a small cluster instead of the requested single kernel."
+      },
+      {
+        "id": "G06-C12",
+        "description": "Room geometry and object identities remain stable",
+        "result": "pass",
+        "evidence": "The main furniture, window and color identities stay stable."
+      }
+    ],
+    "summary": "The four-panel room, cat and player states are strongly maintained, but the returning owner is drawn with the same outward-facing departure pose. The final action does not read as a return.",
+    "outcome": "good visual continuity with failed final story beat",
+    "observations": [
+      "Four distinct panels show the same sofa, round window, cabinet, plants and player.",
+      "The player is closed, open, open, closed across the four panels as requested.",
+      "Panel 2 shows a white paw lifting the lid, and panel 3 shows the cat asleep on the sofa.",
+      "Panel 4 repeats a back-facing, outward-moving person; changing the narrative verb alone did not reliably reverse the action.",
+      "The last panel has a small popcorn cluster rather than exactly one kernel."
+    ],
+    "limitations": [
+      "The collar and exact forehead-stripe count are not clearly inspectable in the sleeping pose.",
+      "Tiny book-spine marks may be incidental lettering; absence of all printed text cannot be certified.",
+      "This single generated page does not establish cross-call character consistency."
+    ],
+    "source_comparison": "The official Sunburst comic has four dog-story panels and extensive added dialogue/signage. This adaptation uses a wordless cat narrative and a nearly fixed camera, making object-state checks easier. It successfully suppresses large dialogue but misses the final motion direction, so richer specification did not produce a fully correct story.",
+    "repair_if_needed": "Edit only panel 4: show the person's face/front torso toward the room, one foot stepping inward across the threshold, gaze down toward the cat, folded umbrella still in hand. Keep the other panels, cat, closed player and room fixed. Reduce the popcorn cluster to one kernel only if that detail matters."
+  },
+  {
+    "id": "G07",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G07-C1",
+        "description": "Single centered straight-on smartphone",
+        "result": "pass",
+        "evidence": "One centered straight-on smartphone, 1024 × 1536 image."
+      },
+      {
+        "id": "G07-C2",
+        "description": "All requested screen sections visible without overlap",
+        "result": "pass",
+        "evidence": "Header, hero, filters, vendors, featured row and bottom navigation fit."
+      },
+      {
+        "id": "G07-C3",
+        "description": "Fieldwork and Saturday market exact",
+        "result": "pass",
+        "evidence": "Fieldwork and Saturday market exact."
+      },
+      {
+        "id": "G07-C4",
+        "description": "8 AM – 1 PM · Riverside Park legible",
+        "result": "pass",
+        "evidence": "8 AM – 1 PM · Riverside Park legible."
+      },
+      {
+        "id": "G07-C5",
+        "description": "All / Produce / Bakery chips present",
+        "result": "pass",
+        "evidence": "All, Produce, Bakery chips; All selected."
+      },
+      {
+        "id": "G07-C6",
+        "description": "Two distinct vendor cards Green Row and Early Bird",
+        "result": "pass",
+        "evidence": "Green Row and Early Bird appear on the two distinct photo cards."
+      },
+      {
+        "id": "G07-C7",
+        "description": "Vegetables and Sourdough assigned correctly",
+        "result": "pass",
+        "evidence": "Vegetables under Green Row; Sourdough under Early Bird."
+      },
+      {
+        "id": "G07-C8",
+        "description": "Today's pick / Heirloom tomatoes / $4 / lb correct",
+        "result": "pass",
+        "evidence": "Today's pick, Heirloom tomatoes and $4 / lb all correct."
+      },
+      {
+        "id": "G07-C9",
+        "description": "Explore / Saved / Bag bottom labels present",
+        "result": "pass",
+        "evidence": "Explore, Saved and Bag present; Explore selected."
+      },
+      {
+        "id": "G07-C10",
+        "description": "Consistent green/cream/red palette and practical hierarchy",
+        "result": "pass",
+        "evidence": "Cream/forest-green system and tomato accents; clear readable grouping."
+      },
+      {
+        "id": "G07-C11",
+        "description": "No cropped text, gibberish or fake extra paragraphs",
+        "result": "fail",
+        "evidence": "Several invented multi-line slogans appear inside the photos, beyond the supplied interface copy."
+      }
+    ],
+    "summary": "All requested interface copy is legible and correctly assigned, with a coherent screen hierarchy. The model also invented multiple slogans on chalkboards inside the photos.",
+    "outcome": "polished visual UI with unrequested in-photo copy",
+    "observations": [
+      "Fieldwork, market hours/location, both vendor names/categories, the featured price and all navigation labels are correct by manual inspection.",
+      "The two vendor cards, filter row and feature row are clearly separated and aligned.",
+      "The hero and vendor photos add slogans including Local Food Brighter Days and Real Bread Brighter People; these were not part of the supplied screen copy."
+    ],
+    "limitations": [
+      "This is a raster preview; no controls, navigation, accessibility behavior or responsive layout were implemented or tested.",
+      "Brand and vendor names are fictional.",
+      "Visual correctness of required labels does not mean all visible text was authorized by the brief."
+    ],
+    "source_comparison": "The official Sunburst farmers-market mockup already has strong hierarchy and many clear labels. Our adaptation provides a more explicit content schema and a different editorial treatment with two vendor cards, rather than its four-vendor list. Both are polished; this is not evidence that our prompt is categorically better. The extra photographic slogans show remaining text leakage.",
+    "repair_if_needed": "Blank only the four chalkboard signs within the photos, preserving produce, photographs, UI labels and layout. For future prompts, explicitly forbid readable writing inside source photography as well as in the interface itself."
+  },
+  {
+    "id": "G08",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G08-C1",
+        "description": "Landscape 3:2 educational plate with INSIDE A LEAF title",
+        "result": "pass",
+        "evidence": "1536 × 1024; INSIDE A LEAF correct."
+      },
+      {
+        "id": "G08-C2",
+        "description": "Top-to-bottom layers ordered correctly",
+        "result": "pass",
+        "evidence": "Required tissue sequence is visible."
+      },
+      {
+        "id": "G08-C3",
+        "description": "Palisade cells elongated and closely packed",
+        "result": "pass",
+        "evidence": "Elongated chloroplast-filled palisade cells packed beneath upper epidermis."
+      },
+      {
+        "id": "G08-C4",
+        "description": "Spongy cells irregular with visible air spaces",
+        "result": "pass",
+        "evidence": "Irregular lower cells and connected pale air spaces visible."
+      },
+      {
+        "id": "G08-C5",
+        "description": "Lower epidermis contains an actual opening",
+        "result": "pass",
+        "evidence": "A central opening interrupts lower epidermis."
+      },
+      {
+        "id": "G08-C6",
+        "description": "Two guard cells flank the stoma",
+        "result": "pass",
+        "evidence": "Two guard cells visibly flank the opening."
+      },
+      {
+        "id": "G08-C7",
+        "description": "CO2 arrow points inward through pore",
+        "result": "uncertain",
+        "evidence": "Blue arrow points inward/up but ends beside the opening; actual through-pore path is not demonstrated."
+      },
+      {
+        "id": "G08-C8",
+        "description": "O2 arrow points outward through pore",
+        "result": "uncertain",
+        "evidence": "Red arrow points outward/down but starts externally beside the guard cell; pore-to-outside path is not demonstrated."
+      },
+      {
+        "id": "G08-C9",
+        "description": "Xylem above phloem within one vascular bundle",
+        "result": "pass",
+        "evidence": "Blue larger xylem above coral smaller phloem in a single bundle."
+      },
+      {
+        "id": "G08-C10",
+        "description": "All ten labels spelled correctly and attached to correct targets",
+        "result": "fail",
+        "evidence": "All ten names are spelled correctly, but Stoma points to a guard cell rather than the pore."
+      },
+      {
+        "id": "G08-C11",
+        "description": "No numerical scale or scientifically misleading extras",
+        "result": "uncertain",
+        "evidence": "No numerical scale; redundant unlabeled black arrow introduces annotation ambiguity."
+      },
+      {
+        "id": "G08-C12",
+        "description": "Text readable without covering tissue structure",
+        "result": "pass",
+        "evidence": "Labels remain large and readable outside the tissue block."
+      }
+    ],
+    "summary": "The tissue hierarchy, cell shapes and vascular-bundle ordering are readable and largely match the source-backed brief. However, the Stoma label points to a guard cell, and the gas arrows do not clearly traverse the pore.",
+    "outcome": "attractive instructional draft requiring annotation correction",
+    "observations": [
+      "Cuticle, upper epidermis, palisade layer, spongy layer and lower epidermis appear in the correct top-to-bottom sequence.",
+      "The vascular bundle has larger blue xylem elements above smaller coral phloem elements.",
+      "Two green guard cells flank an opening, but the Stoma leader ends on the right guard cell rather than the opening.",
+      "The blue CO2 arrow points inward/up and the red O2 arrow outward/down; they sit outside the pore rather than clearly tracing through it.",
+      "An additional unlabeled black arrow targets the pore, adding ambiguity."
+    ],
+    "limitations": [
+      "The illustration is an enlarged schematic; no tissue scale or species-specific anatomy is established.",
+      "Source checking supports the main anatomy, but this is not an expert-approved classroom plate.",
+      "Beautiful surface detail can conceal a wrong label target."
+    ],
+    "source_comparison": "The official Sunburst source is a flat cellular-respiration overview with grouped process boxes and molecular labels. Our adaptation switches to a three-dimensional leaf cutaway grounded in OpenStax's leaf anatomy chapter. It broadens medium and subject range, but its annotation error prevents claiming a more accurate scientific result.",
+    "repair_if_needed": "Move only the Stoma leader endpoint to the central pore. Remove the redundant black arrow. Route CO2 from outside through that opening into the air space and O2 in the reverse direction, keeping tissue geometry and all other labels fixed. Recheck every leader after editing."
+  },
+  {
+    "id": "G09",
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "criteria": [
+      {
+        "id": "G09-C1",
+        "description": "Landscape 16:9 finished slide",
+        "result": "fail",
+        "evidence": "1672 × 941 is near 16:9, not an exact 16:9 export. Strict format check fails by about 0.053%."
+      },
+      {
+        "id": "G09-C2",
+        "description": "CIVIC MOVE and Quarter in view correct",
+        "result": "pass",
+        "evidence": "CIVIC MOVE and Quarter in view exact."
+      },
+      {
+        "id": "G09-C3",
+        "description": "Exactly three panels Trips / On-time rate / March mix",
+        "result": "pass",
+        "evidence": "Exactly three requested chart panels."
+      },
+      {
+        "id": "G09-C4",
+        "description": "Trips months Jan Feb Mar and values120180240 correct",
+        "result": "pass",
+        "evidence": "Jan 120, Feb 180, Mar 240 correctly printed."
+      },
+      {
+        "id": "G09-C5",
+        "description": "Trips bars share zero and height ratio1:1.5:2",
+        "result": "fail",
+        "evidence": "Common baseline holds; measured heights 190:283:380 give 1:1.48947:2 rather than exact 1:1.5:2."
+      },
+      {
+        "id": "G09-C6",
+        "description": "On-time values80%85%90% correct",
+        "result": "pass",
+        "evidence": "80%, 85%, 90% printed at the three points."
+      },
+      {
+        "id": "G09-C7",
+        "description": "On-time y-axis70%80%90%100% and equal point steps",
+        "result": "pass",
+        "evidence": "70%, 80%, 90%, 100% axis and visually equal point steps."
+      },
+      {
+        "id": "G09-C8",
+        "description": "March mix Bike50 Bus30 Walk20 correct",
+        "result": "pass",
+        "evidence": "Bike 50%, Bus 30%, Walk 20% correctly assigned."
+      },
+      {
+        "id": "G09-C9",
+        "description": "March mix common baseline and length ratio5:3:2",
+        "result": "fail",
+        "evidence": "Common baseline holds; measured lengths 318:193:130 give 1:0.60692:0.40881 rather than exact 1:0.6:0.4."
+      },
+      {
+        "id": "G09-C10",
+        "description": "Footer exactly identifies illustrative data",
+        "result": "pass",
+        "evidence": "Illustrative data · Not a real business exact."
+      },
+      {
+        "id": "G09-C11",
+        "description": "No extra metrics or invented citations",
+        "result": "pass",
+        "evidence": "No unrelated metric or invented source citation."
+      },
+      {
+        "id": "G09-C12",
+        "description": "All text readable and panels unobstructed",
+        "result": "pass",
+        "evidence": "All chart labels and panel content legible."
+      }
+    ],
+    "geometry_measurement": {
+      "method": "Threshold the colored bar interiors inside hand-chosen plot regions; bounding boxes describe visible raster geometry, not a general chart parser.",
+      "vertical_bar_bounds_xyxy": [
+        [
+          166,
+          570,
+          263,
+          760
+        ],
+        [
+          291,
+          477,
+          389,
+          760
+        ],
+        [
+          419,
+          380,
+          517,
+          760
+        ]
+      ],
+      "vertical_heights_px": [
+        190,
+        283,
+        380
+      ],
+      "vertical_ratios_to_Jan": [
+        1.0,
+        1.48947,
+        2.0
+      ],
+      "expected_vertical_ratios": [
+        1,
+        1.5,
+        2
+      ],
+      "horizontal_bar_bounds_xyxy": [
+        [
+          1219,
+          385,
+          1537,
+          474
+        ],
+        [
+          1219,
+          514,
+          1412,
+          603
+        ],
+        [
+          1219,
+          642,
+          1349,
+          731
+        ]
+      ],
+      "horizontal_lengths_px": [
+        318,
+        193,
+        130
+      ],
+      "horizontal_ratios_to_Bike": [
+        1.0,
+        0.60692,
+        0.40881
+      ],
+      "expected_horizontal_ratios": [
+        1,
+        0.6,
+        0.4
+      ],
+      "aspect_ratio": 1.7768331562167907,
+      "target_aspect_ratio": 1.7777777777777777,
+      "aspect_ratio_relative_error_percent": -0.05313496280551222
+    },
+    "summary": "The three-chart slide renders all supplied values correctly and gives the right visual trends. Exact export dimensions and bar ratios remain slightly approximate despite explicit numeric instructions.",
+    "outcome": "coherent data graphic; fails strict pixel and ratio precision",
+    "observations": [
+      "All trip counts, on-time percentages, category percentages and the fictional-data footer are manually legible and correct.",
+      "Trips bar heights measured 190, 283 and 380 pixels, close to but not exactly 1:1.5:2.",
+      "March mix lengths measured 318, 193 and 130 pixels, close to but not exactly 5:3:2.",
+      "The line-chart point sequence and axis labels match 80%, 85%, 90%.",
+      "The 1672 × 941 output is approximately 16:9, with a relative ratio error of about 0.053%."
+    ],
+    "limitations": [
+      "The strict failures are small geometric/export deviations, not wrong printed data or reversed trends.",
+      "Color-threshold measurements are scoped to this image and count bar interiors; antialiasing can move a boundary by a pixel.",
+      "Generated charts remain raster pictures, not editable data-bound charts.",
+      "No general statement about mathematical accuracy follows from one sample."
+    ],
+    "source_comparison": "The official Sunburst market slide has concentric market-size circles and one bar chart, using fictional inputs. Our adaptation gives three explicit chart specifications and complete synthetic data. It better exposes whether pixels follow the numbers: labels succeed while geometric ratios remain approximate. This is a diagnostic comparison, not evidence of model or prompt superiority.",
+    "repair_if_needed": "For a concept slide, these small deviations may be acceptable if declared. For exact chart publication, render the fixed dataset with a plotting or slide tool and preserve the approved visual styling; set exact 16:9 dimensions with an output setting or deterministic canvas. Do not spend repeated image generations chasing single-pixel chart ratios."
+  }
+]

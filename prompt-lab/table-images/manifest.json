@@ -1,0 +1,3155 @@
+{
+  "source_sha256": "b7f61d5c9217a7ddd9f7c3020ee780c9a8a9e5d8eed9d2a1c5a79adfdf50cf2d",
+  "count": 12,
+  "tables": [
+    {
+      "id": "01",
+      "title": "Choose your starting point",
+      "filename": "01-choose-your-starting-point.png",
+      "width": 3200,
+      "height": 1756,
+      "rows": 6,
+      "columns": 3,
+      "sha256": "dc5d6320e80410639eb0f4cac2fbdc598acdbc7a2701260042782778d02ab0b3",
+      "text_cells_checked": 18,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "what you have",
+          "drawn": "what you have",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              349,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "what to give the model",
+          "drawn": "what to give the model",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1011,
+              410,
+              1385,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "what to check first",
+          "drawn": "what to check first",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2090,
+              410,
+              2413,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "an idea for a new image",
+          "drawn": "an idea for a new image",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              658,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "a purpose, subjects, arrangement, and visible finish",
+          "drawn": "a purpose, subjects, arrangement, and visible finish",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1049,
+              526,
+              1927,
+              567
+            ],
+            [
+              1049,
+              587,
+              1151,
+              619
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "can someone understand the main idea?",
+          "drawn": "can someone understand the main idea?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2128,
+              526,
+              2915,
+              558
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "an image you want to recreate",
+          "drawn": "an image you want to recreate",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              751,
+              792,
+              792
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "the clean reference and an inventory of its defining parts",
+          "drawn": "the clean reference and an inventory of its defining parts",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1049,
+              751,
+              1858,
+              792
+            ],
+            [
+              1049,
+              812,
+              1310,
+              853
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "do the silhouettes, proportions, identity, and relationships match?",
+          "drawn": "do the silhouettes, proportions, identity, and relationships match?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2128,
+              751,
+              2968,
+              792
+            ],
+            [
+              2128,
+              812,
+              2528,
+              853
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "several references you want to combine",
+          "drawn": "several references you want to combine",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              976,
+              803,
+              1017
+            ],
+            [
+              166,
+              1037,
+              346,
+              1069
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "each attachment with a specific role and clear exclusions",
+          "drawn": "each attachment with a specific role and clear exclusions",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1049,
+              976,
+              1931,
+              1017
+            ],
+            [
+              1049,
+              1037,
+              1253,
+              1069
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "did each feature come from the intended source?",
+          "drawn": "did each feature come from the intended source?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2128,
+              976,
+              2908,
+              1008
+            ],
+            [
+              2128,
+              1037,
+              2283,
+              1069
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "a layout you can picture but struggle to describe",
+          "drawn": "a layout you can picture but struggle to describe",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1201,
+              747,
+              1242
+            ],
+            [
+              166,
+              1262,
+              584,
+              1303
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "a sketch, a short legend, and a finish description",
+          "drawn": "a sketch, a short legend, and a finish description",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1049,
+              1201,
+              1979,
+              1242
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "are the large shapes, overlaps, and empty spaces right?",
+          "drawn": "are the large shapes, overlaps, and empty spaces right?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2128,
+              1201,
+              2940,
+              1242
+            ],
+            [
+              2128,
+              1262,
+              2387,
+              1303
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "an image that needs a local change",
+          "drawn": "an image that needs a local change",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1426,
+              898,
+              1467
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "a comment or named target, the change, and what must stay",
+          "drawn": "a comment or named target, the change, and what must stay",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1049,
+              1426,
+              1918,
+              1467
+            ],
+            [
+              1049,
+              1487,
+              1340,
+              1528
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "original": "did the edit work without damaging the accepted parts?",
+          "drawn": "did the edit work without damaging the accepted parts?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2128,
+              1426,
+              2870,
+              1467
+            ],
+            [
+              2128,
+              1487,
+              2437,
+              1528
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "02",
+      "title": "Give complex images a structure",
+      "filename": "02-give-complex-images-a-structure.png",
+      "width": 3200,
+      "height": 1729,
+      "rows": 7,
+      "columns": 2,
+      "sha256": "ea943730aaa5bd09eb157be9d7795fad61a4153143383511d542b04847475ea0",
+      "text_cells_checked": 14,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "decision",
+          "drawn": "decision",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              264,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "how it works in this room",
+          "drawn": "how it works in this room",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              974,
+              410,
+              1399,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "main structure",
+          "drawn": "main structure",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              470,
+              558
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "a connected living pavilion with a readable floor, walls, and glazing",
+          "drawn": "a connected living pavilion with a readable floor, walls, and glazing",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              526,
+              2292,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "distinct zones",
+          "drawn": "distinct zones",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              709,
+              458,
+              741
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "built-in joinery at left, fireplace at the back, coastal view at right",
+          "drawn": "built-in joinery at left, fireplace at the back, coastal view at right",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              709,
+              2220,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "relationships",
+          "drawn": "relationships",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              892,
+              438,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "the seating belongs to one group; the room opens toward the view",
+          "drawn": "the seating belongs to one group; the room opens toward the view",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              892,
+              2284,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "material behavior",
+          "drawn": "material behavior",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1075,
+              528,
+              1107
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "glass transmits light, timber has grain, linen has a soft weave",
+          "drawn": "glass transmits light, timber has grain, linen has a soft weave",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              1075,
+              2187,
+              1116
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "hierarchy",
+          "drawn": "hierarchy",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1258,
+              362,
+              1299
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "understand the room before noticing the objects on a shelf",
+          "drawn": "understand the room before noticing the objects on a shelf",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              1258,
+              2134,
+              1299
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "original": "deliberate freedom",
+          "drawn": "deliberate freedom",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1441,
+              557,
+              1473
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "original": "incidental texture can vary; the agreed room arrangement remains the reference",
+          "drawn": "incidental texture can vary; the agreed room arrangement remains the reference",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1012,
+              1441,
+              2556,
+              1482
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "03",
+      "title": "VELLUM: the visual inventory",
+      "filename": "03-vellum-the-visual-inventory.png",
+      "width": 3200,
+      "height": 2370,
+      "rows": 16,
+      "columns": 2,
+      "sha256": "072f98359a81e60cb56173e63fd0e7823e1621d84794ac6d1583a225764fffbe",
+      "text_cells_checked": 32,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Element",
+          "drawn": "Element",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              412,
+              247,
+              433
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "What it lets you identify",
+          "drawn": "What it lets you identify",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              325,
+              412,
+              750,
+              439
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "A-01 \u00b7 garnet background",
+          "drawn": "A-01 \u00b7 garnet background",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              530,
+              685,
+              570
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "Soft deep burgundy background, brighter toward the upper left and almost black on the right; no distinct props.",
+          "drawn": "Soft deep burgundy background, brighter toward the upper left and almost black on the right; no distinct props.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              617,
+              916,
+              655
+            ],
+            [
+              166,
+              674,
+              985,
+              712
+            ],
+            [
+              166,
+              731,
+              579,
+              769
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "A-02 \u00b7 polished stone surface",
+          "drawn": "A-02 \u00b7 polished stone surface",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              530,
+              1758,
+              570
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "Dark red-brown surface with pale branching veins, supporting the bottle.",
+          "drawn": "Dark red-brown surface with pale branching veins, supporting the bottle.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              617,
+              1959,
+              655
+            ],
+            [
+              1160,
+              674,
+              1662,
+              712
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "A-03 \u00b7 bottle silhouette",
+          "drawn": "A-03 \u00b7 bottle silhouette",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              530,
+              2615,
+              561
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "One broad rectangular perfume bottle with rounded corners, thick transparent edge walls, slightly visible right face and a heavy base.",
+          "drawn": "One broad rectangular perfume bottle with rounded corners, thick transparent edge walls, slightly visible right face and a heavy base.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              617,
+              2924,
+              655
+            ],
+            [
+              2154,
+              674,
+              3000,
+              712
+            ],
+            [
+              2154,
+              731,
+              2934,
+              769
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "A-04 \u00b7 garnet body",
+          "drawn": "A-04 \u00b7 garnet body",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              902,
+              542,
+              942
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "Deep red translucent interior, darkest through the central body, with bright red near lower edges.",
+          "drawn": "Deep red translucent interior, darkest through the central body, with bright red near lower edges.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              989,
+              995,
+              1027
+            ],
+            [
+              166,
+              1046,
+              944,
+              1084
+            ],
+            [
+              166,
+              1103,
+              290,
+              1141
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "A-05 \u00b7 walnut cap",
+          "drawn": "A-05 \u00b7 walnut cap",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              902,
+              1512,
+              942
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "Wide cylindrical dark brown cap with a shallow elliptical top and clearly visible vertical grain.",
+          "drawn": "Wide cylindrical dark brown cap with a shallow elliptical top and clearly visible vertical grain.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              989,
+              2008,
+              1027
+            ],
+            [
+              1160,
+              1046,
+              1967,
+              1084
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "original": "A-06 \u00b7 brushed metal collar",
+          "drawn": "A-06 \u00b7 brushed metal collar",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              902,
+              2706,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "original": "Short silver cylindrical collar visible between cap and glass shoulders, with a bright left band and darker right side.",
+          "drawn": "Short silver cylindrical collar visible between cap and glass shoulders, with a bright left band and darker right side.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              989,
+              3034,
+              1027
+            ],
+            [
+              2154,
+              1046,
+              3013,
+              1084
+            ],
+            [
+              2154,
+              1103,
+              2461,
+              1141
+            ]
+          ]
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "original": "A-07 \u00b7 ivory paper label",
+          "drawn": "A-07 \u00b7 ivory paper label",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1274,
+              639,
+              1314
+            ]
+          ]
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "original": "Cream rectangular label on the front face, with subtly visible paper grain and slight perspective.",
+          "drawn": "Cream rectangular label on the front face, with subtly visible paper grain and slight perspective.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1361,
+              1008,
+              1399
+            ],
+            [
+              166,
+              1418,
+              1041,
+              1456
+            ]
+          ]
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "original": "A-08 \u00b7 VELLUM wordmark",
+          "drawn": "A-08 \u00b7 VELLUM wordmark",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1274,
+              1685,
+              1305
+            ]
+          ]
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "original": "Spaced uppercase serif letters near the upper part of the label.",
+          "drawn": "Spaced uppercase serif letters near the upper part of the label.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1361,
+              1997,
+              1399
+            ],
+            [
+              1160,
+              1418,
+              1453,
+              1456
+            ]
+          ]
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "original": "A-09 \u00b7 No. 04 line",
+          "drawn": "A-09 \u00b7 No. 04 line",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1274,
+              2500,
+              1305
+            ]
+          ]
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "original": "Smaller centered serif product number below the wordmark.",
+          "drawn": "Smaller centered serif product number below the wordmark.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1361,
+              2973,
+              1399
+            ],
+            [
+              2154,
+              1418,
+              2415,
+              1448
+            ]
+          ]
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "original": "A-10 \u00b7 label divider",
+          "drawn": "A-10 \u00b7 label divider",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1589,
+              549,
+              1620
+            ]
+          ]
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "original": "One short thin horizontal rule between the number and the fragrance line.",
+          "drawn": "One short thin horizontal rule between the number and the fragrance line.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1676,
+              929,
+              1706
+            ],
+            [
+              166,
+              1733,
+              726,
+              1771
+            ]
+          ]
+        },
+        {
+          "row": 11,
+          "column": 0,
+          "original": "A-11 \u00b7 fragrance line",
+          "drawn": "A-11 \u00b7 fragrance line",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1589,
+              1573,
+              1629
+            ]
+          ]
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "original": "Small spaced serif capitals along the lower part of the label.",
+          "drawn": "Small spaced serif capitals along the lower part of the label.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1676,
+              2020,
+              1714
+            ],
+            [
+              1160,
+              1733,
+              1371,
+              1763
+            ]
+          ]
+        },
+        {
+          "row": 12,
+          "column": 0,
+          "original": "A-12 \u00b7 left glass edge highlight",
+          "drawn": "A-12 \u00b7 left glass edge highlight",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1589,
+              2775,
+              1629
+            ]
+          ]
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "original": "Bright elongated light streak along the left thick glass edge, wrapping into the heavy base.",
+          "drawn": "Bright elongated light streak along the left thick glass edge, wrapping into the heavy base.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1676,
+              3004,
+              1714
+            ],
+            [
+              2154,
+              1733,
+              2923,
+              1771
+            ]
+          ]
+        },
+        {
+          "row": 13,
+          "column": 0,
+          "original": "A-13 \u00b7 right glass edge highlight",
+          "drawn": "A-13 \u00b7 right glass edge highlight",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1904,
+              818,
+              1944
+            ]
+          ]
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "original": "Narrow bright streaks on the right side and corner, with darker glass visible between them.",
+          "drawn": "Narrow bright streaks on the right side and corner, with darker glass visible between them.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1991,
+              942,
+              2029
+            ],
+            [
+              166,
+              2048,
+              1022,
+              2086
+            ]
+          ]
+        },
+        {
+          "row": 14,
+          "column": 0,
+          "original": "A-14 \u00b7 bottle reflection",
+          "drawn": "A-14 \u00b7 bottle reflection",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1904,
+              1612,
+              1935
+            ]
+          ]
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "original": "Soft vertically inverted reflection extending toward the bottom crop, without a second physical bottle.",
+          "drawn": "Soft vertically inverted reflection extending toward the bottom crop, without a second physical bottle.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1160,
+              1991,
+              1930,
+              2029
+            ],
+            [
+              1160,
+              2048,
+              1911,
+              2086
+            ],
+            [
+              1160,
+              2105,
+              1432,
+              2143
+            ]
+          ]
+        },
+        {
+          "row": 15,
+          "column": 0,
+          "original": "A-15 \u00b7 breathing room",
+          "drawn": "A-15 \u00b7 breathing room",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1904,
+              2599,
+              1944
+            ]
+          ]
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "original": "Quiet dark area to the left of the product without type or props.",
+          "drawn": "Quiet dark area to the left of the product without type or props.",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2154,
+              1991,
+              3020,
+              2029
+            ],
+            [
+              2154,
+              2048,
+              2406,
+              2086
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "04",
+      "title": "Know what your visual map contains",
+      "filename": "04-know-what-your-visual-map-contains.png",
+      "width": 3200,
+      "height": 1546,
+      "rows": 6,
+      "columns": 2,
+      "sha256": "1800d2d432ac027531e6d3f9ed3d0556839ded891a53a74fc5d6baf2a379d42a",
+      "text_cells_checked": 12,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "representation",
+          "drawn": "representation",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              366,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "what you actually get",
+          "drawn": "what you actually get",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1060,
+              410,
+              1417,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "a named bounding box",
+          "drawn": "a named bounding box",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              647,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "an approximate location for the element",
+          "drawn": "an approximate location for the element",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1098,
+              526,
+              1862,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "a bounding crop",
+          "drawn": "a bounding crop",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              709,
+              510,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "original pixels inside a rectangle, possibly including neighbors",
+          "drawn": "original pixels inside a rectangle, possibly including neighbors",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1098,
+              709,
+              2285,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "a segmentation mask",
+          "drawn": "a segmentation mask",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              892,
+              611,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "a checked region identifying which pixels belong to a target",
+          "drawn": "a checked region identifying which pixels belong to a target",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1098,
+              892,
+              2234,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "an extracted transparent layer",
+          "drawn": "an extracted transparent layer",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1075,
+              790,
+              1116
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "a separate asset with verified alpha and inspected edges",
+          "drawn": "a separate asset with verified alpha and inspected edges",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1098,
+              1075,
+              2192,
+              1116
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "a generated interpretation",
+          "drawn": "a generated interpretation",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1258,
+              706,
+              1299
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "a newly rendered version that may change details",
+          "drawn": "a newly rendered version that may change details",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1098,
+              1258,
+              2056,
+              1299
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "05",
+      "title": "Three records, three jobs",
+      "filename": "05-three-records-three-jobs.png",
+      "width": 3200,
+      "height": 1179,
+      "rows": 4,
+      "columns": 3,
+      "sha256": "1449fd7e6cfff3a3a2a2e1e40116155728f2163c8bccbdfd189af039cb1ad930",
+      "text_cells_checked": 12,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "record",
+          "drawn": "record",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              473,
+              2280,
+              494
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "reconstruction record",
+          "drawn": "reconstruction record",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              522,
+              748,
+              563
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "what it answers",
+          "drawn": "what it answers",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              647,
+              2424,
+              668
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "what is in the source?",
+          "drawn": "what is in the source?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              689,
+              587,
+              721
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "VELLUM example",
+          "drawn": "VELLUM example",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              805,
+              2408,
+              832
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "A-05 is the cap, with an estimated box, visible proportions, and a likely walnut finish",
+          "drawn": "A-05 is the cap, with an estimated box, visible proportions, and a likely walnut finish",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              165,
+              847,
+              913,
+              888
+            ],
+            [
+              166,
+              909,
+              1012,
+              950
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "selection record",
+          "drawn": "selection record",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1175,
+              522,
+              1608,
+              563
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "what should change?",
+          "drawn": "what should change?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1175,
+              689,
+              1585,
+              730
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "change A-05's color; preserve its shape, grain, size, and position",
+          "drawn": "change A-05's color; preserve its shape, grain, size, and position",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1175,
+              847,
+              1950,
+              888
+            ],
+            [
+              1175,
+              909,
+              1632,
+              950
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "rendering request",
+          "drawn": "rendering request",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              522,
+              2660,
+              574
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "what should the generator do now?",
+          "drawn": "what should the generator do now?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              689,
+              2862,
+              730
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "a focused edit instruction plus the actual clean source attachment",
+          "drawn": "a focused edit instruction plus the actual clean source attachment",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2184,
+              847,
+              2957,
+              888
+            ],
+            [
+              2184,
+              909,
+              2658,
+              941
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "06",
+      "title": "VELLUM: reference and reconstruction",
+      "filename": "06-vellum-reference-and-reconstruction.png",
+      "width": 3200,
+      "height": 2455,
+      "rows": 2,
+      "columns": 2,
+      "sha256": "35bb702954b6680badf9fb67f135c5f2f9fc59e5ae8e9fd76cac8cb77d913462",
+      "text_cells_checked": 4,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "our original VELLUM photograph",
+          "drawn": "our original VELLUM photograph",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              467,
+              732,
+              500
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "",
+          "drawn": "",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              551,
+              1523,
+              2247
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "reconstructed with JSON-derived prompt + source",
+          "drawn": "reconstructed with JSON-derived prompt + source",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1677,
+              467,
+              2540,
+              500
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "",
+          "drawn": "",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1677,
+              551,
+              3034,
+              2247
+            ]
+          ]
+        }
+      ],
+      "source_images": [
+        {
+          "source": "../article-package/evidence/premium-examples/images/02-luxury-product.png",
+          "sha256": "26090c432c14f46f60931602ce2919e84227661880e6f01aa682a3aea89dab3f",
+          "original_size": [
+            1122,
+            1402
+          ],
+          "rendered_size": [
+            1357,
+            1696
+          ],
+          "crop": "none",
+          "recolored": false
+        },
+        {
+          "source": "../premium-article-assets/images/vellum-reconstruction.png",
+          "sha256": "01a82847c52f9023045af873ea16199b08b33f47e3a17e68222d3681345f1564",
+          "original_size": [
+            1122,
+            1402
+          ],
+          "rendered_size": [
+            1357,
+            1696
+          ],
+          "crop": "none",
+          "recolored": false
+        }
+      ],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "07",
+      "title": "Give every reference a job",
+      "filename": "07-give-every-reference-a-job.png",
+      "width": 3200,
+      "height": 1081,
+      "rows": 3,
+      "columns": 3,
+      "sha256": "1285d217528517b90672ff753c89e391badf6875aad6b6b1b073a96d2db01be6",
+      "text_cells_checked": 9,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "output",
+          "drawn": "output",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              230,
+              435
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "what the reference supplies",
+          "drawn": "what the reference supplies",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              815,
+              410,
+              1274,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "what the new brief controls",
+          "drawn": "what the new brief controls",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1894,
+              410,
+              2353,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "OFFDAY advertisement",
+          "drawn": "OFFDAY advertisement",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              655,
+              558
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "the coral can's silhouette, label identity, emblem, flavor, and volume",
+          "drawn": "the coral can's silhouette, label identity, emblem, flavor, and volume",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              853,
+              526,
+              1608,
+              567
+            ],
+            [
+              853,
+              587,
+              1389,
+              626
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "scene, headline zone, lighting, and surrounding composition",
+          "drawn": "scene, headline zone, lighting, and surrounding composition",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1932,
+              526,
+              2842,
+              567
+            ],
+            [
+              1932,
+              587,
+              2165,
+              628
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "OFFDAY merchandise",
+          "drawn": "OFFDAY merchandise",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              751,
+              628,
+              783
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "the wordmark, emblem, and brand colors",
+          "drawn": "the wordmark, emblem, and brand colors",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              853,
+              751,
+              1646,
+              790
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "tee, tote, tag, fabric, print placement, and arrangement; the cans are excluded",
+          "drawn": "tee, tote, tag, fabric, print placement, and arrangement; the cans are excluded",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1932,
+              751,
+              2992,
+              792
+            ],
+            [
+              1932,
+              812,
+              2357,
+              844
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "08",
+      "title": "Comments, a map, or a sketch?",
+      "filename": "08-comments-a-map-or-a-sketch.png",
+      "width": 3200,
+      "height": 1306,
+      "rows": 4,
+      "columns": 3,
+      "sha256": "3911da9d65addc29da50dc1604dcd706b84722b96dc5953ecb21f22a1c15af0e",
+      "text_cells_checked": 12,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "situation",
+          "drawn": "situation",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              281,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "useful control",
+          "drawn": "useful control",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1264,
+              410,
+              1502,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "what you need to say",
+          "drawn": "what you need to say",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2119,
+              410,
+              2459,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "the target is obvious in an existing image",
+          "drawn": "the target is obvious in an existing image",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              1023,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "a native image comment or region selection",
+          "drawn": "a native image comment or region selection",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1302,
+              526,
+              1961,
+              567
+            ],
+            [
+              1302,
+              587,
+              1474,
+              619
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "what changes, what stays, and what related effects may change",
+          "drawn": "what changes, what stays, and what related effects may change",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2157,
+              526,
+              3000,
+              567
+            ],
+            [
+              2157,
+              587,
+              2534,
+              628
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "many parts must be chosen, reused, or handed to another agent",
+          "drawn": "many parts must be chosen, reused, or handed to another agent",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              751,
+              1147,
+              792
+            ],
+            [
+              166,
+              812,
+              510,
+              853
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "the visual map and reconstruction JSON",
+          "drawn": "the visual map and reconstruction JSON",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1302,
+              751,
+              1953,
+              792
+            ],
+            [
+              1302,
+              812,
+              1419,
+              844
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "stable element names, selected properties, reference roles, and invariants",
+          "drawn": "stable element names, selected properties, reference roles, and invariants",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2157,
+              751,
+              2987,
+              792
+            ],
+            [
+              2157,
+              812,
+              2743,
+              851
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "position, pose, overlap, or negative space keeps coming out wrong",
+          "drawn": "position, pose, overlap, or negative space keeps coming out wrong",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              976,
+              1034,
+              1017
+            ],
+            [
+              166,
+              1037,
+              682,
+              1078
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "a sketch with a legend",
+          "drawn": "a sketch with a legend",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1302,
+              976,
+              1732,
+              1017
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "what each mark represents and which geometry must survive",
+          "drawn": "what each mark represents and which geometry must survive",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2157,
+              976,
+              2891,
+              1017
+            ],
+            [
+              2157,
+              1037,
+              2597,
+              1078
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "09",
+      "title": "What the prompting experiments showed",
+      "filename": "09-what-the-prompting-experiments-showed.png",
+      "width": 3200,
+      "height": 1611,
+      "rows": 4,
+      "columns": 4,
+      "sha256": "5ec7e701a8957c144e3dab86cbdcf7f797aa7594039da5f7134bce67fac2f97e",
+      "text_cells_checked": 16,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "comparison",
+          "drawn": "comparison",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              298,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "what we held close",
+          "drawn": "what we held close",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              799,
+              410,
+              1105,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "what we observed",
+          "drawn": "what we observed",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1525,
+              410,
+              1797,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "actionable conclusion",
+          "drawn": "actionable conclusion",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2361,
+              410,
+              2718,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "plain prose versus labeled sections",
+          "drawn": "plain prose versus labeled sections",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              551,
+              567
+            ],
+            [
+              166,
+              587,
+              505,
+              619
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "the same visual sentences; two runs each, at 309 and 324 words respectively",
+          "drawn": "the same visual sentences; two runs each, at 309 and 324 words respectively",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              837,
+              526,
+              1362,
+              565
+            ],
+            [
+              837,
+              587,
+              1336,
+              626
+            ],
+            [
+              837,
+              648,
+              1281,
+              689
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "all four kept the main objects, required text, and flow. the labeled versions better respected one leader-line placement check",
+          "drawn": "all four kept the main objects, required text, and flow. the labeled versions better respected one leader-line placement check",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1563,
+              526,
+              2129,
+              567
+            ],
+            [
+              1563,
+              587,
+              2227,
+              628
+            ],
+            [
+              1563,
+              648,
+              2136,
+              689
+            ],
+            [
+              1563,
+              709,
+              2106,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "headings can help organize a dense brief; four samples do not establish a general quality advantage",
+          "drawn": "headings can help organize a dense brief; four samples do not establish a general quality advantage",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2399,
+              526,
+              2966,
+              567
+            ],
+            [
+              2399,
+              587,
+              3020,
+              628
+            ],
+            [
+              2399,
+              648,
+              2902,
+              689
+            ],
+            [
+              2399,
+              709,
+              2601,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "plain versus technical vocabulary",
+          "drawn": "plain versus technical vocabulary",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              873,
+              621,
+              914
+            ],
+            [
+              166,
+              934,
+              396,
+              975
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "equivalent intended visual facts; two jargon-heavy runs at 315 words",
+          "drawn": "equivalent intended visual facts; two jargon-heavy runs at 315 words",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              837,
+              873,
+              1337,
+              914
+            ],
+            [
+              837,
+              934,
+              1382,
+              975
+            ],
+            [
+              837,
+              995,
+              1086,
+              1027
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "no clear advantage from technical wording; some judgments remained uncertain",
+          "drawn": "no clear advantage from technical wording; some judgments remained uncertain",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1563,
+              873,
+              2216,
+              914
+            ],
+            [
+              1563,
+              934,
+              2060,
+              975
+            ],
+            [
+              1563,
+              995,
+              1936,
+              1027
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "use a technical term when it carries a meaning you need",
+          "drawn": "use a technical term when it carries a meaning you need",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2399,
+              873,
+              2939,
+              905
+            ],
+            [
+              2399,
+              934,
+              2936,
+              975
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "a compiled description versus that description with a source image",
+          "drawn": "a compiled description versus that description with a source image",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1159,
+              642,
+              1200
+            ],
+            [
+              166,
+              1220,
+              647,
+              1261
+            ],
+            [
+              166,
+              1281,
+              583,
+              1322
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "the reconstruction goal; one completed result per route",
+          "drawn": "the reconstruction goal; one completed result per route",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              837,
+              1159,
+              1373,
+              1200
+            ],
+            [
+              837,
+              1220,
+              1343,
+              1261
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "the source-assisted route was closer in appearance",
+          "drawn": "the source-assisted route was closer in appearance",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1563,
+              1159,
+              2142,
+              1191
+            ],
+            [
+              1563,
+              1220,
+              1967,
+              1261
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "a reference supplies additional evidence. this comparison cannot isolate a benefit from JSON formatting",
+          "drawn": "a reference supplies additional evidence. this comparison cannot isolate a benefit from JSON formatting",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              2399,
+              1159,
+              2989,
+              1200
+            ],
+            [
+              2399,
+              1220,
+              2903,
+              1261
+            ],
+            [
+              2399,
+              1281,
+              2945,
+              1313
+            ],
+            [
+              2399,
+              1342,
+              2722,
+              1383
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "10",
+      "title": "SABLE: before and after repair",
+      "filename": "10-sable-before-and-after-repair.png",
+      "width": 3200,
+      "height": 1664,
+      "rows": 2,
+      "columns": 2,
+      "sha256": "fab2a190e9546014ec29c2b373378dd6f04ef8038ec55f9a5a223a2c28a1fb29",
+      "text_cells_checked": 4,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "first SABLE result",
+          "drawn": "first SABLE result",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              467,
+              474,
+              493
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "",
+          "drawn": "",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              551,
+              1523,
+              1456
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "after the targeted repair",
+          "drawn": "after the targeted repair",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1677,
+              467,
+              2082,
+              500
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "",
+          "drawn": "",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1677,
+              551,
+              3034,
+              1456
+            ]
+          ]
+        }
+      ],
+      "source_images": [
+        {
+          "source": "../article-package/evidence/premium-examples/images/01-fashion-app-v1.png",
+          "sha256": "4253bad7cd3cd87eab610d491ee6efce60b1a3968f6aed9ab0738392d859c39a",
+          "original_size": [
+            1536,
+            1024
+          ],
+          "rendered_size": [
+            1357,
+            905
+          ],
+          "crop": "none",
+          "recolored": false
+        },
+        {
+          "source": "../article-package/evidence/premium-examples/images/01-fashion-app.png",
+          "sha256": "9e3827f4feeeda5d1b41e89824a6976293f5033fc72df3937ab0daecc44dfad6",
+          "original_size": [
+            1536,
+            1024
+          ],
+          "rendered_size": [
+            1357,
+            905
+          ],
+          "crop": "none",
+          "recolored": false
+        }
+      ],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "11",
+      "title": "Match the repair to the failure",
+      "filename": "11-match-the-repair-to-the-failure.png",
+      "width": 3200,
+      "height": 2278,
+      "rows": 10,
+      "columns": 2,
+      "sha256": "2bc59abce94d866bc7f4186b245f9060e3089e2afccd955315cb11c692261242",
+      "text_cells_checked": 20,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "visible failure",
+          "drawn": "visible failure",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              383,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "useful next step",
+          "drawn": "useful next step",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1290,
+              410,
+              1562,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "missing or duplicated objects",
+          "drawn": "missing or duplicated objects",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              783,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "name each role and state the required count",
+          "drawn": "name each role and state the required count",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              526,
+              2180,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "the right color on the wrong object",
+          "drawn": "the right color on the wrong object",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              709,
+              890,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "bind the property to a named object or a clear selection",
+          "drawn": "bind the property to a named object or a clear selection",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              709,
+              2389,
+              750
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "wrong placement, overlap, or pose",
+          "drawn": "wrong placement, overlap, or pose",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              892,
+              887,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "supply a clearer spatial relationship, sketch, or region control",
+          "drawn": "supply a clearer spatial relationship, sketch, or region control",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              892,
+              2498,
+              933
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "drifting product or person identity",
+          "drawn": "drifting product or person identity",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1075,
+              876,
+              1116
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "use the relevant clean reference and identify what it must supply",
+          "drawn": "use the relevant clean reference and identify what it must supply",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1075,
+              2566,
+              1116
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "incorrect or crowded lettering",
+          "drawn": "incorrect or crowded lettering",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1258,
+              786,
+              1299
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "give exact strings, remove competing copy, reserve space, or typeset separately",
+          "drawn": "give exact strings, remove competing copy, reserve space, or typeset separately",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1258,
+              2878,
+              1299
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "original": "an edit damages accepted details",
+          "drawn": "an edit damages accepted details",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1441,
+              859,
+              1482
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "original": "restart from the best accepted source, narrow the target, and inspect protected regions",
+          "drawn": "restart from the best accepted source, narrow the target, and inspect protected regions",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1441,
+              2996,
+              1482
+            ]
+          ]
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "original": "a convincing but incorrect diagram",
+          "drawn": "a convincing but incorrect diagram",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1624,
+              895,
+              1665
+            ]
+          ]
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "original": "verify the underlying facts and draw exact relationships with a suitable tool",
+          "drawn": "verify the underlying facts and draw exact relationships with a suitable tool",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1624,
+              2756,
+              1665
+            ]
+          ]
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "original": "false transparency or unusable dimensions",
+          "drawn": "false transparency or unusable dimensions",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1807,
+              1066,
+              1848
+            ]
+          ]
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "original": "inspect the actual file and use the supported export or processing tool",
+          "drawn": "inspect the actual file and use the supported export or processing tool",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1807,
+              2666,
+              1848
+            ]
+          ]
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "original": "correct content with a weak visual result",
+          "drawn": "correct content with a weak visual result",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              1990,
+              1005,
+              2022
+            ]
+          ]
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "original": "reconsider hierarchy, scale, depth, material contrast, and where detail belongs",
+          "drawn": "reconsider hierarchy, scale, depth, material contrast, and where detail belongs",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1328,
+              1990,
+              2836,
+              2031
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    },
+    {
+      "id": "12",
+      "title": "Test reference combinations with agents",
+      "filename": "12-test-reference-combinations-with-agents.png",
+      "width": 3200,
+      "height": 1306,
+      "rows": 4,
+      "columns": 3,
+      "sha256": "5f04c0c33d6ccf10803f7d8c23793e2b23547a49863f82b9a8f59d9a04c8fd2e",
+      "text_cells_checked": 12,
+      "cell_checks": [
+        {
+          "row": 0,
+          "column": 0,
+          "original": "branch",
+          "drawn": "branch",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              128,
+              410,
+              230,
+              431
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "actual inputs",
+          "drawn": "actual inputs",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              563,
+              410,
+              784,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "question it explores",
+          "drawn": "question it explores",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1895,
+              410,
+              2235,
+              437
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "A",
+          "drawn": "A",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              526,
+              198,
+              558
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "the full clean photograph and a common brief",
+          "drawn": "the full clean photograph and a common brief",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              601,
+              526,
+              1475,
+              567
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "does the complete scene provide enough product identity and layout?",
+          "drawn": "does the complete scene provide enough product identity and layout?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1933,
+              526,
+              3034,
+              567
+            ],
+            [
+              1933,
+              587,
+              2157,
+              628
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "B",
+          "drawn": "B",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              751,
+              198,
+              783
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "a focused product crop and the same brief",
+          "drawn": "a focused product crop and the same brief",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              601,
+              751,
+              1417,
+              792
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "does isolating the product reduce unwanted background influence?",
+          "drawn": "does isolating the product reduce unwanted background influence?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1933,
+              751,
+              3012,
+              792
+            ],
+            [
+              1933,
+              812,
+              2131,
+              844
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "C",
+          "drawn": "C",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              166,
+              976,
+              198,
+              1008
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "that product crop plus a separately assigned layout sketch",
+          "drawn": "that product crop plus a separately assigned layout sketch",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              601,
+              976,
+              1720,
+              1017
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "can product identity and composition be controlled through different inputs?",
+          "drawn": "can product identity and composition be controlled through different inputs?",
+          "bounds_checked": true,
+          "boxes": [
+            [
+              1933,
+              976,
+              2900,
+              1017
+            ],
+            [
+              1933,
+              1037,
+              2401,
+              1078
+            ]
+          ]
+        }
+      ],
+      "source_images": [],
+      "style": "blue-light-diagram",
+      "all_text_bounds_checked": true,
+      "rendering": "Rendered from the existing editable table content with the supplied visual style."
+    }
+  ],
+  "style": "blue-light-diagram",
+  "reference": "User-provided printing-press visual; layout and typography cues only.",
+  "source_text_preserved": true,
+  "all_text_bounds_checked": true
+}

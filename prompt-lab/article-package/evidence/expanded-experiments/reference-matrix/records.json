@@ -1,0 +1,352 @@
+{
+  "design": "Three one-candidate reference arms: person only, dog only, both. Identical fixed descriptive prompt; only attachment declaration and actual input images differ.",
+  "source_case": "G13 botanical railway editorial",
+  "common_prompt": "Create a photorealistic landscape 3:2 travel editorial inside a spectacular glass-roofed botanical railway concourse at late golden hour.\n\nMain subjects: one adult woman with long brown hair, a slight natural smile, dark navy cap, blue-white plaid overshirt, black cropped tank, ripped blue jeans, black belt and white sneakers; and one stocky chocolate-brown Labrador with a broad face, amber-brown eyes, floppy ears and short dark brown fur. Use any supplied identity reference for its assigned subject, while following these same scene and content requirements.\n\nThe woman walks toward the camera slightly left of center, full body visible. The Labrador walks beside her on the viewer's right, full body visible, on a slack burgundy leash held in her left hand (the hand on the viewer's right). Keep the woman's described outfit intact. Adapt the dog's posture to walking while preserving the described or referenced appearance.\n\nBehind them, show a soaring iron-and-glass barrel vault, layered tropical palms in bronze planters, an ornate station clock without readable numerals, and the front of a deep moss-green vintage train on the right. Warm sun shafts cut through the glass and reflect on a wet black-and-ivory tiled floor. Keep architectural lines in a coherent perspective, with the woman and dog sharper than the distant roof and train. Ground all feet and paws with matching contact shadows and reflections.\n\nExactly one woman and one dog; no crowd or second donor person. No floating leash, merged limbs, duplicate paws, extra animals, readable signage, logos or watermarks. Preserve natural face and fur texture; this should feel like a detailed travel photograph, not a cut-and-paste collage.",
+  "max_calls": 3,
+  "trials": [
+    {
+      "code": "T2",
+      "condition": "person_only",
+      "prompt": "Reference roles:\nAttached image 1 supplies the woman\u2019s identity and outfit only. Do not copy its street background. No dog reference is attached; follow the dog description in the fixed scene brief.\n\nFixed scene brief:\nCreate a photorealistic landscape 3:2 travel editorial inside a spectacular glass-roofed botanical railway concourse at late golden hour.\n\nMain subjects: one adult woman with long brown hair, a slight natural smile, dark navy cap, blue-white plaid overshirt, black cropped tank, ripped blue jeans, black belt and white sneakers; and one stocky chocolate-brown Labrador with a broad face, amber-brown eyes, floppy ears and short dark brown fur. Use any supplied identity reference for its assigned subject, while following these same scene and content requirements.\n\nThe woman walks toward the camera slightly left of center, full body visible. The Labrador walks beside her on the viewer's right, full body visible, on a slack burgundy leash held in her left hand (the hand on the viewer's right). Keep the woman's described outfit intact. Adapt the dog's posture to walking while preserving the described or referenced appearance.\n\nBehind them, show a soaring iron-and-glass barrel vault, layered tropical palms in bronze planters, an ornate station clock without readable numerals, and the front of a deep moss-green vintage train on the right. Warm sun shafts cut through the glass and reflect on a wet black-and-ivory tiled floor. Keep architectural lines in a coherent perspective, with the woman and dog sharper than the distant roof and train. Ground all feet and paws with matching contact shadows and reflections.\n\nExactly one woman and one dog; no crowd or second donor person. No floating leash, merged limbs, duplicate paws, extra animals, readable signage, logos or watermarks. Preserve natural face and fur texture; this should feel like a detailed travel photograph, not a cut-and-paste collage.",
+      "reference_declaration": "Attached image 1 supplies the woman\u2019s identity and outfit only. Do not copy its street background. No dog reference is attached; follow the dog description in the fixed scene brief.",
+      "references": [
+        {
+          "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+          "role": "woman identity/outfit only",
+          "inspected_before_generation": true,
+          "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+          "width": 1024,
+          "height": 1536,
+          "sha256": "d05039cf1e1893016bb529ea63c4496a8807aaf9f30987607b7ed3438878af3f"
+        }
+      ],
+      "output": "outputs/expanded-experiments/reference-matrix/trial-T2.png",
+      "checks": [
+        {
+          "id": "R01",
+          "criterion": "Woman has recognizable visual likeness to the target woman source; report uncertainty rather than asserting identity.",
+          "result": "pass",
+          "evidence": "Cap, darker brown hair, restrained closed-mouth smile and overall facial appearance remain close to the target woman source."
+        },
+        {
+          "id": "R02",
+          "criterion": "Dog has recognizable appearance of the target chocolate Labrador source; compare face, ears, coat and proportions.",
+          "result": "uncertain",
+          "evidence": "The generated Labrador satisfies the text description but reads leaner, with a narrower/lighter muzzle than the target dog; exact donor resemblance is uncertain."
+        },
+        {
+          "id": "R03",
+          "criterion": "No substitution or obvious identity/clothing contamination from the woman present in the dog-donor photograph.",
+          "result": "pass",
+          "evidence": "No visible borrowing of the dog-source woman's lighter hair and broad toothy smile is apparent."
+        },
+        {
+          "id": "R04",
+          "criterion": "Exactly one woman and one dog anywhere in the scene, including distant background.",
+          "result": "pass",
+          "evidence": "One foreground woman and one dog; no confidently identifiable extra human or animal appears in the distant background."
+        },
+        {
+          "id": "R05",
+          "criterion": "Woman retains navy cap, plaid overshirt, black crop top, ripped jeans, black belt and white sneakers.",
+          "result": "pass",
+          "evidence": "All specified clothes are present, including ripped jeans and white sneakers."
+        },
+        {
+          "id": "R06",
+          "criterion": "Woman walks toward camera left of center; dog on viewer right; both full bodies and plausible anatomy visible.",
+          "result": "pass",
+          "evidence": "Both full bodies are visible with the requested positions and walking direction."
+        },
+        {
+          "id": "R07",
+          "criterion": "Slack burgundy leash connects dog collar to her left hand on viewer right.",
+          "result": "pass",
+          "evidence": "Burgundy leash connects the woman's correct hand to the dog's collar."
+        },
+        {
+          "id": "R08",
+          "criterion": "Glass barrel vault, tropical palms and bronze planters create a layered botanical station.",
+          "result": "pass",
+          "evidence": "Glass vault, palms and bronze planters are prominent."
+        },
+        {
+          "id": "R09",
+          "criterion": "Moss-green vintage train is behind on right and ornate station clock is present.",
+          "result": "pass",
+          "evidence": "The green train remains right and ornate clock is present."
+        },
+        {
+          "id": "R10",
+          "criterion": "Warm golden light, wet black/ivory floor, contact shadows and reflections integrate subjects.",
+          "result": "pass",
+          "evidence": "Golden light and reflections integrate the subjects with the wet tiled floor."
+        },
+        {
+          "id": "R11",
+          "criterion": "Landscape 3:2 output; foreground subjects sharper than background.",
+          "result": "pass",
+          "evidence": "1536\u00d71024 output, subjects sharper than distant architecture."
+        },
+        {
+          "id": "R12",
+          "criterion": "No legible signage, clock numerals, logos or watermark.",
+          "result": "uncertain",
+          "evidence": "Clock has dark numeral-like glyphs; exact legibility is uncertain. No other clear signage or logo appears."
+        }
+      ],
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "tool": "built-in image_gen",
+      "status": "generated_and_operator_reviewed",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "a5c765e98e8544c4d616712eb9ec139054f2a199738ea54072851e89566263da",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "summary": "Target woman's visible appearance is retained. The unreferenced dog is a plausible generic chocolate Labrador but less clearly resembles the stockier source animal.",
+      "raw_source": "trial-T2.png",
+      "reviewer": "generation operator, not blind"
+    },
+    {
+      "code": "R7",
+      "condition": "dog_only",
+      "prompt": "Reference roles:\nAttached image 1 supplies only the chocolate-brown Labrador dog\u2019s appearance. Do not copy the woman or background from that image. No woman reference is attached; follow the woman description in the fixed scene brief.\n\nFixed scene brief:\nCreate a photorealistic landscape 3:2 travel editorial inside a spectacular glass-roofed botanical railway concourse at late golden hour.\n\nMain subjects: one adult woman with long brown hair, a slight natural smile, dark navy cap, blue-white plaid overshirt, black cropped tank, ripped blue jeans, black belt and white sneakers; and one stocky chocolate-brown Labrador with a broad face, amber-brown eyes, floppy ears and short dark brown fur. Use any supplied identity reference for its assigned subject, while following these same scene and content requirements.\n\nThe woman walks toward the camera slightly left of center, full body visible. The Labrador walks beside her on the viewer's right, full body visible, on a slack burgundy leash held in her left hand (the hand on the viewer's right). Keep the woman's described outfit intact. Adapt the dog's posture to walking while preserving the described or referenced appearance.\n\nBehind them, show a soaring iron-and-glass barrel vault, layered tropical palms in bronze planters, an ornate station clock without readable numerals, and the front of a deep moss-green vintage train on the right. Warm sun shafts cut through the glass and reflect on a wet black-and-ivory tiled floor. Keep architectural lines in a coherent perspective, with the woman and dog sharper than the distant roof and train. Ground all feet and paws with matching contact shadows and reflections.\n\nExactly one woman and one dog; no crowd or second donor person. No floating leash, merged limbs, duplicate paws, extra animals, readable signage, logos or watermarks. Preserve natural face and fur texture; this should feel like a detailed travel photograph, not a cut-and-paste collage.",
+      "reference_declaration": "Attached image 1 supplies only the chocolate-brown Labrador dog\u2019s appearance. Do not copy the woman or background from that image. No woman reference is attached; follow the woman description in the fixed scene brief.",
+      "references": [
+        {
+          "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+          "role": "dog appearance only; ignore donor woman/background",
+          "inspected_before_generation": true,
+          "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "sha256": "aea992a953df9495b137089319e232d87d4a7432b6fe3c3782097d9922b32ca4"
+        }
+      ],
+      "output": "outputs/expanded-experiments/reference-matrix/trial-R7.png",
+      "checks": [
+        {
+          "id": "R01",
+          "criterion": "Woman has recognizable visual likeness to the target woman source; report uncertainty rather than asserting identity.",
+          "result": "fail",
+          "evidence": "The woman's lighter highlighted hair, broad toothy smile and tilted head differ from the target woman source. The target woman's image was intentionally unavailable in this arm."
+        },
+        {
+          "id": "R02",
+          "criterion": "Dog has recognizable appearance of the target chocolate Labrador source; compare face, ears, coat and proportions.",
+          "result": "pass",
+          "evidence": "The dog retains the source Labrador's broader dark head, drooping ears and stockier chest."
+        },
+        {
+          "id": "R03",
+          "criterion": "No substitution or obvious identity/clothing contamination from the woman present in the dog-donor photograph.",
+          "result": "fail",
+          "evidence": "The generated woman's hair brightness, grin and head tilt move toward the woman present in the dog-donor image despite the instruction to ignore that woman. This is observable evidence consistent with donor contamination, not proof of an internal causal mechanism."
+        },
+        {
+          "id": "R04",
+          "criterion": "Exactly one woman and one dog anywhere in the scene, including distant background.",
+          "result": "pass",
+          "evidence": "One woman and one dog; no obvious extra distant people or animals."
+        },
+        {
+          "id": "R05",
+          "criterion": "Woman retains navy cap, plaid overshirt, black crop top, ripped jeans, black belt and white sneakers.",
+          "result": "pass",
+          "evidence": "Requested cap/plaid/black top/ripped jeans/belt/white sneakers are preserved even though the person appearance shifts."
+        },
+        {
+          "id": "R06",
+          "criterion": "Woman walks toward camera left of center; dog on viewer right; both full bodies and plausible anatomy visible.",
+          "result": "pass",
+          "evidence": "Subjects occupy the requested positions and both full walking bodies remain visible."
+        },
+        {
+          "id": "R07",
+          "criterion": "Slack burgundy leash connects dog collar to her left hand on viewer right.",
+          "result": "pass",
+          "evidence": "Burgundy leash joins the correct hand to the collar."
+        },
+        {
+          "id": "R08",
+          "criterion": "Glass barrel vault, tropical palms and bronze planters create a layered botanical station.",
+          "result": "pass",
+          "evidence": "Vault, palms and bronze planter architecture are clear."
+        },
+        {
+          "id": "R09",
+          "criterion": "Moss-green vintage train is behind on right and ornate station clock is present.",
+          "result": "pass",
+          "evidence": "Green train is right and clock is present."
+        },
+        {
+          "id": "R10",
+          "criterion": "Warm golden light, wet black/ivory floor, contact shadows and reflections integrate subjects.",
+          "result": "pass",
+          "evidence": "Coherent warm light, floor contacts and reflections."
+        },
+        {
+          "id": "R11",
+          "criterion": "Landscape 3:2 output; foreground subjects sharper than background.",
+          "result": "pass",
+          "evidence": "1536\u00d71024 landscape; foreground subjects are more detailed than distant architecture."
+        },
+        {
+          "id": "R12",
+          "criterion": "No legible signage, clock numerals, logos or watermark.",
+          "result": "uncertain",
+          "evidence": "Clock contains numeral-like dark marks; exact readable values are uncertain."
+        }
+      ],
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "tool": "built-in image_gen",
+      "status": "generated_and_operator_reviewed",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "cab4a3d437405a35ad8415891cc3812321287685061a9d52c60a314f0ddf7b7c",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "summary": "Dog appearance is close to its donor. The woman's appearance shifts toward the unwanted woman contained in that same reference image, illustrating why a role sentence may be insufficient.",
+      "raw_source": "trial-R7.png",
+      "reviewer": "generation operator, not blind"
+    },
+    {
+      "code": "M3",
+      "condition": "both",
+      "prompt": "Reference roles:\nAttached image 1 supplies the woman\u2019s identity and outfit only. Attached image 2 supplies only the chocolate-brown Labrador dog\u2019s appearance. Do not copy the woman from image 2. Neither image supplies the new background.\n\nFixed scene brief:\nCreate a photorealistic landscape 3:2 travel editorial inside a spectacular glass-roofed botanical railway concourse at late golden hour.\n\nMain subjects: one adult woman with long brown hair, a slight natural smile, dark navy cap, blue-white plaid overshirt, black cropped tank, ripped blue jeans, black belt and white sneakers; and one stocky chocolate-brown Labrador with a broad face, amber-brown eyes, floppy ears and short dark brown fur. Use any supplied identity reference for its assigned subject, while following these same scene and content requirements.\n\nThe woman walks toward the camera slightly left of center, full body visible. The Labrador walks beside her on the viewer's right, full body visible, on a slack burgundy leash held in her left hand (the hand on the viewer's right). Keep the woman's described outfit intact. Adapt the dog's posture to walking while preserving the described or referenced appearance.\n\nBehind them, show a soaring iron-and-glass barrel vault, layered tropical palms in bronze planters, an ornate station clock without readable numerals, and the front of a deep moss-green vintage train on the right. Warm sun shafts cut through the glass and reflect on a wet black-and-ivory tiled floor. Keep architectural lines in a coherent perspective, with the woman and dog sharper than the distant roof and train. Ground all feet and paws with matching contact shadows and reflections.\n\nExactly one woman and one dog; no crowd or second donor person. No floating leash, merged limbs, duplicate paws, extra animals, readable signage, logos or watermarks. Preserve natural face and fur texture; this should feel like a detailed travel photograph, not a cut-and-paste collage.",
+      "reference_declaration": "Attached image 1 supplies the woman\u2019s identity and outfit only. Attached image 2 supplies only the chocolate-brown Labrador dog\u2019s appearance. Do not copy the woman from image 2. Neither image supplies the new background.",
+      "references": [
+        {
+          "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+          "role": "woman identity/outfit only",
+          "inspected_before_generation": true,
+          "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+          "width": 1024,
+          "height": 1536,
+          "sha256": "d05039cf1e1893016bb529ea63c4496a8807aaf9f30987607b7ed3438878af3f"
+        },
+        {
+          "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+          "role": "dog appearance only; ignore donor woman/background",
+          "inspected_before_generation": true,
+          "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "sha256": "aea992a953df9495b137089319e232d87d4a7432b6fe3c3782097d9922b32ca4"
+        }
+      ],
+      "output": "outputs/expanded-experiments/reference-matrix/trial-M3.png",
+      "checks": [
+        {
+          "id": "R01",
+          "criterion": "Woman has recognizable visual likeness to the target woman source; report uncertainty rather than asserting identity.",
+          "result": "pass",
+          "evidence": "Darker hair, cap, restrained smile and overall appearance remain close to the target woman reference."
+        },
+        {
+          "id": "R02",
+          "criterion": "Dog has recognizable appearance of the target chocolate Labrador source; compare face, ears, coat and proportions.",
+          "result": "pass",
+          "evidence": "Broad dark muzzle, amber eyes, floppy ears and stockier body remain close to the dog donor's appearance."
+        },
+        {
+          "id": "R03",
+          "criterion": "No substitution or obvious identity/clothing contamination from the woman present in the dog-donor photograph.",
+          "result": "pass",
+          "evidence": "No obvious visible donor-woman appearance substitution occurs."
+        },
+        {
+          "id": "R04",
+          "criterion": "Exactly one woman and one dog anywhere in the scene, including distant background.",
+          "result": "pass",
+          "evidence": "Exactly one woman and one dog are visible; no obvious background people or animals."
+        },
+        {
+          "id": "R05",
+          "criterion": "Woman retains navy cap, plaid overshirt, black crop top, ripped jeans, black belt and white sneakers.",
+          "result": "pass",
+          "evidence": "All named garments remain present."
+        },
+        {
+          "id": "R06",
+          "criterion": "Woman walks toward camera left of center; dog on viewer right; both full bodies and plausible anatomy visible.",
+          "result": "pass",
+          "evidence": "Requested left/right arrangement, forward walk and full bodies are present."
+        },
+        {
+          "id": "R07",
+          "criterion": "Slack burgundy leash connects dog collar to her left hand on viewer right.",
+          "result": "pass",
+          "evidence": "Leash is held by her left hand on viewer right and connects to the dog."
+        },
+        {
+          "id": "R08",
+          "criterion": "Glass barrel vault, tropical palms and bronze planters create a layered botanical station.",
+          "result": "pass",
+          "evidence": "Glass vault, layered palms and bronze planters fill coherent depth layers."
+        },
+        {
+          "id": "R09",
+          "criterion": "Moss-green vintage train is behind on right and ornate station clock is present.",
+          "result": "pass",
+          "evidence": "Green vintage train occupies the right; station clock present."
+        },
+        {
+          "id": "R10",
+          "criterion": "Warm golden light, wet black/ivory floor, contact shadows and reflections integrate subjects.",
+          "result": "pass",
+          "evidence": "Matching warm light, contact shadows and reflected tile floor."
+        },
+        {
+          "id": "R11",
+          "criterion": "Landscape 3:2 output; foreground subjects sharper than background.",
+          "result": "pass",
+          "evidence": "1536\u00d71024 landscape with sharper foreground subjects."
+        },
+        {
+          "id": "R12",
+          "criterion": "No legible signage, clock numerals, logos or watermark.",
+          "result": "uncertain",
+          "evidence": "Clock contains blurred numeral-like forms; exact legibility is uncertain."
+        }
+      ],
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "tool": "built-in image_gen",
+      "status": "generated_and_operator_reviewed",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "68b8582dbeb06e30bc098560bef65880debbe0994caa1d1032e6d212b7089bfa",
+      "visually_inspected": true,
+      "output_unmodified": true,
+      "summary": "This one candidate best retains the visible appearances of both intended sources together. That is an observation from this set, not an estimate of how reliably two references outperform one.",
+      "raw_source": "trial-M3.png",
+      "reviewer": "generation operator, not blind"
+    }
+  ],
+  "neutral_review_order": [
+    "M3",
+    "R7",
+    "T2"
+  ],
+  "confounds": [
+    "Reference count and visual information are deliberately changed, and attachment declaration text/length changes with them.",
+    "One sample per arm, no fixed or exposed seed, unexposed model/backend/quality; no causal or general reliability claim.",
+    "Donor dog image contains another woman; its human content may contaminate outputs despite role instructions.",
+    "Operator knows the arm; independent parent reviewer receives neutral codes and common checks before condition key.",
+    "Code assignment and display order use SystemRandom; generation submission order remains person-only, dog-only, both.",
+    "The common scene brief restates G13 subject descriptors without unavailable-image pointers; compare these three arms to each other, not causally to the earlier G13 run."
+  ],
+  "common_prompt_sha256": "8212405aea9b8c7d047ce6a8cfc11948d4a40044dd6ec2814495581f31308207"
+}

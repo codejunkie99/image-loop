@@ -1,0 +1,1205 @@
+{
+  "audit_date": "2026-09-10",
+  "source_url": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5",
+  "source_markdown_url": "https://developers.openai.com/api/docs/guides/image-prompting.md",
+  "live_source_sha256": "ba92dbffa51d75ed5e67cb01ee85d014d08e304fe9c24ca684ac66fbe1d81887",
+  "counting_rule": "One row per illustrated text prompt. Two character-continuity stages count separately; four logo variants share one prompt and one row. Runnable Python/Ruby examples repeat logo and cutout workflows.",
+  "counts": {
+    "prompt_steps": 24,
+    "generation_steps": 9,
+    "editing_steps": 8,
+    "multi_turn_steps": 4,
+    "more_workflows": 3,
+    "official_output_images": 54,
+    "unique_asset_urls": 65
+  },
+  "audit_scope": "Read complete selected 2.5 prose and prompts, live verified. Asset HEAD checks confirm accessibility only; no visual quality assessment or image generation performed by this audit.",
+  "examples": [
+    {
+      "id": "G01",
+      "heading": "Control style and lighting",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#control-style-and-lighting",
+      "source_prompt_sha256": "b62e8c5e8bcb601732ec8bc8c7369917ddb947ebba545faf80a49f569f89076a",
+      "source_prompt_start_line": 105,
+      "source_prompt_word_count": 99,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Photorealistic portrait of a sailor repairing a net — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Photorealistic portrait of a sailor repairing a net — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "medium",
+      "prompt_skill": "Observed action and material realism",
+      "proposed_expanded_trial": "Maritime craft workshop with sailor, net, dog, tackle, boat hardware, coast",
+      "proposed_acceptance_checks": "Anatomical plausibility; hand/net interaction; dog visibility; natural material detail",
+      "comparison_factors": [
+        "pose",
+        "lighting",
+        "texture"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G02",
+      "heading": "Explain a process visually",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#explain-a-process-visually",
+      "source_prompt_sha256": "412c11724ff4a7b0943b37a2de93bf17809e571971c80c968d2c15fe54d2153c",
+      "source_prompt_start_line": 146,
+      "source_prompt_word_count": 37,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Diagram explaining an automatic coffee machine — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Diagram explaining an automatic coffee machine — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Process graph and labels",
+      "proposed_expanded_trial": "Cutaway espresso machine with independently mapped bean, water and waste paths",
+      "proposed_acceptance_checks": "Every component present; arrows join correct source/target; labels accurate",
+      "comparison_factors": [
+        "relations",
+        "text",
+        "technical accuracy"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G03",
+      "heading": "Render exact text",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#render-exact-text",
+      "source_prompt_sha256": "c3b96ae6daa0813edc3c4abd653cf37a4cdfa07e0b8770ef0f0b0d57a2bbb42f",
+      "source_prompt_start_line": 185,
+      "source_prompt_word_count": 89,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Thread streetwear campaign with the requested tagline — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Thread streetwear campaign with the requested tagline — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Exact typography in a campaign",
+      "proposed_expanded_trial": "Streetwear editorial with friends, layered city setting and reserved copy zone",
+      "proposed_acceptance_checks": "Tagline exactly once; readable letterforms; people not obscured; scene follows brief",
+      "comparison_factors": [
+        "text",
+        "layout",
+        "people"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G04",
+      "heading": "Design a reusable logo",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#design-a-reusable-logo",
+      "source_prompt_sha256": "9b1b5753f9b0992ab88f0871dfca08608a6ce5b3f8649732b17c7313eb83e758",
+      "source_prompt_start_line": 227,
+      "source_prompt_word_count": 77,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`, `background=\"transparent\"`, `output_format=\"png\"`, `n=1`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Field and Flour bakery logo, first variation — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, first variation — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-sunburst.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, second variation — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, second variation — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-sunburst.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, third variation — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, third variation — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-sunburst.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, fourth variation — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Field and Flour bakery logo, fourth variation — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "medium",
+      "prompt_skill": "Small-size identity and actual alpha",
+      "proposed_expanded_trial": "Four distinct bakery mark candidates under one visual identity brief",
+      "proposed_acceptance_checks": "Spelling; silhouette at small size; alpha channel and edge pixels; no painted checkerboard",
+      "comparison_factors": [
+        "negative space",
+        "alpha",
+        "variants"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G05",
+      "heading": "Use historical and real-world context",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#use-historical-and-real-world-context",
+      "source_prompt_sha256": "df539e623f639640a267aef0178b196648855af4f6251c81428bd7eb58769e9c",
+      "source_prompt_start_line": 344,
+      "source_prompt_word_count": 20,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Crowd scene in Bethel, New York, in August 1969 — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Crowd scene in Bethel, New York, in August 1969 — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Historical context plus visible facts",
+      "proposed_expanded_trial": "Large period concert crowd with dress, stage, vehicles and distant landscape",
+      "proposed_acceptance_checks": "No anachronisms in independently checked facts; body duplication; crowd coherence",
+      "comparison_factors": [
+        "world knowledge",
+        "crowd",
+        "accuracy"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G06",
+      "heading": "Turn a story into a comic strip",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#turn-a-story-into-a-comic-strip",
+      "source_prompt_sha256": "943f88f08d4e2bd89e578541406f5f06bd5a2990025f1ecd8f4fb3306c4de2ad",
+      "source_prompt_start_line": 382,
+      "source_prompt_word_count": 108,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Four-panel comic about a pet at home — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Four-panel comic about a pet at home — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Panel-specific narrative state",
+      "proposed_expanded_trial": "Four-beat pet caper with consistent room, costume and prop continuity",
+      "proposed_acceptance_checks": "Four panels; one beat per panel; pet and room continuity; reading order",
+      "comparison_factors": [
+        "sequence",
+        "identity",
+        "continuity"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G07",
+      "heading": "Create an interface preview",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#create-an-interface-preview",
+      "source_prompt_sha256": "f4d266c2591e1483348633995016139ecddfe3ddd61ff0ba24cbc295086124a1",
+      "source_prompt_start_line": 423,
+      "source_prompt_word_count": 83,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Farmers market mobile app mockup — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Farmers market mobile app mockup — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Hierarchy and actual interface content",
+      "proposed_expanded_trial": "Market app screen with vendor cards, specials, filters, hours and location",
+      "proposed_acceptance_checks": "Visible hierarchy; correct content; touch target plausibility; no invented claims of functioning UI",
+      "comparison_factors": [
+        "hierarchy",
+        "text",
+        "spacing"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G08",
+      "heading": "Create scientific and educational visuals",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#create-scientific-and-educational-visuals",
+      "source_prompt_sha256": "7b69f65763aa18ffce7ff858874feaf5fece23e38f95010d621979eb757c3ae0",
+      "source_prompt_start_line": 466,
+      "source_prompt_word_count": 89,
+      "documented_settings": "`size=\"1536x1024\"`, `quality=\"high\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Classroom diagram of cellular respiration — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Classroom diagram of cellular respiration — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Instructional diagram constraints",
+      "proposed_expanded_trial": "Three-stage respiration visual with explicit compartments and molecule routing",
+      "proposed_acceptance_checks": "Subject expert checks biochemical relationships; exact labels; readable paths",
+      "comparison_factors": [
+        "science",
+        "arrows",
+        "labels"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G09",
+      "heading": "Build slides, diagrams, and charts",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#build-slides-diagrams-and-charts",
+      "source_prompt_sha256": "b23d753c42e809583eb06bf0244d4edcc8cf807a89d976af7f6dd9e0c72f2c10",
+      "source_prompt_start_line": 513,
+      "source_prompt_word_count": 143,
+      "documented_settings": "`size=\"1536x864\"`, `quality=\"high\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Market opportunity slide with sample market sizing figures — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Market opportunity slide with sample market sizing figures — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Data-to-artifact layout",
+      "proposed_expanded_trial": "Market slide with concentric sizes, specified bar values, legend and footnotes",
+      "proposed_acceptance_checks": "All values exact; axes and years right; chart encodes supplied data; sources labeled fictional",
+      "comparison_factors": [
+        "chart",
+        "data",
+        "typography"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G10",
+      "heading": "Translate while preserving layout",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#translate-while-preserving-layout",
+      "source_prompt_sha256": "bfbae7cf5a43a475d9cf123e097e3a763f5dbc442fab6a0727196d3f30a09671",
+      "source_prompt_start_line": 570,
+      "source_prompt_word_count": 17,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"high\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Coffee machine diagram translated into Spanish — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-sp-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Coffee machine diagram translated into Spanish — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-sp-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit",
+      "complexity": "high",
+      "prompt_skill": "Text-only localization",
+      "proposed_expanded_trial": "Translate a dense mapped coffee diagram after glossary approval",
+      "proposed_acceptance_checks": "Correct Spanish; no old labels remain; arrows, geometry and colors preserved",
+      "comparison_factors": [
+        "text",
+        "preservation",
+        "localization"
+      ],
+      "trial_status": "not_run_by_this_audit",
+      "input_from_example": "G02"
+    },
+    {
+      "id": "G11",
+      "heading": "Transfer a visual style",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#transfer-a-visual-style",
+      "source_prompt_sha256": "c9c70c626b4ddd853c4a02a46b51c3daafc6ffcb1d27e783f9a5fe79f20aaff0",
+      "source_prompt_start_line": 607,
+      "source_prompt_word_count": 19,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Pixel-art game screen used as a style reference",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/pixels.webp",
+          "proposed_role": "style only"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Pixel-art motorcycle rider using the reference style — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/motorcycle-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Pixel-art motorcycle rider using the reference style — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/motorcycle-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "reference-generation",
+      "complexity": "medium",
+      "prompt_skill": "Separate style from content",
+      "proposed_expanded_trial": "Apply pixel-art palette and edge treatment to detailed motorcycle scene",
+      "proposed_acceptance_checks": "Style cues carried; no unwanted game-screen content; pose and wheel geometry",
+      "comparison_factors": [
+        "style",
+        "reference roles",
+        "content separation"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G12",
+      "heading": "Preserve identity and change clothing",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#preserve-identity-and-change-clothing",
+      "source_prompt_sha256": "fb5920e4533a29542de34fef96a4a4e0664fc0f953ee22bef686c7930919a1f0",
+      "source_prompt_start_line": 652,
+      "source_prompt_word_count": 95,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Woman in a museum used as the identity reference",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/woman-in-museum.webp",
+          "proposed_role": "identity and environment"
+        },
+        {
+          "alt": "Beige jacket used as a clothing reference",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/jacket.webp",
+          "proposed_role": "jacket"
+        },
+        {
+          "alt": "White tank top used as a clothing reference",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/tank-top.webp",
+          "proposed_role": "top"
+        },
+        {
+          "alt": "Gray boots used as a clothing reference",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/boots.webp",
+          "proposed_role": "boots"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Woman wearing the supplied clothing items — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/outfit-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Woman wearing the supplied clothing items — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/outfit-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit-multi-reference",
+      "complexity": "high",
+      "prompt_skill": "Identity, clothing and scene locks",
+      "proposed_expanded_trial": "Person plus jacket, top and boots, with mapped identity and garment regions",
+      "proposed_acceptance_checks": "Face/hair/body/pose remain recognizable; all garments fit; original environment preserved",
+      "comparison_factors": [
+        "identity",
+        "fabric",
+        "reference roles"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G13",
+      "heading": "Combine references",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#combine-references",
+      "source_prompt_sha256": "4740b11697cfe0b8876ff14f7fb8777d1f55fcbcb402265c6d5676ef9e910fee",
+      "source_prompt_start_line": 716,
+      "source_prompt_word_count": 32,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Woman in a street scene, the first compositing input",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+          "proposed_role": "target scene and person"
+        },
+        {
+          "alt": "Woman with a dog, the second compositing input",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+          "proposed_role": "dog donor only"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Dog placed beside the woman in the street scene — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-with-dog-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Dog placed beside the woman in the street scene — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-with-dog-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit-multi-reference",
+      "complexity": "high",
+      "prompt_skill": "Object transfer and plausible placement",
+      "proposed_expanded_trial": "Transfer named dog alone into target street photograph",
+      "proposed_acceptance_checks": "Correct dog; donor person excluded; placement, scale, contact and light plausible",
+      "comparison_factors": [
+        "selection",
+        "compositing",
+        "occlusion"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G14",
+      "heading": "Create a transparent product cutout",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#create-a-transparent-product-cutout",
+      "source_prompt_sha256": "25e8f7049e0821f543166dec422a641810a0489362a677c2db95490fe65332c9",
+      "source_prompt_start_line": 773,
+      "source_prompt_word_count": 56,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`, `background=\"transparent\"`, `output_format=\"png\"`.",
+      "input_assets": [
+        {
+          "alt": "Original shampoo product photograph",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp",
+          "proposed_role": "product identity"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Isolated shampoo bottle from the original example — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/extract-product-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Isolated shampoo bottle from the original example — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/extract-product-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit",
+      "complexity": "medium",
+      "prompt_skill": "Extraction and decoded alpha",
+      "proposed_expanded_trial": "Detailed labeled product with complex silhouette and genuine transparency",
+      "proposed_acceptance_checks": "Alpha inspected; no halos; unchanged product shape and copy; no fictitious transparency",
+      "comparison_factors": [
+        "alpha",
+        "geometry",
+        "text"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G15",
+      "heading": "Turn a drawing into a realistic image",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#turn-a-drawing-into-a-realistic-image",
+      "source_prompt_sha256": "9d27f5152f19c0fdf444981f76c4af7d265d50a36da7bca87d26661c7dd1d36e",
+      "source_prompt_start_line": 822,
+      "source_prompt_word_count": 31,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Line drawing of a river valley",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/drawings.webp",
+          "proposed_role": "layout and perspective only"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Photorealistic river valley rendered from the drawing — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/realistic-valley-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Photorealistic river valley rendered from the drawing — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/realistic-valley-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "sketch-to-render",
+      "complexity": "high",
+      "prompt_skill": "Geometry carrier versus appearance prompt",
+      "proposed_expanded_trial": "Terraced valley with mapped river, banks, tree groups, slopes and distant ridges",
+      "proposed_acceptance_checks": "Path topology and relative regions match sketch; realistic materials; no added objects",
+      "comparison_factors": [
+        "geometry",
+        "perspective",
+        "materials"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G16",
+      "heading": "Remove an object",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#remove-an-object",
+      "source_prompt_sha256": "bb9ee535e7908003823301bf4f9142568fc197611b7bffebe8b23bb65ec3843e",
+      "source_prompt_start_line": 870,
+      "source_prompt_word_count": 11,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Man holding a flower and wearing a blue cap",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-blue-hat.webp",
+          "proposed_role": "target portrait"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Same man after the flower has been removed — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-no-flower-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Same man after the flower has been removed — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-no-flower-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit",
+      "complexity": "medium",
+      "prompt_skill": "One target and surrounding integrity",
+      "proposed_expanded_trial": "Remove flower while retaining hand anatomy and all portrait context",
+      "proposed_acceptance_checks": "Flower absent; empty hand anatomically plausible; face, cap and background stable",
+      "comparison_factors": [
+        "local edit",
+        "anatomy",
+        "preservation"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G17",
+      "heading": "Insert a person into a scene",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#insert-a-person-into-a-scene",
+      "source_prompt_sha256": "9d2867233582be5afd3978d445e2c93a14e2ec65265501b133351a263b70ce17",
+      "source_prompt_start_line": 917,
+      "source_prompt_word_count": 133,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Identity reference from G12",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/woman-in-museum.webp",
+          "proposed_role": "person identity"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Woman running from a bear in a campsite scene — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/scene-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Woman running from a bear in a campsite scene — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/scene-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "reference-generation",
+      "complexity": "high",
+      "prompt_skill": "Person identity in a new action scene",
+      "proposed_expanded_trial": "Campsite action with identity reference, bear, tent, gear and landscape layers",
+      "proposed_acceptance_checks": "Identity retained; action unambiguous; bear behind person; campsite and body geometry coherent",
+      "comparison_factors": [
+        "identity",
+        "action",
+        "multi-object scene"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G18",
+      "heading": "Create the starting image",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#create-the-starting-image",
+      "source_prompt_sha256": "86d77123253bb13af1be2e53fb0cfebe26aedf21647aa54406350ebe77737f3f",
+      "source_prompt_start_line": 960,
+      "source_prompt_word_count": 44,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Original shampoo product photograph",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp",
+          "proposed_role": "product identity"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Shampoo billboard at sunset — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Shampoo billboard at sunset — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "reference-generation",
+      "complexity": "high",
+      "prompt_skill": "Product identity and real-world mockup",
+      "proposed_expanded_trial": "Highway billboard with supplied product and a mapped sign, road and sunset",
+      "proposed_acceptance_checks": "Product geometry; exact campaign copy once; coherent billboard perspective",
+      "comparison_factors": [
+        "product",
+        "perspective",
+        "exact text"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G19",
+      "heading": "Change one condition",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#change-one-condition",
+      "source_prompt_sha256": "536bcb6edd7326322cc5122987929388171ed37fd3cf947e6f102d8055195a3c",
+      "source_prompt_start_line": 1010,
+      "source_prompt_word_count": 9,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Shampoo billboard in a snowy evening scene — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-winter-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Shampoo billboard in a snowy evening scene — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-winter-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit",
+      "complexity": "high",
+      "prompt_skill": "Environmental change with local locks",
+      "proposed_expanded_trial": "Winter conversion of the same mapped billboard, road and landscape",
+      "proposed_acceptance_checks": "Weather changes; text/product geometry/camera/layout retained; realistic snow coverage",
+      "comparison_factors": [
+        "global condition",
+        "edit drift",
+        "lighting"
+      ],
+      "trial_status": "not_run_by_this_audit",
+      "input_from_example": "G18"
+    },
+    {
+      "id": "G20",
+      "heading": "Establish the character",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#establish-the-character",
+      "source_prompt_sha256": "caefaf972d43344b29a73b11b20829d1a7fa30a11ef12b41eab422f1468ace59",
+      "source_prompt_start_line": 1051,
+      "source_prompt_word_count": 120,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Forest hero introducing a children&#x27;s book character — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-1-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Forest hero introducing a children&#x27;s book character — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-1-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "medium",
+      "prompt_skill": "Reusable character specification",
+      "proposed_expanded_trial": "Watercolor forest hero with clear face, tunic, bow, boots and pouch",
+      "proposed_acceptance_checks": "All identity features visible and separable; consistent medium; no extra text",
+      "comparison_factors": [
+        "identity sheet",
+        "style",
+        "distinctive features"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G21",
+      "heading": "Continue the story",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#continue-the-story",
+      "source_prompt_sha256": "b779c0a6b7b7936f826b2f133ae6182783ae02dedf60521ad55b376dc2777b12",
+      "source_prompt_start_line": 1108,
+      "source_prompt_word_count": 85,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Same forest hero helping a squirrel in a winter scene — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-2-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Same forest hero helping a squirrel in a winter scene — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-2-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "reference-generation",
+      "complexity": "high",
+      "prompt_skill": "Identity across pose and story change",
+      "proposed_expanded_trial": "Same hero kneeling after a storm with fallen tree, squirrel and snow",
+      "proposed_acceptance_checks": "Hero recognizable; outfit/face/proportions preserved; new helping action readable",
+      "comparison_factors": [
+        "continuity",
+        "pose",
+        "reference preservation"
+      ],
+      "trial_status": "not_run_by_this_audit",
+      "input_from_example": "G20"
+    },
+    {
+      "id": "G22",
+      "heading": "Change furniture in a room",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#change-furniture-in-a-room",
+      "source_prompt_sha256": "a2e1409aab40ef499debfb8165ec79df1397d75d867e5d0d4b0360f977313f19",
+      "source_prompt_start_line": 1167,
+      "source_prompt_word_count": 38,
+      "documented_settings": "`size=\"1536x1024\"`, `quality=\"medium\"`.",
+      "input_assets": [
+        {
+          "alt": "Original kitchen with white chairs",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen.webp",
+          "proposed_role": "target room"
+        }
+      ],
+      "official_outputs": [
+        {
+          "alt": "Kitchen with replacement wooden chairs — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen-chairs-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Kitchen with replacement wooden chairs — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen-chairs-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "edit",
+      "complexity": "high",
+      "prompt_skill": "Repeated object replacement",
+      "proposed_expanded_trial": "Replace every matching chair in a detailed kitchen without redesign",
+      "proposed_acceptance_checks": "Correct chair count; every target changed; nonchairs stable; perspective/contact shadows",
+      "comparison_factors": [
+        "selection",
+        "count",
+        "furniture"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G23",
+      "heading": "Design a holiday card",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#design-a-holiday-card",
+      "source_prompt_sha256": "deaf4656c00b731df9509d4a3e6e83241004e633a8557ae2c574d9f1874039a5",
+      "source_prompt_start_line": 1215,
+      "source_prompt_word_count": 99,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Holiday card showing a teddy bear by a window — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-holiday-card-teddy-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Holiday card showing a teddy bear by a window — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-holiday-card-teddy-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Emotional narrative through physical details",
+      "proposed_expanded_trial": "Layered nostalgic card with repaired bear, keepsake box, window, snow and copy",
+      "proposed_acceptance_checks": "Required objects and repairs visible; snow outside; exact copy; material/light coherence",
+      "comparison_factors": [
+        "storytelling",
+        "materials",
+        "text"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    },
+    {
+      "id": "G24",
+      "heading": "Design collectible merchandise",
+      "source_anchor": "https://developers.openai.com/api/docs/guides/image-prompting?model=gpt-image-2.5#design-collectible-merchandise",
+      "source_prompt_sha256": "46ae473f0fee1bf0a0012f3ba4f0af5f035d284d591db36a34be3df70bac247d",
+      "source_prompt_start_line": 1272,
+      "source_prompt_word_count": 104,
+      "documented_settings": "`size=\"1024x1536\"`, `quality=\"medium\"`.",
+      "input_assets": [],
+      "official_outputs": [
+        {
+          "alt": "Collectible toy airplane in holiday packaging — GPT Image 2.5 Flare",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-collectible-toy-airplane-gpt-image-2-5-flare.webp"
+        },
+        {
+          "alt": "Collectible toy airplane in holiday packaging — GPT Image 2.5 Sunburst",
+          "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-collectible-toy-airplane-gpt-image-2-5-sunburst.webp"
+        }
+      ],
+      "mode": "generate",
+      "complexity": "high",
+      "prompt_skill": "Packaged product and text accuracy",
+      "proposed_expanded_trial": "Toy aircraft inside blister packaging with mapped plastic, card, toy and label",
+      "proposed_acceptance_checks": "Correct aircraft features; credible plastic reflections; exact copy; no accidental brands",
+      "comparison_factors": [
+        "packaging",
+        "transparency appearance",
+        "text"
+      ],
+      "trial_status": "not_run_by_this_audit"
+    }
+  ],
+  "asset_accessibility_checks": [
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-winter-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/billboard-winter-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/boots.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-1-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-1-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-2-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/childrens-book-illustration-2-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-collectible-toy-airplane-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-collectible-toy-airplane-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-holiday-card-teddy-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/christmas-holiday-card-teddy-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/drawings.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/extract-product-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/extract-product-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-sp-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/infographic-coffee-machine-sp-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/jacket.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen-chairs-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen-chairs-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/kitchen.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-blue-hat.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-no-flower-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-no-flower-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/motorcycle-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/motorcycle-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/outfit-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/outfit-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/pixels.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/realistic-valley-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/realistic-valley-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/scene-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/scene-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/tank-top.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-with-dog-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-with-dog-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/woman-in-museum.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-flare.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-sunburst.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    }
+  ],
+  "sources": {
+    "announcement": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "api": "https://developers.openai.com/api/docs/guides/image-generation",
+    "legacy_notebook": "https://github.com/openai/openai-cookbook/blob/d310dfa05d20fb653caa9c1c4b89ac1a4aeeeae4/examples/multimodal/image-gen-models-prompting-guide.ipynb"
+  },
+  "experimental_controls": [
+    "Do not infer a backend from product availability; record the model or unknown.",
+    "Use same semantic requirements when comparing prose versus structured formatting.",
+    "Separate prompts with extra requirements from equivalent-information prompt comparisons.",
+    "Prespecify acceptance criteria and show every generated candidate.",
+    "Compare sequential and batched edits against the same starting image and final goal.",
+    "Match total candidate budget when comparing sub-agent search to a single agent.",
+    "Report exploratory single-image comparisons as observations, not general effect sizes."
+  ]
+}

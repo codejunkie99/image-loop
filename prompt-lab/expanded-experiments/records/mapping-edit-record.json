@@ -1,0 +1,75 @@
+{
+  "id": "M1",
+  "prompt": "Edit the attached clean source image. Apply only the changes below. The source pixels identify the target; inventory IDs and bounding boxes are review aids and must not appear in the artwork.\nPreserve the original canvas, crop, unselected objects, readable text, relationships, geometry, lighting and materials except for explicitly permitted consequences.\n\nINPUT ROLES\n- A: content, layout, style, palette, material, lighting, typography. Use the clean Rain Engine image for its visible scene, arrangement and appearance. Never copy mapping overlays or interface badges.\n\nREQUESTED CHANGES\n- RESTYLE large teal return arrow (A-48) (approximate normalized box [0.698, 0.128, 0.181, 0.768]). Change only this return arrow from turquoise to deep magenta.\n  Change only these properties: appearance.color.\n  Preserve: Arrow shape, route, width, position, highlight and attachment to the coil; All six text strings; Five tiers, water color, four copper arrows, materials, lighting and crop.\n\nAfter editing, inspect each requested difference and every protected detail. Do not claim that \u201cunchanged\u201d is guaranteed by a generative edit.",
+  "references": [
+    "outputs/image-reconstruction-skill/assets/rain-engine.png"
+  ],
+  "output": "outputs/expanded-experiments/mapping/selected-arrow-edit.png",
+  "checks": [
+    "Deep magenta return arrow",
+    "Same arrow shape/route/position/width",
+    "Six exact text strings remain",
+    "Five tiers remain",
+    "Water stays turquoise",
+    "Four down arrows copper",
+    "Same 1024x1536 dimensions",
+    "No mapIDs or boxes"
+  ],
+  "source": "Actual local mapper UI export through Copy prompt, tested by root",
+  "tool": "built-in image_gen",
+  "backend_model": "not exposed",
+  "seed": "not exposed",
+  "status": "completed",
+  "visually_inspected": true,
+  "output_unmodified": true,
+  "file": {
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "format": "PNG",
+    "sha256": "31e90369a977e9d5e9f5f467a1ebb03ff78c3d6579416f53819e989a507e1ef6"
+  },
+  "summary": "Return arrow becomes deep magenta. All six strings, five tiers, turquoise water and four copper downward arrows remain. Fine water and garden textures are redrawn; no pixel identity claimed.",
+  "review": [
+    {
+      "criterion": "Deep magenta return arrow",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Same arrow shape/route/position/width",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Six exact text strings remain",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Five tiers remain",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Water stays turquoise",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Four down arrows copper",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "Same 1024x1536 dimensions",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    },
+    {
+      "criterion": "No mapIDs or boxes",
+      "result": "pass",
+      "evidence": "Inspected actual exported-prompt result; dimensions checked from PNG."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "local_links": 158,
+  "image_occurrences": 99,
+  "unique_images": 77,
+  "missing": [],
+  "markdown_words": 9823,
+  "guide_cases": 24,
+  "requests": 41,
+  "generated_outputs": 40,
+  "pre_generation_rejections": 1,
+  "browser_checks": [
+    "search and category filtering",
+    "prompt copy to clipboard",
+    "before-after slider",
+    "map element selection and compact prompt export",
+    "edited-color stale-constraint suppression",
+    "visible review flags"
+  ],
+  "limitations": [
+    "native comment and Sketch toolbar not executed",
+    "no exposed backend version or seed",
+    "no automatic image analysis inside the static map"
+  ],
+  "portable_markdown_links": "verified",
+  "final_browser_state": {
+    "broken_loaded_images": 0,
+    "horizontal_overflow": false,
+    "case_count": 24
+  }
+}

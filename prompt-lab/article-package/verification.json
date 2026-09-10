@@ -1,0 +1,53 @@
+{
+  "html": {
+    "index.html": {
+      "references_examined": 44,
+      "local_links_verified": 38,
+      "image_count": 9
+    },
+    "guide.html": {
+      "references_examined": 101,
+      "local_links_verified": 101,
+      "image_count": 45
+    },
+    "prompt-library.html": {
+      "references_examined": 517,
+      "local_links_verified": 471,
+      "image_count": 118
+    }
+  },
+  "prompts": {
+    "selected": 44,
+    "trial_records": 49,
+    "exact_text_files_verified": 95
+  },
+  "evidence_images": {
+    "unchanged_original_files_verified": 123
+  },
+  "pdf": {
+    "pages": 50,
+    "bytes": 40377748,
+    "pages_with_text": 50,
+    "study_pages_verified": 44,
+    "official_coffee_attribution": true,
+    "rendered_pages": 50
+  },
+  "layout": {
+    "boxes": 760,
+    "overlap_candidates": []
+  },
+  "editorial": {
+    "article_words": 3000,
+    "word_count_definition": "Whitespace-separated visible Markdown text after removing Markdown formatting, image alternative text and link destinations; includes headings, captions, list markers, JSON excerpt and quoted prompts.",
+    "machina_check": "All substantive style checks passed. The checker\u2019s default length ceiling is overridden by the explicit request for a 3,000-word article. Markdown image syntax is not prose exclamation punctuation.",
+    "review": "All 50 rendered pages visually reviewed in contact sheets; changed pages also inspected at full-page size. Prompt excerpts stop at complete thoughts where space allows.",
+    "preserved_evidence": "Published examples are credited separately. Unknown executing model/variant/seed/quality and failed edits remain explicit. P10/P14 attachment-record discrepancies are flagged without rewriting original prompts."
+  },
+  "interactive_checks": {
+    "article": "Opened and visually reviewed in the in-app browser.",
+    "prompt_library": "93 record sections; failure search returned the three opaque-cutout records. Copy prompt matched the exact G19 submitted text.",
+    "visual_map": "Packaged 50-element inventory loaded. Selecting A-48 exposed the return-arrow description and property controls.",
+    "reconstruction_skill": "Both real JSON examples passed structural/semantic validation. The selected-edit example compiled successfully in edit mode. This validates the contract, not visual accuracy."
+  },
+  "verified_at": "2026-09-10T09:48:19.197163+00:00"
+}

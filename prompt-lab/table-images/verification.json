@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "style": "blue-light-diagram",
+  "pngs": 12,
+  "width": 3200,
+  "all_table_text_cells_checked": 165,
+  "source_wording_preserved": true,
+  "source_photographs_unmodified": true,
+  "text_bounds": "passed",
+  "visual_review": "All 12 in contact sheet; comments/map/sketch and three-record panels inspected at larger size.",
+  "source_markdown_unchanged": true,
+  "pages": [
+    {
+      "file": "index.html",
+      "images": 12,
+      "copy_buttons": 12,
+      "local_links": "passed"
+    },
+    {
+      "file": "../image-prompting-article-with-prompts-and-results-tables-as-images.html",
+      "images": 25,
+      "copy_buttons": 0,
+      "local_links": "passed"
+    }
+  ],
+  "zip": "../article-table-images.zip",
+  "zip_bytes": 9025064,
+  "clipboard": "Copy handler and download/right-click fallback present; native clipboard interaction not exercised."
+}

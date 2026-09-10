@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/boots.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/boots.webp",
+    "bytes": 108674
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/drawings.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/drawings.webp",
+    "bytes": 74610
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/jacket.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/jacket.webp",
+    "bytes": 4562
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-blue-hat.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/man-with-blue-hat.webp",
+    "bytes": 101206
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/pixels.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/pixels.webp",
+    "bytes": 45194
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/shampoo.webp",
+    "bytes": 6820
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/tank-top.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/tank-top.webp",
+    "bytes": 8330
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+    "bytes": 117420
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+    "bytes": 121536
+  },
+  {
+    "url": "https://developers.openai.com/images/platform/guides/image-prompting/woman-in-museum.webp",
+    "path": "outputs/expanded-experiments/edit-coverage/inputs/woman-in-museum.webp",
+    "bytes": 97218
+  }
+]

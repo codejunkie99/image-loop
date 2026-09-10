@@ -1,0 +1,12 @@
+{
+  "name": "icons",
+  "image": "../../../../../premium-examples/brand/icons.png",
+  "original_file": "../icons.png",
+  "prompt": "Refine this six-icon design sheet into pristine flat artwork. Preserve exactly these six icon subjects, their reading order, layout, scale, empty margins, navy-and-vermilion palette, and every meaningful component. This is a finish-only correction: replace the mottled ink, soft tonal shading and faint material-like surface with absolutely uniform solid color fills. Every navy area is one consistent deep navy, every vermilion area one consistent vermilion, and the background is perfectly uniform white. There must be no paper grain, highlights, shadows, gradients, bevels, blur, stray pixels or photographic material texture. Redraw the edges as clean continuous vector-like curves and straight lines, with consistent optical stroke weight and identical corner discipline across the family. Retain the 3-column by 2-row layout and all six subjects, including exactly three mixer faders and two three-spoked tape reels. No new objects, labels, text or border. Return the full original 3:2 canvas as a sharp raster concept sheet.\n",
+  "reference_images": [
+    "../../../../../premium-examples/brand/icons-original.png"
+  ],
+  "tool": "image_gen",
+  "model": "not exposed",
+  "seed": "not exposed"
+}

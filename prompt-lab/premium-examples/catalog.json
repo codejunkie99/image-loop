@@ -1,0 +1,133 @@
+[
+  {
+    "id": "fashion",
+    "category": "Fashion app",
+    "title": "SABLE · editorial commerce",
+    "image": "images/01-fashion-app.png",
+    "prompt_file": "prompts/01-fashion-app.txt",
+    "repair_prompt_file": "prompts/01-fashion-app-repair.txt",
+    "previous_image": "images/01-fashion-app-v1.png",
+    "sources": [
+      {
+        "title": "Wavespace fashion commerce presentation",
+        "url": "https://www.behance.net/gallery/229351021/ECommerce-Website-Mobile-App-OffWhite-Fashion?locale=en_US",
+        "role": "Observed editorial photo hierarchy and modular commerce; no source pixels attached."
+      }
+    ],
+    "review": "Three aligned screens, readable inventory and prices, consistent bag design and deliberate photo hierarchy. Repair correctly selects All and activates Shop on the collection screen; Discover stays active on the home screen.",
+    "limitations": "Raster interface concept. No interaction or contrast/accessibility audit. Fine pixels may be redrawn in the repair.",
+    "technique": "Define screen roles and exact copy, then inspect selected states as well as visual polish.",
+    "calls": 2
+  },
+  {
+    "id": "product",
+    "category": "Luxury product photo",
+    "title": "VELLUM · No. 04",
+    "image": "images/02-luxury-product.png",
+    "prompt_file": "prompts/02-luxury-product.txt",
+    "sources": [
+      {
+        "title": "Byredo Absolu campaign",
+        "url": "https://www.byredo.com/ca_en/absolu-de-parfum-campaign",
+        "role": "Observed reflected light and contrast among glass, liquid and textured caps; original fictional product."
+      }
+    ],
+    "review": "Exact three-line label, one coherent bottle, readable paper texture, wood grain, brushed collar and thick glass. Reflection and exposure are convincing.",
+    "limitations": "Cap is taller and surface more veined than the initial direction. This is a product concept, not a measured reproduction.",
+    "technique": "Specify the behavior of each material under light, and give the product a clear silhouette.",
+    "calls": 1
+  },
+  {
+    "id": "ugc",
+    "category": "UGC",
+    "title": "MORA · a morning routine",
+    "image": "images/03-ugc-skincare.png",
+    "prompt_file": "prompts/03-ugc-skincare.txt",
+    "sources": [
+      {
+        "title": "Rhode glazing milk photography",
+        "url": "https://www.rhodeskin.com/products/glazing-milk",
+        "role": "Observed close skin texture and intimate camera language; original synthetic person and product."
+      }
+    ],
+    "review": "Natural-looking skin, flyaways, relaxed expression, plausible hand contact and clear product lettering. Keeps a phone-camera feel.",
+    "limitations": "A plant and a soap dispenser were added in the background. Synthetic demonstration, not a real customer testimonial.",
+    "technique": "Use everyday framing and material texture; preserve imperfections that make UGC credible.",
+    "calls": 1
+  },
+  {
+    "id": "headshot",
+    "category": "Headshot",
+    "title": "MORA · from everyday to studio",
+    "image": "images/04-headshot.png",
+    "prompt_file": "prompts/04-headshot.txt",
+    "reference_images": [
+      "images/03-ugc-skincare.png"
+    ],
+    "sources": [],
+    "review": "The generated UGC subject remains recognizable after changing clothing, background and lighting. Natural skin detail, clear eyes, navy tailoring and a quiet blue-gray background give the portrait a coherent professional finish.",
+    "limitations": "This is the same fictional character by visual judgment, not a measured identity-preservation result. Fine facial and hair details can change during generation.",
+    "technique": "Attach the source portrait. Separate the identity to preserve from the wardrobe, setting and lighting to change.",
+    "calls": 1
+  },
+  {
+    "id": "interior",
+    "category": "Interior design",
+    "title": "Coast House · a living room",
+    "image": "images/05-interior.png",
+    "prompt_file": "prompts/05-interior.txt",
+    "sources": [
+      {
+        "title": "Norm Architects — 262 Fifth Avenue",
+        "url": "https://normcph.com/project/262-fifth-avenue-2/",
+        "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+      }
+    ],
+    "review": "The joinery, fireplace, window seat and glazing create a legible room. Wool, oak, limestone and upholstery have distinct texture; the coast and the room share a coherent light direction.",
+    "limitations": "The sofa faces the central seating group more than the fireplace specified in the brief. Small plants, a vase and a throw were added. This is a spatial concept, not a construction design.",
+    "technique": "Describe the room as connected planes, openings and furniture relationships before specifying materials.",
+    "calls": 1
+  },
+  {
+    "id": "sketch",
+    "category": "Sketch",
+    "title": "Coast House · drawn study",
+    "image": "images/06-sketch.png",
+    "prompt_file": "prompts/06-sketch.txt",
+    "reference_images": [
+      "images/05-interior.png"
+    ],
+    "sources": [
+      {
+        "title": "Norm Architects — 262 Fifth Avenue",
+        "url": "https://normcph.com/project/262-fifth-avenue-2/",
+        "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+      }
+    ],
+    "review": "The viewpoint, fireplace, artwork, sofa, chair, table and window seat carry through from the generated interior. Fine contours, visible construction lines and material hatching produce a coherent architectural presentation.",
+    "limitations": "The result is more densely shaded and detailed than the requested selective wash. It demonstrates image-to-sketch restyling; it is not a test of ChatGPT’s manual sketch-input interface.",
+    "technique": "Lock viewpoint, object count and major positions; change the representation rather than rewriting the scene.",
+    "calls": 1
+  },
+  {
+    "id": "section",
+    "category": "Cross-section",
+    "title": "Coast House · inside the pavilion",
+    "image": "images/07-cross-section.png",
+    "prompt_file": "prompts/07-cross-section.txt",
+    "reference_images": [
+      "images/05-interior.png"
+    ],
+    "sources": [
+      {
+        "title": "Norm Architects — 262 Fifth Avenue",
+        "url": "https://normcph.com/project/262-fifth-avenue-2/",
+        "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+      }
+    ],
+    "review": "The cutaway makes the room legible while retaining its main furniture and materials. All five labels are readable; their leaders connect to the skylight, oak storage, living area, glazing and foundation.",
+    "limitations": "The photograph cannot reveal hidden construction. Roof, wall thicknesses and foundations were invented for this conceptual section; the image does not establish structural feasibility.",
+    "technique": "Use the reference for visible design. Explicitly label newly invented hidden geometry and define where each annotation must land.",
+    "calls": 1
+  }
+]

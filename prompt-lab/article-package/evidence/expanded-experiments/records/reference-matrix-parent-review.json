@@ -1,0 +1,57 @@
+{
+  "reviewer": "parent assistant, distinct from generating agent",
+  "blinding": "Viewed two declared sources and neutral outputs M3 R7 T2 before opening code-to-condition key; not a human blinded study.",
+  "records": [
+    {
+      "code": "M3",
+      "woman_likeness": "pass: close to target closed-mouth expression, dark hair, cap and outfit",
+      "dog_likeness": "pass: broad head, stocky chocolate body, floppy ears and amber eyes resemble the supplied dog",
+      "donor_contamination": "No obvious donor outfit transfer",
+      "subject_count": "pass: one woman and one dog, no distant people seen",
+      "outfit": "pass",
+      "pose": "pass",
+      "leash": "uncertain: burgundy connected leash is fairly straight; required slack is marginal",
+      "scene": "pass: palms, barrel roof, bronze planters, right-side train and clock",
+      "lighting": "pass: reflected warm light and ground contact",
+      "canvas": "pass:1536x1024",
+      "lettering": "fail: clock has numeral-like face markings",
+      "overall": "Strong combined scene; not all hard constraints pass."
+    },
+    {
+      "code": "R7",
+      "woman_likeness": "uncertain: wider toothy smile, lighter hair and facial appearance resemble donor photograph more than target; no definitive identity assertion",
+      "dog_likeness": "pass: stocky chocolate body and broad face similar to target dog",
+      "donor_contamination": "uncertain: possible facial appearance contamination; target clothing remains correct",
+      "subject_count": "pass: one woman and dog",
+      "outfit": "pass",
+      "pose": "pass",
+      "leash": "pass: clear slack burgundy loop",
+      "scene": "pass",
+      "lighting": "pass",
+      "canvas": "pass:1536x1024",
+      "lettering": "fail: visible Roman-numeral-like clock markings",
+      "overall": "Scene and dog work; intended woman's specific likeness less convincing."
+    },
+    {
+      "code": "T2",
+      "woman_likeness": "pass: close target expression and facial appearance",
+      "dog_likeness": "uncertain: chocolate Labrador, but visibly narrower head, leaner longer-legged body than stocky source dog",
+      "donor_contamination": "No obvious donor face or clothing transfer",
+      "subject_count": "pass:one woman and one dog",
+      "outfit": "pass",
+      "pose": "pass",
+      "leash": "pass:slack burgundy leash",
+      "scene": "pass",
+      "lighting": "pass",
+      "canvas": "pass:1536x1024",
+      "lettering": "fail: clock face has visible markings",
+      "overall": "Strong scene and woman; dog matches category more clearly than individual source appearance."
+    }
+  ],
+  "limitations": [
+    "One candidate per condition.",
+    "Source people share broad visual traits, so identity comparisons are subjective.",
+    "No claim that multi-agent orchestration outperforms equal-budget single-agent orchestration.",
+    "All candidates fail strict blank-clock requirement."
+  ]
+}

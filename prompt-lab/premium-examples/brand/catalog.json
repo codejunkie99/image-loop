@@ -1,0 +1,121 @@
+[
+  {
+    "id": "packaging",
+    "category": "Packaging",
+    "title": "OFFDAY · sparkling tea",
+    "image": "packaging.png",
+    "prompt_file": "packaging.prompt.txt",
+    "sources": [
+      {
+        "title": "Pentagram — EBBS",
+        "url": "https://www.pentagram.com/work/ebbs/story",
+        "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+      }
+    ],
+    "review": "Two coordinated cans have distinct coral and powder-blue flavor labels. Wordmarks, flavor names and 355 ml marks are readable. Aluminum rims, paper labels and shadows have distinct material behavior.",
+    "limitations": "A visual packaging concept. It does not include a dieline, ingredient panel or a print-ready label file.",
+    "technique": "Define the shared identity once, then specify exactly what changes between product variants.",
+    "calls": 1
+  },
+  {
+    "id": "advertisement",
+    "category": "Advertisement",
+    "title": "OFFDAY · good tea, zero plans",
+    "image": "advertisement.png",
+    "prompt_file": "advertisement.prompt.txt",
+    "reference_images": [
+      "brand/packaging.png"
+    ],
+    "sources": [
+      {
+        "title": "Pentagram — EBBS",
+        "url": "https://www.pentagram.com/work/ebbs/story",
+        "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+      }
+    ],
+    "review": "The coral can retains its wordmark, emblem, flavor and volume. The large two-line headline is exact and does not overlap the product. Blue, white and coral create a coherent campaign image.",
+    "limitations": "The can was redrawn from the reference rather than composited pixel for pixel. Tiny label geometry and finish can change. No advertising performance was tested.",
+    "technique": "Attach the product reference, reserve a separate copy zone and list the label details to preserve.",
+    "calls": 1
+  },
+  {
+    "id": "merch",
+    "category": "Merch",
+    "title": "OFFDAY · wear the identity",
+    "image": "merch.png",
+    "prompt_file": "merch.prompt.txt",
+    "reference_images": [
+      "brand/packaging.png"
+    ],
+    "sources": [
+      {
+        "title": "Pentagram — EBBS",
+        "url": "https://www.pentagram.com/work/ebbs/story",
+        "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+      }
+    ],
+    "review": "The white tee, blue tote and coral tag form one clear flat lay. The wordmark and eye-shaped emblem carry across with appropriate black or white ink. Knit, canvas, seams and print have convincing texture.",
+    "limitations": "The logo proportions are approximate across curved and folded material. These are mockups; no garment pattern or production artwork is included.",
+    "technique": "Transfer the identity while specifying the physical surfaces, ink colors and exact item count.",
+    "calls": 1
+  },
+  {
+    "id": "logo",
+    "category": "Logo",
+    "title": "OFFDAY · the core mark",
+    "image": "logo.png",
+    "prompt_file": "logo.prompt.txt",
+    "reference_images": [
+      "brand/packaging.png"
+    ],
+    "sources": [
+      {
+        "title": "Pentagram — EBBS",
+        "url": "https://www.pentagram.com/work/ebbs/story",
+        "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+      }
+    ],
+    "review": "The mark is isolated into a clear vertical lockup: one black almond shape with a circular negative-space opening above the condensed wordmark. The composition is legible without supporting imagery.",
+    "limitations": "A raster identity concept, not a vector master or a trademark-clearance result. Fine contours, kerning and the background retain small raster variations.",
+    "technique": "Ask to extract the identity from the reference and remove the product context.",
+    "calls": 1
+  },
+  {
+    "id": "icons",
+    "category": "Icons",
+    "title": "Listening room · six pictograms",
+    "image": "icons.png",
+    "prompt_file": "icons.prompt.txt",
+    "repair_prompt_file": "icons-repair.prompt.txt",
+    "previous_image": "icons-original.png",
+    "sources": [
+      {
+        "title": "IBM Design Language — pictogram design",
+        "url": "https://www.ibm.com/design/language/iconography/pictograms/design/",
+        "role": "Reference for consistent geometry, stroke logic and a readable pictogram family; no source pictograms attached."
+      }
+    ],
+    "review": "All six requested symbols are recognizable in a three-by-two arrangement: headphones, turntable, mixer, reel deck, metronome and speaker. The targeted cleanup reduced surface noise while retaining the composition and red accents.",
+    "limitations": "Cleanup was only partial: faint mottling remains in the navy and red. Stroke weight and optical size are not perfectly uniform. Treat this as a family direction; rebuild approved symbols as vectors for a production icon library.",
+    "technique": "Name every symbol, set a shared geometric language and inspect the whole family rather than one icon alone.",
+    "calls": 2
+  },
+  {
+    "id": "illustration",
+    "category": "Illustration",
+    "title": "The afternoon rehearsal",
+    "image": "illustration.png",
+    "prompt_file": "illustration.prompt.txt",
+    "sources": [
+      {
+        "title": "Malika Favre — The Travel Editions",
+        "url": "https://www.malikafavre.com/collections/the-travel-editions",
+        "role": "Observed limited palettes, negative space and clear silhouettes. The pianist composition is an original brief; no source artwork attached."
+      }
+    ],
+    "review": "A single pianist, large piano silhouette and diagonal window light create a strong editorial composition. The restrained ivory, navy, black and red palette gives the scene a coherent mood.",
+    "limitations": "The output adds subtle shading and detailed piano strings beyond the requested flat shapes. Piano geometry and mechanics are stylized, not technically verified.",
+    "technique": "Describe the silhouette, viewpoint and negative space first; use a limited palette to organize the scene.",
+    "calls": 1
+  }
+]

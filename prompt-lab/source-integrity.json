@@ -1,0 +1,1061 @@
+{
+  "scope": "Comparison with the saved source images during publication; no image pixels or image metadata were rewritten.",
+  "image_files": 262,
+  "images": [
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/e22a.png",
+      "sha256": "9d5e0cbc82b2c5be3f4256de8a255cc2cb29af0868817d89a4ce436e1dc251ed"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/e22b.png",
+      "sha256": "2463b32b2c574558cdebe168c25cacea6f077457ddfba57245f0d61d926c3b29"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g18.png",
+      "sha256": "60b4fc4007f4ddbd5d17acd52cec662e020b02aafd75f107aebc86de78a2ae33"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g19.png",
+      "sha256": "1287161637df7cd78282d7175e86d246382cb2df65ffd8c990525473817a0ea8"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g20.png",
+      "sha256": "f0be3f5647edc99409f13412aa8f9513b9e1aaa357484094443f6caceb6a5c02"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g21.png",
+      "sha256": "6f9d4d1b0b60a9eb0375b275735a1ea684c78c786c2ce5ab7783f727cc891c9a"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g22.png",
+      "sha256": "2fb052ed7bbc09f10e8f706f6d0bf7c15ec7ec737a3244b70dff25d77657c819"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g23.png",
+      "sha256": "5fe03600554628e1d52651beab3f682298b8b3d3a402b6c9877b38b3dfac9fb8"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/continuity/g24.png",
+      "sha256": "cfb6b02f8d9caf7719f3145d3f3a282697294ccb82ddbb09f15437b87cb78497"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g10.png",
+      "sha256": "c0dabe783c166c673b70f6ecd10048f27145951648b771301f353b22d9490baa"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g11.png",
+      "sha256": "088de3dec4ee60d5c4d0ec63795a1898cccfb941906f5faf4e62157f4ceaa62b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g12.png",
+      "sha256": "4daf91289d465232ff078f845f61c6869d370ae1c436430b0734aa292dfca1d8"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g13.png",
+      "sha256": "7a955ee1af2e4bc5c41ad02cd5381febaa6e4abdee7fed697779d557b4296d5b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g14-alpha-repair.png",
+      "sha256": "aef39fd84567611852c3891ccbabaaee8361a44d3d4c82783990fcf9fcf35e90"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g14.png",
+      "sha256": "32037af6dbfea3cb29b2c2531eb7449225c2efa9b175a6273900c6155031272b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g15.png",
+      "sha256": "a912bb109e4f283009b063750d9dd6519feeb0f3507f268a50a0f075784bd87c"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g16.png",
+      "sha256": "4393b9611b48046b1185602bc9cc4b2e62a3698158670e6428545627e4e9a395"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/g17.png",
+      "sha256": "b692beb2eb6e54fce48af45d459033ab18f08725401629a7dfadb4a741aaa712"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/boots.webp",
+      "sha256": "91ba0aff95c6c24b9524ce052966db3b40b6579c9bd1931aff0f1d1331c63abd"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/drawings.webp",
+      "sha256": "4d4d7b94418a5ccd2c45516f7f5794f027eba02e60d9ac15294a65f586cd407b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/jacket.webp",
+      "sha256": "5f7112e6a2d59c35bd0a3fe80fe80e83992f9b17616319b5b3ef55b556c2fd42"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/man-with-blue-hat.webp",
+      "sha256": "3ae738ac0cb05ffe827a2befdbab5317ae7329e812b56adc687e0ae8c40508b2"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/pixels.webp",
+      "sha256": "ccb42c3f01c3fd527ffe2a7bfd6e8c963fc2256a14574f82aa17442ced0ce8a7"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/shampoo.webp",
+      "sha256": "b7afa96b86794446d9c101b72f2cda43827c3f92d0cc2493c541147faaf38695"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/tank-top.webp",
+      "sha256": "3b830909e2912389b3342cb435accf8f9646f4f0188b633956dee5d9660f798b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+      "sha256": "aea992a953df9495b137089319e232d87d4a7432b6fe3c3782097d9922b32ca4"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+      "sha256": "d05039cf1e1893016bb529ea63c4496a8807aaf9f30987607b7ed3438878af3f"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/edit-coverage/inputs/woman-in-museum.webp",
+      "sha256": "5dd4ba349e5600d51ceb0291ad930d149399167bbdfeacdef577ea3a89474d95"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g01-maritime-editorial.png",
+      "sha256": "f04a9f1a690be207caf0bc17d1c71a4a61bddf08873fa4bcac35edf9dc40db4f"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g03-afterlight-poster.png",
+      "sha256": "9e1d74bcef915a0a30fe2f2c0070b623b56d92a0fdac98f361c49fda67fb3686"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g04-tideline-mark.png",
+      "sha256": "5f581e4558867b34a0b830b7ae4970693de16fc4bb2abff0aaac0ff1cf6e72c9"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g05-woodstock-recreation.png",
+      "sha256": "417fce9c0ebbeb32901cb0777548f49c2a97ecf7f199e15b895180eef5fd5fde"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g06-cat-four-panel.png",
+      "sha256": "a97bf344d3040b6a388958dfd25d41da93753a191bd705b50f1baba636834300"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g06-last-panel-repaired.png",
+      "sha256": "7df0dee115a7b8c9ed20b1b7dea6b015096cf8ecbb3363d6a45dcb50fc16ff38"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g07-fieldwork-market-ui.png",
+      "sha256": "6dd18d4c883b9caacc8aec80d99aeae9fed1013c36abf99a83c76e0f7dc64816"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g08-leaf-cutaway.png",
+      "sha256": "64f9471921e0bb843797289ac90d6725b1bf63d84b4813133e21468d29f6b761"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/g09-civic-move-slide.png",
+      "sha256": "e8215e79739ebf6cd2a3b0d5cc2b4e8be7fdcbc6219f865a2f36e4fbd1d02399"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g01-sunburst.webp",
+      "sha256": "f13e122b88155493dc71a103d209d256dcca373379c515e0ffe3d89c3753b4f0"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g03-sunburst.webp",
+      "sha256": "a64756528fb31eb527ef4a3165215908d1760c7ba07519b18be74680f709fef0"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g04-sunburst.webp",
+      "sha256": "e3e827efc9c682c02329abbd462f2738f729f4b7cc51b1cb91cac593ebc2fc33"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g05-sunburst.webp",
+      "sha256": "ede2106e5e25c97303fb8a813b27a74f23d71755e6a40c8657dd4e0302b182f2"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g06-sunburst.webp",
+      "sha256": "27247e27d2f241c53a35314a767e38d82fcf597db3f0c98199d0fc5876ed101e"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g07-sunburst.webp",
+      "sha256": "97c326ed033a499e5f3d16fb878a113e8d448fa7996b4f6fad344c23a8c92e85"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g08-sunburst.webp",
+      "sha256": "c35c3bf14208eef90cd34446eb83151f959389ead7ebd233cd8f014a4d6d3115"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g09-sunburst.webp",
+      "sha256": "0d7f8fc0c0109e3942206f5d24688879cf0dff67291f954f319a1c71ec9888e3"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g10-sunburst.webp",
+      "sha256": "719df46aaab158ee7872d2e90ba5f0e3a1ac8e1590299411b97ca9c7cca4b94c"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g11-sunburst.webp",
+      "sha256": "0294e72cca2885d16185a7e8fe0355bf7fc565fd63b87d29bf461bb8099661cd"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g12-sunburst.webp",
+      "sha256": "a2951ab7448c7253da7cc413a2c68c0ccbd2b6efe85b93e016b2eacf488570f7"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g13-sunburst.webp",
+      "sha256": "3234bde2e66f63c497a63aab0b8a3f5ac81fc0e44b36a6a5a8cbd9ac4e35d046"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g14-sunburst.webp",
+      "sha256": "3b6f6a1071e00653b32f2fbe6b447e86f8d9d5f00006c4839515e09346b13bf9"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g15-sunburst.webp",
+      "sha256": "80c5e168c7b341c402d49994d89f6123ca46324cac0c5fb87b473f7bed461f2f"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g16-sunburst.webp",
+      "sha256": "e0d91a110565ae3d4fb5f930e8a55eb6c6b64efb1c1d343827d3a3d432043034"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g18-sunburst.webp",
+      "sha256": "9eb1abce3b3df0cde9881b638e602f09c1cdd08167ec5ec47abcdc2fe05649f7"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g19-sunburst.webp",
+      "sha256": "06e3cec4c07d910c894ba8a90f9cf2d5eeabf01accf243c34838c9ab818c7618"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g20-sunburst.webp",
+      "sha256": "c7aa918fa97f86cbbb29617f775c12ebc5a84cc8509e4a3c358cd561104f3940"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g21-sunburst.webp",
+      "sha256": "8de9883418eaae3bc47902f1fe5bbe910972bd238b6a02bda46eaaeb14bccadd"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g22-sunburst.webp",
+      "sha256": "0f1fc8f1b887bfc413b08ea2e820551c30f42fef123cdef0580af8d3da9f6892"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g23-sunburst.webp",
+      "sha256": "7a9573887575962f93f35c474e439f3d62449860c22d4f7eceb662584abfc123"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/generation-coverage/official-references/g24-sunburst.webp",
+      "sha256": "e11cd207541291d083bc6344f0d276fbc8e989811a86fd69c3ac4979970b9b4d"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/language/trial-A8.png",
+      "sha256": "add636fe9ae85e3bee0cee07fde865e2ee87b3a4ae1687149aa611f4afd243e8"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/language/trial-N4.png",
+      "sha256": "58de371471aa311c590ed4dabaa3fd4b44af2e4033bfc97233e658c31dcc341f"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/language/trial-S2.png",
+      "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/language/trial-V6.png",
+      "sha256": "0c931254c9e44fefea378c0846eb1a5cb5b3f658a3a20a37f21e477a86155d67"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/mapping/campsite-annotated.png",
+      "sha256": "18fca7200fadaef68e65f087778a0dd7687007f7388fad38f10b024161738bec"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/mapping/selected-arrow-edit.png",
+      "sha256": "31e90369a977e9d5e9f5f467a1ebb03ff78c3d6579416f53819e989a507e1ef6"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/comic-reel-gpt-image-2-5-sunburst.webp",
+      "sha256": "27247e27d2f241c53a35314a767e38d82fcf597db3f0c98199d0fc5876ed101e"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/drawings.webp",
+      "sha256": "4d4d7b94418a5ccd2c45516f7f5794f027eba02e60d9ac15294a65f586cd407b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/infographic-coffee-machine-gpt-image-2-5-sunburst.webp",
+      "sha256": "eaa4b4e715b894ab73c65c3ed141ab235287bda6f90ad30f7e7906b2b89e8dcf"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/kitchen.webp",
+      "sha256": "d84d7110ca2850802199dbb80e71a3dcecb271a5b515dddc149843a366f77bf2"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/scene-gpt-image-2-5-sunburst.webp",
+      "sha256": "0cf84c6ea651dfdead59b2dffc0aa6dd179683c2838e6301f295a0eeea5b63a2"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/official-references/shampoo.webp",
+      "sha256": "b7afa96b86794446d9c101b72f2cda43827c3f92d0cc2493c541147faaf38695"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/reconstruction/r2-compiled-only.png",
+      "sha256": "21569ef3df1bc9f0f2d62cb4ba054bb2e8b860033f8750e89311099e4db2aafb"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/reconstruction/r3-compiled-with-reference.png",
+      "sha256": "725c642d8a98f15d9ff0e5fb8990bd27f58ab82670b6794468a2a95eb53594d0"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/reference-matrix/trial-M3.png",
+      "sha256": "68b8582dbeb06e30bc098560bef65880debbe0994caa1d1032e6d212b7089bfa"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/reference-matrix/trial-R7.png",
+      "sha256": "cab4a3d437405a35ad8415891cc3812321287685061a9d52c60a314f0ddf7b7c"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/reference-matrix/trial-T2.png",
+      "sha256": "a5c765e98e8544c4d616712eb9ec139054f2a199738ea54072851e89566263da"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/vocabulary/trial-V2.png",
+      "sha256": "53904df43291880d9a77b5df6b6bf84a13972a9ae2ddd96a941a22f35ed36dfd"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/expanded-experiments/vocabulary/trial-V6.png",
+      "sha256": "b0dfc70cff42c079fe2ba6b142dc97992f4fb29665374445136e2246f5584749"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/image-reconstruction-skill/assets/rain-engine.png",
+      "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/a1-original-draft.png",
+      "sha256": "7d323773f0dfa90c4f7985f4b2544976ccd56747faf35e38f66828274ec91cfd"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/a2-layout-repaired.png",
+      "sha256": "9a7e69104ec37d59de2c462d0bb661e19ecd91ee256781d751a462566fd92b4a"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/b1-text-reconstruction.png",
+      "sha256": "7924f93470c2de31117927417ffce57c15d198f757aa5ffa5731f9fafe5ce650"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/b2-reference-reconstruction.png",
+      "sha256": "1e3aa654c3c777838b5e05abc793daa7702ed8919bcd4b90b043f9ca76611c0b"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/c0-room-sketch.png",
+      "sha256": "bb8ce9033c57e59249d03654b1bc886442d52b1f1c0847511eeb2b0aa41350f4"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/c1-sketch-render.png",
+      "sha256": "78d9f898b174043c19fdc4129763f992ede6e2ac42a1f9153939a6b6614b62ff"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/c2-window-repaired.png",
+      "sha256": "0ad5ebbc5aa64c4cd6eb5f0bbc8b3c8fae398f1c6958e49fc5c7f65d1d64520a"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/c3-orange-edit.png",
+      "sha256": "354c5c4b309248d30530e9c6f35c136eec586a814f0ccd85187478fa03cba90d"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/images/c4-texture-repair-attempt.png",
+      "sha256": "c0d95815883ed55ffc70f195cca9b6b712939dfdc8d83a4cc20dd9626a2b7638"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/advertisement.png",
+      "sha256": "54712778a2c2741afa0d4323072b9cf862b318ae9b1b5a5eae06069e78156626"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/icons-original.png",
+      "sha256": "1bbe72dd5614f161a9feb6523c6f956eac3b356a9665cea5315fedafb339f563"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/icons.png",
+      "sha256": "748a2bfc3e504cc850a107a1736ee6f4d78ca61e94dab4867a5a17e2e4ce1afc"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/illustration.png",
+      "sha256": "497df21fec4f811dbf44c148af3d912b7cbcd12dc123edbe819339b16fdd67af"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/logo.png",
+      "sha256": "c3d3bb4813f4d4b4ff0bbc28ccc0880fc5e78054ef6cc24059aa26d14100c8bb"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/merch.png",
+      "sha256": "0c07ee9a678aebabca0174befc75fc0a8a454e1376672b5c51a7bddea6e43639"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/packaging.png",
+      "sha256": "fe1a60a5d67af5c512d1b65e4b9d3f3af07303ad1aacaf33463f05c8c74e44d4"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/references/ebbs-cans.jpg",
+      "sha256": "0e0b7b30a0b005a7efb7ad8a9439ea7cf571a99d50a6f26120170fd06fcf46ce"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/references/ebbs-identity.jpg",
+      "sha256": "06a45149b5e87c6b7dc419e41f6fc749b87edaa7b8f87076f4ebfddeed53edf3"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/references/favre-la-jungle.jpg",
+      "sha256": "1856929df77ae5049ca3415813c94adf2aa13b29b8d77fa08f7c7f1e75b68133"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/references/favre-le-lac.jpg",
+      "sha256": "de562d878160a3cc23eb27985a020aad7d60a464d9c73c863ac56c48f5730a1c"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/brand/references/ibm-pictograms.png",
+      "sha256": "29dbca9be0341e37df9c245c833492f1fac04661cc8b16cc9b963edee9d1bb22"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/references/norm-262-fifth.png",
+      "sha256": "e2fd251de6167110f482b09cdbdd64787e3a469e089fa5a24b71ae657ae00e85"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/references/welcome-beyond-cards.png",
+      "sha256": "9760c53c17e9763af54fe215d5efc6a8a0c4d4c8a6ad7849c0fe11b4363088ba"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/references/welcome-beyond-properties.png",
+      "sha256": "f9d2f8414def3f1f7985319b1b4aaa64290d0ac7f3ac801fa554006dfa926e17"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/references/welcome-beyond.png",
+      "sha256": "5a6aef16785b27540940851fb9739ad0d1a33bed758a0a74e0a9e942fb8d7562"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/studio-website-v1.png",
+      "sha256": "7dc418fcf4a7126094cbd56767899fe55878e1ac082bb184098f0446079139a0"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/digital/travel-app-v1.png",
+      "sha256": "59b3b3f42510d19225263f99bff1f0b3fc64b71c263eaf4fd47fad449bead5f6"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/images/01-a-small-distance.png",
+      "sha256": "9869a4e78c3b3d47c189261fe6fee0f2a8a54b4943bd5d7d2c840b44e63e312c"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/images/02-soft-structure.png",
+      "sha256": "6345453d095eccd344084f0f2189d31b18a47fa21546af39ae959f456a57a45e"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/images/03-night-shift.png",
+      "sha256": "6288d9c0b31ec5494ff41840b6059ccb044a4c29ba021afaae860193d3be4171"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/images/04-a-week-by-design.png",
+      "sha256": "50e6afd05be4b0aa10da366fd5125edfef12405eac8e3d80acb77f812157e0d1"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/images/05-small-room-big-idea.png",
+      "sha256": "bd879c27c472fc8e45aabb853f86fdce9f59fc48a98391a127fd0fb71342ca28"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/references/dumbar-ruhrtriennale-press.webp",
+      "sha256": "db70fdbd8b8c64dd357806600f262d94158505f977c430485bfcb24ae68c60d5"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/references/feltron-annual-report.jpg",
+      "sha256": "baf05c13b2d7e30f1f64b4ff1df3ec73c5d6f0839db4252ab94ff7256d7854b2"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/references/pentagram-how-to-see-cover.jpg",
+      "sha256": "b137a944b7f5b5f0fde529a273b50f73d4cb472f6b765209d3436d3c927c5354"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/graphics/references/sfmoma-feltron-2014.jpg",
+      "sha256": "4e42e9bdb586b02734e9e72951d30010c5b1242c164ec7c71d6dd5f044e368ea"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/01-fashion-app-v1.png",
+      "sha256": "4253bad7cd3cd87eab610d491ee6efce60b1a3968f6aed9ab0738392d859c39a"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/01-fashion-app.png",
+      "sha256": "9e3827f4feeeda5d1b41e89824a6976293f5033fc72df3937ab0daecc44dfad6"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/02-luxury-product.png",
+      "sha256": "26090c432c14f46f60931602ce2919e84227661880e6f01aa682a3aea89dab3f"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/03-ugc-skincare.png",
+      "sha256": "dde89669b0dbcb7a1d6a4ba253145c89c77429dba52a00ef5ff36cbf7a66e122"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/04-headshot.png",
+      "sha256": "e7c16a77fcccbaab2d96ab06f9b5c2c20614f3eca1f91c2b18d758d4acd353e0"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/05-interior.png",
+      "sha256": "c62d0c5885707767ca6fd90381cbff8c09e7904143e76454b2fb8df118b123c5"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/06-sketch.png",
+      "sha256": "20b52fc5a42bf165da314e113c645fc3af4a4309db861561fe7cead97ad9d21e"
+    },
+    {
+      "path": "prompt-lab/article-package/evidence/premium-examples/images/07-cross-section.png",
+      "sha256": "410e504459969d2160def40e89eb11562aa21c0e485e1dca6d98eb12b6101604"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/e22a.png",
+      "sha256": "9d5e0cbc82b2c5be3f4256de8a255cc2cb29af0868817d89a4ce436e1dc251ed"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/e22b.png",
+      "sha256": "2463b32b2c574558cdebe168c25cacea6f077457ddfba57245f0d61d926c3b29"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g18.png",
+      "sha256": "60b4fc4007f4ddbd5d17acd52cec662e020b02aafd75f107aebc86de78a2ae33"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g19.png",
+      "sha256": "1287161637df7cd78282d7175e86d246382cb2df65ffd8c990525473817a0ea8"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g20.png",
+      "sha256": "f0be3f5647edc99409f13412aa8f9513b9e1aaa357484094443f6caceb6a5c02"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g21.png",
+      "sha256": "6f9d4d1b0b60a9eb0375b275735a1ea684c78c786c2ce5ab7783f727cc891c9a"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g22.png",
+      "sha256": "2fb052ed7bbc09f10e8f706f6d0bf7c15ec7ec737a3244b70dff25d77657c819"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g23.png",
+      "sha256": "5fe03600554628e1d52651beab3f682298b8b3d3a402b6c9877b38b3dfac9fb8"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/continuity/g24.png",
+      "sha256": "cfb6b02f8d9caf7719f3145d3f3a282697294ccb82ddbb09f15437b87cb78497"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g10.png",
+      "sha256": "c0dabe783c166c673b70f6ecd10048f27145951648b771301f353b22d9490baa"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g11.png",
+      "sha256": "088de3dec4ee60d5c4d0ec63795a1898cccfb941906f5faf4e62157f4ceaa62b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g12.png",
+      "sha256": "4daf91289d465232ff078f845f61c6869d370ae1c436430b0734aa292dfca1d8"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g13.png",
+      "sha256": "7a955ee1af2e4bc5c41ad02cd5381febaa6e4abdee7fed697779d557b4296d5b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g14-alpha-repair.png",
+      "sha256": "aef39fd84567611852c3891ccbabaaee8361a44d3d4c82783990fcf9fcf35e90"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g14.png",
+      "sha256": "32037af6dbfea3cb29b2c2531eb7449225c2efa9b175a6273900c6155031272b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g15.png",
+      "sha256": "a912bb109e4f283009b063750d9dd6519feeb0f3507f268a50a0f075784bd87c"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g16.png",
+      "sha256": "4393b9611b48046b1185602bc9cc4b2e62a3698158670e6428545627e4e9a395"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/g17.png",
+      "sha256": "b692beb2eb6e54fce48af45d459033ab18f08725401629a7dfadb4a741aaa712"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/boots.webp",
+      "sha256": "91ba0aff95c6c24b9524ce052966db3b40b6579c9bd1931aff0f1d1331c63abd"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/drawings.webp",
+      "sha256": "4d4d7b94418a5ccd2c45516f7f5794f027eba02e60d9ac15294a65f586cd407b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/jacket.webp",
+      "sha256": "5f7112e6a2d59c35bd0a3fe80fe80e83992f9b17616319b5b3ef55b556c2fd42"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/man-with-blue-hat.webp",
+      "sha256": "3ae738ac0cb05ffe827a2befdbab5317ae7329e812b56adc687e0ae8c40508b2"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/pixels.webp",
+      "sha256": "ccb42c3f01c3fd527ffe2a7bfd6e8c963fc2256a14574f82aa17442ced0ce8a7"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/shampoo.webp",
+      "sha256": "b7afa96b86794446d9c101b72f2cda43827c3f92d0cc2493c541147faaf38695"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/tank-top.webp",
+      "sha256": "3b830909e2912389b3342cb435accf8f9646f4f0188b633956dee5d9660f798b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+      "sha256": "aea992a953df9495b137089319e232d87d4a7432b6fe3c3782097d9922b32ca4"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+      "sha256": "d05039cf1e1893016bb529ea63c4496a8807aaf9f30987607b7ed3438878af3f"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/edit-coverage/inputs/woman-in-museum.webp",
+      "sha256": "5dd4ba349e5600d51ceb0291ad930d149399167bbdfeacdef577ea3a89474d95"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g01-maritime-editorial.png",
+      "sha256": "f04a9f1a690be207caf0bc17d1c71a4a61bddf08873fa4bcac35edf9dc40db4f"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g03-afterlight-poster.png",
+      "sha256": "9e1d74bcef915a0a30fe2f2c0070b623b56d92a0fdac98f361c49fda67fb3686"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g04-tideline-mark.png",
+      "sha256": "5f581e4558867b34a0b830b7ae4970693de16fc4bb2abff0aaac0ff1cf6e72c9"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g05-woodstock-recreation.png",
+      "sha256": "417fce9c0ebbeb32901cb0777548f49c2a97ecf7f199e15b895180eef5fd5fde"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g06-cat-four-panel.png",
+      "sha256": "a97bf344d3040b6a388958dfd25d41da93753a191bd705b50f1baba636834300"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g06-last-panel-repaired.png",
+      "sha256": "7df0dee115a7b8c9ed20b1b7dea6b015096cf8ecbb3363d6a45dcb50fc16ff38"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g07-fieldwork-market-ui.png",
+      "sha256": "6dd18d4c883b9caacc8aec80d99aeae9fed1013c36abf99a83c76e0f7dc64816"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g08-leaf-cutaway.png",
+      "sha256": "64f9471921e0bb843797289ac90d6725b1bf63d84b4813133e21468d29f6b761"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/g09-civic-move-slide.png",
+      "sha256": "e8215e79739ebf6cd2a3b0d5cc2b4e8be7fdcbc6219f865a2f36e4fbd1d02399"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g01-sunburst.webp",
+      "sha256": "f13e122b88155493dc71a103d209d256dcca373379c515e0ffe3d89c3753b4f0"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g03-sunburst.webp",
+      "sha256": "a64756528fb31eb527ef4a3165215908d1760c7ba07519b18be74680f709fef0"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g04-sunburst.webp",
+      "sha256": "e3e827efc9c682c02329abbd462f2738f729f4b7cc51b1cb91cac593ebc2fc33"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g05-sunburst.webp",
+      "sha256": "ede2106e5e25c97303fb8a813b27a74f23d71755e6a40c8657dd4e0302b182f2"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g06-sunburst.webp",
+      "sha256": "27247e27d2f241c53a35314a767e38d82fcf597db3f0c98199d0fc5876ed101e"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g07-sunburst.webp",
+      "sha256": "97c326ed033a499e5f3d16fb878a113e8d448fa7996b4f6fad344c23a8c92e85"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g08-sunburst.webp",
+      "sha256": "c35c3bf14208eef90cd34446eb83151f959389ead7ebd233cd8f014a4d6d3115"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g09-sunburst.webp",
+      "sha256": "0d7f8fc0c0109e3942206f5d24688879cf0dff67291f954f319a1c71ec9888e3"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g10-sunburst.webp",
+      "sha256": "719df46aaab158ee7872d2e90ba5f0e3a1ac8e1590299411b97ca9c7cca4b94c"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g11-sunburst.webp",
+      "sha256": "0294e72cca2885d16185a7e8fe0355bf7fc565fd63b87d29bf461bb8099661cd"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g12-sunburst.webp",
+      "sha256": "a2951ab7448c7253da7cc413a2c68c0ccbd2b6efe85b93e016b2eacf488570f7"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g13-sunburst.webp",
+      "sha256": "3234bde2e66f63c497a63aab0b8a3f5ac81fc0e44b36a6a5a8cbd9ac4e35d046"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g14-sunburst.webp",
+      "sha256": "3b6f6a1071e00653b32f2fbe6b447e86f8d9d5f00006c4839515e09346b13bf9"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g15-sunburst.webp",
+      "sha256": "80c5e168c7b341c402d49994d89f6123ca46324cac0c5fb87b473f7bed461f2f"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g16-sunburst.webp",
+      "sha256": "e0d91a110565ae3d4fb5f930e8a55eb6c6b64efb1c1d343827d3a3d432043034"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g18-sunburst.webp",
+      "sha256": "9eb1abce3b3df0cde9881b638e602f09c1cdd08167ec5ec47abcdc2fe05649f7"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g19-sunburst.webp",
+      "sha256": "06e3cec4c07d910c894ba8a90f9cf2d5eeabf01accf243c34838c9ab818c7618"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g20-sunburst.webp",
+      "sha256": "c7aa918fa97f86cbbb29617f775c12ebc5a84cc8509e4a3c358cd561104f3940"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g21-sunburst.webp",
+      "sha256": "8de9883418eaae3bc47902f1fe5bbe910972bd238b6a02bda46eaaeb14bccadd"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g22-sunburst.webp",
+      "sha256": "0f1fc8f1b887bfc413b08ea2e820551c30f42fef123cdef0580af8d3da9f6892"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g23-sunburst.webp",
+      "sha256": "7a9573887575962f93f35c474e439f3d62449860c22d4f7eceb662584abfc123"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/generation-coverage/official-references/g24-sunburst.webp",
+      "sha256": "e11cd207541291d083bc6344f0d276fbc8e989811a86fd69c3ac4979970b9b4d"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/language/trial-A8.png",
+      "sha256": "add636fe9ae85e3bee0cee07fde865e2ee87b3a4ae1687149aa611f4afd243e8"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/language/trial-N4.png",
+      "sha256": "58de371471aa311c590ed4dabaa3fd4b44af2e4033bfc97233e658c31dcc341f"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/language/trial-S2.png",
+      "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/language/trial-V6.png",
+      "sha256": "0c931254c9e44fefea378c0846eb1a5cb5b3f658a3a20a37f21e477a86155d67"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/mapping/campsite-annotated.png",
+      "sha256": "18fca7200fadaef68e65f087778a0dd7687007f7388fad38f10b024161738bec"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/mapping/selected-arrow-edit.png",
+      "sha256": "31e90369a977e9d5e9f5f467a1ebb03ff78c3d6579416f53819e989a507e1ef6"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/comic-reel-gpt-image-2-5-sunburst.webp",
+      "sha256": "27247e27d2f241c53a35314a767e38d82fcf597db3f0c98199d0fc5876ed101e"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/drawings.webp",
+      "sha256": "4d4d7b94418a5ccd2c45516f7f5794f027eba02e60d9ac15294a65f586cd407b"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/infographic-coffee-machine-gpt-image-2-5-sunburst.webp",
+      "sha256": "eaa4b4e715b894ab73c65c3ed141ab235287bda6f90ad30f7e7906b2b89e8dcf"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/kitchen.webp",
+      "sha256": "d84d7110ca2850802199dbb80e71a3dcecb271a5b515dddc149843a366f77bf2"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/scene-gpt-image-2-5-sunburst.webp",
+      "sha256": "0cf84c6ea651dfdead59b2dffc0aa6dd179683c2838e6301f295a0eeea5b63a2"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/official-references/shampoo.webp",
+      "sha256": "b7afa96b86794446d9c101b72f2cda43827c3f92d0cc2493c541147faaf38695"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/reconstruction/r2-compiled-only.png",
+      "sha256": "21569ef3df1bc9f0f2d62cb4ba054bb2e8b860033f8750e89311099e4db2aafb"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/reconstruction/r3-compiled-with-reference.png",
+      "sha256": "725c642d8a98f15d9ff0e5fb8990bd27f58ab82670b6794468a2a95eb53594d0"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/reference-matrix/trial-M3.png",
+      "sha256": "68b8582dbeb06e30bc098560bef65880debbe0994caa1d1032e6d212b7089bfa"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/reference-matrix/trial-R7.png",
+      "sha256": "cab4a3d437405a35ad8415891cc3812321287685061a9d52c60a314f0ddf7b7c"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/reference-matrix/trial-T2.png",
+      "sha256": "a5c765e98e8544c4d616712eb9ec139054f2a199738ea54072851e89566263da"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/vocabulary/trial-V2.png",
+      "sha256": "53904df43291880d9a77b5df6b6bf84a13972a9ae2ddd96a941a22f35ed36dfd"
+    },
+    {
+      "path": "prompt-lab/expanded-experiments/vocabulary/trial-V6.png",
+      "sha256": "b0dfc70cff42c079fe2ba6b142dc97992f4fb29665374445136e2246f5584749"
+    },
+    {
+      "path": "prompt-lab/image-reconstruction-skill/assets/rain-engine.png",
+      "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64"
+    },
+    {
+      "path": "prompt-lab/images/a1-original-draft.png",
+      "sha256": "7d323773f0dfa90c4f7985f4b2544976ccd56747faf35e38f66828274ec91cfd"
+    },
+    {
+      "path": "prompt-lab/images/a2-layout-repaired.png",
+      "sha256": "9a7e69104ec37d59de2c462d0bb661e19ecd91ee256781d751a462566fd92b4a"
+    },
+    {
+      "path": "prompt-lab/images/b1-text-reconstruction.png",
+      "sha256": "7924f93470c2de31117927417ffce57c15d198f757aa5ffa5731f9fafe5ce650"
+    },
+    {
+      "path": "prompt-lab/images/b2-reference-reconstruction.png",
+      "sha256": "1e3aa654c3c777838b5e05abc793daa7702ed8919bcd4b90b043f9ca76611c0b"
+    },
+    {
+      "path": "prompt-lab/images/c0-room-sketch.png",
+      "sha256": "bb8ce9033c57e59249d03654b1bc886442d52b1f1c0847511eeb2b0aa41350f4"
+    },
+    {
+      "path": "prompt-lab/images/c1-sketch-render.png",
+      "sha256": "78d9f898b174043c19fdc4129763f992ede6e2ac42a1f9153939a6b6614b62ff"
+    },
+    {
+      "path": "prompt-lab/images/c2-window-repaired.png",
+      "sha256": "0ad5ebbc5aa64c4cd6eb5f0bbc8b3c8fae398f1c6958e49fc5c7f65d1d64520a"
+    },
+    {
+      "path": "prompt-lab/images/c3-orange-edit.png",
+      "sha256": "354c5c4b309248d30530e9c6f35c136eec586a814f0ccd85187478fa03cba90d"
+    },
+    {
+      "path": "prompt-lab/images/c4-texture-repair-attempt.png",
+      "sha256": "c0d95815883ed55ffc70f195cca9b6b712939dfdc8d83a4cc20dd9626a2b7638"
+    },
+    {
+      "path": "prompt-lab/premium-article-assets/images/mora-blonde-bob-ugc.png",
+      "sha256": "29ba53f0cd8227fc2661d0143cf70ed57ed7e4d71b13a03f902bfbb2477e916d"
+    },
+    {
+      "path": "prompt-lab/premium-article-assets/images/vellum-reconstruction.png",
+      "sha256": "01a82847c52f9023045af873ea16199b08b33f47e3a17e68222d3681345f1564"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/advertisement.png",
+      "sha256": "54712778a2c2741afa0d4323072b9cf862b318ae9b1b5a5eae06069e78156626"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/icons-original.png",
+      "sha256": "1bbe72dd5614f161a9feb6523c6f956eac3b356a9665cea5315fedafb339f563"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/icons.png",
+      "sha256": "748a2bfc3e504cc850a107a1736ee6f4d78ca61e94dab4867a5a17e2e4ce1afc"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/illustration.png",
+      "sha256": "497df21fec4f811dbf44c148af3d912b7cbcd12dc123edbe819339b16fdd67af"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/logo.png",
+      "sha256": "c3d3bb4813f4d4b4ff0bbc28ccc0880fc5e78054ef6cc24059aa26d14100c8bb"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/merch.png",
+      "sha256": "0c07ee9a678aebabca0174befc75fc0a8a454e1376672b5c51a7bddea6e43639"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/packaging.png",
+      "sha256": "fe1a60a5d67af5c512d1b65e4b9d3f3af07303ad1aacaf33463f05c8c74e44d4"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/references/ebbs-cans.jpg",
+      "sha256": "0e0b7b30a0b005a7efb7ad8a9439ea7cf571a99d50a6f26120170fd06fcf46ce"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/references/ebbs-identity.jpg",
+      "sha256": "06a45149b5e87c6b7dc419e41f6fc749b87edaa7b8f87076f4ebfddeed53edf3"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/references/favre-la-jungle.jpg",
+      "sha256": "1856929df77ae5049ca3415813c94adf2aa13b29b8d77fa08f7c7f1e75b68133"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/references/favre-le-lac.jpg",
+      "sha256": "de562d878160a3cc23eb27985a020aad7d60a464d9c73c863ac56c48f5730a1c"
+    },
+    {
+      "path": "prompt-lab/premium-examples/brand/references/ibm-pictograms.png",
+      "sha256": "29dbca9be0341e37df9c245c833492f1fac04661cc8b16cc9b963edee9d1bb22"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/references/norm-262-fifth.png",
+      "sha256": "e2fd251de6167110f482b09cdbdd64787e3a469e089fa5a24b71ae657ae00e85"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/references/welcome-beyond-cards.png",
+      "sha256": "9760c53c17e9763af54fe215d5efc6a8a0c4d4c8a6ad7849c0fe11b4363088ba"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/references/welcome-beyond-properties.png",
+      "sha256": "f9d2f8414def3f1f7985319b1b4aaa64290d0ac7f3ac801fa554006dfa926e17"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/references/welcome-beyond.png",
+      "sha256": "5a6aef16785b27540940851fb9739ad0d1a33bed758a0a74e0a9e942fb8d7562"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/studio-website-v1.png",
+      "sha256": "7dc418fcf4a7126094cbd56767899fe55878e1ac082bb184098f0446079139a0"
+    },
+    {
+      "path": "prompt-lab/premium-examples/digital/travel-app-v1.png",
+      "sha256": "59b3b3f42510d19225263f99bff1f0b3fc64b71c263eaf4fd47fad449bead5f6"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/images/01-a-small-distance.png",
+      "sha256": "9869a4e78c3b3d47c189261fe6fee0f2a8a54b4943bd5d7d2c840b44e63e312c"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/images/02-soft-structure.png",
+      "sha256": "6345453d095eccd344084f0f2189d31b18a47fa21546af39ae959f456a57a45e"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/images/03-night-shift.png",
+      "sha256": "6288d9c0b31ec5494ff41840b6059ccb044a4c29ba021afaae860193d3be4171"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/images/04-a-week-by-design.png",
+      "sha256": "50e6afd05be4b0aa10da366fd5125edfef12405eac8e3d80acb77f812157e0d1"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/images/05-small-room-big-idea.png",
+      "sha256": "bd879c27c472fc8e45aabb853f86fdce9f59fc48a98391a127fd0fb71342ca28"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/references/dumbar-ruhrtriennale-press.webp",
+      "sha256": "db70fdbd8b8c64dd357806600f262d94158505f977c430485bfcb24ae68c60d5"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/references/feltron-annual-report.jpg",
+      "sha256": "baf05c13b2d7e30f1f64b4ff1df3ec73c5d6f0839db4252ab94ff7256d7854b2"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/references/pentagram-how-to-see-cover.jpg",
+      "sha256": "b137a944b7f5b5f0fde529a273b50f73d4cb472f6b765209d3436d3c927c5354"
+    },
+    {
+      "path": "prompt-lab/premium-examples/graphics/references/sfmoma-feltron-2014.jpg",
+      "sha256": "4e42e9bdb586b02734e9e72951d30010c5b1242c164ec7c71d6dd5f044e368ea"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/01-fashion-app-v1.png",
+      "sha256": "4253bad7cd3cd87eab610d491ee6efce60b1a3968f6aed9ab0738392d859c39a"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/01-fashion-app.png",
+      "sha256": "9e3827f4feeeda5d1b41e89824a6976293f5033fc72df3937ab0daecc44dfad6"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/02-luxury-product.png",
+      "sha256": "26090c432c14f46f60931602ce2919e84227661880e6f01aa682a3aea89dab3f"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/03-ugc-skincare.png",
+      "sha256": "dde89669b0dbcb7a1d6a4ba253145c89c77429dba52a00ef5ff36cbf7a66e122"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/04-headshot.png",
+      "sha256": "e7c16a77fcccbaab2d96ab06f9b5c2c20614f3eca1f91c2b18d758d4acd353e0"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/05-interior.png",
+      "sha256": "c62d0c5885707767ca6fd90381cbff8c09e7904143e76454b2fb8df118b123c5"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/06-sketch.png",
+      "sha256": "20b52fc5a42bf165da314e113c645fc3af4a4309db861561fe7cead97ad9d21e"
+    },
+    {
+      "path": "prompt-lab/premium-examples/images/07-cross-section.png",
+      "sha256": "410e504459969d2160def40e89eb11562aa21c0e485e1dca6d98eb12b6101604"
+    },
+    {
+      "path": "prompt-lab/standalone-skill/image-reconstruction/assets/vellum-reconstruction.png",
+      "sha256": "01a82847c52f9023045af873ea16199b08b33f47e3a17e68222d3681345f1564"
+    },
+    {
+      "path": "prompt-lab/standalone-skill/image-reconstruction/assets/vellum-source.png",
+      "sha256": "26090c432c14f46f60931602ce2919e84227661880e6f01aa682a3aea89dab3f"
+    },
+    {
+      "path": "prompt-lab/table-images/01-choose-your-starting-point.png",
+      "sha256": "dc5d6320e80410639eb0f4cac2fbdc598acdbc7a2701260042782778d02ab0b3"
+    },
+    {
+      "path": "prompt-lab/table-images/02-give-complex-images-a-structure.png",
+      "sha256": "ea943730aaa5bd09eb157be9d7795fad61a4153143383511d542b04847475ea0"
+    },
+    {
+      "path": "prompt-lab/table-images/03-vellum-the-visual-inventory.png",
+      "sha256": "072f98359a81e60cb56173e63fd0e7823e1621d84794ac6d1583a225764fffbe"
+    },
+    {
+      "path": "prompt-lab/table-images/04-know-what-your-visual-map-contains.png",
+      "sha256": "1800d2d432ac027531e6d3f9ed3d0556839ded891a53a74fc5d6baf2a379d42a"
+    },
+    {
+      "path": "prompt-lab/table-images/05-three-records-three-jobs.png",
+      "sha256": "1449fd7e6cfff3a3a2a2e1e40116155728f2163c8bccbdfd189af039cb1ad930"
+    },
+    {
+      "path": "prompt-lab/table-images/06-vellum-reference-and-reconstruction.png",
+      "sha256": "35bb702954b6680badf9fb67f135c5f2f9fc59e5ae8e9fd76cac8cb77d913462"
+    },
+    {
+      "path": "prompt-lab/table-images/07-give-every-reference-a-job.png",
+      "sha256": "1285d217528517b90672ff753c89e391badf6875aad6b6b1b073a96d2db01be6"
+    },
+    {
+      "path": "prompt-lab/table-images/08-comments-a-map-or-a-sketch.png",
+      "sha256": "3911da9d65addc29da50dc1604dcd706b84722b96dc5953ecb21f22a1c15af0e"
+    },
+    {
+      "path": "prompt-lab/table-images/09-what-the-prompting-experiments-showed.png",
+      "sha256": "5ec7e701a8957c144e3dab86cbdcf7f797aa7594039da5f7134bce67fac2f97e"
+    },
+    {
+      "path": "prompt-lab/table-images/10-sable-before-and-after-repair.png",
+      "sha256": "fab2a190e9546014ec29c2b373378dd6f04ef8038ec55f9a5a223a2c28a1fb29"
+    },
+    {
+      "path": "prompt-lab/table-images/11-match-the-repair-to-the-failure.png",
+      "sha256": "2bc59abce94d866bc7f4186b245f9060e3089e2afccd955315cb11c692261242"
+    },
+    {
+      "path": "prompt-lab/table-images/12-test-reference-combinations-with-agents.png",
+      "sha256": "5f04c0c33d6ccf10803f7d8c23793e2b23547a49863f82b9a8f59d9a04c8fd2e"
+    }
+  ],
+  "pdf": {
+    "pages": 50,
+    "drawing_streams_unchanged": true,
+    "annotations_preserved": 98,
+    "metadata_replaced": true
+  },
+  "original_text_changes": "Personal paths made portable or omitted; historical review links repaired. Third-party HTML caches replaced with links to their source pages."
+}

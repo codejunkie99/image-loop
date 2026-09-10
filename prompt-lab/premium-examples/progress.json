@@ -1,0 +1,85 @@
+{
+  "status": "complete_awaiting_user_direction",
+  "scope": "A reviewable collection of premium commercial image examples; do not rewrite the article yet.",
+  "quality_direction": "Pristine, premium, commercially plausible art direction. Judge composition, typography, materials, anatomy, and category-specific usefulness separately. UGC should remain natural rather than airbrushed.",
+  "automation_id": "premium-image-examples",
+  "generation_tool": "built-in image_gen",
+  "model_version": "not exposed by tool",
+  "pinterest_status": "User signing in; Google button did not open a sign-in window in the embedded browser.",
+  "categories": [
+    "Fashion app",
+    "App mockup",
+    "Luxury product photo",
+    "UGC",
+    "Merch",
+    "Icons",
+    "Headshot",
+    "Infographic",
+    "Flyer",
+    "Book cover",
+    "Thumbnail",
+    "Website mockup",
+    "Advertisement",
+    "Packaging",
+    "Illustration",
+    "Logo",
+    "Interior design",
+    "Poster",
+    "Sketch",
+    "Cross-section"
+  ],
+  "completed": [
+    "Fashion app",
+    "App mockup",
+    "Luxury product photo",
+    "UGC",
+    "Merch",
+    "Icons",
+    "Headshot",
+    "Infographic",
+    "Flyer",
+    "Book cover",
+    "Thumbnail",
+    "Website mockup",
+    "Advertisement",
+    "Packaging",
+    "Illustration",
+    "Logo",
+    "Interior design",
+    "Poster",
+    "Sketch",
+    "Cross-section"
+  ],
+  "in_progress": [],
+  "stop_condition": "All categories have reviewed examples, with failures or remaining limitations explicit. Pause the heartbeat and await user direction.",
+  "source_notes": [
+    {
+      "url": "https://www.pinterest.com/search/pins/?q=luxury%20fashion%20app%20design",
+      "status": "login handoff"
+    },
+    {
+      "url": "https://in.pinterest.com/pin/116389971608068366/",
+      "status": "login gated; not a selected visual reference"
+    },
+    {
+      "url": "https://www.behance.net/gallery/229351021/ECommerce-Website-Mobile-App-OffWhite-Fashion?locale=en_US",
+      "status": "visually inspected",
+      "observations": "Campaign-scale photography, assertive type hierarchy, white navigation and modular commerce content; original new brand and layouts will be used."
+    }
+  ],
+  "remaining_after_active": [],
+  "selected_images": 20,
+  "generated_candidates": 22,
+  "gallery": "premium-examples/index.html",
+  "next_step": "User chooses directions or supplies further references. Do not expand generation or rewrite the article until then.",
+  "automation_status": "PAUSED",
+  "verification": {
+    "gallery_rendered_in_browser": true,
+    "filter_and_selection_toggle_verified": true,
+    "test_selection_cleared": true,
+    "prompt_details_verified": true,
+    "local_links_valid": true,
+    "zip_integrity_passed": true,
+    "inline_javascript_syntax_passed": true
+  }
+}

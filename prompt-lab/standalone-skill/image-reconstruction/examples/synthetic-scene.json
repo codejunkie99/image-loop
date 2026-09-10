@@ -1,0 +1,1086 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "synthetic-lunar-botanical-archive",
+  "revision": 1,
+  "coordinate_system": "normalized_top_left_xywh",
+  "provenance": {
+    "kind": "synthetic_example",
+    "note": "Fictional specification built to demonstrate the contract. No actual image was inspected, measured, segmented or generated for this example."
+  },
+  "intent": {
+    "task": "remix",
+    "purpose": "Create a detailed editorial illustration of a lunar botanical archive, applying the selected local changes.",
+    "exactness": "perceptual",
+    "exactness_note": "Reproduce the described visual organization; no original pixels or exact physical geometry are available.",
+    "output": {
+      "width_px": 1800,
+      "height_px": 1200,
+      "format": "png",
+      "crop_policy": "preserve"
+    }
+  },
+  "coverage": {
+    "status": "partial",
+    "granularity": "Named major subjects, text and props; repeated background details grouped.",
+    "excluded_regions": [],
+    "notes": [
+      "This is an invented control manifest, not evidence of any actual image.",
+      "Tiny shelf labels and every structural fastener are intentionally unspecified."
+    ]
+  },
+  "source_images": [
+    {
+      "id": "A",
+      "path": null,
+      "version": "synthetic-v1",
+      "width_px": 1800,
+      "height_px": 1200,
+      "dimensions_basis": "user_supplied",
+      "role": "target",
+      "selected_for_use": false,
+      "allowed_roles": [
+        "content",
+        "layout",
+        "style"
+      ],
+      "scope_note": "Hypothetical target canvas; only a text specification exists."
+    }
+  ],
+  "scene": {
+    "medium": {
+      "value": "Detailed cinematic editorial illustration with restrained, physically coherent materials.",
+      "status": "inferred",
+      "basis": "user_supplied",
+      "confidence": "medium",
+      "note": "Fictional design brief; not an image observation."
+    },
+    "composition": {
+      "value": "Centered working area under a glass dome; clear top margin for one title; three planters form a left-to-right row.",
+      "status": "inferred",
+      "basis": "user_supplied",
+      "confidence": "medium",
+      "note": "Fictional design brief; not an image observation."
+    },
+    "lighting": {
+      "value": "Cool diffuse exterior light with a warm local growth lamp, coherent shadows and restrained reflections.",
+      "status": "inferred",
+      "basis": "user_supplied",
+      "confidence": "medium",
+      "note": "Fictional design brief; not an image observation."
+    },
+    "view": {
+      "value": "Eye-level wide view, showing the dome and the working surface without cropping the helmet.",
+      "status": "inferred",
+      "basis": "user_supplied",
+      "confidence": "medium",
+      "note": "Fictional design brief; not an image observation."
+    },
+    "camera_lens": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "confidence": "unknown",
+      "note": "No source image exists for this synthetic example."
+    }
+  },
+  "groups": [
+    {
+      "id": "A-G01",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "environment",
+      "bbox": [
+        0.03,
+        0.13,
+        0.94,
+        0.83
+      ],
+      "geometry_basis": "user_supplied",
+      "note": "Synthetic control group; not a recovered source layer."
+    },
+    {
+      "id": "A-G02",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "specimen workbench",
+      "bbox": [
+        0.2,
+        0.3,
+        0.66,
+        0.45
+      ],
+      "geometry_basis": "user_supplied",
+      "note": "Synthetic control group; not a recovered source layer."
+    },
+    {
+      "id": "A-G03",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "scientist",
+      "bbox": [
+        0.4,
+        0.24,
+        0.18,
+        0.51
+      ],
+      "geometry_basis": "user_supplied",
+      "note": "Synthetic control group; not a recovered source layer."
+    }
+  ],
+  "elements": [
+    {
+      "id": "A-01",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "ribbed glass dome",
+      "kind": "background",
+      "bbox": [
+        0.03,
+        0.13,
+        0.94,
+        0.6
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "A broad transparent observatory dome with six curved structural ribs.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "cool gray metal against violet-blue space",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "glass with restrained reflections",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-02",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "lunar horizon and ringed planet",
+      "kind": "background",
+      "bbox": [
+        0.07,
+        0.16,
+        0.86,
+        0.37
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "A pale cratered horizon with one ringed planet high on image-right.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "lavender shadows and a muted peach planet",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-03",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "circular floor inlay",
+      "kind": "effect",
+      "bbox": [
+        0.17,
+        0.67,
+        0.67,
+        0.28
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "One thin circular luminous inlay on the floor beneath the working area.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "cyan",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "emissive inset strip",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-04",
+      "source_id": "A",
+      "parent_id": "A-G03",
+      "name": "botanical scientist",
+      "kind": "subject",
+      "bbox": [
+        0.4,
+        0.24,
+        0.18,
+        0.51
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "One fictional adult scientist in a sealed field suit, leaning forward to inspect the table. Full helmet stays visible.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "ivory suit with a dark visor",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "plain woven suit panels; smooth helmet shell",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "pose": {
+          "value": "hands near the work surface",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "partly_occluded",
+        "occluded_by": [
+          "A-05"
+        ],
+        "hidden_content": "unknown",
+        "note": "The table obscures the lower torso; do not invent recovered suit seams behind it."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-05",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "curved specimen table",
+      "kind": "object",
+      "bbox": [
+        0.21,
+        0.56,
+        0.61,
+        0.19
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "A low curved table carrying exactly three distinct transparent planters.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "warm off-white top and dark supports",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "matte ceramic top",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-06",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "left glass planter",
+      "kind": "object",
+      "bbox": [
+        0.28,
+        0.48,
+        0.1,
+        0.18
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "The left cylindrical planter contains a compact green moss mound.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "green moss; clear glass",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "clear cylinder with a narrow dark base",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-07",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "middle glass planter",
+      "kind": "object",
+      "bbox": [
+        0.44,
+        0.43,
+        0.12,
+        0.23
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "The middle cylinder contains a single arching fern.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "fresh green fronds; clear glass",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "clear cylinder",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-08",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "right glass planter",
+      "kind": "object",
+      "bbox": [
+        0.64,
+        0.43,
+        0.11,
+        0.23
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "The right cylinder contains a branching plant with five broad leaves.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "violet leaves; clear glass",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "smooth leaves inside clear glass",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "shape": {
+          "value": "five broad leaves on one branching stem",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-09",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "small inspection robot arm",
+      "kind": "object",
+      "bbox": [
+        0.73,
+        0.56,
+        0.13,
+        0.18
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "A small two-jointed inspection arm attached to the right table edge.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "dark graphite",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "painted metal",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-10",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "suspended growth lamp",
+      "kind": "object",
+      "bbox": [
+        0.66,
+        0.31,
+        0.09,
+        0.1
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "One compact suspended growth lamp has a narrow cylindrical housing.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "warm amber light",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "brushed metal housing",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-11",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "top title",
+      "kind": "text",
+      "bbox": [
+        0.09,
+        0.035,
+        0.69,
+        0.06
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 1,
+      "description": {
+        "value": "A single readable uppercase title across the top margin.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "off-white",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "font_class": {
+          "value": "narrow geometric sans serif; exact family unspecified",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "alignment": {
+          "value": "left",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": {
+        "transcript": "FIELD STATION 09",
+        "certainty": "exact",
+        "uncertain_spans": [],
+        "line_breaks_preserved": true
+      },
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.font_class",
+        "appearance.color",
+        "bbox"
+      ],
+      "locked_properties": [
+        "text"
+      ]
+    },
+    {
+      "id": "A-12",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "specimen archive racks",
+      "kind": "repeated_detail",
+      "bbox": [
+        0.09,
+        0.36,
+        0.19,
+        0.28
+      ],
+      "geometry_basis": "user_supplied",
+      "count": 3,
+      "description": {
+        "value": "Three shelf rows of small archive containers form a subdued background pattern.",
+        "status": "inferred",
+        "basis": "user_supplied",
+        "confidence": "medium",
+        "note": "Fictional design brief; not an image observation."
+      },
+      "appearance": {
+        "color": {
+          "value": "low-contrast slate and pale labels",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        },
+        "material": {
+          "value": "brushed metal shelving",
+          "status": "inferred",
+          "basis": "user_supplied",
+          "confidence": "medium",
+          "note": "Fictional design brief; not an image observation."
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "Visibility specified by the fictional brief."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "No extracted asset exists."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "bbox",
+        "description"
+      ],
+      "locked_properties": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "R01",
+      "from_id": "A-06",
+      "to_id": "A-07",
+      "kind": "left_of",
+      "status": "inferred",
+      "confidence": "medium",
+      "note": "Synthetic spatial requirement."
+    },
+    {
+      "id": "R02",
+      "from_id": "A-07",
+      "to_id": "A-08",
+      "kind": "left_of",
+      "status": "inferred",
+      "confidence": "medium",
+      "note": "Synthetic spatial requirement."
+    },
+    {
+      "id": "R03",
+      "from_id": "A-04",
+      "to_id": "A-05",
+      "kind": "behind",
+      "status": "inferred",
+      "confidence": "medium",
+      "note": "Synthetic spatial requirement."
+    },
+    {
+      "id": "R04",
+      "from_id": "A-10",
+      "to_id": "A-08",
+      "kind": "above",
+      "status": "inferred",
+      "confidence": "medium",
+      "note": "Synthetic spatial requirement."
+    },
+    {
+      "id": "R05",
+      "from_id": "A-09",
+      "to_id": "A-05",
+      "kind": "touches",
+      "status": "inferred",
+      "confidence": "medium",
+      "note": "Synthetic spatial requirement."
+    }
+  ],
+  "selections": [
+    {
+      "target_id": "A-04",
+      "action": "keep",
+      "properties": [],
+      "instruction": "Keep the scientist's pose, suit and visible helmet.",
+      "destination_bbox": null,
+      "reference_ids": [],
+      "preserve": [
+        "pose",
+        "suit silhouette",
+        "helmet"
+      ],
+      "allow": []
+    },
+    {
+      "target_id": "A-08",
+      "action": "restyle",
+      "properties": [
+        "appearance.color"
+      ],
+      "instruction": "Change only the five plant leaves from violet to golden yellow.",
+      "destination_bbox": null,
+      "reference_ids": [],
+      "preserve": [
+        "five leaves",
+        "branching shape",
+        "clear cylinder",
+        "material"
+      ],
+      "allow": [
+        "subtle warm reflected color on the adjacent glass"
+      ]
+    },
+    {
+      "target_id": "A-09",
+      "action": "remove",
+      "properties": [],
+      "instruction": "Remove the small robot arm without moving the table.",
+      "destination_bbox": null,
+      "reference_ids": [],
+      "preserve": [],
+      "allow": []
+    },
+    {
+      "target_id": "A-10",
+      "action": "move",
+      "properties": [
+        "bbox"
+      ],
+      "instruction": "Move the growth lamp slightly image-left, above the middle planter.",
+      "destination_bbox": [
+        0.46,
+        0.29,
+        0.09,
+        0.1
+      ],
+      "reference_ids": [],
+      "preserve": [
+        "lamp design",
+        "warm amber emission"
+      ],
+      "allow": [
+        "move the light pool and its shadow consistently"
+      ]
+    }
+  ],
+  "invariants": [
+    {
+      "id": "P01",
+      "target_ids": [
+        "A-01"
+      ],
+      "description": "Preserve the broad dome silhouette and six visible structural ribs.",
+      "origin": "reconstruction_brief"
+    },
+    {
+      "id": "P02",
+      "target_ids": [
+        "A-11"
+      ],
+      "description": "Keep the title exactly FIELD STATION 09 and keep it readable in the clear top margin.",
+      "origin": "user"
+    }
+  ],
+  "unknowns": [
+    {
+      "target_id": "A",
+      "property": "actual_source_image",
+      "reason": "This example is synthetic and has no source pixels.",
+      "resolution": "leave_unspecified"
+    },
+    {
+      "target_id": "A-04",
+      "property": "hidden_suit_seams",
+      "reason": "The table obscures the lower torso in the stated composition.",
+      "resolution": "leave_unspecified"
+    },
+    {
+      "target_id": "A-11",
+      "property": "font_family",
+      "reason": "Only a visual font class is specified, not an actual font file.",
+      "resolution": "approximate_with_disclosure"
+    }
+  ],
+  "criteria": {
+    "hard": [
+      {
+        "id": "H01",
+        "description": "Show exactly three transparent planters in a left-to-right row.",
+        "target_ids": [
+          "A-06",
+          "A-07",
+          "A-08"
+        ],
+        "depends_on": [],
+        "check": "Count three distinct cylinders and check their ordering."
+      },
+      {
+        "id": "H02",
+        "description": "Show one scientist with the helmet fully in frame.",
+        "target_ids": [
+          "A-04"
+        ],
+        "depends_on": [],
+        "check": "Count people and inspect the helmet boundary."
+      },
+      {
+        "id": "H03",
+        "description": "Render FIELD STATION 09 exactly once with no extra title words.",
+        "target_ids": [
+          "A-11"
+        ],
+        "depends_on": [],
+        "check": "Read each glyph, the two digits, spacing and title frequency."
+      },
+      {
+        "id": "H04",
+        "description": "The inspection robot arm is absent.",
+        "target_ids": [
+          "A-09"
+        ],
+        "depends_on": [],
+        "check": "Inspect the right table edge for the removed arm and unwanted replacements."
+      },
+      {
+        "id": "H05",
+        "description": "The right planter retains five leaves and their shape, now golden yellow.",
+        "target_ids": [
+          "A-08"
+        ],
+        "depends_on": [
+          "H01"
+        ],
+        "check": "Count leaves and compare their shape, color and material."
+      }
+    ],
+    "soft": [
+      {
+        "id": "S01",
+        "description": "Keep the glass, fabric and metal visibly distinct.",
+        "target_ids": [
+          "A-04",
+          "A-06",
+          "A-07",
+          "A-08"
+        ],
+        "depends_on": [
+          "H01",
+          "H02"
+        ],
+        "check": "Inspect texture, edge treatment and reflections without treating attractiveness as evidence of correctness.",
+        "weight": 2
+      },
+      {
+        "id": "S02",
+        "description": "Create depth and visual richness without obscuring the major subjects.",
+        "target_ids": [
+          "A"
+        ],
+        "depends_on": [
+          "H01",
+          "H02"
+        ],
+        "check": "Inspect foreground, working area and exterior separation at reading size.",
+        "weight": 1
+      }
+    ]
+  }
+}

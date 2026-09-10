@@ -1,0 +1,9 @@
+{
+  "id": "PG01",
+  "title": "A Small Distance",
+  "original_file": "../images/01-a-small-distance.png",
+  "image": "../images/01-a-small-distance.png",
+  "prompt_file": "premium-examples/graphics/prompts/01-a-small-distance.txt",
+  "model": "not exposed",
+  "review_status": "awaiting pixel review"
+}

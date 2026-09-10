@@ -1,0 +1,23 @@
+{
+  "source_woman": "outputs/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+  "source_dog": "outputs/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+  "checks": [
+    "Woman has recognizable visual likeness to the target woman source; report uncertainty rather than asserting identity.",
+    "Dog has recognizable appearance of the target chocolate Labrador source; compare face, ears, coat and proportions.",
+    "No substitution or obvious identity/clothing contamination from the woman present in the dog-donor photograph.",
+    "Exactly one woman and one dog anywhere in the scene, including distant background.",
+    "Woman retains navy cap, plaid overshirt, black crop top, ripped jeans, black belt and white sneakers.",
+    "Woman walks toward camera left of center; dog on viewer right; both full bodies and plausible anatomy visible.",
+    "Slack burgundy leash connects dog collar to her left hand on viewer right.",
+    "Glass barrel vault, tropical palms and bronze planters create a layered botanical station.",
+    "Moss-green vintage train is behind on right and ornate station clock is present.",
+    "Warm golden light, wet black/ivory floor, contact shadows and reflections integrate subjects.",
+    "Landscape 3:2 output; foreground subjects sharper than background.",
+    "No legible signage, clock numerals, logos or watermark."
+  ],
+  "neutral_review_order": [
+    "M3",
+    "R7",
+    "T2"
+  ]
+}

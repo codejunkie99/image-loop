@@ -1,0 +1,12 @@
+Edit the attached clean source image. Apply only the changes below. The source pixels identify the target; inventory IDs and bounding boxes are review aids and must not appear in the artwork.
+Preserve the original canvas, crop, unselected objects, readable text, relationships, geometry, lighting and materials except for explicitly permitted consequences.
+
+INPUT ROLES
+- A: content, layout, style, palette, material, lighting, typography. Use the clean Rain Engine image for its visible scene, arrangement and appearance. Never copy mapping overlays or interface badges.
+
+REQUESTED CHANGES
+- RESTYLE large teal return arrow (A-48) (approximate normalized box [0.698, 0.128, 0.181, 0.768]). Change only this return arrow from turquoise to deep magenta.
+  Change only these properties: appearance.color.
+  Preserve: Arrow shape, route, width, position, highlight and attachment to the coil; All six text strings; Five tiers, water color, four copper arrows, materials, lighting and crop.
+
+After editing, inspect each requested difference and every protected detail. Do not claim that “unchanged” is guaranteed by a generative edit.

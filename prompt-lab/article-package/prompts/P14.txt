@@ -1,0 +1,11 @@
+Create an original premium pictogram family for a fictional independent sound-design studio. A pristine 3:2 landscape design sheet, pure white background, exactly six icons in a precisely spaced 3-column by 2-row grid. No text, labels, frames or visible construction grid. Use the attached reference only for the discipline of consistent line weight, clean exterior corners and simple geometry. Do not reuse its house symbol.
+
+The six original icons, in reading order, are:
+1. Over-ear headphones, symmetric curved headband, two substantial ear cushions, one short connector on each side.
+2. A turntable viewed from directly above: rounded rectangular plinth, one large circular record, one small center spindle, one straight tonearm with a bent cartridge.
+3. A compact mixer viewed straight on: exactly three vertical tracks, each with one sliding fader at a different height.
+4. A reel-to-reel tape machine viewed straight on: two equal circular reels above one rectangular body, each reel has exactly three simple spoke cutouts.
+5. A mechanical metronome viewed straight on: symmetric tapered outline, one diagonal pendulum and one small square sliding weight.
+6. A bookshelf speaker viewed straight on: vertical rounded rectangle, one small tweeter over one large woofer.
+
+Every icon must have the same apparent visual weight and fit the same optical square. Draw with a consistent strong deep-navy monoline stroke, square line ends, subtly rounded exterior corners and crisply squared interior joins. Use a single restrained vermilion detail in each icon: headphone inner cushions, record center label, fader handles, reel centers, metronome weight, speaker tweeter. Vermilion is the only accent color. Maintain spacious negative areas inside the symbols. No shading, 3D depth, shadows, gradients, reflections, texture or decorative sparkles. High-fidelity flat vector-like raster artwork with mathematically clean smooth edges and impeccable optical alignment. The empty margins and gutters should feel deliberate, like a carefully drawn identity-system specimen.

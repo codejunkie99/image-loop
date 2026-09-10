@@ -1,0 +1,147 @@
+{
+  "id": "G06-R1",
+  "parent_image": "outputs/expanded-experiments/generation-coverage/g06-cat-four-panel.png",
+  "output": "outputs/expanded-experiments/generation-coverage/g06-last-panel-repaired.png",
+  "request": "Repair the final story beat while preserving the other panels and objects.",
+  "prompt": "Edit the supplied four-panel comic. Change only the person's action and orientation in the fourth, bottom panel. They must unmistakably be RETURNING INTO the room: show their face and the front of their mustard coat, torso and knees directed inward toward the viewer, one foot stepping across the doorway onto the interior mat, and their gaze angled down toward the waiting orange cat. The back of their body should face the rainy outdoors, not the viewer. Keep the same short wavy brown hair, mustard coat, blue jeans, brown boots, brown shoulder bag and folded navy umbrella. One person only in that panel.\nPreserve panels 1, 2 and 3 exactly as shown. In panel 4 preserve the orange cat's position and appearance, the popcorn clue, closed teal record player, sofa, furniture, window, plants, doorway, palette, lighting, ink-and-gouache style, framing and panel boundaries. Change only the person and the immediately occluded doorway pixels necessary for that pose. Do not add text or other objects. Return the complete four-panel page at the same dimensions.",
+  "preregistered_at": "2026-09-09T20:57:39.359Z",
+  "status": "generated_and_file_verified",
+  "reference_roles": [
+    {
+      "index": 1,
+      "role": "edit target; entire four-panel original"
+    }
+  ],
+  "backend_model": "not exposed",
+  "seed": "not exposed",
+  "quality": "not exposed",
+  "known_uncertainty": "The original only shows the person's back; a front-facing face must be invented. Do not claim verified exact facial likeness.",
+  "checks": [
+    {
+      "id": "R01",
+      "criterion": "Exactly four panels remain; full page and original dimensions retained."
+    },
+    {
+      "id": "R02",
+      "criterion": "Bottom person visibly faces inward and crosses the threshold into the room."
+    },
+    {
+      "id": "R03",
+      "criterion": "Person looks toward the waiting cat, making the return legible."
+    },
+    {
+      "id": "R04",
+      "criterion": "Hair, mustard coat, jeans, boots, bag and folded navy umbrella retained."
+    },
+    {
+      "id": "R05",
+      "criterion": "Only one person in final panel; no duplicate body or limbs."
+    },
+    {
+      "id": "R06",
+      "criterion": "Panels1\u20133 remain visually consistent with the source, including player states."
+    },
+    {
+      "id": "R07",
+      "criterion": "Final cat, popcorn, closed player, furniture and room geometry remain consistent."
+    },
+    {
+      "id": "R08",
+      "criterion": "No new text, objects, crop or panel-boundary changes."
+    },
+    {
+      "id": "R09",
+      "criterion": "Global palette, lighting and drawing style stay consistent."
+    }
+  ],
+  "submitted_at": "2026-09-09T20:57:52.518736+00:00",
+  "source_original": "../generation-coverage/g06-last-panel-repaired.png",
+  "saved_at": "2026-09-09T21:02:26.265380+00:00",
+  "file": {
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "format": "PNG"
+  },
+  "sha256": "7df0dee115a7b8c9ed20b1b7dea6b015096cf8ecbb3363d6a45dcb50fc16ff38",
+  "timestamp_note": "saved_at is when the returned original was copied and verified, not generation latency.",
+  "preservation_pixel_check": {
+    "method": "RGB absolute difference in unchanged top-three-panel band, no alignment or color normalization",
+    "band_xyxy": [
+      0,
+      0,
+      1024,
+      1055
+    ],
+    "mean_absolute_difference_rgb_0_255": [
+      8.588046134478674,
+      7.70313240521327,
+      6.835743113151659
+    ],
+    "fraction_pixels_with_any_channel_changed": 0.9977534434241706,
+    "caveat": "This only proves lack of exact pixel preservation. Visual review determines whether drift matters; small resampling, grain or compression changes can affect this measure."
+  },
+  "review": [
+    {
+      "id": "R01",
+      "criterion": "Exactly four panels remain; full page and original dimensions retained.",
+      "result": "pass",
+      "observation": "Exactly four original panel regions and 1024\u00d71536 canvas remain."
+    },
+    {
+      "id": "R02",
+      "criterion": "Bottom person visibly faces inward and crosses the threshold into the room.",
+      "result": "pass",
+      "observation": "Final panel shows the front of the coat and face, an inward step across the threshold, and the outdoors behind the person."
+    },
+    {
+      "id": "R03",
+      "criterion": "Person looks toward the waiting cat, making the return legible.",
+      "result": "pass",
+      "observation": "Head and eyes point down toward the cat beside the interior mat."
+    },
+    {
+      "id": "R04",
+      "criterion": "Hair, mustard coat, jeans, boots, bag and folded navy umbrella retained.",
+      "result": "pass",
+      "observation": "Short brown wavy hair, mustard coat, blue jeans, brown boots and shoulder bag, folded navy umbrella remain visible."
+    },
+    {
+      "id": "R05",
+      "criterion": "Only one person in final panel; no duplicate body or limbs.",
+      "result": "pass",
+      "observation": "One coherent person is visible in the final panel; no extra body or duplicate limb."
+    },
+    {
+      "id": "R06",
+      "criterion": "Panels1\u20133 remain visually consistent with the source, including player states.",
+      "result": "pass",
+      "observation": "The first three panels retain their broad geometry, cat poses and closed/open/open player states. Fine upholstery and surface texture changes violate the stronger exact-preservation instruction in the prompt."
+    },
+    {
+      "id": "R07",
+      "criterion": "Final cat, popcorn, closed player, furniture and room geometry remain consistent.",
+      "result": "pass",
+      "observation": "Final cat, popcorn clue, closed teal player, sofa, room and furniture arrangement remain consistent."
+    },
+    {
+      "id": "R08",
+      "criterion": "No new text, objects, crop or panel-boundary changes.",
+      "result": "uncertain",
+      "observation": "No newly added principal object, large text, crop or panel-boundary change is visible. Tiny book-spine markings vary and cannot be certified as exact text preservation."
+    },
+    {
+      "id": "R09",
+      "criterion": "Global palette, lighting and drawing style stay consistent.",
+      "result": "pass",
+      "observation": "The same warm illustrated room, daylight sequence and broad ink-and-gouache treatment remain, although textures become smoother/more patterned."
+    }
+  ],
+  "requested_change_result": "pass: final-panel return action is unmistakable",
+  "preservation_result": "partial: scene states and geometry retained; exact unchanged pixels and fine textures not retained",
+  "unrequested_drift": [
+    "Sofa fabric gains a much more visible repeating floral/scroll-like pattern across panels, including untouched panels1\u20133.",
+    "Fine grain, pillow pattern, book markings and some small surface details change beyond the person edit."
+  ],
+  "identity_limit": "Only a back view existed in the original. The new frontal face is invented and cannot be assessed as identity preservation."
+}

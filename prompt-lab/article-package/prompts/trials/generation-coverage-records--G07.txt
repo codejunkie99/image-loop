@@ -1,0 +1,9 @@
+Create one portrait 2:3 product-design presentation containing a single straight-on modern smartphone, centered on a pale warm-gray background. The phone fills most of the frame and displays a crisp, finished farmers-market app named Fieldwork. This is a realistic shipped-app visual preview, not a concept sketch.
+Screen layout top to bottom:
+1. A compact status bar and a header reading "Fieldwork", with a small search icon and bag icon.
+2. A large editorial hero photo of a market stall with tomatoes, flowers and leafy vegetables. Overlay a cream card at its lower edge: "Saturday market" on the first line and "8 AM – 1 PM · Riverside Park" below.
+3. Three small filter chips in one row: "All", "Produce", "Bakery". All is selected in dark forest green.
+4. Section heading "Meet the makers". Two equal vendor cards side by side with different photographs: baskets of tomatoes on the first, flour-dusted sourdough on the second. Labels exactly "Green Row" / "Vegetables" and "Early Bird" / "Sourdough".
+5. A smaller full-width cream-tinted promotional row with a close photo of mixed tomatoes and text "Today's pick" and "Heirloom tomatoes", plus "$4 / lb" aligned at right.
+6. A bottom navigation bar with three clean icons and text "Explore", "Saved", "Bag"; Explore selected.
+Use warm white, deep forest green and restrained tomato-red accents. Fine charcoal typography, strong spacing, carefully aligned cards, natural photographs, crisp rounded rectangles, practical contrast. Keep the entire screen visible with no overlapping controls or cropped labels. No lorem ipsum, fake paragraphs, extra feature sections, device logos or decorative floating objects.

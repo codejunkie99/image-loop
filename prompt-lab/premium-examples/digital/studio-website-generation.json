@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "raw_output": "studio-website-v1.png",
+  "saved_copy": "outputs/premium-examples/digital/studio-website-v1.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "7dc418fcf4a7126094cbd56767899fe55878e1ac082bb184098f0446079139a0",
+  "image_references_attached": [],
+  "prompt_file": "studio-website.prompt.txt",
+  "generation_type": "original",
+  "repair_count": 0,
+  "model_identifier": "not exposed",
+  "seed": "not exposed"
+}

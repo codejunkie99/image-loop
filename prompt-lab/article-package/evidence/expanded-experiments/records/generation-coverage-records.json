@@ -1,0 +1,561 @@
+[
+  {
+    "id": "G01",
+    "slug": "g01-maritime-editorial",
+    "title": "The net maker",
+    "scene": "An ambitious natural-light maritime editorial: sailor repairing a net on a crowded working boat, with readable foreground action and a layered harbor background.",
+    "prompt": "Create a landscape 3:2 editorial photograph for a feature about skilled maritime work.\nScene: an elderly sailor repairs a fishing net on the deck of a small, weathered wooden boat in a sheltered harbor. This is a candid working moment, not a fashion pose.\nVisual map: foreground lower-left has loose ochre rope coils and wet dark deck planks; the sailor occupies the left-center, seated with both hands visibly tying one section of net. The net stretches diagonally from his lap toward a wooden float at lower-right. One black-and-white dog sits to his right, fully visible from ears to paws, watching his hands. Behind them are a worn blue wheelhouse, winch, neatly stowed buoys and several fishing boats farther across the water. Distant buildings stay subordinate.\nAppearance: silver stubble, creased face, salt-stained canvas jacket, ribbed wool sweater, rough hands. Net fibers, chipped paint, water droplets and rope wear should be distinguishable without oversharpening.\nLight: a low warm shaft of sunrise from upper-left catches the sailor's profile, hands and translucent net fibers. Cool blue harbor shade fills the unlit surfaces. Light and shadows must agree across the man, dog and deck. Fine film grain and natural tonal range; color restrained except for the blue wheelhouse and ochre rope.\nComposition: eye level from the bow, enough depth of field to understand the work and setting. Distinct foreground, working figures, boat structure and harbor layers. No text, no logos, no artificial fog, no beauty retouching. Keep hands, net and dog unobstructed.",
+    "criteria": [
+      "Landscape 3:2 composition",
+      "One elderly sailor visibly working on a net",
+      "Both hands plausible and interacting with net",
+      "One black-and-white dog fully visible on sailor's right",
+      "Net reads diagonally from lap toward lower-right float",
+      "Rope and wet deck visible in foreground",
+      "Wheelhouse and harbor add distinct depth layers",
+      "Warm light from upper-left and cool fill stay coherent",
+      "Skin, fiber, canvas and wood have different natural textures",
+      "No visible text or logos"
+    ],
+    "exact_text": [],
+    "sources": [],
+    "source_heading": "Control style and lighting",
+    "source_comparison": [
+      {
+        "alt": "Photorealistic portrait of a sailor repairing a net — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Photorealistic portrait of a sailor repairing a net — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/photorealism-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g01-maritime-editorial.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.698Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "submitted_at": "2026-09-09T20:40:57.929424+00:00",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g01-sunburst.webp",
+    "source_generated_path": "../generation-coverage/g01-maritime-editorial.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "image_mode": "RGB",
+    "sha256": "f04a9f1a690be207caf0bc17d1c71a4a61bddf08873fa4bcac35edf9dc40db4f",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:43:14.085694+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G03",
+    "slug": "g03-afterlight-poster",
+    "title": "Afterlight",
+    "scene": "A theatrical art-festival poster whose complex physical sculpture and small human figures sit below a disciplined typography system.",
+    "prompt": "Design a striking portrait 2:3 art-festival poster, a complete finished graphic, not a photograph of a poster.\nHeadline zone, top 22%: the word \"AFTERLIGHT\" exactly once, enormous condensed ivory sans-serif capitals, perfectly legible, straight baseline, generous clear margin.\nCentral image, middle 60%: an immense sculptural arch made of folded cobalt-blue metal and translucent amber glass rises above shallow ivory steps. A luminous orange sun-disc is visible through the opening. Thin copper wires suspend several long cobalt ribbons that twist through the air without covering the headline. Three tiny visitors stand on separate steps at the arch's base to establish scale, each a clean human silhouette. The blue structure has crisp folded edges; amber glass refracts the warm light; copper catches small highlights. Deep near-black background, dramatic but physically coherent warm backlight and cool side light. Meticulous architectural miniature photography combined with premium editorial art direction.\nFooter zone, bottom 15%: two centered lines, exactly \"ART AFTER DARK\" then \"19–21 OCT\". Clean ivory typography, readable with generous spacing.\nHierarchy: headline first, luminous arch second, visitors third, footer fourth. Give every element room; make the impossible scale wondrous while keeping materials believable.\nOnly the three specified text lines. Do not add a venue, sponsor, logo, barcode, decorative tiny writing or watermark. Keep all typography separate from the sculpture and visitors.",
+    "criteria": [
+      "Portrait 2:3 complete poster",
+      "AFTERLIGHT appears exactly once and is correctly spelled",
+      "Footer ART AFTER DARK is exact",
+      "Footer 19–21 OCT is exact",
+      "No additional text or branding",
+      "Headline remains clear above sculpture",
+      "Cobalt folded arch and amber glass read as different materials",
+      "Orange disc is visible through arch opening",
+      "Exactly three distinct tiny visitors on steps",
+      "Foreground steps, arch and backlight have coherent depth",
+      "Ribbons and wires do not cross headline"
+    ],
+    "exact_text": [
+      "AFTERLIGHT",
+      "ART AFTER DARK",
+      "19–21 OCT"
+    ],
+    "sources": [],
+    "source_heading": "Render exact text",
+    "source_comparison": [
+      {
+        "alt": "Thread streetwear campaign with the requested tagline — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Thread streetwear campaign with the requested tagline — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/thread-ad-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g03-afterlight-poster.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "submitted_at": "2026-09-09T20:40:57.929775+00:00",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g03-sunburst.webp",
+    "source_generated_path": "../generation-coverage/g03-afterlight-poster.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "image_mode": "RGB",
+    "sha256": "9e1d74bcef915a0a30fe2f2c0070b623b56d92a0fdac98f361c49fda67fb3686",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:43:14.092041+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G04",
+    "slug": "g04-tideline-mark",
+    "title": "Tideline identity",
+    "scene": "A restrained coastal identity mark: one scalable symbol with a wave and bird silhouette, plus an exact wordmark on true transparent pixels.",
+    "prompt": "Create one original logo for a fictional coastal conservation studio named TIDELINE. Square 1:1 canvas with a genuinely transparent background; preserve real alpha transparency.\nSymbol: a compact near-circular dark navy silhouette. Inside it, one broad flowing negative-space channel curves upward like a breaking wave and resolves into the simple profile of a shorebird's head looking right. Use only two or three broad connected shapes. The bird and wave should share one elegant silhouette rather than look like separate clip-art objects. No feathers, eyes, scenic illustration, thin decorative lines or gradients.\nPlace the symbol centered in the upper-middle. Below it, set \"TIDELINE\" exactly once in dark navy uppercase geometric sans-serif, widely but evenly spaced. Align the wordmark with the symbol; keep the wordmark narrower than the symbol's outer width. Plenty of empty transparent margin on all sides.\nThis is a flat vector-like raster logo exploration. Crisp solid edges, balanced negative space, strong recognition at small sizes. One ink color only: deep navy. No shadows, mockup, paper texture, backdrop, drawn checkerboard, border, additional text or watermark.",
+    "criteria": [
+      "Square 1:1 canvas",
+      "Exactly one symbol and one wordmark",
+      "TIDELINE correctly spelled exactly once",
+      "Symbol combines wave and right-facing shorebird",
+      "Broad simple shapes rather than detailed illustration",
+      "Dark navy single-color treatment",
+      "Wordmark centered below symbol and narrower than symbol",
+      "Generous clear margin",
+      "Decoded file has actual transparent alpha pixels",
+      "No drawn checkerboard, shadows or backdrop"
+    ],
+    "exact_text": [
+      "TIDELINE"
+    ],
+    "sources": [],
+    "source_heading": "Design a reusable logo",
+    "source_comparison": [
+      {
+        "alt": "Field and Flour bakery logo, first variation — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, first variation — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-1-gpt-image-2-5-sunburst.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, second variation — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, second variation — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-2-gpt-image-2-5-sunburst.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, third variation — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, third variation — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-3-gpt-image-2-5-sunburst.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, fourth variation — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Field and Flour bakery logo, fourth variation — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/logo-generation-4-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g04-tideline-mark.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g04-sunburst.webp",
+    "submitted_at": "2026-09-09T20:42:02.776230+00:00",
+    "source_generated_path": "../generation-coverage/g04-tideline-mark.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "image_mode": "RGBA",
+    "sha256": "5f581e4558867b34a0b830b7ae4970693de16fc4bb2abff0aaac0ff1cf6e72c9",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_statistics": {
+      "transparent_pixels": 1244861,
+      "opaque_pixels": 3343,
+      "total_pixels": 1572516
+    },
+    "saved_at": "2026-09-09T20:46:27.880162+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G05",
+    "slug": "g05-woodstock-recreation",
+    "title": "A field becomes a city",
+    "scene": "A clearly labeled-in-caption AI historical reconstruction of the Woodstock crowd on Yasgur's farm in Bethel in August 1969, built from verified setting facts and explicitly inferred appearance.",
+    "prompt": "Create a wide 3:2 photorealistic historical reconstruction of a crowd at the Woodstock Music and Art Fair, on Max Yasgur's farm in Bethel, New York, in August 1969. It should resemble a carefully staged period editorial scene, not a present-day festival.\nVerified setting to depict: a very large crowd spreads across a grassy, sloping farm field; the concert stage sits at the foot of the audience slope, with wooded edges and rural land beyond. Rain and mud were part of the festival. Do not portray an exact documented instant or recognizable performer.\nComposition: view from among the audience near the upper slope, looking down toward the distant stage. Foreground, five distinguishable young adult attendees sit or stand on blankets: worn denim, simple cotton shirts, a patterned long skirt, long hair and a canvas shoulder bag. Their poses are relaxed and varied, facing generally toward the stage. A muddy footpath leads diagonally through the middle-ground crowd. Scattered simple canvas tents sit toward the far wooded edge. Thousands of more distant attendees become increasingly small, with natural nonrepeating clusters.\nAppearance: muted late-1960s color-film character, soft overcast daylight, real skin and fabric, grass worn into patches of earth. Period-appropriate simple stage scaffolding and speaker stacks remain small in the distance. No LED screens, smartphones, modern stage lasers, contemporary branded clothing, modern security barriers or giant printed sponsor signs.\nNo caption or readable writing inside the image. Preserve convincing human anatomy in the foreground and a coherent hillside perspective.",
+    "criteria": [
+      "Wide 3:2 composition",
+      "Grassy sloping rural field descends toward stage",
+      "Large crowd with coherent diminishing scale",
+      "Five distinguishable foreground attendees",
+      "Foreground dress avoids visible modern anachronisms",
+      "Muddy footpath is visible",
+      "Canvas tents and wooded edge remain subordinate",
+      "No visible smartphones, LED screens or modern logos",
+      "No obvious repeated foreground faces or fused limbs",
+      "Stage is distant rather than dominating",
+      "Image contains no invented historical caption"
+    ],
+    "exact_text": [],
+    "sources": [
+      "https://www.bethelwoodscenter.org/museum/woodstock-history",
+      "https://www.bethelwoodscenter.org/news/detail/woodstock-stories-legacy-of-the-land",
+      "https://www.bethelwoodscenter.org/assets/doc/CLR-Part-1-Final-Reduced-882fd46785.pdf"
+    ],
+    "verified_facts": [
+      "Woodstock occurred in Bethel on Yasgur farmland in August 1969",
+      "The festival site included grassy hills and a stage",
+      "Rain and mud were part of the event"
+    ],
+    "inferred_choices": [
+      "Specific attendees, clothes, poses, weather at this invented instant, blankets and camera position",
+      "Approximate stage appearance, not a measured architectural reconstruction"
+    ],
+    "source_heading": "Use historical and real-world context",
+    "source_comparison": [
+      {
+        "alt": "Crowd scene in Bethel, New York, in August 1969 — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Crowd scene in Bethel, New York, in August 1969 — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/world-knowledge-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g05-woodstock-recreation.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g05-sunburst.webp",
+    "submitted_at": "2026-09-09T20:42:02.776487+00:00",
+    "source_generated_path": "../generation-coverage/g05-woodstock-recreation.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "image_mode": "RGB",
+    "sha256": "417fce9c0ebbeb32901cb0777548f49c2a97ecf7f199e15b895180eef5fd5fde",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:45:28.645876+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G06",
+    "slug": "g06-cat-four-panel",
+    "title": "The record collector",
+    "scene": "A four-panel wordless comic with a recognizable cat, a record player and a room whose objects must remain consistent through a story.",
+    "prompt": "Draw one portrait 2:3 comic page with exactly four horizontal panels stacked top to bottom, equal-width panels and clean ivory gutters. No text, dialogue, lettering, panel numbers or sound effects.\nVisual style: sophisticated hand-inked European picture-book illustration, precise warm outlines, richly painted gouache, terracotta, petrol blue, mustard and sage. Detailed but readable interiors, not flat clip art.\nRecurring identity: one small orange tabby cat with a white muzzle, white front paws, three dark forehead stripes and a cobalt-blue collar. Keep these features in every panel.\nRecurring room: a terracotta sofa is left-center, a low walnut record cabinet with a teal record player is on the right, a large round window is behind the sofa, and the entrance is at far left. Keep furniture placement and colors consistent.\nPanel 1: a person in a mustard raincoat exits through the far-left doorway, carrying a folded navy umbrella. The cat sits near the threshold watching. The teal record player on the right is closed and inactive.\nPanel 2: the same room after departure. The cat stands with its front white paws on the record cabinet and lifts the teal record player's lid with one paw. One black vinyl record is visible on the turntable. No human is present.\nPanel 3: the same cat sprawls happily across the terracotta sofa, eyes closed, while the open record player at right plays the black record. A small bowl of popcorn sits on the floor with a few spilled kernels. Warm afternoon light comes through the round window.\nPanel 4: the raincoat-wearing person returns at the far-left doorway holding the folded navy umbrella. The cat sits innocently by the threshold as in panel 1. The record player's lid is closed again, but one small popcorn kernel remains beside the cat as the visual punchline.\nMake the story immediately readable. One cat per panel; preserve room geography, color palette and recognizable objects.",
+    "criteria": [
+      "Exactly four stacked horizontal panels",
+      "No printed text or dialogue",
+      "One recognizable orange tabby per panel",
+      "White muzzle/paws and blue collar retained",
+      "Terracotta sofa left and teal record player right remain consistent",
+      "Person leaves in panel1 and returns in panel4",
+      "No person in panels2 and3",
+      "Panel2 cat visibly interacts with player lid",
+      "Panel3 cat lounges on sofa with open player",
+      "Panel4 player is closed",
+      "Popcorn visual punchline survives in panel4",
+      "Room geometry and object identities remain stable"
+    ],
+    "exact_text": [],
+    "sources": [],
+    "source_heading": "Turn a story into a comic strip",
+    "source_comparison": [
+      {
+        "alt": "Four-panel comic about a pet at home — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Four-panel comic about a pet at home — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/comic-reel-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g06-cat-four-panel.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g06-sunburst.webp",
+    "submitted_at": "2026-09-09T20:43:36.208394+00:00",
+    "source_generated_path": "../generation-coverage/g06-cat-four-panel.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "image_mode": "RGB",
+    "sha256": "a97bf344d3040b6a388958dfd25d41da93753a191bd705b50f1baba636834300",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:48:58.156863+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G07",
+    "slug": "g07-fieldwork-market-ui",
+    "title": "Fieldwork market",
+    "scene": "A detailed but plausible farmers-market mobile interface with editorial photography, exact content, clear navigation and shopping actions.",
+    "prompt": "Create one portrait 2:3 product-design presentation containing a single straight-on modern smartphone, centered on a pale warm-gray background. The phone fills most of the frame and displays a crisp, finished farmers-market app named Fieldwork. This is a realistic shipped-app visual preview, not a concept sketch.\nScreen layout top to bottom:\n1. A compact status bar and a header reading \"Fieldwork\", with a small search icon and bag icon.\n2. A large editorial hero photo of a market stall with tomatoes, flowers and leafy vegetables. Overlay a cream card at its lower edge: \"Saturday market\" on the first line and \"8 AM – 1 PM · Riverside Park\" below.\n3. Three small filter chips in one row: \"All\", \"Produce\", \"Bakery\". All is selected in dark forest green.\n4. Section heading \"Meet the makers\". Two equal vendor cards side by side with different photographs: baskets of tomatoes on the first, flour-dusted sourdough on the second. Labels exactly \"Green Row\" / \"Vegetables\" and \"Early Bird\" / \"Sourdough\".\n5. A smaller full-width cream-tinted promotional row with a close photo of mixed tomatoes and text \"Today's pick\" and \"Heirloom tomatoes\", plus \"$4 / lb\" aligned at right.\n6. A bottom navigation bar with three clean icons and text \"Explore\", \"Saved\", \"Bag\"; Explore selected.\nUse warm white, deep forest green and restrained tomato-red accents. Fine charcoal typography, strong spacing, carefully aligned cards, natural photographs, crisp rounded rectangles, practical contrast. Keep the entire screen visible with no overlapping controls or cropped labels. No lorem ipsum, fake paragraphs, extra feature sections, device logos or decorative floating objects.",
+    "criteria": [
+      "Single centered straight-on smartphone",
+      "All requested screen sections visible without overlap",
+      "Fieldwork and Saturday market exact",
+      "8 AM – 1 PM · Riverside Park legible",
+      "All / Produce / Bakery chips present",
+      "Two distinct vendor cards Green Row and Early Bird",
+      "Vegetables and Sourdough assigned correctly",
+      "Today's pick / Heirloom tomatoes / $4 / lb correct",
+      "Explore / Saved / Bag bottom labels present",
+      "Consistent green/cream/red palette and practical hierarchy",
+      "No cropped text, gibberish or fake extra paragraphs"
+    ],
+    "exact_text": [
+      "Fieldwork",
+      "Saturday market",
+      "8 AM – 1 PM · Riverside Park",
+      "All",
+      "Produce",
+      "Bakery",
+      "Meet the makers",
+      "Green Row",
+      "Vegetables",
+      "Early Bird",
+      "Sourdough",
+      "Today's pick",
+      "Heirloom tomatoes",
+      "$4 / lb",
+      "Explore",
+      "Saved",
+      "Bag"
+    ],
+    "sources": [],
+    "source_heading": "Create an interface preview",
+    "source_comparison": [
+      {
+        "alt": "Farmers market mobile app mockup — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Farmers market mobile app mockup — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/ui-farmers-market-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g07-fieldwork-market-ui.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g07-sunburst.webp",
+    "submitted_at": "2026-09-09T20:43:36.208756+00:00",
+    "source_generated_path": "../generation-coverage/g07-fieldwork-market-ui.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "image_mode": "RGB",
+    "sha256": "6dd18d4c883b9caacc8aec80d99aeae9fed1013c36abf99a83c76e0f7dc64816",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:48:58.163752+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G08",
+    "slug": "g08-leaf-cutaway",
+    "title": "Inside a leaf",
+    "scene": "An instructional scientific cutaway of a typical eudicot leaf showing physical layers, cell shapes and a functional stomatal pore.",
+    "prompt": "Create a landscape 3:2 educational plate titled \"INSIDE A LEAF\" for a high-school biology lesson. Show a beautiful, scientifically readable three-dimensional cutaway block through a typical eudicot leaf, floating on an ivory background. Illustration is a precise textbook model with subtle painted texture, not a microscope photograph. The tissue layers are enlarged schematically; do not add a numerical scale.\nAnatomical map, top to bottom:\n- a very thin waxy cuticle on top;\n- one layer of upper epidermal cells;\n- closely packed elongated upright palisade cells, full of small green chloroplasts;\n- a lower layer of loosely arranged irregular spongy cells with obvious connected air spaces and some chloroplasts;\n- one layer of lower epidermal cells, interrupted at front-center by a clear stomatal opening flanked by two guard cells.\nEmbed one rounded vascular bundle within the mesophyll at the right side of the cutaway. Its larger xylem vessels are above its smaller phloem cells. Keep the surrounding tissues visible.\nLabels with thin noncrossing leader lines and sufficient margin, each exactly once: \"Cuticle\", \"Upper epidermis\", \"Palisade mesophyll\", \"Spongy mesophyll\", \"Air space\", \"Lower epidermis\", \"Guard cells\", \"Stoma\", \"Xylem\", \"Phloem\". Each leader must touch the correct structure; never use a label as decoration.\nBelow the stomatal pore show one small inward arrow labeled \"CO2 in\" going from outside through the pore into the internal air space, and one small outward arrow labeled \"O2 out\" going from that air space through the pore to outside. Separate arrows so their directions are unambiguous. The pore must actually open into the air space, not a solid cell.\nUse botanical greens, cream cell walls, muted blue xylem and muted coral phloem. Preserve cell topology and a clear layer hierarchy. No animal organs, invented organelles, extra captions or decorative foliage.",
+    "criteria": [
+      "Landscape 3:2 educational plate with INSIDE A LEAF title",
+      "Top-to-bottom layers ordered correctly",
+      "Palisade cells elongated and closely packed",
+      "Spongy cells irregular with visible air spaces",
+      "Lower epidermis contains an actual opening",
+      "Two guard cells flank the stoma",
+      "CO2 arrow points inward through pore",
+      "O2 arrow points outward through pore",
+      "Xylem above phloem within one vascular bundle",
+      "All ten labels spelled correctly and attached to correct targets",
+      "No numerical scale or scientifically misleading extras",
+      "Text readable without covering tissue structure"
+    ],
+    "exact_text": [
+      "INSIDE A LEAF",
+      "Cuticle",
+      "Upper epidermis",
+      "Palisade mesophyll",
+      "Spongy mesophyll",
+      "Air space",
+      "Lower epidermis",
+      "Guard cells",
+      "Stoma",
+      "Xylem",
+      "Phloem",
+      "CO2 in",
+      "O2 out"
+    ],
+    "sources": [
+      "https://openstax.org/books/biology/pages/30-4-leaves"
+    ],
+    "source_heading": "Create scientific and educational visuals",
+    "source_comparison": [
+      {
+        "alt": "Classroom diagram of cellular respiration — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Classroom diagram of cellular respiration — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/scientific-educational-cellular-respiration-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g08-leaf-cutaway.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g08-sunburst.webp",
+    "submitted_at": "2026-09-09T20:46:51.956719+00:00",
+    "source_generated_path": "../generation-coverage/g08-leaf-cutaway.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "image_mode": "RGB",
+    "sha256": "64f9471921e0bb843797289ac90d6725b1bf63d84b4813133e21468d29f6b761",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:50:48.418435+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  },
+  {
+    "id": "G09",
+    "slug": "g09-civic-move-slide",
+    "title": "Civic Move — quarter in view",
+    "scene": "A polished landscape analytics slide with exactly three readable charts, fixed synthetic values and no implied real-world market evidence.",
+    "prompt": "Create one polished landscape 16:9 presentation slide, a flat full-slide graphic, titled \"CIVIC MOVE\" with the subtitle \"Quarter in view\". Use a warm ivory background, dark navy typography, thin neutral rules, refined editorial spacing and restrained teal, blue and orange chart colors. No photographs, gradients, 3D effects or drop shadows.\nLayout: header at the top, then exactly three equal-width chart panels in a single row with generous margins.\nLeft panel title \"Trips\". Vertical bar chart with three months: \"Jan\", \"Feb\", \"Mar\". Values are exactly 120, 180, 240. Bars share a zero baseline, heights in ratio 1:1.5:2. Place each value clearly above its bar. Y-axis labeled \"Trips\" with ticks 0, 120, 240. Bars teal.\nMiddle panel title \"On-time rate\". A simple blue line chart with three points Jan 80%, Feb 85%, Mar 90%. Label each point exactly \"80%\", \"85%\", \"90%\". Vertical scale has ticks 70%, 80%, 90%, 100%, evenly spaced. Points increase by equal vertical steps. Months aligned in order under points.\nRight panel title \"March mix\". Horizontal bars for \"Bike\", \"Bus\", \"Walk\" with values 50%, 30%, 20%. Same zero baseline and common scale; lengths in ratio 5:3:2. Bike teal, Bus muted blue, Walk burnt orange. Each value at its bar end. No pie chart.\nFooter at bottom-left exactly \"Illustrative data · Not a real business\". No source citation or other data.\nPrioritize mathematical consistency and legible text over decoration. All three panels must fit comfortably. Every requested label appears in its intended place, with no extra metrics, legends, logos or generated gibberish.",
+    "criteria": [
+      "Landscape 16:9 finished slide",
+      "CIVIC MOVE and Quarter in view correct",
+      "Exactly three panels Trips / On-time rate / March mix",
+      "Trips months Jan Feb Mar and values120180240 correct",
+      "Trips bars share zero and height ratio1:1.5:2",
+      "On-time values80%85%90% correct",
+      "On-time y-axis70%80%90%100% and equal point steps",
+      "March mix Bike50 Bus30 Walk20 correct",
+      "March mix common baseline and length ratio5:3:2",
+      "Footer exactly identifies illustrative data",
+      "No extra metrics or invented citations",
+      "All text readable and panels unobstructed"
+    ],
+    "exact_text": [
+      "CIVIC MOVE",
+      "Quarter in view",
+      "Trips",
+      "On-time rate",
+      "March mix",
+      "Jan",
+      "Feb",
+      "Mar",
+      "120",
+      "180",
+      "240",
+      "80%",
+      "85%",
+      "90%",
+      "70%",
+      "100%",
+      "Bike",
+      "Bus",
+      "Walk",
+      "50%",
+      "30%",
+      "20%",
+      "Illustrative data · Not a real business"
+    ],
+    "sources": [],
+    "synthetic_data": {
+      "trips": {
+        "Jan": 120,
+        "Feb": 180,
+        "Mar": 240
+      },
+      "on_time_percent": {
+        "Jan": 80,
+        "Feb": 85,
+        "Mar": 90
+      },
+      "march_mix_percent": {
+        "Bike": 50,
+        "Bus": 30,
+        "Walk": 20
+      }
+    },
+    "source_heading": "Build slides, diagrams, and charts",
+    "source_comparison": [
+      {
+        "alt": "Market opportunity slide with sample market sizing figures — GPT Image 2.5 Flare",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-flare.webp"
+      },
+      {
+        "alt": "Market opportunity slide with sample market sizing figures — GPT Image 2.5 Sunburst",
+        "url": "https://developers.openai.com/images/platform/guides/image-prompting/market-opportunity-slide-gpt-image-2-5-sunburst.webp"
+      }
+    ],
+    "output_path": "outputs/expanded-experiments/generation-coverage/g09-civic-move-slide.png",
+    "mode": "generate",
+    "status": "reviewed",
+    "backend": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images": [],
+    "prepared_at": "2026-09-09T20:40:45.707Z",
+    "experimental_role": "Exploratory ambitious adaptation, not a matched causal comparison",
+    "official_comparison_path": "outputs/expanded-experiments/generation-coverage/official-references/g09-sunburst.webp",
+    "submitted_at": "2026-09-09T20:46:51.957061+00:00",
+    "source_generated_path": "../generation-coverage/g09-civic-move-slide.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "image_mode": "RGB",
+    "sha256": "e8215e79739ebf6cd2a3b0d5cc2b4e8be7fdcbc6219f865a2f36e4fbd1d02399",
+    "alpha_extrema": null,
+    "saved_at": "2026-09-09T20:50:48.422781+00:00",
+    "timing_note": "submitted_at records intent immediately before the call; saved_at is artifact persistence time, not measured model latency."
+  }
+]

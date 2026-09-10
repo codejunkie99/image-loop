@@ -1,0 +1,1215 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "vellum-premium-reconstruction",
+  "revision": 1,
+  "coordinate_system": "normalized_top_left_xywh",
+  "provenance": {
+    "kind": "image_analysis",
+    "note": "Manually inspected our generated P04 source. Dimensions come from the PNG header; rectangles are visual estimates. This specification describes the actual result rather than recovering its original creation prompt."
+  },
+  "intent": {
+    "task": "reconstruct",
+    "purpose": "Recreate the visible VELLUM luxury product photograph using the attached clean source and this visual inventory.",
+    "exactness": "perceptual",
+    "exactness_note": "Preserve recognizable composition, object geometry, text and material relationships. Pixel identity is not promised.",
+    "output": {
+      "width_px": 1122,
+      "height_px": 1402,
+      "format": "png",
+      "crop_policy": "preserve"
+    }
+  },
+  "coverage": {
+    "status": "complete_visible_inventory",
+    "granularity": "15 controls: background, surface, bottle, contents, cap, collar, label, three text lines, divider, two glass highlights, reflection and empty space. Individual stone veins, wood pores and micro-reflections are grouped.",
+    "excluded_regions": [],
+    "notes": [
+      "Complete only at the declared editable granularity. Several rectangles overlap because the glass is transparent and the label belongs on its front face.",
+      "No segmentation or recovered source layers."
+    ]
+  },
+  "source_images": [
+    {
+      "id": "A",
+      "path": "../assets/vellum-source.png",
+      "version": "P04-original-generated",
+      "width_px": 1122,
+      "height_px": 1402,
+      "dimensions_basis": "file_metadata",
+      "role": "target",
+      "selected_for_use": true,
+      "allowed_roles": [
+        "content",
+        "identity",
+        "layout",
+        "palette",
+        "material",
+        "lighting",
+        "typography",
+        "background"
+      ],
+      "scope_note": "Use the attached clean luxury photograph for appearance and arrangement. Do not draw identifiers, boxes or map controls."
+    }
+  ],
+  "scene": {
+    "medium": {
+      "value": "A tightly composed luxury perfume photograph with tactile materials and restrained branding.",
+      "status": "observed",
+      "basis": "visual_observation",
+      "confidence": "high",
+      "note": ""
+    },
+    "composition": {
+      "value": "Portrait 4:5 composition; a single bottle slightly right of center, cap in the upper third, reflection continuing into the bottom crop.",
+      "status": "observed",
+      "basis": "visual_observation",
+      "confidence": "high",
+      "note": ""
+    },
+    "view": {
+      "value": "A near-front product view with a small amount of the right side and bottle shoulder visible.",
+      "status": "inferred",
+      "basis": "visual_estimate",
+      "confidence": "medium",
+      "note": ""
+    },
+    "lighting": {
+      "value": "Broad warm highlights from the upper left, darker right side, a soft red background glow and reflections on glass and the supporting surface.",
+      "status": "inferred",
+      "basis": "visual_estimate",
+      "confidence": "medium",
+      "note": ""
+    },
+    "palette": {
+      "value": "Garnet, dark walnut, warm silver, ivory and near black.",
+      "status": "observed",
+      "basis": "visual_observation",
+      "confidence": "high",
+      "note": ""
+    }
+  },
+  "groups": [
+    {
+      "id": "A-G01",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "Product and label",
+      "bbox": [
+        0.28,
+        0.14,
+        0.58,
+        0.69
+      ],
+      "geometry_basis": "visual_estimate",
+      "note": "A semantic product group, not a source layer."
+    },
+    {
+      "id": "A-G02",
+      "source_id": "A",
+      "parent_id": null,
+      "name": "Setting and reflection",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "geometry_basis": "visual_estimate",
+      "note": "Background and supporting effects."
+    }
+  ],
+  "elements": [
+    {
+      "id": "A-01",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "garnet background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.7
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Soft deep burgundy background, brighter toward the upper left and almost black on the right; no distinct props.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "burgundy to near black",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "out-of-focus background",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "off_frame",
+        "occluded_by": [],
+        "hidden_content": "unknown",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-02",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "polished stone surface",
+      "kind": "background",
+      "bbox": [
+        0,
+        0.67,
+        1,
+        0.33
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Dark red-brown surface with pale branching veins, supporting the bottle.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "red-brown with pale veins",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "polished veined stone",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "off_frame",
+        "occluded_by": [],
+        "hidden_content": "unknown",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-03",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "bottle silhouette",
+      "kind": "subject",
+      "bbox": [
+        0.28,
+        0.345,
+        0.58,
+        0.485
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "One broad rectangular perfume bottle with rounded corners, thick transparent edge walls, slightly visible right face and a heavy base.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "clear outer edges surrounding garnet red",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "thick transparent glass",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-04",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "garnet body",
+      "kind": "object",
+      "bbox": [
+        0.315,
+        0.385,
+        0.495,
+        0.36
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Deep red translucent interior, darkest through the central body, with bright red near lower edges.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "deep garnet",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "translucent glass and visible contents; precise material split unknown",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-05",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "walnut cap",
+      "kind": "object",
+      "bbox": [
+        0.435,
+        0.14,
+        0.29,
+        0.174
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Wide cylindrical dark brown cap with a shallow elliptical top and clearly visible vertical grain.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "dark walnut brown",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "wood",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-06",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "brushed metal collar",
+      "kind": "object",
+      "bbox": [
+        0.487,
+        0.308,
+        0.211,
+        0.054
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Short silver cylindrical collar visible between cap and glass shoulders, with a bright left band and darker right side.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "warm silver",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "brushed metal",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-07",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "ivory paper label",
+      "kind": "object",
+      "bbox": [
+        0.384,
+        0.453,
+        0.262,
+        0.221
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Cream rectangular label on the front face, with subtly visible paper grain and slight perspective.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "warm ivory",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "textured paper",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-08",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "VELLUM wordmark",
+      "kind": "text",
+      "bbox": [
+        0.432,
+        0.505,
+        0.172,
+        0.035
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Spaced uppercase serif letters near the upper part of the label.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "near black",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "ink",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": {
+        "transcript": "VELLUM",
+        "certainty": "exact",
+        "uncertain_spans": [],
+        "line_breaks_preserved": true
+      },
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox",
+        "text"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-09",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "No. 04 line",
+      "kind": "text",
+      "bbox": [
+        0.48,
+        0.546,
+        0.084,
+        0.022
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Smaller centered serif product number below the wordmark.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "near black",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "ink",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": {
+        "transcript": "No. 04",
+        "certainty": "exact",
+        "uncertain_spans": [],
+        "line_breaks_preserved": true
+      },
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox",
+        "text"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-10",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "label divider",
+      "kind": "connector",
+      "bbox": [
+        0.497,
+        0.579,
+        0.036,
+        0.009
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "One short thin horizontal rule between the number and the fragrance line.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "near black",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "ink",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-11",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "fragrance line",
+      "kind": "text",
+      "bbox": [
+        0.439,
+        0.605,
+        0.147,
+        0.02
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Small spaced serif capitals along the lower part of the label.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "near black",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "ink",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": {
+        "transcript": "EAU DE PARFUM",
+        "certainty": "exact",
+        "uncertain_spans": [],
+        "line_breaks_preserved": true
+      },
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox",
+        "text"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-12",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "left glass edge highlight",
+      "kind": "effect",
+      "bbox": [
+        0.283,
+        0.361,
+        0.076,
+        0.438
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Bright elongated light streak along the left thick glass edge, wrapping into the heavy base.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "warm white",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "specular reflection in glass",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-13",
+      "source_id": "A",
+      "parent_id": "A-G01",
+      "name": "right glass edge highlight",
+      "kind": "effect",
+      "bbox": [
+        0.777,
+        0.357,
+        0.074,
+        0.451
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Narrow bright streaks on the right side and corner, with darker glass visible between them.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "warm white and pale silver",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "specular reflection in glass",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-14",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "bottle reflection",
+      "kind": "effect",
+      "bbox": [
+        0.28,
+        0.814,
+        0.58,
+        0.186
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Soft vertically inverted reflection extending toward the bottom crop, without a second physical bottle.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "muted garnet, ivory and brown",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "reflection on polished stone",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "off_frame",
+        "occluded_by": [],
+        "hidden_content": "unknown",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    },
+    {
+      "id": "A-15",
+      "source_id": "A",
+      "parent_id": "A-G02",
+      "name": "breathing room",
+      "kind": "negative_space",
+      "bbox": [
+        0.03,
+        0.1,
+        0.23,
+        0.54
+      ],
+      "geometry_basis": "visual_estimate",
+      "count": 1,
+      "description": {
+        "value": "Quiet dark area to the left of the product without type or props.",
+        "status": "observed",
+        "basis": "visual_observation",
+        "confidence": "high",
+        "note": ""
+      },
+      "appearance": {
+        "color": {
+          "value": "dark burgundy",
+          "status": "observed",
+          "basis": "visual_observation",
+          "confidence": "high",
+          "note": ""
+        },
+        "material": {
+          "value": "out-of-focus background",
+          "status": "inferred",
+          "basis": "visual_estimate",
+          "confidence": "medium",
+          "note": ""
+        }
+      },
+      "text": null,
+      "occlusion": {
+        "boundary": "complete",
+        "occluded_by": [],
+        "hidden_content": "not_applicable",
+        "note": "The box is an estimated visible control region; overlaps and transparency do not imply an isolated layer."
+      },
+      "asset": {
+        "kind": "none",
+        "path": null,
+        "alpha_verified": false,
+        "note": "The map displays bounding-crop previews from the unchanged source. No segmentation or transparent layer extraction."
+      },
+      "editable_properties": [
+        "appearance.color",
+        "appearance.material",
+        "description",
+        "bbox"
+      ],
+      "locked_properties": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "R01",
+      "from_id": "A-05",
+      "to_id": "A-06",
+      "kind": "above",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The cap sits directly over the visible collar."
+    },
+    {
+      "id": "R02",
+      "from_id": "A-06",
+      "to_id": "A-03",
+      "kind": "above",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The collar joins the upper bottle shoulders."
+    },
+    {
+      "id": "R03",
+      "from_id": "A-07",
+      "to_id": "A-03",
+      "kind": "in_front_of",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The paper label is attached to the front of the bottle."
+    },
+    {
+      "id": "R04",
+      "from_id": "A-07",
+      "to_id": "A-08",
+      "kind": "contains",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The label contains the wordmark."
+    },
+    {
+      "id": "R05",
+      "from_id": "A-07",
+      "to_id": "A-09",
+      "kind": "contains",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The label contains the number."
+    },
+    {
+      "id": "R06",
+      "from_id": "A-07",
+      "to_id": "A-11",
+      "kind": "contains",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The label contains the fragrance line."
+    },
+    {
+      "id": "R07",
+      "from_id": "A-08",
+      "to_id": "A-09",
+      "kind": "above",
+      "status": "observed",
+      "confidence": "high",
+      "note": "Wordmark above number."
+    },
+    {
+      "id": "R08",
+      "from_id": "A-09",
+      "to_id": "A-10",
+      "kind": "above",
+      "status": "observed",
+      "confidence": "high",
+      "note": "Number above divider."
+    },
+    {
+      "id": "R09",
+      "from_id": "A-10",
+      "to_id": "A-11",
+      "kind": "above",
+      "status": "observed",
+      "confidence": "high",
+      "note": "Divider above fragrance line."
+    },
+    {
+      "id": "R10",
+      "from_id": "A-03",
+      "to_id": "A-02",
+      "kind": "touches",
+      "status": "observed",
+      "confidence": "high",
+      "note": "Bottle rests on the stone surface."
+    },
+    {
+      "id": "R11",
+      "from_id": "A-14",
+      "to_id": "A-03",
+      "kind": "below",
+      "status": "observed",
+      "confidence": "high",
+      "note": "The reflection begins beneath the bottle base."
+    }
+  ],
+  "selections": [],
+  "invariants": [
+    {
+      "id": "I01",
+      "target_ids": [
+        "A-03",
+        "A-05",
+        "A-06"
+      ],
+      "description": "Keep a single bottle, cylindrical walnut cap and short silver collar with the source proportions.",
+      "origin": "reconstruction_brief"
+    },
+    {
+      "id": "I02",
+      "target_ids": [
+        "A-08",
+        "A-09",
+        "A-11"
+      ],
+      "description": "Preserve exactly VELLUM, No. 04, and EAU DE PARFUM; add no other lettering.",
+      "origin": "reconstruction_brief"
+    },
+    {
+      "id": "I03",
+      "target_ids": [
+        "A"
+      ],
+      "description": "Preserve the portrait crop, quiet dark setting and warm light direction. No added props, people or watermarks.",
+      "origin": "reconstruction_brief"
+    }
+  ],
+  "unknowns": [
+    {
+      "target_id": "A-08",
+      "property": "exact_font_family",
+      "reason": "A font family cannot be reliably recovered from these pixels.",
+      "resolution": "approximate_with_disclosure"
+    },
+    {
+      "target_id": "A",
+      "property": "camera_and_lighting_settings",
+      "reason": "The generated image does not encode a trustworthy photographic production setup.",
+      "resolution": "leave_unspecified"
+    },
+    {
+      "target_id": "A-03",
+      "property": "hidden_geometry",
+      "reason": "The rear, underside and internal thicknesses are not fully visible.",
+      "resolution": "leave_unspecified"
+    }
+  ],
+  "criteria": {
+    "hard": [
+      {
+        "id": "H01",
+        "description": "One recognizable rectangular garnet bottle with cap, collar and label.",
+        "target_ids": [
+          "A-03",
+          "A-05",
+          "A-06",
+          "A-07"
+        ],
+        "depends_on": [],
+        "check": "Count the product and compare its silhouette and component proportions."
+      },
+      {
+        "id": "H02",
+        "description": "All three exact label lines remain readable.",
+        "target_ids": [
+          "A-08",
+          "A-09",
+          "A-11"
+        ],
+        "depends_on": [
+          "H01"
+        ],
+        "check": "Read each line at full resolution."
+      },
+      {
+        "id": "H03",
+        "description": "Preserve the portrait 4:5 composition and avoid new objects or lettering.",
+        "target_ids": [
+          "A"
+        ],
+        "depends_on": [],
+        "check": "Read file dimensions and inspect the full frame."
+      }
+    ],
+    "soft": [
+      {
+        "id": "S01",
+        "description": "Retain distinct wood, metal, paper, glass and stone behavior under coherent light.",
+        "target_ids": [
+          "A"
+        ],
+        "depends_on": [
+          "H01"
+        ],
+        "check": "Compare material texture and highlight placement against the source.",
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Norm Architects \u2014 262 Fifth Avenue",
+    "url": "https://normcph.com/project/262-fifth-avenue-2/",
+    "inspected_artifact": "references/norm-262-fifth.png",
+    "inspection": "Actual CUA screenshot captured by parent agent and visually inspected here before generation. Official website text also reviewed via web tool.",
+    "observed": [
+      "Large photographic interior dominates the viewport.",
+      "Small restrained navigation and wide tracking do not compete with the room.",
+      "Wood, stone and upholstery share a warm, low-saturation tonal range.",
+      "Light text overlays the photograph and is relatively low-contrast in brighter areas."
+    ],
+    "decisions": [
+      "Use one dominant architectural photograph and a coherent material palette.",
+      "Keep navigation brief.",
+      "Put our primary copy and captions on a solid background for clearer reading rather than duplicating the reference overlay."
+    ],
+    "use": "Design-study reference only. No source photo, logo or screenshot attached to the generator."
+  },
+  {
+    "title": "Welcome Beyond \u2014 design-led boutique hotels and holiday homes",
+    "url": "https://www.welcomebeyond.com/",
+    "inspected_artifact": "references/welcome-beyond-cards.png",
+    "inspection": "Actual CUA screenshot captured by parent agent and visually inspected here before generation. Official website text also reviewed via web tool.",
+    "observed": [
+      "Three aligned property cards each lead with a large photograph.",
+      "Property name, location and capacity are grouped underneath.",
+      "Nightly price sits at the lower right of each photo.",
+      "Architecture, pool and surrounding landscape communicate differences between stays."
+    ],
+    "decisions": [
+      "Use a clear photo \u2192 property \u2192 location \u2192 price hierarchy.",
+      "Put the app price on ivory below the photo so it remains easy to read.",
+      "Carry property identity, dates and pricing through a small number of purposeful screens.",
+      "Avoid copying the site category-tag density or its exact properties."
+    ],
+    "use": "Design-study reference only. No source photo, logo or screenshot attached to the generator."
+  }
+]

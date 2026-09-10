@@ -1,0 +1,21 @@
+{
+  "id": "MAP24",
+  "prompt": "Create an annotated review copy of the attached image. This is a visual map for selecting future edits, not a redesign. Keep its portrait aspect ratio, original picture, people, animals, objects, lighting and geometry. Use small high-contrast badges and thin leader lines with exactly these stable IDs, placing the tips on the named visible elements. Do not add any legend prose inside the picture. Keep the faces and original details readable; use an outer review margin if necessary. The clean original remains the source for later edits.\n\nA-01 running woman, whole figure; A-02 face and expression; A-03 dark windblown hair; A-04 olive torn jacket; A-05 black undershirt; A-06 backpack straps; A-07 tan torn trousers; A-08 front boot; A-09 trailing bare hand at image-left; A-10 raised bare hand near chest; A-11 pursuing brown bear; A-12 large foreground tree trunk at far left; A-13 background pine trees; A-14 distinctive large granite peak upper-right; A-15 distant mountain ridgeline; A-16 sunset sky; A-17 damaged tent at right; A-18 green hard cooler below tent; A-19 dark cooking gear in front of cooler; A-20 blue overturned cooking pot lower-right; A-21 collapsed folding chair lower-left; A-22 scattered food and packaging at right; A-23 foreground dirt path and rocks; A-24 dust behind the runner.\n\nUse every ID exactly once, no duplicates. Label existing visible content only. Do not invent hidden objects or repair the campsite. This is an annotation test: prioritize faithful arrow-to-element correspondence over decorative annotation style.\n",
+  "references": [
+    "outputs/expanded-experiments/official-references/scene-gpt-image-2-5-sunburst.webp"
+  ],
+  "output": "outputs/expanded-experiments/mapping/campsite-annotated.png",
+  "status": "completed",
+  "tool": "built-in image_gen",
+  "backend_model": "not exposed",
+  "seed": "not exposed",
+  "file": {
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "format": "PNG",
+    "sha256": "18fca7200fadaef68e65f087778a0dd7687007f7388fad38f10b024161738bec"
+  },
+  "visually_inspected": true,
+  "summary": "All24 IDs appear. A24 dust pointer is poorly placed; scene texture was redrawn. This image is a generated annotation, not a deterministic overlay. Native Safari request is separate and unverified."
+}

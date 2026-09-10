@@ -1,0 +1,881 @@
+{
+  "title": "Premium image studies 01",
+  "created_at": "2026-09-09T22:09:13.732517+00:00",
+  "scope": "Twenty reviewed commercial image concepts. Await user direction before expanding the collection or rewriting the article.",
+  "generation_count": 22,
+  "model_id": "not exposed",
+  "comparison_status": "Individual examples and two targeted repairs. No controlled baseline or prompting-method advantage established.",
+  "pinterest_status": "Login handoff remained pending. Inspected visual sources are linked per example.",
+  "examples": [
+    {
+      "id": "fashion",
+      "category": "Fashion app",
+      "title": "SABLE · editorial commerce",
+      "image": "images/01-fashion-app.png",
+      "prompt_file": "prompts/01-fashion-app.txt",
+      "repair_prompt_file": "prompts/01-fashion-app-repair.txt",
+      "previous_image": "images/01-fashion-app-v1.png",
+      "sources": [
+        {
+          "title": "Wavespace fashion commerce presentation",
+          "url": "https://www.behance.net/gallery/229351021/ECommerce-Website-Mobile-App-OffWhite-Fashion?locale=en_US",
+          "role": "Observed editorial photo hierarchy and modular commerce; no source pixels attached."
+        }
+      ],
+      "review": "Three aligned screens, readable inventory and prices, consistent bag design and deliberate photo hierarchy. Repair correctly selects All and activates Shop on the collection screen; Discover stays active on the home screen.",
+      "limitations": [
+        "Raster interface concept. No interaction or contrast/accessibility audit. Fine pixels may be redrawn in the repair."
+      ],
+      "technique": "Define screen roles and exact copy, then inspect selected states as well as visual polish.",
+      "calls": 2,
+      "prompt": "Create a pristine high-resolution editorial presentation of a fictional luxury fashion shopping app named SABLE. The result is one landscape 3:2 image showing exactly three complete, straight-on mobile app screens side by side on a very pale warm-gray background. All screens have identical portrait proportions, matched baselines, narrow charcoal device frames and subtle believable contact shadows. No tilted devices, perspective distortion, external captions, watermarks or design-tool chrome.\n\nVisual direction: art-directed fashion commerce, crisp Swiss typography mixed with one refined editorial serif headline, near-white surfaces, ink-black text, restrained oxblood accents. Large high-quality fashion photography, disciplined grid, generous internal breathing room, fine dividers, consistent outline icons. It should look like a carefully finished real shopping interface.\n\nLEFT SCREEN, discovery: a small status bar, SABLE wordmark with search and bag icons. A large full-bleed editorial photograph of an adult woman wearing a beautifully tailored charcoal wool coat, white shirt and dark trousers, standing against a pale concrete studio wall. Realistic fabric weight, natural skin, calm confident pose. Overlay the small eyebrow \"THE AUTUMN EDIT\" and large elegant headline \"A quieter statement.\" in an uncluttered part of the photograph. Beneath, a white section titled \"Selected for you\" with two tidy product thumbnails. Bottom navigation has four consistent icons with small labels \"Discover\", \"Shop\", \"Saved\", \"Profile\".\n\nMIDDLE SCREEN, collection: same status and brand header, title \"The essentials\", two tabs \"Clothing\" and \"Accessories\", filter icon. A spacious two-column grid of four separate catalog photos: a charcoal wool coat, an ivory cashmere knit, an oxblood curved leather shoulder bag, black leather loafers. Neutral backgrounds, realistic seams and materials. Short labels and prices: \"Wool coat\" \"$890\"; \"Cashmere knit\" \"$320\"; \"Arc bag\" \"$480\"; \"Leather loafers\" \"$390\". Consistent small heart icons, same bottom navigation.\n\nRIGHT SCREEN, product: back and heart icons, large meticulous product photograph of the exact same oxblood curved shoulder bag, with one physically continuous strap, precise dark edge paint, subtle leather grain and small brushed-metal clasp. Below: \"Arc shoulder bag\", \"$480\", \"Oxblood\", three small color swatches with oxblood selected, one quiet line \"Soft leather. Everyday form.\" and a full-width deep-oxblood button \"Add to bag\". White bottom safe area.\n\nRender all specified words cleanly and legibly. Interfaces must have coherent information hierarchy, equal padding, touch-sized controls and consistent spacing. Make the bag design match between middle and right screens. No gibberish microcopy or extra badges. The premium quality comes from typography, photography, material fidelity and restraint.",
+      "repair_prompt": "Edit this SABLE app presentation with only two functional UI corrections on the MIDDLE screen. Preserve the three-device composition, all photography, product designs, prices, type style, screen sizes, colors, and every other element.\n1. In the category row under \"The essentials\", show three labels \"All\", \"Clothing\", \"Accessories\" with \"All\" selected by the thin oxblood underline. Keep the filter icon at the right. This grid includes both clothes and accessories, so All must be the active category.\n2. In that middle screen's bottom navigation, make \"Shop\" the active oxblood icon and label. Make \"Discover\" the same unselected charcoal outline treatment as the other inactive icons. The LEFT screen must continue to have Discover active.\nDo not change anything on the left or right screen. No new text, no other design changes.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 2,
+        "reference_images": [],
+        "repair_reference_images": [
+          "images/01-fashion-app-v1.png"
+        ]
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Generated + targeted repair",
+      "group": "digital"
+    },
+    {
+      "category": "App mockup",
+      "title": "offday — Boutique travel booking",
+      "image": "digital/travel-app-v1.png",
+      "prompt_file": "digital/travel-app.prompt.txt",
+      "sources": [
+        {
+          "title": "Welcome Beyond — design-led boutique hotels and holiday homes",
+          "url": "https://www.welcomebeyond.com/",
+          "learned_decisions": [
+            "Use a clear photo → property → location → price hierarchy.",
+            "Put the app price on ivory below the photo so it remains easy to read.",
+            "Carry property identity, dates and pricing through a small number of purposeful screens.",
+            "Avoid copying the site category-tag density or its exact properties."
+          ]
+        },
+        {
+          "title": "Norm Architects — 262 Fifth Avenue",
+          "url": "https://normcph.com/project/262-fifth-avenue-2/",
+          "learned_decisions": [
+            "Use coherent warm material photography and restrained navigation."
+          ]
+        }
+      ],
+      "review": "Selected first pass; no repair needed. At 1536×1024, all three upright screens are aligned and readable. Lume House, 19–22 Sep and two guests remain consistent. €285 × 3 nights = €855; with €45 taxes the displayed total is €900. The courtyard, suite doorway and review thumbnail share plausible property identity. Primary actions are distinct and unclipped. No obvious invented text or hand/geometry artifact was visible.",
+      "limitations": [
+        "Raster concept only; controls, navigation, responsive behavior and accessibility are not implemented or tested.",
+        "Three selected screens omit the room-selection step; this is not a complete interaction specification. Dates omit the year.",
+        "The hotel, room, photography, amenities and prices are fictional. Photographs were generated, not sourced from the reference.",
+        "One chosen prompt and one generation are evidence of this result, not evidence that this prompting method outperforms a baseline.",
+        "Built-in tool did not expose a model identifier or seed."
+      ],
+      "id": "travel",
+      "technique": "Write each screen’s purpose and carry property identity, dates and arithmetic through the sequence.",
+      "calls": 1,
+      "prompt": "Use case: ui-mockup.\nCreate one exceptional, production-plausible mobile travel booking app presentation for a fictional boutique-stay brand named offday. This is an original high-fidelity raster design concept, not a website to implement. The audience cares about thoughtful architecture, clear booking decisions, and a calm experience.\n\nCOMPOSITION\nA wide 3:2 image. Show exactly three equally sized, upright, front-facing mobile screen canvases side by side, fully visible, perfectly aligned top and bottom with generous equal gutters. Each screen approximately 390 by 844 logical pixels. Thin warm-gray edge and barely perceptible shadow, no phone hardware, no notch, no perspective. Quiet stone-gray presentation background. The app interiors are warm ivory with almost-black green text and dark forest-green primary buttons. Disciplined 24-pixel internal margins and spacing rhythm; refined high-contrast serif headings, highly readable clean sans-serif controls, understated consistent line icons. No decorative background words, labels, screen numbers or explanatory arrows outside the screens. Make the typography legible and the photographic content unusually beautiful.\n\nSCREEN 1 — DISCOVERY\nSmall elegant lowercase wordmark “offday” at top left; a simple saved-heart icon at top right. Large two-line editorial heading “A slower way\nto get away.” Beneath it, one outlined search field with a small search icon and exact text “Portugal · 19–22 Sep · 2 guests”. A compact tab row “All stays”, “Coast”, “Countryside”, with only All stays selected by a thin underline. One dominant property card: a large, expertly composed editorial photograph of a secluded Portuguese courtyard hotel. Chalky off-white walls, an old olive tree, pale limestone, a long clear turquoise pool, two linen-covered loungers, blue sky, subtle late-afternoon shadows. Authentic tactile materials and straight architectural geometry; no people. The photograph has square corners or a restrained 4-pixel radius. Below: title “Lume House”, small location “Alentejo, Portugal”, and “€285 / night”. At the very bottom a simple three-item navigation bar with icons and labels “Explore”, “Saved”, “Trips”; Explore active. No star ratings, promotional badges, discount claims or repetitive extra cards.\n\nSCREEN 2 — PROPERTY\nTop toolbar: back chevron, centered “Lume House”, save-heart outline. A generous photograph of a beautiful ground-floor suite in the SAME fictional property: limestone floor, pale plaster walls, oak joinery, linen bed, large doorway opening onto the same olive courtyard and pool. Daylight, realistic photographic detail, relaxed but immaculate. Below the photo, small uppercase “ALENTEJO, PORTUGAL”, then large serif “Lume House”. A short real description: “Slow mornings. Space to unwind.” One restrained row of useful amenities in sans-serif: “Pool   Breakfast   Free parking”. A bordered two-column stay selector: “19–22 Sep” and “2 guests”. At the foot, a fixed ivory booking bar: left “From €285” with “per night” beneath; right a strong forest-green button “Choose room”. No bottom navigation on this detail screen. All controls fit without clipped text.\n\nSCREEN 3 — REVIEW\nBack chevron and small centered “Your booking” at top. Large serif heading “Review your stay”. A small rectangular photo of the same courtyard paired with “Lume House” and “Garden Suite”. A clear ruled information section: label “Dates”, value “19–22 Sep”; label “Guests”, value “2 adults”. A roomy aligned price table: “€285 × 3 nights” opposite “€855”; “Taxes and fees” opposite “€45”; then a fine divider and bold “Total” opposite “€900”. Accurate arithmetic matters. At the bottom, a full-width forest-green button “Continue to payment” followed by the understated line “You won’t be charged yet.” This is a review step, not a payment form or booking confirmation. Preserve whitespace instead of inventing more copy.\n\nQUALITY PRIORITIES\nPhotographic art direction, a coherent three-step flow, useful controls, consistent dates/property/prices, readable exact copy, immaculate alignment and strong type hierarchy. Show authentic UI surfaces, not a moodboard. Use only the specified copy plus simple icons. Avoid tiny filler text, illegible invented words, excessive rounded cards, floating bubble decorations, generic gradients, ornamental badges, visual noise, fisheye, angled devices, and impossible architecture. Three polished screens, with photography and typography doing the work.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "digital"
+    },
+    {
+      "category": "Website mockup",
+      "title": "FORMAE — Architecture and hospitality studio",
+      "image": "digital/studio-website-v1.png",
+      "prompt_file": "digital/studio-website.prompt.txt",
+      "sources": [
+        {
+          "title": "Norm Architects — 262 Fifth Avenue",
+          "url": "https://normcph.com/project/262-fifth-avenue-2/",
+          "learned_decisions": [
+            "Use one dominant architectural photograph and a coherent material palette.",
+            "Keep navigation brief.",
+            "Put our primary copy and captions on a solid background for clearer reading rather than duplicating the reference overlay."
+          ]
+        }
+      ],
+      "review": "Selected first pass; no repair needed. At 1536×1024, the wordmark, navigation, headline, captions and Start a project action are readable. One dark CTA provides the main action. The large hillside/pool photograph dominates, followed by two distinct smaller interior projects. Whitespace, rules and edges create a coherent editorial grid. No clipped copy or obvious impossible architectural structure was visible. The lower two teasers rendered almost equal in width, whereas the prompt asked for a slightly unequal split; this minor deviation does not weaken the design enough to justify regeneration.",
+      "limitations": [
+        "Raster concept only; links, interactions, semantic structure, responsive layouts and accessibility are not implemented or tested.",
+        "Architecture, studio and projects are fictional; visual plausibility does not establish construction feasibility or geographic accuracy.",
+        "The generated image approximates the requested layout; it is not a deterministic 12-column design file.",
+        "One chosen prompt and one generation do not establish a prompting-method advantage.",
+        "Built-in tool did not expose a model identifier or seed."
+      ],
+      "id": "website",
+      "technique": "Define a reading order: navigation, headline, hero image, then supporting projects.",
+      "calls": 1,
+      "prompt": "Use case: ui-mockup.\nCreate an exceptional original editorial architecture-studio desktop homepage as one high-fidelity raster website mockup. Fictional studio name “FORMAE”. It designs distinctive small hotels and residences. The desired result should look like the quiet, precise work of an experienced digital art director, with outstanding architectural photography and real, useful interface copy.\n\nCANVAS AND GRID\nA crisp front-facing desktop web page at roughly 1440 pixels wide, wide landscape 3:2 composition. The website fills the entire image; no device, browser chrome, perspective, board background, wireframe or surrounding decoration. Warm near-white background, near-black ink, restrained dark aubergine accent only for the primary action. A disciplined 12-column editorial grid with 64-pixel outer margins, generous whitespace, consistent baselines and hairline dividers. Large expressive but readable serif typography paired with compact sober sans-serif navigation and captions. Slightly asymmetrical layout, never messy. Rectangular photography, no floating card system or gradients.\n\nHEADER\nAt upper left a custom, beautifully typeset serif wordmark “FORMAE” with small uppercase descriptor “ARCHITECTURE & INTERIORS” beneath it. Upper-right navigation, with ample separation: “Projects”, “Studio”, “Journal”. At far right one solid dark aubergine button, the single visually dominant call to action, exact text “Start a project”. Header is about 110 pixels tall with a fine rule beneath. Keep every text character readable.\n\nHERO\nBelow the header, a small uppercase eyebrow “HOSPITALITY · RESIDENTIAL”. A huge, finely typeset serif headline at the left spanning two lines: “Places to\nbelong.” It takes about four grid columns. Below it a short two-line sans-serif statement: “Architecture shaped by light,\nlandscape and the way we live.” Do not add more paragraphs.\nTo the right, occupying eight columns and most of the hero height, a truly extraordinary original architectural photograph: a terraced boutique hotel on a rugged Mediterranean hillside, photographed from a human-scale elevated vantage in warm late-afternoon light. Broad sculptural limestone volumes, deep recessed glazed openings, a slender weathered timber pergola, a long still pool aligned with the stone terraces, sparse silver-green olive trees, dry grasses, distant pale blue coast. Rich tactile stone and delicate shadows. Restrained contemporary architecture, physically coherent stairs and rails, architecturally credible proportions, absolutely no fantasy structures or CGI sheen. The sunlit stone and blue water create a memorable image without oversaturation. The photograph has clean verticals and is printed sharply like a world-class architecture editorial.\nUnder the hero photo a fine understated caption row: left “CASA BRUMA”, right “Alentejo, Portugal · 2026”. The fictional project name and location must remain readable. Do not overlay words on the architecture.\n\nLOWER PAGE\nA full-width horizontal hairline, then a small “Selected work” section label at the left. Below it exactly two project teasers on the same grid, one slightly larger than the other. The left photograph: an intimate timber-lined dining room with sculptural oak chairs, linen curtains and warm side light, caption “The Cedar Room” with secondary “Hospitality · Copenhagen”. The right photograph: a serene chalky-plaster residence with a deep window, pale stone bench and a single olive tree visible outside, caption “Courtyard House” with secondary “Residential · Lisbon”. These smaller images should have distinct architectural subjects, not repeat the hero. The bottom edge can end naturally after their captions. Secondary project titles are quiet text links, not competing filled buttons. Let the image hierarchy remain unmistakable: hero first, then selected work.\n\nFINISH\nThis is a credible functioning-site design concept, not an architecture poster. All navigation, captions, margins and type must look deliberate. No invented awards, star ratings, testimonials, numbers, logos, dashboards, contact forms, excessive text, decorative squiggles or unrelated UI. Preserve enough whitespace for luxury and enough photographic specificity for character. Achieve the wow factor through exquisite composition, coherent architecture, warm material detail and confident typography.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "digital"
+    },
+    {
+      "id": "product",
+      "category": "Luxury product photo",
+      "title": "VELLUM · No. 04",
+      "image": "images/02-luxury-product.png",
+      "prompt_file": "prompts/02-luxury-product.txt",
+      "sources": [
+        {
+          "title": "Byredo Absolu campaign",
+          "url": "https://www.byredo.com/ca_en/absolu-de-parfum-campaign",
+          "role": "Observed reflected light and contrast among glass, liquid and textured caps; original fictional product."
+        }
+      ],
+      "review": "Exact three-line label, one coherent bottle, readable paper texture, wood grain, brushed collar and thick glass. Reflection and exposure are convincing.",
+      "limitations": [
+        "Cap is taller and surface more veined than the initial direction. This is a product concept, not a measured reproduction."
+      ],
+      "technique": "Specify the behavior of each material under light, and give the product a clear silhouette.",
+      "calls": 1,
+      "prompt": "Create one pristine luxury fragrance campaign photograph, portrait 4:5, highest visual fidelity. This is a fictional product concept with the only label text \"VELLUM\", \"No. 04\", and \"EAU DE PARFUM\". Typography must be small but perfectly crisp, elegantly spaced and integrated into the physical bottle.\n\nScene: a single heavy clear-glass rectangular perfume bottle filled with deep garnet liquid, resting on one low polished black stone plane. The bottle has softly radiused corners, a thick transparent base, one precise brushed-palladium collar, and a low cylindrical dark-walnut cap with fine real wood grain. Its silhouette is architectural and refined. Put a small warm-white cotton-paper label on the front with the specified three text lines in charcoal; leave generous space around the lettering. No invented tiny text.\n\nComposition: close three-quarter product view at bottle shoulder height, the entire bottle and cap visible, bottle occupying about two thirds of the image height, placed slightly right of center. Generous deep burgundy negative space around it. A subtle reflected bottle base on the stone, physically consistent with the view; no second bottle.\n\nLighting: large clean rectangular key light on image-left, a narrow cool edge highlight on the right, rich controlled shadows with visible detail. Show true glass thickness, refraction through the red liquid, a fine soft caustic on the surface, crisp paper fibers at close view, brushed metal rather than chrome glare, polished edges without halos. The background graduates quietly from wine red into nearly black. Restrained, sensual, beautifully exposed commercial still life, with immaculate retouching that preserves real material texture.\n\nNo flowers, smoke, splashes, floating objects, decorative gold props, generic sparkle, water droplets, or external headline. No copying a real perfume brand. Product geometry, label hierarchy and quality of light carry the entire image. Render a finished photographic image, not a mood board.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1122,
+      "height": 1402,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "photo"
+    },
+    {
+      "id": "ugc",
+      "category": "UGC",
+      "title": "MORA · a morning routine",
+      "image": "images/03-ugc-skincare.png",
+      "prompt_file": "prompts/03-ugc-skincare.txt",
+      "sources": [
+        {
+          "title": "Rhode glazing milk photography",
+          "url": "https://www.rhodeskin.com/products/glazing-milk",
+          "role": "Observed close skin texture and intimate camera language; original synthetic person and product."
+        }
+      ],
+      "review": "Natural-looking skin, flyaways, relaxed expression, plausible hand contact and clear product lettering. Keeps a phone-camera feel.",
+      "limitations": [
+        "A plant and a soap dispenser were added in the background. Synthetic demonstration, not a real customer testimonial."
+      ],
+      "technique": "Use everyday framing and material texture; preserve imperfections that make UGC credible.",
+      "calls": 1,
+      "prompt": "Create one exceptionally convincing UGC skincare still for a fictional premium brand, portrait 4:5. It must feel like a well-shot frame from a creator's morning routine on a modern phone: immediate, intimate, naturally lit and authentic, with clear product visibility. No ad headline, testimonial, statistics, before-and-after claim, social-media interface or watermark.\n\nAn adult South Asian woman in her late twenties, medium warm-brown skin, dark brown eyes and loosely tied black hair with a few natural flyaways, wears a simple ivory ribbed sleeveless top. Upper chest through full head in frame. She stands in a tasteful lived-in bathroom with warm plaster, light oak and a softly blurred folded white towel. She looks into the camera with a small relaxed smile. The camera is at eye level, as if a phone is resting on a shelf; no phone visible, no mirror reflection.\n\nShe holds one small pale-sage pump bottle comfortably beside her cheek, slightly lower than her chin so her face remains visible. The hand wraps naturally around the bottle with anatomically plausible fingers and nails, preserving a clear front-facing label. Her other arm rests naturally out of the bottom crop. The bottle has a matte pale-sage body, one simple matching pump, and exact charcoal printed text in three lines: \"MORA\", \"skin milk\", \"50 ml\". No other product or lettering.\n\nSoft morning window light from image-left, a gentle highlight across her cheek, visible pores, fine peach fuzz, slight natural asymmetry and believable skin tones. Skin looks cared for with a subtle moisture sheen, never plastic or excessively glossy. Maintain credible phone photography: moderate depth of field, enough background detail to feel real, natural contrast, no cinema grading, no artificial bloom, no perfect studio spotlight. Focus sharp on eyes and product. The scene is tidy and premium through light, color and good taste, while retaining human warmth and everyday authenticity.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1122,
+      "height": 1402,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "photo"
+    },
+    {
+      "id": "headshot",
+      "category": "Headshot",
+      "title": "MORA · from everyday to studio",
+      "image": "images/04-headshot.png",
+      "prompt_file": "prompts/04-headshot.txt",
+      "reference_images": [
+        "images/03-ugc-skincare.png"
+      ],
+      "sources": [],
+      "review": "The generated UGC subject remains recognizable after changing clothing, background and lighting. Natural skin detail, clear eyes, navy tailoring and a quiet blue-gray background give the portrait a coherent professional finish.",
+      "limitations": [
+        "This is the same fictional character by visual judgment, not a measured identity-preservation result. Fine facial and hair details can change during generation."
+      ],
+      "technique": "Attach the source portrait. Separate the identity to preserve from the wardrobe, setting and lighting to change.",
+      "calls": 1,
+      "prompt": "Use the attached synthetic UGC portrait as the identity reference for one premium professional headshot of the SAME adult woman. Preserve her recognisable face, warm-brown skin tone, dark eyes, nose, lips, cheek shape and natural asymmetry. Do not replace her with a generic model, change her age or lighten her skin.\n\nCreate a finished editorial founder portrait, portrait 4:5. Frame from upper chest to above the full head, with relaxed square shoulders turned very slightly and the face looking directly into the lens. A composed, approachable closed-mouth smile. Her hair is neatly tied back with a few natural strands. Replace the casual top with a beautifully fitted midnight-navy wool blazer over a plain ivory crew-neck shirt. No jewelry beyond tiny simple studs. Hands and skincare bottle are outside this headshot and not present.\n\nStudio backdrop is a seamless muted blue-gray with a very subtle tonal falloff. Broad soft daylight-style key from image-left, gentle fill, natural eye catchlights, a restrained separation light on the hair. Photorealistic skin with visible pores, realistic hair strands, fine wool texture, clean eyes and no beauty-filter plastic skin. Deep but open shadows, accurate warm skin tone against cool background, exact focus on the eyes. An excellent professional photographer's carefully retouched portrait, no added text, logos, interface, props or watermark. Preserve identity while changing wardrobe, framing, background and lighting.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "images/03-ugc-skincare.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1122,
+      "height": 1402,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "photo"
+    },
+    {
+      "id": "interior",
+      "category": "Interior design",
+      "title": "Coast House · a living room",
+      "image": "images/05-interior.png",
+      "prompt_file": "prompts/05-interior.txt",
+      "sources": [
+        {
+          "title": "Norm Architects — 262 Fifth Avenue",
+          "url": "https://normcph.com/project/262-fifth-avenue-2/",
+          "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+        }
+      ],
+      "review": "The joinery, fireplace, window seat and glazing create a legible room. Wool, oak, limestone and upholstery have distinct texture; the coast and the room share a coherent light direction.",
+      "limitations": [
+        "The sofa faces the central seating group more than the fireplace specified in the brief. Small plants, a vase and a throw were added. This is a spatial concept, not a construction design."
+      ],
+      "technique": "Describe the room as connected planes, openings and furniture relationships before specifying materials.",
+      "calls": 1,
+      "prompt": "Create a pristine editorial interior photograph of an original, fictional coastal residence, landscape 3:2, high resolution. It should feel like a beautifully art-directed architecture-magazine photograph with believable construction and tactile expensive materials.\n\nThe room is one generous rectangular living pavilion. Camera at seated eye height near the front-left corner, looking diagonally toward the back-right glazing. Straight verticals, natural wide architectural view without fisheye stretching. The right wall is floor-to-ceiling glass in slender dark-bronze frames, overlooking a calm blue-gray sea and rocky shore. A long low window seat follows the glass. Soft daylight comes from these windows.\n\nThe back wall is pale warm limestone with a precise long horizontal fireplace recess and a single large abstract charcoal artwork above it. On the left, full-height smoked-oak joinery contains a small, carefully arranged open shelf area. The ceiling is softly textured plaster with one clean narrow skylight parallel to the left wall; no spotlights or floating beams.\n\nThe central seating group has one low ivory-linen modular sofa facing the fireplace, one sculptural rust-brown wool lounge chair at the right end, and one low oval dark-wood coffee table. Show believable contact and scale. A large undyed wool rug anchors all three. On the table, one closed art book and one low dark ceramic bowl, no decorative clutter. A slim bronze floor lamp stands beside the sofa on image-left. Clear circulation remains between the seating and the window seat.\n\nMaterials are the point: visible linen weave, soft wool pile, exact timber joins and grain, subtle stone pores, real glazing reflections, a thin daylight reflection on bronze. Warm but neutral white balance, gently luminous sea view with detail rather than a blown-out white rectangle. Natural shadow gradients, no amber CGI wash, no exaggerated sunbeams, no over-sharpened HDR, no trendy arch repeated everywhere, no people, no text or watermark. Richness comes from proportion, light, depth and material quality.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "spaces"
+    },
+    {
+      "id": "sketch",
+      "category": "Sketch",
+      "title": "Coast House · drawn study",
+      "image": "images/06-sketch.png",
+      "prompt_file": "prompts/06-sketch.txt",
+      "reference_images": [
+        "images/05-interior.png"
+      ],
+      "sources": [
+        {
+          "title": "Norm Architects — 262 Fifth Avenue",
+          "url": "https://normcph.com/project/262-fifth-avenue-2/",
+          "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+        }
+      ],
+      "review": "The viewpoint, fireplace, artwork, sofa, chair, table and window seat carry through from the generated interior. Fine contours, visible construction lines and material hatching produce a coherent architectural presentation.",
+      "limitations": [
+        "The result is more densely shaded and detailed than the requested selective wash. It demonstrates image-to-sketch restyling; it is not a test of ChatGPT’s manual sketch-input interface."
+      ],
+      "technique": "Lock viewpoint, object count and major positions; change the representation rather than rewriting the scene.",
+      "calls": 1,
+      "prompt": "Transform the attached original coastal-residence interior into a meticulous architect's presentation sketch of the SAME ROOM from the SAME VIEWPOINT. Create one landscape 3:2 drawing on clean warm-white paper, filling the canvas with generous outer margins.\n\nPreserve the room's large geometry and perspective: smoked-oak joinery on the left, one narrow left ceiling skylight, central back fireplace and rectangular artwork, full-height glazing on the right with the rocky coast beyond, low window seat, ivory sofa in the left foreground, rust lounge chair at the right, central oval table, rug and left floor lamp. Keep the exact object count and major positions. Do not invent another room, doors, additional furniture or people.\n\nRender with very fine graphite and architectural ink contours, confident varied line weights, sparing cool-gray watercolor wash, subtle hatching for wood and wool, soft pencil indications of stone grain, and delicate coastal outlines through the glass. Strongest lines describe foreground cut edges and contact; distant coast and glazing are light. Let meaningful construction lines remain faintly visible, but keep the sheet beautifully disciplined and legible. Use no photographic color, no distressed paper texture, no random scribbles, no decorative title, no dimension strings, no labels, no pencil lying on the drawing and no watermark. This is a premium professional concept drawing with accurate perspective and selective material detail.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "images/05-interior.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "spaces"
+    },
+    {
+      "id": "section",
+      "category": "Cross-section",
+      "title": "Coast House · inside the pavilion",
+      "image": "images/07-cross-section.png",
+      "prompt_file": "prompts/07-cross-section.txt",
+      "reference_images": [
+        "images/05-interior.png"
+      ],
+      "sources": [
+        {
+          "title": "Norm Architects — 262 Fifth Avenue",
+          "url": "https://normcph.com/project/262-fifth-avenue-2/",
+          "role": "Observed the relationship among timber, stone, soft upholstery and window light. The coastal room is an original fictional design."
+        }
+      ],
+      "review": "The cutaway makes the room legible while retaining its main furniture and materials. All five labels are readable; their leaders connect to the skylight, oak storage, living area, glazing and foundation.",
+      "limitations": [
+        "The photograph cannot reveal hidden construction. Roof, wall thicknesses and foundations were invented for this conceptual section; the image does not establish structural feasibility."
+      ],
+      "technique": "Use the reference for visible design. Explicitly label newly invented hidden geometry and define where each annotation must land.",
+      "calls": 1,
+      "prompt": "Use the attached fictional coastal living room as a VISUAL DESIGN REFERENCE to create a premium architectural cross-section illustration of that pavilion, landscape 3:2. This is an original conceptual spatial study: hidden construction is newly designed, not claimed to be recovered from the photograph.\n\nRender a clean sectional axonometric architectural model on pure warm-white, seen from an elevated front-right position. One rectangular, single-storey pavilion, no extra floors. Remove the front wall and the front half of the roof with a clean vertical cutting plane so the interior is revealed. Give all cut wall, floor and remaining roof faces a crisp dark-charcoal poche edge. Keep the roof physically attached to the remaining back and left walls; do not explode or float parts. Show the narrow skylight in the remaining roof strip on the left. The right-side glazing and low window seat remain transparent and visible.\n\nTranslate the photograph's design faithfully: left smoked-oak storage wall, back limestone fireplace and dark rectangular artwork, sofa along the left facing the central oval table, one rust-brown chair on the right, pale rug, tall glazing to the right. Place the slim lamp beside the sofa. Materials have elegant soft 3D shading with fine model-making precision: warm stone, natural timber, translucent glass, ivory upholstery and one rust accent. A slim earth-and-foundation slice under the floor grounds the building. A small suggestion of coastal terrain outside the right glazing, kept faint and secondary.\n\nPut a discreet heading \"COAST HOUSE\" at upper left and \"Sectional study\" below. Exactly five thin leader lines outside the model connect cleanly to these five correct parts: \"Skylight\" to the roof opening, \"Oak storage\" to the left joinery, \"Living area\" to the central furniture group, \"Glazing\" to the right glass wall, \"Foundation\" to the lower base. Keep every label readable and outside the structure. No dimension claims, engineering certification, extra labels, tiny pseudo-text, people, scattered fragments, ornamental arrows or watermark. The result should look like a polished architectural monograph plate: visually sophisticated, spatially readable, precise hierarchy.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "images/05-interior.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "spaces"
+    },
+    {
+      "id": "packaging",
+      "category": "Packaging",
+      "title": "OFFDAY · sparkling tea",
+      "image": "brand/packaging.png",
+      "prompt_file": "brand/packaging.prompt.txt",
+      "sources": [
+        {
+          "title": "Pentagram — EBBS",
+          "url": "https://www.pentagram.com/work/ebbs/story",
+          "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+        }
+      ],
+      "review": "Two coordinated cans have distinct coral and powder-blue flavor labels. Wordmarks, flavor names and 355 ml marks are readable. Aluminum rims, paper labels and shadows have distinct material behavior.",
+      "limitations": [
+        "A visual packaging concept. It does not include a dieline, ingredient panel or a print-ready label file."
+      ],
+      "technique": "Define the shared identity once, then specify exactly what changes between product variants.",
+      "calls": 1,
+      "prompt": "Create one premium commercial packaging photograph for OFFDAY, an entirely fictional sparkling tea brand. Landscape 3:2 composition. Use the attached designer reference only to understand bold typographic hierarchy, one graphic per label, and convincing printed labels on real metal. Invent the brand, artwork, colors and composition described below; do not copy the reference's name, lettering shapes, illustration, or product.\n\nShow exactly two immaculate 355 ml aluminum beverage cans, identical straight cylindrical proportions, both fully visible, standing on the same deep ultramarine tabletop against a clean very light gray seamless studio wall. The left can is slightly forward and the right can is set back by a quarter of its diameter; a small clear gap separates them so both front labels are fully readable. Eye-level product camera, slight top visibility, long-lens commercial still life, generous whitespace. One large upper-left daylight source gives crisp but naturally softened shadows toward the right. Real brushed silver rims, correct elliptical tops and tiny pull tabs, fine matte printed ink; dry cans without water droplets or dents.\n\nThe left can has a solid pale persimmon/coral wrap. The right can has a solid powder-blue wrap. Both have exactly the same label grid: OFFDAY in exceptionally confident heavy condensed black uppercase sans-serif across the upper front, generous margins; beneath it one large original black horizontal almond-shaped emblem with one round white cutout near its right tip; below the emblem a neat small black line SPARKLING TEA. Then each flavor in two short centered lines, and a tiny 355 ml at the bottom. Left flavor text: PEACH + on the first line, OOLONG on the second. Right flavor text: YUZU + on the first line, SENCHA on the second. Keep all printed text optically aligned and exactly spelled. Print no other copy.\n\nThe image should feel like a sharply art-directed independent beverage campaign: bold color, impeccable geometry, carefully balanced asymmetry, tactile print, accurate specular edge highlights and no visual clutter. No fruit props, floating objects, gradients on the labels, splash effects, pedestal blocks, decorative pseudo-text, barcodes, badges, logos from existing brands, watermarks, or page borders. Deliver the finished photograph only.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "brand"
+    },
+    {
+      "id": "advertisement",
+      "category": "Advertisement",
+      "title": "OFFDAY · good tea, zero plans",
+      "image": "brand/advertisement.png",
+      "prompt_file": "brand/advertisement.prompt.txt",
+      "reference_images": [
+        "brand/packaging.png"
+      ],
+      "sources": [
+        {
+          "title": "Pentagram — EBBS",
+          "url": "https://www.pentagram.com/work/ebbs/story",
+          "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+        }
+      ],
+      "review": "The coral can retains its wordmark, emblem, flavor and volume. The large two-line headline is exact and does not overlap the product. Blue, white and coral create a coherent campaign image.",
+      "limitations": [
+        "The can was redrawn from the reference rather than composited pixel for pixel. Tiny label geometry and finish can change. No advertising performance was tested."
+      ],
+      "technique": "Attach the product reference, reserve a separate copy zone and list the label details to preserve.",
+      "calls": 1,
+      "prompt": "Design a premium finished advertising image for OFFDAY, a fictional sparkling tea brand. Landscape 3:2. The attached OFFDAY packaging photograph is the exact product identity reference: use only its coral PEACH + OOLONG can, preserving its cylindrical shape, silver rims, condensed black OFFDAY wordmark, almond-and-circle emblem, label layout and all product copy. Do not include the blue can. The advertisement should have the clarity and confidence of a contemporary independent design studio campaign.\n\nA seamless saturated ultramarine blue field fills the entire canvas. Left 55 percent: large pure-white condensed sans-serif headline, flush left on two lines, exactly GOOD TEA. on line one and ZERO PLANS. on line two. Give the headline exceptional optical spacing, strong line rhythm, and ample blue margin around it. A smaller white OFFDAY wordmark sits at the upper left. At the lower left place a single understated white line reading SPARKLING TEA. No other advertising copy.\n\nRight 45 percent: one coral OFFDAY can, vertical and fully visible, large enough to dominate this half, standing on the blue surface with a believable contact shadow. The front label faces camera, the can is tack-sharp, and the silver top has a controlled clean highlight. Retain exact label text OFFDAY, SPARKLING TEA, PEACH +, OOLONG and 355 ml. Real matte printed packaging, no water droplets. A firm upper-left studio light creates one elegant long shadow to the lower right, while blue fill subtly reflects in the silver rim. The headline and can do not overlap. Every edge is intentional; color contrast is bold, typography is immaculate, whitespace generous, and the composition remains balanced at thumbnail size.\n\nNo fruit, leaves, splash, smoke, fake glow, lens flare, podium, extra cans, random seals, starbursts, claims about health, endorsements, invented awards, barcodes, tiny filler copy, watermark or frame. Deliver a finished flat advertising composition combining real product photography and crisp typesetting, not a photograph of a billboard or a mockup board.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "brand/packaging.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "brand"
+    },
+    {
+      "id": "merch",
+      "category": "Merch",
+      "title": "OFFDAY · wear the identity",
+      "image": "brand/merch.png",
+      "prompt_file": "brand/merch.prompt.txt",
+      "reference_images": [
+        "brand/packaging.png"
+      ],
+      "sources": [
+        {
+          "title": "Pentagram — EBBS",
+          "url": "https://www.pentagram.com/work/ebbs/story",
+          "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+        }
+      ],
+      "review": "The white tee, blue tote and coral tag form one clear flat lay. The wordmark and eye-shaped emblem carry across with appropriate black or white ink. Knit, canvas, seams and print have convincing texture.",
+      "limitations": [
+        "The logo proportions are approximate across curved and folded material. These are mockups; no garment pattern or production artwork is included."
+      ],
+      "technique": "Transfer the identity while specifying the physical surfaces, ink colors and exact item count.",
+      "calls": 1,
+      "prompt": "Create a premium studio campaign photograph of two pieces of merchandise for the fictional sparkling tea brand OFFDAY. Landscape 3:2. Use the attached OFFDAY can image as the exact visual identity source only: preserve its condensed black OFFDAY wordmark and its black almond-shaped emblem with one white circular cutout near the right tip. Transfer those two graphic assets to fabric; do not include cans or beverage packaging.\n\nShow exactly one heavyweight clean white cotton T-shirt and one cobalt-blue cotton-canvas tote in a carefully composed overhead flat lay. The T-shirt lies fully open on the left, torso flat, sleeves naturally relaxed, neck ribbing and double-needle hems visible. Its chest carries the black OFFDAY wordmark with the same almond emblem beneath, printed as a simple, large, balanced graphic. No other print on the T-shirt. The cobalt tote lies on the right at a subtle clockwise angle, with both long handles arranged into neat arcs above it; it carries the same wordmark and emblem in white screen print, with the emblem's small circular hole showing the cobalt fabric. Exactly two tote handles, attached correctly. Keep the garments separate, with a deliberate strip of tabletop between them. Both objects completely inside the frame.\n\nThe tabletop is flat pale cool gray, quietly textured. The only extra object is a small coral rectangular uncoated hangtag lying below the tote; it has a punched hole with a short black cotton string and exact black text OFFDAY. No scissors, branches, hands, pins, hangers or styling clutter. One wide daylight source from upper left, soft directional shadows that reveal weight and weave. Visible close cotton knit, slightly heavier canvas weave, crisp ink sunk into fabric, restrained natural folds only at sleeves, handles and bag edges. The shirt and tote graphics must remain clean and undistorted, not plastic decals. A confident independent fashion-art-direction feel, precise proportions, strong white/black/cobalt/coral palette, impeccable spacing. No mockup-board labels, duplicate garments, faux texture overlays, gradients, decorative typography or watermarks. Deliver only the finished photographic image.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "brand/packaging.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "brand"
+    },
+    {
+      "id": "logo",
+      "category": "Logo",
+      "title": "OFFDAY · the core mark",
+      "image": "brand/logo.png",
+      "prompt_file": "brand/logo.prompt.txt",
+      "reference_images": [
+        "brand/packaging.png"
+      ],
+      "sources": [
+        {
+          "title": "Pentagram — EBBS",
+          "url": "https://www.pentagram.com/work/ebbs/story",
+          "role": "Observed large type, restrained color and a consistent identity across cylindrical packaging. Our OFFDAY concept uses different names, colors and artwork."
+        }
+      ],
+      "review": "The mark is isolated into a clear vertical lockup: one black almond shape with a circular negative-space opening above the condensed wordmark. The composition is legible without supporting imagery.",
+      "limitations": [
+        "A raster identity concept, not a vector master or a trademark-clearance result. Fine contours, kerning and the background retain small raster variations."
+      ],
+      "technique": "Ask to extract the identity from the reference and remove the product context.",
+      "calls": 1,
+      "prompt": "Using the attached OFFDAY packaging photograph as the identity source, create one pristine flat logo artwork for this fictional sparkling tea brand. This is a raster concept of a brand mark, not a photo or mockup. Landscape 3:2, a perfectly uniform warm-white background, no texture or shadow.\n\nExtract and carefully redraw the identity as one centered vertical lockup. The upper symbol is the same simple black horizontal almond shape from the cans, with one circular negative-space hole near its right end. Smooth symmetrical upper and lower outer contours, sharp balanced tips, the white circular hole fully enclosed by black, strong optical balance. Below it, set the exact word \"OFFDAY\" in bold, tall, tightly spaced condensed sans-serif capitals, matching the can's recognisable wordmark. The wordmark is slightly narrower than the symbol; give it a measured generous gap below the symbol. The whole lockup occupies roughly half the canvas width with broad equal surrounding margins.\n\nUse exactly solid black and the background color. No faux ink grain, gradients, bevel, highlights, soft edges, extra outlines, lettering variations, small tagline, trademark symbol, registration mark, label border, can, stationery or other object. Render sharp clean contours and carefully spaced letterforms. Keep the complete symbol and all six letters inside the image.",
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [
+          "brand/packaging.png"
+        ],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Reference transformation",
+      "group": "brand"
+    },
+    {
+      "id": "icons",
+      "category": "Icons",
+      "title": "Listening room · six pictograms",
+      "image": "brand/icons.png",
+      "prompt_file": "brand/icons.prompt.txt",
+      "repair_prompt_file": "brand/icons-repair.prompt.txt",
+      "previous_image": "brand/icons-original.png",
+      "sources": [
+        {
+          "title": "IBM Design Language — pictogram design",
+          "url": "https://www.ibm.com/design/language/iconography/pictograms/design/",
+          "role": "Reference for consistent geometry, stroke logic and a readable pictogram family; no source pictograms attached."
+        }
+      ],
+      "review": "All six requested symbols are recognizable in a three-by-two arrangement: headphones, turntable, mixer, reel deck, metronome and speaker. The targeted cleanup reduced surface noise while retaining the composition and red accents.",
+      "limitations": [
+        "Cleanup was only partial: faint mottling remains in the navy and red. Stroke weight and optical size are not perfectly uniform. Treat this as a family direction; rebuild approved symbols as vectors for a production icon library."
+      ],
+      "technique": "Name every symbol, set a shared geometric language and inspect the whole family rather than one icon alone.",
+      "calls": 2,
+      "prompt": "Create an original premium pictogram family for a fictional independent sound-design studio. A pristine 3:2 landscape design sheet, pure white background, exactly six icons in a precisely spaced 3-column by 2-row grid. No text, labels, frames or visible construction grid. Use the attached reference only for the discipline of consistent line weight, clean exterior corners and simple geometry. Do not reuse its house symbol.\n\nThe six original icons, in reading order, are:\n1. Over-ear headphones, symmetric curved headband, two substantial ear cushions, one short connector on each side.\n2. A turntable viewed from directly above: rounded rectangular plinth, one large circular record, one small center spindle, one straight tonearm with a bent cartridge.\n3. A compact mixer viewed straight on: exactly three vertical tracks, each with one sliding fader at a different height.\n4. A reel-to-reel tape machine viewed straight on: two equal circular reels above one rectangular body, each reel has exactly three simple spoke cutouts.\n5. A mechanical metronome viewed straight on: symmetric tapered outline, one diagonal pendulum and one small square sliding weight.\n6. A bookshelf speaker viewed straight on: vertical rounded rectangle, one small tweeter over one large woofer.\n\nEvery icon must have the same apparent visual weight and fit the same optical square. Draw with a consistent strong deep-navy monoline stroke, square line ends, subtly rounded exterior corners and crisply squared interior joins. Use a single restrained vermilion detail in each icon: headphone inner cushions, record center label, fader handles, reel centers, metronome weight, speaker tweeter. Vermilion is the only accent color. Maintain spacious negative areas inside the symbols. No shading, 3D depth, shadows, gradients, reflections, texture or decorative sparkles. High-fidelity flat vector-like raster artwork with mathematically clean smooth edges and impeccable optical alignment. The empty margins and gutters should feel deliberate, like a carefully drawn identity-system specimen.",
+      "repair_prompt": "Refine this six-icon design sheet into pristine flat artwork. Preserve exactly these six icon subjects, their reading order, layout, scale, empty margins, navy-and-vermilion palette, and every meaningful component. This is a finish-only correction: replace the mottled ink, soft tonal shading and faint material-like surface with absolutely uniform solid color fills. Every navy area is one consistent deep navy, every vermilion area one consistent vermilion, and the background is perfectly uniform white. There must be no paper grain, highlights, shadows, gradients, bevels, blur, stray pixels or photographic material texture. Redraw the edges as clean continuous vector-like curves and straight lines, with consistent optical stroke weight and identical corner discipline across the family. Retain the 3-column by 2-row layout and all six subjects, including exactly three mixer faders and two three-spoked tape reels. No new objects, labels, text or border. Return the full original 3:2 canvas as a sharp raster concept sheet.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 2,
+        "reference_images": [],
+        "repair_reference_images": [
+          "brand/icons-original.png"
+        ]
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Generated + targeted repair",
+      "group": "brand"
+    },
+    {
+      "id": "illustration",
+      "category": "Illustration",
+      "title": "The afternoon rehearsal",
+      "image": "brand/illustration.png",
+      "prompt_file": "brand/illustration.prompt.txt",
+      "sources": [
+        {
+          "title": "Malika Favre — The Travel Editions",
+          "url": "https://www.malikafavre.com/collections/the-travel-editions",
+          "role": "Observed limited palettes, negative space and clear silhouettes. The pianist composition is an original brief; no source artwork attached."
+        }
+      ],
+      "review": "A single pianist, large piano silhouette and diagonal window light create a strong editorial composition. The restrained ivory, navy, black and red palette gives the scene a coherent mood.",
+      "limitations": [
+        "The output adds subtle shading and detailed piano strings beyond the requested flat shapes. Piano geometry and mechanics are stylized, not technically verified."
+      ],
+      "technique": "Describe the silhouette, viewpoint and negative space first; use a limited palette to organize the scene.",
+      "calls": 1,
+      "prompt": "Create an exceptional original editorial illustration for a contemporary music magazine, landscape 3:2. A sophisticated flat screen-print aesthetic with rigorously controlled shapes, dramatic negative space, four solid colors only: warm ivory, deep midnight blue, vivid vermilion and near black. No text, title, logo, signature, paper mockup or border.\n\nAn elevated overhead three-quarter view shows one adult pianist seated at one grand piano in a quiet architectural room. The grand piano occupies the right two thirds of the composition, its near-black curved body forming the largest shape. Its raised triangular lid casts one long angular midnight-blue shadow toward the upper left. Keep the piano physically readable, with one keyboard along the near-left edge, a clear ivory-and-black key rhythm and simple slender legs.\n\nThe pianist sits on one small rectangular bench beside the keyboard at lower left. She wears a vermilion long-sleeved shirt and dark trousers; her body is a confident simple silhouette, her two hands rest naturally on the keyboard. Show only enough anatomy to read the action. Her face is mostly concealed by the overhead view. A broad warm-ivory shaft of light crosses the room diagonally, creating a second bold geometric region behind her without obscuring the instrument.\n\nThe image should reward a second look through the relationship between the open piano lid, its shadow, the diagonal light and the small human figure. Smooth decisive curves, perfectly clean color boundaries, selective tiny highlights, exceptionally balanced empty space. No gradients, paint texture, 3D rendering, glossy effects, repeated figures, extra instruments, plants, random decor or meaningless abstract squiggles. Keep the scene legible at thumbnail size and beautiful at full size.",
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewed",
+      "method": "Original generation",
+      "group": "brand"
+    },
+    {
+      "id": "PG01",
+      "category": "Book cover",
+      "title": "A Small Distance",
+      "slug": "01-a-small-distance",
+      "sources": [
+        {
+          "title": "Pentagram — How to See",
+          "url": "https://www.pentagram.com/work/how-to-see/story",
+          "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+          "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+        }
+      ],
+      "prompt": "Create the finished flat front cover of an original literary novel, portrait 2:3. It should feel like a carefully art-directed contemporary literary hardback, with exceptional typographic finish and a single memorable visual idea. Do not show a physical book, spine, mockup, hands or tabletop.\nUse a vivid vermilion-red field, black-and-white photographic imagery, and warm-white typography. Top 30 percent: the exact title \"A SMALL DISTANCE\" in two lines, A SMALL above DISTANCE, very large elegant high-contrast serif letters with balanced kerning and generous space from all edges. Keep every letter unobstructed. No subtitle.\nIn the middle and lower portion, create one sharply composed monochrome overhead photograph: two very small human figures stand on opposite sides of a broad, empty white concrete terrace, separated by one long, perfectly straight dark shadow. The terrace has crisp architectural geometry and subtle real stone texture. The two figures face each other across the empty space. Their distance is the emotional point; no crowd, furniture or scenery. The photographic rectangle occupies roughly the central 80 percent of the cover width, extending from below the title to near the bottom; a substantial red border stays visible.\nPlace \"MARA ELLIS\" in restrained warm-white uppercase sans-serif type at the bottom, centered with generous breathing room. The title and author are the only text. Precise print-design alignment, smooth solid red ink, clean photographic tonal range, no distressed lettering, no effects around the type, no badges, no fake publisher logo, no decorative frame inside the photograph.",
+      "checks": [
+        "Portrait 2:3 flat cover, no mockup",
+        "A SMALL DISTANCE exact and unobstructed in two lines",
+        "MARA ELLIS exact, with no additional copy",
+        "Two figures only, facing across an empty terrace",
+        "One long straight shadow visibly separates figures",
+        "Vermilion border and monochrome photograph are clear",
+        "Title, picture and author have distinct aligned zones",
+        "All copy comfortably inside outer margins"
+      ],
+      "status": "reviewed",
+      "image": "graphics/images/01-a-small-distance.png",
+      "prompt_file": "graphics/prompts/01-a-small-distance.txt",
+      "model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images_supplied": [],
+      "prepared_at": "2026-09-09T21:49:23.636Z",
+      "review": "The two-line title and author are exact and legible. A strong vermilion border frames two figures and a long connecting shadow; the image has a clear conceptual relationship to the title.",
+      "limitations": [
+        "The shadow reads as a graphic connection between the figures rather than clearly separating them as requested. The red field has slight tonal variation. This is cover artwork, without a spine, bleed or print production setup."
+      ],
+      "technique": "Use one conceptual image and three separate zones: title, picture, author.",
+      "calls": 1,
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1024,
+      "height": 1536,
+      "method": "Original generation",
+      "group": "editorial"
+    },
+    {
+      "id": "PG02",
+      "category": "Poster",
+      "title": "Soft Structure",
+      "slug": "02-soft-structure",
+      "sources": [
+        {
+          "title": "Studio Dumbar — Ruhrtriennale",
+          "url": "https://studiodumbar.com/work/ruhrtriennale",
+          "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+          "inspection": "Designer case study read; official festival press artwork visually inspected."
+        }
+      ],
+      "prompt": "Design a finished portrait 2:3 poster for a fictional contemporary sculpture exhibition. The art direction is precise, visually daring and restrained: pale lavender paper, near-black typography, and a single extraordinary silver sculpture. Return the flat poster itself, no wall or room mockup.\nAcross the upper quarter, set the exact title \"SOFT STRUCTURE\" on two lines in very large, confident, condensed sans-serif capitals. Left aligned to a consistent 7 percent page margin. The two lines have tight controlled leading, normal crisp letters and excellent kerning. All letters are fully visible.\nBelow the title, one large studio photograph shows a single thin sheet of brushed aluminum bent into an elegant open looping ribbon, balancing on one folded end. Make the object physically coherent: one continuous sheet, polished cut edges, fine linear brushing, subtle dents from bending, crisp silver highlights and soft gray reflections. It occupies the middle half of the poster, slightly right of center, and casts one soft grounded shadow on the same pale lavender field. This is a tactile real object, not liquid chrome, a glowing CGI knot or tangled metal. Leave a clear gap between the sculpture and headline.\nAt the bottom, align a compact information block on the same left margin with exactly these three lines:\n\"SCULPTURE / MATERIAL / SPACE\"\n\"04—28 OCT 2026\"\n\"WEST HALL\"\nUse small but clearly legible near-black sans-serif text, generous line spacing, and a fine short horizontal rule above this block. No other text, logos, gradients, decorative symbols, 3D lettering or ornamental borders. The hierarchy must read instantly: exhibition name, sculpture, practical details.",
+      "checks": [
+        "Portrait 2:3 flat poster",
+        "SOFT STRUCTURE exact, two clear lines",
+        "Three footer strings exact including date",
+        "One continuous aluminum sheet, no tangled impossible duplicates",
+        "Clear headline gap, subject centered lower than type",
+        "Lavender ground, near-black type and silver material distinct",
+        "Consistent left margins and ample footer spacing",
+        "No extra copy, logos or mockup context"
+      ],
+      "status": "reviewed",
+      "image": "graphics/images/02-soft-structure.png",
+      "prompt_file": "graphics/prompts/02-soft-structure.txt",
+      "model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images_supplied": [],
+      "prepared_at": "2026-09-09T21:49:23.638Z",
+      "review": "The title and all three footer lines are correct. The aluminum ribbon reads as one continuous folded sheet, with a clear gap below the headline, tactile brushing and a grounded shadow.",
+      "limitations": [
+        "Material continuity is visually plausible, not physically simulated. The lavender background has subtle lighting variation rather than perfectly uniform flat ink."
+      ],
+      "technique": "Give the headline, central object and practical information different jobs and fixed zones.",
+      "calls": 1,
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1024,
+      "height": 1536,
+      "method": "Original generation",
+      "group": "editorial"
+    },
+    {
+      "id": "PG03",
+      "category": "Flyer",
+      "title": "Night Shift",
+      "slug": "03-night-shift",
+      "sources": [
+        {
+          "title": "Studio Dumbar — Ruhrtriennale",
+          "url": "https://studiodumbar.com/work/ruhrtriennale",
+          "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+          "inspection": "Designer case study read; official festival press artwork visually inspected."
+        },
+        {
+          "title": "Pentagram — How to See",
+          "url": "https://www.pentagram.com/work/how-to-see/story",
+          "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+          "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+        }
+      ],
+      "prompt": "Create a finished portrait 4:5 event flyer for a fictional live-jazz night. Make it feel like a highly considered independent music venue campaign: bold cadmium-yellow ink, black typography, one arresting black-and-white photographic crop, and disciplined spacing. Flat artwork, not a paper mockup.\nThe upper third carries the exact words \"NIGHT SHIFT\" on two lines in massive tightly set black condensed sans-serif capitals, left aligned, with an 8 percent safe margin. The title should be the first thing read. Use clean lettering, no outlines, shadows, glow or grunge.\nThe middle of the flyer is a full-width monochrome photograph cropped close to the lower face, hands and tenor saxophone of one adult jazz musician in a dark suit. Show the instrument sweeping diagonally down toward the lower right; hands plausibly meet the keys. The dark photographic area feels intimate and tactile, with deep blacks, crisp metal reflections and a subtle natural grain. Crop deliberately; no awkward cut across fingertips. This photograph has a simple rectangular boundary, not a cutout halo.\nPlace the following exact information in a clean yellow band beneath the photograph, all aligned to the title's left margin:\n\"MIRA QUARTET\"\n\"LIVE JAZZ\"\n\"24 OCT 2026 · 20:00\"\n\"THE FOUNDRY\"\nLet MIRA QUARTET be the largest line in this band; group the date and venue as practical information with enough white space. These strings and the title are the only text. No tickets, website, prices, badges, sponsors, borders or extra musicians. Preserve a clear visual rhythm between giant title, tightly cropped photograph and readable event details.",
+      "checks": [
+        "Portrait 4:5 flat flyer",
+        "NIGHT SHIFT exact on two lines",
+        "All four practical strings exact and readable",
+        "One adult musician only, saxophone clearly identified",
+        "Visible fingers/keys plausible and not awkwardly clipped",
+        "Photograph rectangular with clean boundary",
+        "Yellow/black hierarchy distinct, footer not overcrowded",
+        "No extra copy, badges, price or venue logo"
+      ],
+      "status": "reviewed",
+      "image": "graphics/images/03-night-shift.png",
+      "prompt_file": "graphics/prompts/03-night-shift.txt",
+      "model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images_supplied": [],
+      "prepared_at": "2026-09-09T21:49:23.639Z",
+      "review": "The title, performer, date, time and venue are legible. Yellow and black create a strong hierarchy, and the close saxophone photograph has convincing metal and fabric detail.",
+      "limitations": [
+        "The left margin is tighter than the requested 8 percent and the lower hand is partly cut by the photo boundary. The musician and event are fictional. A roomier crop is the next refinement."
+      ],
+      "technique": "Specify the reading order and the exact event copy, then reserve a single photographic area.",
+      "calls": 1,
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1122,
+      "height": 1402,
+      "method": "Original generation",
+      "group": "editorial"
+    },
+    {
+      "id": "PG04",
+      "category": "Infographic",
+      "title": "A Week, by Design",
+      "slug": "04-a-week-by-design",
+      "sources": [
+        {
+          "title": "Nicholas Felton — Feltron 2014 annual report, SFMOMA",
+          "url": "https://www.sfmoma.org/artwork/2015.782/",
+          "learned": "Repeated alignment, consistent visual encoding and a clear hierarchy make information feel designed. Our example deliberately uses much less data and a simpler encoding.",
+          "inspection": "Museum collection record read and report image visually inspected."
+        }
+      ],
+      "prompt": "Create a finished editorial infographic, portrait 4:5, for a fictional design studio's sample 40-hour week. The result should look like a beautifully typeset magazine page: white paper, near-black type, one strong cobalt-blue ink, precise alignment and plenty of space. This is illustrative data, not research.\nTop left, within an 8 percent safe margin, set the exact headline \"A WEEK, BY DESIGN\" in large bold sans-serif, on two lines if necessary. Below it place exactly \"40 hours. Four priorities.\" in smaller regular sans-serif.\nThe main graphic is four horizontal bars, with four generously spaced rows. Every bar starts on the same vertical baseline and uses the same linear scale: the full available plotting width represents 20 hours. Keep bars flat, rectangular and equal in thickness; no perspective, rounded capsules, icons or decorative illustrations. Use cobalt blue for every bar.\nRow 1 label \"FOCUS\", bar 18 hours, endpoint value \"18 h\".\nRow 2 label \"MEETINGS\", bar 10 hours, endpoint value \"10 h\".\nRow 3 label \"ADMIN\", bar 8 hours, endpoint value \"8 h\".\nRow 4 label \"LEARNING\", bar 4 hours, endpoint value \"4 h\".\nBar lengths must therefore be 90%, 50%, 40% and 20% of the same plotting width. Place labels above their bars at the shared left baseline, and numeric values just to the right of each bar, with clear spacing. Add only two subtle gray vertical guide lines across the plotting region: the common start and the full 20-hour endpoint. Label these once below the plot as \"0\" and \"20 h\".\nAt the bottom left, put the exact small footer \"ILLUSTRATIVE DATA\". No other text. The four values sum to 40. Use consistent numeral style, clean kerning, generous row spacing and a balanced layout. No gradients, shadows, fake dashboard controls, legend, extra axes, 3D bars or ornaments.",
+      "checks": [
+        "Portrait 4:5 infographic with clean margins",
+        "Headline and subheading exact",
+        "FOCUS18, MEETINGS10, ADMIN8, LEARNING4 correct",
+        "Four bars only, same baseline and thickness",
+        "Bar lengths reflect 18:10:8:4 within 5% visible raster tolerance",
+        "Only common-start and 20-hour guide lines",
+        "All labels and values legible and separated",
+        "ILLUSTRATIVE DATA footer exact",
+        "No invented factual claims or decorative clutter"
+      ],
+      "status": "reviewed",
+      "image": "graphics/images/04-a-week-by-design.png",
+      "prompt_file": "graphics/prompts/04-a-week-by-design.txt",
+      "model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images_supplied": [],
+      "prepared_at": "2026-09-09T21:49:23.639Z",
+      "review": "All four labels and values are correct and sum to 40. Bars share a baseline, remain legible and follow the correct ordering. Pixel checks measured approximately 87.1%, 49.8%, 39.2% and 20.9% of the plotting width.",
+      "limitations": [
+        "Requested lengths were 90%, 50%, 40% and 20%. The first bar is visibly short of its target. This is an illustrative layout concept; use a deterministic chart renderer for exact published data geometry."
+      ],
+      "technique": "State the data, the common scale, bar relationships and label placement separately.",
+      "calls": 1,
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1122,
+      "height": 1402,
+      "method": "Original generation",
+      "group": "editorial"
+    },
+    {
+      "id": "PG05",
+      "category": "Thumbnail",
+      "title": "Small Room, Big Idea",
+      "slug": "05-small-room-big-idea",
+      "sources": [
+        {
+          "title": "Pentagram — How to See",
+          "url": "https://www.pentagram.com/work/how-to-see/story",
+          "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+          "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+        },
+        {
+          "title": "Studio Dumbar — Ruhrtriennale",
+          "url": "https://studiodumbar.com/work/ruhrtriennale",
+          "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+          "inspection": "Designer case study read; official festival press artwork visually inspected."
+        }
+      ],
+      "prompt": "Create a polished YouTube thumbnail for a fictional interior-design video, landscape 16:9. It must read clearly at a small thumbnail size, with one bold text statement and one strong architectural photograph. The aesthetic is a confident contemporary design magazine, not clickbait clutter.\nThe right 62 percent shows a beautifully photographed compact living room: a deep rust-red modular sofa built into a precise pale-oak storage wall, a large circular window, an ivory boucle lounge chair and a small black steel coffee table. Use a purposeful built-in layout that makes a small room feel generous. The circular window admits soft daylight from upper right; upholstery, oak grain, woven fabric and architectural edges have convincing tactile detail. Photograph from the open doorway at a natural eye level, with coherent perspective and clean verticals. No people, plants, books with lettering, screens, decorative piles or visible logos.\nThe left 38 percent is a smooth solid off-white text field. Set exactly \"SMALL ROOM\" above \"BIG IDEA\" in enormous near-black condensed sans-serif capitals, with two words per line and strong vertical spacing. Keep both lines inside the left field, fully legible and at least 6 percent of the full canvas width from the left edge. Add a short rust-red horizontal bar under BIG IDEA as the only graphic accent. No additional copy.\nThe join between text and photograph is a crisp vertical edge. Light, color and framing should make the red sofa the visual anchor opposite the headline. No arrows, circles, stickers, shocked faces, icons, border, 3D text or glowing effects. Keep the bottom-right 12 percent free of essential furniture detail for the platform duration badge. Return only the finished thumbnail.",
+      "checks": [
+        "Landscape16:9 within1% raster ratio tolerance",
+        "SMALL ROOM and BIG IDEA exact, two words each line",
+        "Copy large and unobstructed at reduced size",
+        "Off-white left field about38%, photograph right about62%",
+        "Rust sofa, oak storage wall, circular window, ivory chair, black table visible",
+        "Coherent photo perspective and tactile surfaces",
+        "One rust underline accent, no arrows or stickers",
+        "No people, logos, additional readable text or clutter"
+      ],
+      "status": "reviewed",
+      "image": "graphics/images/05-small-room-big-idea.png",
+      "prompt_file": "graphics/prompts/05-small-room-big-idea.txt",
+      "model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "reference_images_supplied": [],
+      "prepared_at": "2026-09-09T21:49:23.639Z",
+      "review": "The two text lines are exact and readable at reduced size. The rust sofa, circular window, ivory chair and oak storage create a focused architectural image. The right-hand crop leaves room near the lower-right corner.",
+      "limitations": [
+        "The left margin is tighter than the specified 6 percent. Thumbnail legibility was assessed visually; no click-through performance has been measured."
+      ],
+      "technique": "Assign separate image and text zones, constrain the wording and keep one visual anchor.",
+      "calls": 1,
+      "reference_images": [],
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_id": "not exposed",
+        "seed": "not exposed",
+        "quality_setting": "not exposed",
+        "calls_for_this_example": 1,
+        "reference_images": [],
+        "repair_reference_images": []
+      },
+      "width": 1672,
+      "height": 941,
+      "method": "Original generation",
+      "group": "editorial"
+    }
+  ]
+}

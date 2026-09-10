@@ -1,0 +1,11 @@
+Create a landscape 3:2 educational plate titled "INSIDE A LEAF" for a high-school biology lesson. Show a beautiful, scientifically readable three-dimensional cutaway block through a typical eudicot leaf, floating on an ivory background. Illustration is a precise textbook model with subtle painted texture, not a microscope photograph. The tissue layers are enlarged schematically; do not add a numerical scale.
+Anatomical map, top to bottom:
+- a very thin waxy cuticle on top;
+- one layer of upper epidermal cells;
+- closely packed elongated upright palisade cells, full of small green chloroplasts;
+- a lower layer of loosely arranged irregular spongy cells with obvious connected air spaces and some chloroplasts;
+- one layer of lower epidermal cells, interrupted at front-center by a clear stomatal opening flanked by two guard cells.
+Embed one rounded vascular bundle within the mesophyll at the right side of the cutaway. Its larger xylem vessels are above its smaller phloem cells. Keep the surrounding tissues visible.
+Labels with thin noncrossing leader lines and sufficient margin, each exactly once: "Cuticle", "Upper epidermis", "Palisade mesophyll", "Spongy mesophyll", "Air space", "Lower epidermis", "Guard cells", "Stoma", "Xylem", "Phloem". Each leader must touch the correct structure; never use a label as decoration.
+Below the stomatal pore show one small inward arrow labeled "CO2 in" going from outside through the pore into the internal air space, and one small outward arrow labeled "O2 out" going from that air space through the pore to outside. Separate arrows so their directions are unambiguous. The pore must actually open into the air space, not a solid cell.
+Use botanical greens, cream cell walls, muted blue xylem and muted coral phloem. Preserve cell topology and a clear layer hierarchy. No animal organs, invented organelles, extra captions or decorative foliage.

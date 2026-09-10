@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "raw_output": "travel-app-v1.png",
+  "saved_copy": "outputs/premium-examples/digital/travel-app-v1.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "59b3b3f42510d19225263f99bff1f0b3fc64b71c263eaf4fd47fad449bead5f6",
+  "image_references_attached": [],
+  "prompt_file": "travel-app.prompt.txt",
+  "generation_type": "original",
+  "repair_count": 0,
+  "model_identifier": "not exposed",
+  "seed": "not exposed"
+}

@@ -1,0 +1,9 @@
+Create a finished portrait 4:5 event flyer for a fictional live-jazz night. Make it feel like a highly considered independent music venue campaign: bold cadmium-yellow ink, black typography, one arresting black-and-white photographic crop, and disciplined spacing. Flat artwork, not a paper mockup.
+The upper third carries the exact words "NIGHT SHIFT" on two lines in massive tightly set black condensed sans-serif capitals, left aligned, with an 8 percent safe margin. The title should be the first thing read. Use clean lettering, no outlines, shadows, glow or grunge.
+The middle of the flyer is a full-width monochrome photograph cropped close to the lower face, hands and tenor saxophone of one adult jazz musician in a dark suit. Show the instrument sweeping diagonally down toward the lower right; hands plausibly meet the keys. The dark photographic area feels intimate and tactile, with deep blacks, crisp metal reflections and a subtle natural grain. Crop deliberately; no awkward cut across fingertips. This photograph has a simple rectangular boundary, not a cutout halo.
+Place the following exact information in a clean yellow band beneath the photograph, all aligned to the title's left margin:
+"MIRA QUARTET"
+"LIVE JAZZ"
+"24 OCT 2026 · 20:00"
+"THE FOUNDRY"
+Let MIRA QUARTET be the largest line in this band; group the date and venue as practical information with enough white space. These strings and the title are the only text. No tickets, website, prices, badges, sponsors, borders or extra musicians. Preserve a clear visual rhythm between giant title, tightly cropped photograph and readable event details.

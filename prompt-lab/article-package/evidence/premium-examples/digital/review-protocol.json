@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "model_identifier": "not exposed by this tool result",
+  "seed": "not exposed",
+  "generation_plan": "Two original image concepts, at most one targeted repair per concept.",
+  "source_use": "Study reference design decisions; do not attach or copy source photographs, logos or layouts wholesale.",
+  "review": {
+    "hard_checks": [
+      "Readable intended navigation and main action",
+      "Property, dates and arithmetic agree across travel screens",
+      "Exactly three front-facing aligned app canvases",
+      "Website has one visually dominant CTA and a coherent grid",
+      "No placeholder or fabricated microcopy",
+      "No perspective-device presentation"
+    ],
+    "qualitative_checks": [
+      "Photographic specificity and realism",
+      "Strong typography and image hierarchy",
+      "Spacing and alignment",
+      "Distinctive but useful design",
+      "Consistency across related screens"
+    ],
+    "judgment": "Visual review of actual generated pixels by agent, not measured user performance or functional implementation."
+  },
+  "limitations": [
+    "Raster concepts have no working controls, semantic structure, responsive implementation or accessibility tree.",
+    "Generated architecture, property details and prices are fictional.",
+    "These selected examples are not a controlled benchmark of one prompting method against another."
+  ]
+}

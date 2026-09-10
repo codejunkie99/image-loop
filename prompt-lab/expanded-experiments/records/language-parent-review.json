@@ -1,0 +1,337 @@
+{
+  "reviewer": "parent assistant, different agent from generating operator",
+  "blinding": "Reviewed shared checklist and neutral filenames before opening condition key. Knows intended scene; not a human independent reviewer.",
+  "display_order": [
+    "A8",
+    "N4",
+    "V6",
+    "S2"
+  ],
+  "records": [
+    {
+      "code": "A8",
+      "scores": [
+        {
+          "id": "L01",
+          "status": "pass",
+          "evidence": "1024x1536 PNG, 2:3."
+        },
+        {
+          "id": "L02",
+          "status": "pass",
+          "evidence": "Five distinct vertically ordered structures, with visible spaces around adjacent structures."
+        },
+        {
+          "id": "L03",
+          "status": "pass",
+          "evidence": "Three pale slender masts and one connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "status": "pass",
+          "evidence": "Dark rough upper stones, granular black middle band and pale porous/pebbled lower band are distinct."
+        },
+        {
+          "id": "L05",
+          "status": "pass",
+          "evidence": "Single transparent sphere with water surface close to its mid-height."
+        },
+        {
+          "id": "L06",
+          "status": "pass",
+          "evidence": "Stepped planted terraces and small gold-colored bridges are visible."
+        },
+        {
+          "id": "L07",
+          "status": "pass",
+          "evidence": "Single large copper coil assembly with white vapor."
+        },
+        {
+          "id": "L08",
+          "status": "pass",
+          "evidence": "Four copper arrows point down between the five adjacent tiers."
+        },
+        {
+          "id": "L09",
+          "status": "pass",
+          "evidence": "One large turquoise arrow rises along image-right from the bottom to the cloud."
+        },
+        {
+          "id": "L10",
+          "status": "pass",
+          "evidence": "THE RAIN ENGINE appears once, correctly spelled, above all tiers and larger than labels."
+        },
+        {
+          "id": "L11",
+          "status": "pass",
+          "evidence": "CLOUD, FILTER, VAULT, GARDEN, RETURN each appear once in the correct order."
+        },
+        {
+          "id": "L12",
+          "status": "fail",
+          "evidence": "The VAULT leader enters the sphere and GARDEN line touches/enters foliage."
+        },
+        {
+          "id": "L13",
+          "status": "pass",
+          "evidence": "Consistent atlas illustration, ivory ground, teal water and type, gold/copper fittings, fine contours."
+        },
+        {
+          "id": "L14",
+          "status": "pass",
+          "evidence": "Consistent elevated three-quarter forms and coherent broad illumination."
+        },
+        {
+          "id": "L15",
+          "status": "uncertain",
+          "evidence": "No extra words, people, logos or borders; the unquantified word generous makes the margin threshold uncertain."
+        }
+      ],
+      "soft_observation": "Rich detail, strong drama; visually denser and tighter around the bottom."
+    },
+    {
+      "code": "N4",
+      "scores": [
+        {
+          "id": "L01",
+          "status": "pass",
+          "evidence": "1024x1536 PNG, 2:3."
+        },
+        {
+          "id": "L02",
+          "status": "pass",
+          "evidence": "Five distinct vertically ordered structures, with visible spaces around adjacent structures."
+        },
+        {
+          "id": "L03",
+          "status": "pass",
+          "evidence": "Three pale slender masts and one connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "status": "pass",
+          "evidence": "Dark rough upper stones, granular black middle band and pale porous/pebbled lower band are distinct."
+        },
+        {
+          "id": "L05",
+          "status": "pass",
+          "evidence": "Single transparent sphere with water surface close to its mid-height."
+        },
+        {
+          "id": "L06",
+          "status": "pass",
+          "evidence": "Stepped planted terraces and small gold-colored bridges are visible."
+        },
+        {
+          "id": "L07",
+          "status": "pass",
+          "evidence": "Single large copper coil assembly with white vapor."
+        },
+        {
+          "id": "L08",
+          "status": "pass",
+          "evidence": "Four copper arrows point down between the five adjacent tiers."
+        },
+        {
+          "id": "L09",
+          "status": "pass",
+          "evidence": "One large turquoise arrow rises along image-right from the bottom to the cloud."
+        },
+        {
+          "id": "L10",
+          "status": "pass",
+          "evidence": "THE RAIN ENGINE appears once, correctly spelled, above all tiers and larger than labels."
+        },
+        {
+          "id": "L11",
+          "status": "pass",
+          "evidence": "CLOUD, FILTER, VAULT, GARDEN, RETURN each appear once in the correct order."
+        },
+        {
+          "id": "L12",
+          "status": "fail",
+          "evidence": "The angled CLOUD leader enters the top platform, contrary to the literal no-overlap requirement."
+        },
+        {
+          "id": "L13",
+          "status": "pass",
+          "evidence": "Consistent atlas illustration, ivory ground, teal water and type, gold/copper fittings, fine contours."
+        },
+        {
+          "id": "L14",
+          "status": "pass",
+          "evidence": "Consistent elevated three-quarter forms and coherent broad illumination."
+        },
+        {
+          "id": "L15",
+          "status": "uncertain",
+          "evidence": "No extra words, people, logos or borders; the unquantified word generous makes the margin threshold uncertain."
+        }
+      ],
+      "soft_observation": "Readable systematic spacing and well differentiated materials."
+    },
+    {
+      "code": "V6",
+      "scores": [
+        {
+          "id": "L01",
+          "status": "pass",
+          "evidence": "1024x1536 PNG, 2:3."
+        },
+        {
+          "id": "L02",
+          "status": "pass",
+          "evidence": "Five distinct vertically ordered structures, with visible spaces around adjacent structures."
+        },
+        {
+          "id": "L03",
+          "status": "pass",
+          "evidence": "Three pale slender masts and one connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "status": "pass",
+          "evidence": "Dark rough upper stones, granular black middle band and pale porous/pebbled lower band are distinct."
+        },
+        {
+          "id": "L05",
+          "status": "pass",
+          "evidence": "Single transparent sphere with water surface close to its mid-height."
+        },
+        {
+          "id": "L06",
+          "status": "pass",
+          "evidence": "Stepped planted terraces and small gold-colored bridges are visible."
+        },
+        {
+          "id": "L07",
+          "status": "pass",
+          "evidence": "Single large copper coil assembly with white vapor."
+        },
+        {
+          "id": "L08",
+          "status": "pass",
+          "evidence": "Four copper arrows point down between the five adjacent tiers."
+        },
+        {
+          "id": "L09",
+          "status": "pass",
+          "evidence": "One large turquoise arrow rises along image-right from the bottom to the cloud."
+        },
+        {
+          "id": "L10",
+          "status": "pass",
+          "evidence": "THE RAIN ENGINE appears once, correctly spelled, above all tiers and larger than labels."
+        },
+        {
+          "id": "L11",
+          "status": "pass",
+          "evidence": "CLOUD, FILTER, VAULT, GARDEN, RETURN each appear once in the correct order."
+        },
+        {
+          "id": "L12",
+          "status": "pass",
+          "evidence": "Labels readable and leader lines remain outside the main illustrated forms."
+        },
+        {
+          "id": "L13",
+          "status": "pass",
+          "evidence": "Consistent atlas illustration, ivory ground, teal water and type, gold/copper fittings, fine contours."
+        },
+        {
+          "id": "L14",
+          "status": "pass",
+          "evidence": "Consistent elevated three-quarter forms and coherent broad illumination."
+        },
+        {
+          "id": "L15",
+          "status": "uncertain",
+          "evidence": "No extra words, people, logos or borders; the unquantified word generous makes the margin threshold uncertain."
+        }
+      ],
+      "soft_observation": "Clear tier hierarchy and clean leader-line separation; bold heading."
+    },
+    {
+      "code": "S2",
+      "scores": [
+        {
+          "id": "L01",
+          "status": "pass",
+          "evidence": "1024x1536 PNG, 2:3."
+        },
+        {
+          "id": "L02",
+          "status": "pass",
+          "evidence": "Five distinct vertically ordered structures, with visible spaces around adjacent structures."
+        },
+        {
+          "id": "L03",
+          "status": "pass",
+          "evidence": "Three pale slender masts and one connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "status": "pass",
+          "evidence": "Dark rough upper stones, granular black middle band and pale porous/pebbled lower band are distinct."
+        },
+        {
+          "id": "L05",
+          "status": "pass",
+          "evidence": "Single transparent sphere with water surface close to its mid-height."
+        },
+        {
+          "id": "L06",
+          "status": "pass",
+          "evidence": "Stepped planted terraces and small gold-colored bridges are visible."
+        },
+        {
+          "id": "L07",
+          "status": "pass",
+          "evidence": "Single large copper coil assembly with white vapor."
+        },
+        {
+          "id": "L08",
+          "status": "pass",
+          "evidence": "Four copper arrows point down between the five adjacent tiers."
+        },
+        {
+          "id": "L09",
+          "status": "pass",
+          "evidence": "One large turquoise arrow rises along image-right from the bottom to the cloud."
+        },
+        {
+          "id": "L10",
+          "status": "pass",
+          "evidence": "THE RAIN ENGINE appears once, correctly spelled, above all tiers and larger than labels."
+        },
+        {
+          "id": "L11",
+          "status": "pass",
+          "evidence": "CLOUD, FILTER, VAULT, GARDEN, RETURN each appear once in the correct order."
+        },
+        {
+          "id": "L12",
+          "status": "pass",
+          "evidence": "Labels readable and leader lines remain outside the main illustrated forms."
+        },
+        {
+          "id": "L13",
+          "status": "pass",
+          "evidence": "Consistent atlas illustration, ivory ground, teal water and type, gold/copper fittings, fine contours."
+        },
+        {
+          "id": "L14",
+          "status": "pass",
+          "evidence": "Consistent elevated three-quarter forms and coherent broad illumination."
+        },
+        {
+          "id": "L15",
+          "status": "uncertain",
+          "evidence": "No extra words, people, logos or borders; the unquantified word generous makes the margin threshold uncertain."
+        }
+      ],
+      "soft_observation": "Readable component hierarchy, intricate garden, visible coil feet and generous side margins."
+    }
+  ],
+  "interpretation": "All four are strong complex illustrations. Margin criterion is insufficiently operationalized; retain uncertainty, do not invent a threshold after outputs. Leader endpoints judged literally against no-overlap wording. No statistical inference or universal quality ranking."
+}

@@ -1,0 +1,764 @@
+{
+  "title": "Expanded image prompting experiments",
+  "date": "2026-09-10",
+  "guide_cases": 24,
+  "tool_requests": 41,
+  "saved_generated_images": 40,
+  "rejected_before_image": 1,
+  "native_request_excluded": {
+    "count": 1,
+    "surface": "Safari ChatGPT image annotation",
+    "status": "submitted before user requested chat-only generation; result not inspected; excluded from all comparisons"
+  },
+  "provenance": "The built-in image tool does not expose the executing model/variant/seed/quality. Published official examples are labeled separately and are not our generated outputs.",
+  "study_limits": [
+    "Adaptations across24 guide stages are different creative briefs, not controlled superiority comparisons.",
+    "Two repeats per formatting/vocabulary condition; one per reference arm; one bundled/sequential pair.",
+    "Agent reviews, not a blinded human study.",
+    "No equal-budget comparison of sub-agents versus one agent.",
+    "Native comments and Sketch UI documented, not experimentally executed."
+  ],
+  "runs": [
+    {
+      "id": "coverage-generation:G01",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G01",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g01-maritime-editorial.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "f04a9f1a690be207caf0bc17d1c71a4a61bddf08873fa4bcac35edf9dc40db4f"
+      }
+    },
+    {
+      "id": "coverage-generation:G03",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G03",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g03-afterlight-poster.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "9e1d74bcef915a0a30fe2f2c0070b623b56d92a0fdac98f361c49fda67fb3686"
+      }
+    },
+    {
+      "id": "coverage-generation:G04",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G04",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g04-tideline-mark.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "format": "PNG",
+        "sha256": "5f581e4558867b34a0b830b7ae4970693de16fc4bb2abff0aaac0ff1cf6e72c9",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "id": "coverage-generation:G05",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G05",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g05-woodstock-recreation.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "417fce9c0ebbeb32901cb0777548f49c2a97ecf7f199e15b895180eef5fd5fde"
+      }
+    },
+    {
+      "id": "coverage-generation:G06",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G06",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g06-cat-four-panel.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "a97bf344d3040b6a388958dfd25d41da93753a191bd705b50f1baba636834300"
+      }
+    },
+    {
+      "id": "coverage-generation:G07",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G07",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g07-fieldwork-market-ui.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "6dd18d4c883b9caacc8aec80d99aeae9fed1013c36abf99a83c76e0f7dc64816"
+      }
+    },
+    {
+      "id": "coverage-generation:G08",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G08",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g08-leaf-cutaway.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "64f9471921e0bb843797289ac90d6725b1bf63d84b4813133e21468d29f6b761"
+      }
+    },
+    {
+      "id": "coverage-generation:G09",
+      "experiment": "coverage-generation",
+      "record_file": "expanded-experiments/records/generation-coverage-records.json",
+      "record_id": "G09",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g09-civic-move-slide.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "e8215e79739ebf6cd2a3b0d5cc2b4e8be7fdcbc6219f865a2f36e4fbd1d02399"
+      }
+    },
+    {
+      "id": "coverage-edit:G10",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G10",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g10.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "c0dabe783c166c673b70f6ecd10048f27145951648b771301f353b22d9490baa"
+      }
+    },
+    {
+      "id": "coverage-edit:G11",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G11",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g11.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "088de3dec4ee60d5c4d0ec63795a1898cccfb941906f5faf4e62157f4ceaa62b"
+      }
+    },
+    {
+      "id": "coverage-edit:G12",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G12",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g12.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "4daf91289d465232ff078f845f61c6869d370ae1c436430b0734aa292dfca1d8"
+      }
+    },
+    {
+      "id": "coverage-edit:G13",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G13",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g13.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "7a955ee1af2e4bc5c41ad02cd5381febaa6e4abdee7fed697779d557b4296d5b"
+      }
+    },
+    {
+      "id": "coverage-edit:G14",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G14",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g14.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "32037af6dbfea3cb29b2c2531eb7449225c2efa9b175a6273900c6155031272b"
+      }
+    },
+    {
+      "id": "coverage-edit:G15",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G15",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g15.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "a912bb109e4f283009b063750d9dd6519feeb0f3507f268a50a0f075784bd87c"
+      }
+    },
+    {
+      "id": "coverage-edit:G16",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G16",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g16.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "4393b9611b48046b1185602bc9cc4b2e62a3698158670e6428545627e4e9a395"
+      }
+    },
+    {
+      "id": "coverage-edit:G17",
+      "experiment": "coverage-edit",
+      "record_file": "expanded-experiments/records/edit-coverage-records.json",
+      "record_id": "G17",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g17.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "b692beb2eb6e54fce48af45d459033ab18f08725401629a7dfadb4a741aaa712"
+      }
+    },
+    {
+      "id": "continuity:G18",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G18",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g18.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "60b4fc4007f4ddbd5d17acd52cec662e020b02aafd75f107aebc86de78a2ae33"
+      }
+    },
+    {
+      "id": "continuity:G19",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G19",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g19.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "1287161637df7cd78282d7175e86d246382cb2df65ffd8c990525473817a0ea8"
+      }
+    },
+    {
+      "id": "continuity:G20",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G20",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g20.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "f0be3f5647edc99409f13412aa8f9513b9e1aaa357484094443f6caceb6a5c02"
+      }
+    },
+    {
+      "id": "continuity:G21",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G21",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g21.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "6f9d4d1b0b60a9eb0375b275735a1ea684c78c786c2ce5ab7783f727cc891c9a"
+      }
+    },
+    {
+      "id": "continuity:G22",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G22",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g22.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "2fb052ed7bbc09f10e8f706f6d0bf7c15ec7ec737a3244b70dff25d77657c819"
+      }
+    },
+    {
+      "id": "continuity:E22A",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "E22A",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/e22a.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "9d5e0cbc82b2c5be3f4256de8a255cc2cb29af0868817d89a4ce436e1dc251ed"
+      }
+    },
+    {
+      "id": "continuity:E22B",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "E22B",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/e22b.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "2463b32b2c574558cdebe168c25cacea6f077457ddfba57245f0d61d926c3b29"
+      }
+    },
+    {
+      "id": "continuity:G23",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G23",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g23.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "5fe03600554628e1d52651beab3f682298b8b3d3a402b6c9877b38b3dfac9fb8"
+      }
+    },
+    {
+      "id": "continuity:G24",
+      "experiment": "continuity",
+      "record_file": "expanded-experiments/records/parent-records.json",
+      "record_id": "G24",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/continuity/g24.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "cfb6b02f8d9caf7719f3145d3f3a282697294ccb82ddbb09f15437b87cb78497"
+      }
+    },
+    {
+      "id": "formatting:N4",
+      "experiment": "formatting",
+      "record_file": "expanded-experiments/records/language-records.json",
+      "record_id": "N4",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/language/trial-N4.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "58de371471aa311c590ed4dabaa3fd4b44af2e4033bfc97233e658c31dcc341f"
+      }
+    },
+    {
+      "id": "formatting:V6",
+      "experiment": "formatting",
+      "record_file": "expanded-experiments/records/language-records.json",
+      "record_id": "V6",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/language/trial-V6.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "0c931254c9e44fefea378c0846eb1a5cb5b3f658a3a20a37f21e477a86155d67"
+      }
+    },
+    {
+      "id": "formatting:A8",
+      "experiment": "formatting",
+      "record_file": "expanded-experiments/records/language-records.json",
+      "record_id": "A8",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/language/trial-A8.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "add636fe9ae85e3bee0cee07fde865e2ee87b3a4ae1687149aa611f4afd243e8"
+      }
+    },
+    {
+      "id": "formatting:S2",
+      "experiment": "formatting",
+      "record_file": "expanded-experiments/records/language-records.json",
+      "record_id": "S2",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/language/trial-S2.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "c0d89d81b0a445a5ed4d33d8f80b355c20453d6cc4bed1df3f500cb69b319c64"
+      }
+    },
+    {
+      "id": "vocabulary:V2",
+      "experiment": "vocabulary",
+      "record_file": "expanded-experiments/records/vocabulary-records.json",
+      "record_id": "V2",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/vocabulary/trial-V2.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "53904df43291880d9a77b5df6b6bf84a13972a9ae2ddd96a941a22f35ed36dfd"
+      }
+    },
+    {
+      "id": "vocabulary:V6",
+      "experiment": "vocabulary",
+      "record_file": "expanded-experiments/records/vocabulary-records.json",
+      "record_id": "V6",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/vocabulary/trial-V6.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "b0dfc70cff42c079fe2ba6b142dc97992f4fb29665374445136e2246f5584749"
+      }
+    },
+    {
+      "id": "comic-repair:G06-R1",
+      "experiment": "comic-repair",
+      "record_file": "expanded-experiments/records/g06-repair-record.json",
+      "record_id": "G06-R1",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/generation-coverage/g06-last-panel-repaired.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "7df0dee115a7b8c9ed20b1b7dea6b015096cf8ecbb3363d6a45dcb50fc16ff38"
+      }
+    },
+    {
+      "id": "reference-matrix:T2",
+      "experiment": "reference-matrix",
+      "record_file": "expanded-experiments/records/reference-matrix-records.json",
+      "record_id": "T2",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/reference-matrix/trial-T2.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "a5c765e98e8544c4d616712eb9ec139054f2a199738ea54072851e89566263da"
+      }
+    },
+    {
+      "id": "reference-matrix:R7",
+      "experiment": "reference-matrix",
+      "record_file": "expanded-experiments/records/reference-matrix-records.json",
+      "record_id": "R7",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/reference-matrix/trial-R7.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "cab4a3d437405a35ad8415891cc3812321287685061a9d52c60a314f0ddf7b7c"
+      }
+    },
+    {
+      "id": "reference-matrix:M3",
+      "experiment": "reference-matrix",
+      "record_file": "expanded-experiments/records/reference-matrix-records.json",
+      "record_id": "M3",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/reference-matrix/trial-M3.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "68b8582dbeb06e30bc098560bef65880debbe0994caa1d1032e6d212b7089bfa"
+      }
+    },
+    {
+      "id": "alpha-repair:G14-R1",
+      "experiment": "alpha-repair",
+      "record_file": "expanded-experiments/records/alpha-repair-record.json",
+      "record_id": "G14-R1",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/edit-coverage/g14-alpha-repair.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "aef39fd84567611852c3891ccbabaaee8361a44d3d4c82783990fcf9fcf35e90"
+      }
+    },
+    {
+      "id": "reconstruction:R1",
+      "experiment": "reconstruction",
+      "record_file": "expanded-experiments/records/reconstruction-records.json",
+      "record_id": "R1",
+      "status": "rejected_before_image",
+      "output": "expanded-experiments/reconstruction/r1-json-only.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "error": {
+        "type": "prompt_length",
+        "limit_observed": 32000,
+        "actual_length_reported": 82283
+      }
+    },
+    {
+      "id": "reconstruction:R2",
+      "experiment": "reconstruction",
+      "record_file": "expanded-experiments/records/reconstruction-records.json",
+      "record_id": "R2",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/reconstruction/r2-compiled-only.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "21569ef3df1bc9f0f2d62cb4ba054bb2e8b860033f8750e89311099e4db2aafb"
+      }
+    },
+    {
+      "id": "reconstruction:R3",
+      "experiment": "reconstruction",
+      "record_file": "expanded-experiments/records/reconstruction-records.json",
+      "record_id": "R3",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/reconstruction/r3-compiled-with-reference.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "725c642d8a98f15d9ff0e5fb8990bd27f58ab82670b6794468a2a95eb53594d0"
+      }
+    },
+    {
+      "id": "generated-map:MAP24",
+      "experiment": "generated-map",
+      "record_file": "expanded-experiments/records/mapping-annotation-record.json",
+      "record_id": "MAP24",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/mapping/campsite-annotated.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "18fca7200fadaef68e65f087778a0dd7687007f7388fad38f10b024161738bec"
+      }
+    },
+    {
+      "id": "selected-map-edit:M1",
+      "experiment": "selected-map-edit",
+      "record_file": "expanded-experiments/records/mapping-edit-record.json",
+      "record_id": "M1",
+      "status": "image_saved_and_inspected",
+      "output": "expanded-experiments/mapping/selected-arrow-edit.png",
+      "tool": "built-in image_gen",
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "31e90369a977e9d5e9f5f467a1ebb03ff78c3d6579416f53819e989a507e1ef6"
+      }
+    }
+  ],
+  "evidence_directory": "expanded-experiments/records/"
+}

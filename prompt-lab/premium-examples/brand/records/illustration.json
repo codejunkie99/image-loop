@@ -1,0 +1,10 @@
+{
+  "name": "illustration",
+  "image": "../illustration.png",
+  "original_file": "../illustration.png",
+  "prompt": "Create an exceptional original editorial illustration for a contemporary music magazine, landscape 3:2. A sophisticated flat screen-print aesthetic with rigorously controlled shapes, dramatic negative space, four solid colors only: warm ivory, deep midnight blue, vivid vermilion and near black. No text, title, logo, signature, paper mockup or border.\n\nAn elevated overhead three-quarter view shows one adult pianist seated at one grand piano in a quiet architectural room. The grand piano occupies the right two thirds of the composition, its near-black curved body forming the largest shape. Its raised triangular lid casts one long angular midnight-blue shadow toward the upper left. Keep the piano physically readable, with one keyboard along the near-left edge, a clear ivory-and-black key rhythm and simple slender legs.\n\nThe pianist sits on one small rectangular bench beside the keyboard at lower left. She wears a vermilion long-sleeved shirt and dark trousers; her body is a confident simple silhouette, her two hands rest naturally on the keyboard. Show only enough anatomy to read the action. Her face is mostly concealed by the overhead view. A broad warm-ivory shaft of light crosses the room diagonally, creating a second bold geometric region behind her without obscuring the instrument.\n\nThe image should reward a second look through the relationship between the open piano lid, its shadow, the diagonal light and the small human figure. Smooth decisive curves, perfectly clean color boundaries, selective tiny highlights, exceptionally balanced empty space. No gradients, paint texture, 3D rendering, glossy effects, repeated figures, extra instruments, plants, random decor or meaningless abstract squiggles. Keep the scene legible at thumbnail size and beautiful at full size.",
+  "reference_images": [],
+  "tool": "image_gen",
+  "model": "not exposed",
+  "seed": "not exposed"
+}

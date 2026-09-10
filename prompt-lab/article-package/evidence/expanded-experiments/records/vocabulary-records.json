@@ -1,0 +1,451 @@
+{
+  "design": "Vocabulary comparison with prose format and intended semantic requirements held fixed. Two separate no-reference requests per vocabulary condition; parent owns plain N4/A8.",
+  "preregistered_at": "2026-09-09T20:56:13.751Z",
+  "hypothesis": "No directional winner assumed; test whether jargon changes visible compliance or aesthetic preference.",
+  "limitations": [
+    "Linguistic equivalence is an analyst judgment, not a formally proved identity.",
+    "N4 and A8 were generated earlier, so timing and unknown backend variation are not randomized away.",
+    "Model, seed and quality are not exposed; two repeats per arm cannot establish general superiority."
+  ],
+  "baseline_codes": [
+    "N4",
+    "A8"
+  ],
+  "baseline_prompt": "Create a portrait 2:3 illustrated atlas poster called THE RAIN ENGINE. It shows a fictional floating ecosystem as five separated tiers, stacked vertically on one central axis. Leave visible air gaps between tiers. This is imaginative concept art, not a validated engineering schematic. The top tier is a circular platform with exactly three slender white cloud-harvesting masts under one curling cloud. The second tier is an exposed filter, with three clearly different layers: rough basalt, black carbon, and pale ceramic. The middle tier is one clear glass spherical reservoir, half filled with turquoise water. The fourth tier is a lush garden on stepped terraces, with tiny gold bridges between terraces. The bottom tier is one large copper coil releasing a plume of white vapor. Show exactly four thin copper downward arrows in the gaps: top to second, second to middle, middle to fourth, and fourth to bottom. Show one turquoise return arrow outside the stack on the right, curving from the bottom coil up to the top cloud. Keep all five arrows distinct and readable. Print THE RAIN ENGINE exactly once, as the large title centered above the stack. Place these five smaller labels on the left, aligned with their respective tiers from top to bottom: CLOUD, FILTER, VAULT, GARDEN, RETURN. Use simple thin leader lines to the tiers. These six strings are the only text. Keep the labels large enough to read and clear of the illustration. Use an elegant museum atlas style: precise fine ink contours, softly shaded three-dimensional cutaways, a warm ivory background, deep teal and moss green forms, copper machinery, and restrained gold accents. Use one consistent elevated three-quarter view, with light from the upper left. Give the surfaces intricate mineral, glass, leaf, and machined-metal detail. Keep the full stack and all labels inside generous margins. Do not include people, logos, watermarks, or decorative borders.",
+  "jargon_prompt": "Produce a portrait 2:3 illustrated atlas plate titled THE RAIN ENGINE. Depict a fictional floating ecosystem as a five-tier vertically exploded composition on one central axis. Preserve visible inter-tier negative space. This is imaginative concept art, not an engineering-validated schematic. The uppermost tier is a circular platform bearing exactly three filiform white cloud-harvesting masts beneath one curling cloud. The second tier is an exposed filter section with three materially differentiated laminations: rough basalt, black carbon, and pale ceramic. The median tier is one optically clear glass spherical reservoir, with turquoise water occupying half its volume. The fourth tier is a verdant garden articulated as stepped terraces, with miniature gold bridges connecting the terraces. The basal tier is one large copper coil emitting a white vapor plume. Specify exactly four thin copper descending arrow glyphs in the interstices: uppermost to second, second to median, median to fourth, and fourth to basal. Specify one turquoise return vector exterior to the composition on its right, following a curvilinear trajectory from the basal coil upward to the uppermost cloud. Maintain visual separation and legibility for all five arrows. Typeset THE RAIN ENGINE exactly once as the large display title, horizontally centered above the assembly. Register these five subordinate labels on the left beside their corresponding tiers, in descending order: CLOUD, FILTER, VAULT, GARDEN, RETURN. Connect annotations to tiers with simple fine leader rules. These six literal strings exhaust the typographic content. Maintain readable annotation scale and clearance from the illustrated forms. Apply an elegant museum-atlas visual idiom: precise fine ink contour work, softly modeled three-dimensional cutaways, a warm ivory ground, deep teal and moss-green forms, copper mechanical elements, and restrained gold accents. Use a unified elevated three-quarter perspective with upper-left illumination. Articulate intricate mineral, glass, foliar, and machined-metal surface detail. Contain the complete assembly and all annotations within generous outer margins. Exclude human figures, logos, watermarks, and ornamental borders.",
+  "semantic_equivalence": [
+    {
+      "requirement": "Canvas and artifact",
+      "plain": "portrait 2:3 illustrated atlas poster",
+      "jargon": "portrait 2:3 illustrated atlas plate",
+      "equivalence": "Same aspect ratio and illustrated atlas output; plate substitutes for poster."
+    },
+    {
+      "requirement": "World and tier count",
+      "plain": "fictional floating ecosystem; five separated tiers; central axis",
+      "jargon": "fictional floating ecosystem; five-tier vertically exploded composition; central axis",
+      "equivalence": "Same five-tier stack; exploded describes separation already requested."
+    },
+    {
+      "requirement": "Spacing",
+      "plain": "visible air gaps",
+      "jargon": "visible inter-tier negative space",
+      "equivalence": "Same unfilled inter-tier regions."
+    },
+    {
+      "requirement": "Engineering status",
+      "plain": "imaginative concept art, not validated engineering schematic",
+      "jargon": "imaginative concept art, not engineering-validated schematic",
+      "equivalence": "Same explicit fictional status."
+    },
+    {
+      "requirement": "Tier 1",
+      "plain": "circular platform; three slender white cloud-harvesting masts; one curling cloud",
+      "jargon": "circular platform; three filiform white cloud-harvesting masts; one curling cloud",
+      "equivalence": "Filiform replaces slender; counts, color and relationships fixed."
+    },
+    {
+      "requirement": "Tier 2",
+      "plain": "exposed filter; different rough basalt, black carbon, pale ceramic layers",
+      "jargon": "exposed filter section; differentiated rough basalt, black carbon, pale ceramic laminations",
+      "equivalence": "Same three materials in the same tier; no new porosity or filter mechanism."
+    },
+    {
+      "requirement": "Tier 3",
+      "plain": "one clear glass spherical reservoir, half filled with turquoise water",
+      "jargon": "one optically clear glass spherical reservoir, turquoise water at half volume",
+      "equivalence": "Same shape, material, contents and fill fraction."
+    },
+    {
+      "requirement": "Tier 4",
+      "plain": "lush garden, stepped terraces, tiny gold bridges between terraces",
+      "jargon": "verdant garden, stepped terraces, miniature gold bridges connecting terraces",
+      "equivalence": "Same garden, stepping, small bridges and topology."
+    },
+    {
+      "requirement": "Tier 5",
+      "plain": "one large copper coil, plume of white vapor",
+      "jargon": "one large copper coil, white vapor plume",
+      "equivalence": "Coil deliberately retained; helix avoided because it could impose new geometry."
+    },
+    {
+      "requirement": "Downward links",
+      "plain": "four thin copper downward arrows in gaps between adjacent tiers",
+      "jargon": "four thin copper descending arrow glyphs in interstices between same pairs",
+      "equivalence": "Same count, hue, weight, placement and direction."
+    },
+    {
+      "requirement": "Return link",
+      "plain": "one turquoise arrow outside stack right, curving bottom coil to top cloud",
+      "jargon": "one turquoise return vector exterior right, curvilinear trajectory basal coil upward to uppermost cloud",
+      "equivalence": "Same single curved upward link; no extra curvature constraint."
+    },
+    {
+      "requirement": "Arrow readability",
+      "plain": "five arrows distinct and readable",
+      "jargon": "visual separation and legibility for five arrows",
+      "equivalence": "Same visibility requirement."
+    },
+    {
+      "requirement": "Title",
+      "plain": "THE RAIN ENGINE once, large, centered above stack",
+      "jargon": "THE RAIN ENGINE once, large display title, centered above assembly",
+      "equivalence": "Exact same string and hierarchy."
+    },
+    {
+      "requirement": "Tier labels",
+      "plain": "CLOUD FILTER VAULT GARDEN RETURN, smaller on left aligned to tiers",
+      "jargon": "same five strings, subordinate labels left beside corresponding tiers",
+      "equivalence": "Same copy, order, count and placement."
+    },
+    {
+      "requirement": "Leader lines",
+      "plain": "simple thin leader lines",
+      "jargon": "simple fine leader rules",
+      "equivalence": "Same annotation lines."
+    },
+    {
+      "requirement": "Allowed text",
+      "plain": "six strings only; labels readable and clear of illustration",
+      "jargon": "six literal strings exhaust typography; readable annotation scale and clearance",
+      "equivalence": "Same exhaustive copy and legibility constraints."
+    },
+    {
+      "requirement": "Style and palette",
+      "plain": "elegant museum atlas; fine ink contours; soft3D cutaways; ivory teal moss copper gold",
+      "jargon": "elegant museum-atlas idiom; fine ink contour work; softly modeled3D cutaways; same palette",
+      "equivalence": "No new artist, medium, finish, quality token or color."
+    },
+    {
+      "requirement": "View and light",
+      "plain": "consistent elevated three-quarter view; light upper left",
+      "jargon": "unified elevated three-quarter perspective; upper-left illumination",
+      "equivalence": "No orthographic or isometric requirement added."
+    },
+    {
+      "requirement": "Detail",
+      "plain": "intricate mineral, glass, leaf and machined-metal surfaces",
+      "jargon": "intricate mineral, glass, foliar and machined-metal surfaces",
+      "equivalence": "Foliar replaces leaf; exact same material families."
+    },
+    {
+      "requirement": "Margins and exclusions",
+      "plain": "full stack and labels in generous margins; no people, logos, watermarks or decorative borders",
+      "jargon": "complete assembly and annotations in generous margins; no human figures, logos, watermarks or ornamental borders",
+      "equivalence": "Same framing and exclusions."
+    }
+  ],
+  "checks": [
+    {
+      "id": "L01",
+      "criterion": "Portrait canvas with width:height 2:3 (actual file dimensions)."
+    },
+    {
+      "id": "L02",
+      "criterion": "Exactly five visually separated tiers, vertical order preserved, one central stack, air gaps visible."
+    },
+    {
+      "id": "L03",
+      "criterion": "Top tier has exactly three slender white harvesting masts beneath one curling cloud."
+    },
+    {
+      "id": "L04",
+      "criterion": "Second tier has three distinguishable exposed filter layers: rough basalt, black carbon, pale ceramic."
+    },
+    {
+      "id": "L05",
+      "criterion": "Middle tier is one clear glass sphere, visibly about half filled with turquoise water."
+    },
+    {
+      "id": "L06",
+      "criterion": "Fourth tier shows leafy stepped garden terraces and tiny gold bridges between terraces."
+    },
+    {
+      "id": "L07",
+      "criterion": "Bottom tier shows one large copper coil with white vapor emerging."
+    },
+    {
+      "id": "L08",
+      "criterion": "Exactly four thin copper downward arrows link each adjacent pair of tiers in the air gaps."
+    },
+    {
+      "id": "L09",
+      "criterion": "Exactly one turquoise return arrow on the right curves from bottom coil toward top cloud, with upward direction clear."
+    },
+    {
+      "id": "L10",
+      "criterion": "Title THE RAIN ENGINE is spelled exactly once and is the largest text above the stack."
+    },
+    {
+      "id": "L11",
+      "criterion": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear exactly once each, spelled correctly, on the left beside the corresponding tiers."
+    },
+    {
+      "id": "L12",
+      "criterion": "Tier labels have thin leader lines, remain readable, and do not overlap illustrated components."
+    },
+    {
+      "id": "L13",
+      "criterion": "Museum atlas treatment, ivory/teal/moss/copper/gold palette, fine contours and soft 3D material shading visibly present."
+    },
+    {
+      "id": "L14",
+      "criterion": "Consistent elevated three-quarter perspective and broadly upper-left illumination, without obvious contradictory lighting."
+    },
+    {
+      "id": "L15",
+      "criterion": "Full stack/labels inside generous margins; no text beyond six strings; no people, logos, watermark, or decorative border."
+    }
+  ],
+  "trials": [
+    {
+      "code": "V2",
+      "condition": "jargon_prose",
+      "replicate": 1,
+      "prompt": "Produce a portrait 2:3 illustrated atlas plate titled THE RAIN ENGINE. Depict a fictional floating ecosystem as a five-tier vertically exploded composition on one central axis. Preserve visible inter-tier negative space. This is imaginative concept art, not an engineering-validated schematic. The uppermost tier is a circular platform bearing exactly three filiform white cloud-harvesting masts beneath one curling cloud. The second tier is an exposed filter section with three materially differentiated laminations: rough basalt, black carbon, and pale ceramic. The median tier is one optically clear glass spherical reservoir, with turquoise water occupying half its volume. The fourth tier is a verdant garden articulated as stepped terraces, with miniature gold bridges connecting the terraces. The basal tier is one large copper coil emitting a white vapor plume. Specify exactly four thin copper descending arrow glyphs in the interstices: uppermost to second, second to median, median to fourth, and fourth to basal. Specify one turquoise return vector exterior to the composition on its right, following a curvilinear trajectory from the basal coil upward to the uppermost cloud. Maintain visual separation and legibility for all five arrows. Typeset THE RAIN ENGINE exactly once as the large display title, horizontally centered above the assembly. Register these five subordinate labels on the left beside their corresponding tiers, in descending order: CLOUD, FILTER, VAULT, GARDEN, RETURN. Connect annotations to tiers with simple fine leader rules. These six literal strings exhaust the typographic content. Maintain readable annotation scale and clearance from the illustrated forms. Apply an elegant museum-atlas visual idiom: precise fine ink contour work, softly modeled three-dimensional cutaways, a warm ivory ground, deep teal and moss-green forms, copper mechanical elements, and restrained gold accents. Use a unified elevated three-quarter perspective with upper-left illumination. Articulate intricate mineral, glass, foliar, and machined-metal surface detail. Contain the complete assembly and all annotations within generous outer margins. Exclude human figures, logos, watermarks, and ornamental borders.",
+      "status": "generated_and_file_verified",
+      "output": "outputs/expanded-experiments/vocabulary/trial-V2.png",
+      "reference_images": [],
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "submitted_at": "2026-09-09T20:56:27.711150+00:00",
+      "source_original": "../vocabulary/trial-V2.png",
+      "saved_at": "2026-09-09T21:02:26.252518+00:00",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "sha256": "53904df43291880d9a77b5df6b6bf84a13972a9ae2ddd96a941a22f35ed36dfd",
+      "review": [
+        {
+          "id": "L01",
+          "criterion": "Portrait canvas with width:height 2:3 (actual file dimensions).",
+          "result": "pass",
+          "observation": "Original PNG is 1024×1536, exactly 2:3."
+        },
+        {
+          "id": "L02",
+          "criterion": "Exactly five visually separated tiers, vertical order preserved, one central stack, air gaps visible.",
+          "result": "pass",
+          "observation": "Five separated levels are visibly ordered cloud platform, filter, spherical tank, garden, coil."
+        },
+        {
+          "id": "L03",
+          "criterion": "Top tier has exactly three slender white harvesting masts beneath one curling cloud.",
+          "result": "pass",
+          "observation": "Three white tapering mast bodies with metallic caps appear beneath a single connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "criterion": "Second tier has three distinguishable exposed filter layers: rough basalt, black carbon, pale ceramic.",
+          "result": "pass",
+          "observation": "Gray rough upper rock, black granular middle layer and pale lower ceramic layer are distinct."
+        },
+        {
+          "id": "L05",
+          "criterion": "Middle tier is one clear glass sphere, visibly about half filled with turquoise water.",
+          "result": "pass",
+          "observation": "A clear round glass reservoir contains turquoise water at approximately its equator."
+        },
+        {
+          "id": "L06",
+          "criterion": "Fourth tier shows leafy stepped garden terraces and tiny gold bridges between terraces.",
+          "result": "pass",
+          "observation": "Green planted terraces and multiple small gold bridges are visible."
+        },
+        {
+          "id": "L07",
+          "criterion": "Bottom tier shows one large copper coil with white vapor emerging.",
+          "result": "pass",
+          "observation": "A single large copper coil assembly emits white vapor."
+        },
+        {
+          "id": "L08",
+          "criterion": "Exactly four thin copper downward arrows link each adjacent pair of tiers in the air gaps.",
+          "result": "pass",
+          "observation": "Four separate copper downward arrows occupy the four successive gaps."
+        },
+        {
+          "id": "L09",
+          "criterion": "Exactly one turquoise return arrow on the right curves from bottom coil toward top cloud, with upward direction clear.",
+          "result": "pass",
+          "observation": "One turquoise curve on the right has its arrowhead directed upward toward the cloud."
+        },
+        {
+          "id": "L10",
+          "criterion": "Title THE RAIN ENGINE is spelled exactly once and is the largest text above the stack.",
+          "result": "pass",
+          "observation": "THE RAIN ENGINE appears once, accurately spelled, centered above the stack as the largest type."
+        },
+        {
+          "id": "L11",
+          "criterion": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear exactly once each, spelled correctly, on the left beside the corresponding tiers.",
+          "result": "pass",
+          "observation": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear once each, accurately spelled, in the correct left-hand order."
+        },
+        {
+          "id": "L12",
+          "criterion": "Tier labels have thin leader lines, remain readable, and do not overlap illustrated components.",
+          "result": "pass",
+          "observation": "Five fine horizontal leader lines remain legible, separated from type and forms."
+        },
+        {
+          "id": "L13",
+          "criterion": "Museum atlas treatment, ivory/teal/moss/copper/gold palette, fine contours and soft 3D material shading visibly present.",
+          "result": "pass",
+          "observation": "Ivory ground, teal water, green planting, copper/gold machinery and fine softly modeled atlas illustration are present."
+        },
+        {
+          "id": "L14",
+          "criterion": "Consistent elevated three-quarter perspective and broadly upper-left illumination, without obvious contradictory lighting.",
+          "result": "pass",
+          "observation": "Surfaces mostly expose their top planes; shading and bright glass highlights broadly favor the upper left."
+        },
+        {
+          "id": "L15",
+          "criterion": "Full stack/labels inside generous margins; no text beyond six strings; no people, logos, watermark, or decorative border.",
+          "result": "uncertain",
+          "observation": "All content is inside the canvas and only the specified six strings appear. Vertical margins are modest; no numerical definition of generous was preregistered."
+        }
+      ],
+      "review_summary": {
+        "pass": 14,
+        "fail": 0,
+        "uncertain": 1
+      },
+      "qualified_id": "vocabulary-V2"
+    },
+    {
+      "code": "V6",
+      "condition": "jargon_prose",
+      "replicate": 2,
+      "prompt": "Produce a portrait 2:3 illustrated atlas plate titled THE RAIN ENGINE. Depict a fictional floating ecosystem as a five-tier vertically exploded composition on one central axis. Preserve visible inter-tier negative space. This is imaginative concept art, not an engineering-validated schematic. The uppermost tier is a circular platform bearing exactly three filiform white cloud-harvesting masts beneath one curling cloud. The second tier is an exposed filter section with three materially differentiated laminations: rough basalt, black carbon, and pale ceramic. The median tier is one optically clear glass spherical reservoir, with turquoise water occupying half its volume. The fourth tier is a verdant garden articulated as stepped terraces, with miniature gold bridges connecting the terraces. The basal tier is one large copper coil emitting a white vapor plume. Specify exactly four thin copper descending arrow glyphs in the interstices: uppermost to second, second to median, median to fourth, and fourth to basal. Specify one turquoise return vector exterior to the composition on its right, following a curvilinear trajectory from the basal coil upward to the uppermost cloud. Maintain visual separation and legibility for all five arrows. Typeset THE RAIN ENGINE exactly once as the large display title, horizontally centered above the assembly. Register these five subordinate labels on the left beside their corresponding tiers, in descending order: CLOUD, FILTER, VAULT, GARDEN, RETURN. Connect annotations to tiers with simple fine leader rules. These six literal strings exhaust the typographic content. Maintain readable annotation scale and clearance from the illustrated forms. Apply an elegant museum-atlas visual idiom: precise fine ink contour work, softly modeled three-dimensional cutaways, a warm ivory ground, deep teal and moss-green forms, copper mechanical elements, and restrained gold accents. Use a unified elevated three-quarter perspective with upper-left illumination. Articulate intricate mineral, glass, foliar, and machined-metal surface detail. Contain the complete assembly and all annotations within generous outer margins. Exclude human figures, logos, watermarks, and ornamental borders.",
+      "status": "generated_and_file_verified",
+      "output": "outputs/expanded-experiments/vocabulary/trial-V6.png",
+      "reference_images": [],
+      "backend_model": "not exposed",
+      "seed": "not exposed",
+      "quality": "not exposed",
+      "submitted_at": "2026-09-09T20:56:27.711925+00:00",
+      "source_original": "../vocabulary/trial-V6.png",
+      "saved_at": "2026-09-09T21:02:26.258425+00:00",
+      "file": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "sha256": "b0dfc70cff42c079fe2ba6b142dc97992f4fb29665374445136e2246f5584749",
+      "review": [
+        {
+          "id": "L01",
+          "criterion": "Portrait canvas with width:height 2:3 (actual file dimensions).",
+          "result": "pass",
+          "observation": "Original PNG is 1024×1536, exactly 2:3."
+        },
+        {
+          "id": "L02",
+          "criterion": "Exactly five visually separated tiers, vertical order preserved, one central stack, air gaps visible.",
+          "result": "pass",
+          "observation": "Five separated levels are visibly ordered cloud platform, filter, spherical tank, garden, coil."
+        },
+        {
+          "id": "L03",
+          "criterion": "Top tier has exactly three slender white harvesting masts beneath one curling cloud.",
+          "result": "pass",
+          "observation": "Three white tapering mast bodies with metallic caps appear beneath a single connected curling cloud mass."
+        },
+        {
+          "id": "L04",
+          "criterion": "Second tier has three distinguishable exposed filter layers: rough basalt, black carbon, pale ceramic.",
+          "result": "pass",
+          "observation": "Gray rough upper rock, black granular middle layer and pale lower ceramic layer are distinct."
+        },
+        {
+          "id": "L05",
+          "criterion": "Middle tier is one clear glass sphere, visibly about half filled with turquoise water.",
+          "result": "pass",
+          "observation": "A clear round glass reservoir contains turquoise water at approximately its equator."
+        },
+        {
+          "id": "L06",
+          "criterion": "Fourth tier shows leafy stepped garden terraces and tiny gold bridges between terraces.",
+          "result": "pass",
+          "observation": "Green planted terraces and multiple small gold bridges are visible."
+        },
+        {
+          "id": "L07",
+          "criterion": "Bottom tier shows one large copper coil with white vapor emerging.",
+          "result": "pass",
+          "observation": "A single large copper coil assembly emits white vapor."
+        },
+        {
+          "id": "L08",
+          "criterion": "Exactly four thin copper downward arrows link each adjacent pair of tiers in the air gaps.",
+          "result": "pass",
+          "observation": "Four separate copper downward arrows occupy the four successive gaps."
+        },
+        {
+          "id": "L09",
+          "criterion": "Exactly one turquoise return arrow on the right curves from bottom coil toward top cloud, with upward direction clear.",
+          "result": "pass",
+          "observation": "One turquoise curve on the right has its arrowhead directed upward toward the cloud."
+        },
+        {
+          "id": "L10",
+          "criterion": "Title THE RAIN ENGINE is spelled exactly once and is the largest text above the stack.",
+          "result": "pass",
+          "observation": "THE RAIN ENGINE appears once, accurately spelled, centered above the stack as the largest type."
+        },
+        {
+          "id": "L11",
+          "criterion": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear exactly once each, spelled correctly, on the left beside the corresponding tiers.",
+          "result": "pass",
+          "observation": "CLOUD, FILTER, VAULT, GARDEN, RETURN appear once each, accurately spelled, in the correct left-hand order."
+        },
+        {
+          "id": "L12",
+          "criterion": "Tier labels have thin leader lines, remain readable, and do not overlap illustrated components.",
+          "result": "pass",
+          "observation": "Five fine horizontal leader lines remain legible, separated from type and forms."
+        },
+        {
+          "id": "L13",
+          "criterion": "Museum atlas treatment, ivory/teal/moss/copper/gold palette, fine contours and soft 3D material shading visibly present.",
+          "result": "pass",
+          "observation": "Ivory ground, teal water, green planting, copper/gold machinery and fine softly modeled atlas illustration are present."
+        },
+        {
+          "id": "L14",
+          "criterion": "Consistent elevated three-quarter perspective and broadly upper-left illumination, without obvious contradictory lighting.",
+          "result": "uncertain",
+          "observation": "The top platform is seen strongly from below while the garden and lower coil expose their upper surfaces. This could represent a camera located partway up the stack, but it does not unambiguously communicate the requested elevated view. Light direction is coherent."
+        },
+        {
+          "id": "L15",
+          "criterion": "Full stack/labels inside generous margins; no text beyond six strings; no people, logos, watermark, or decorative border.",
+          "result": "uncertain",
+          "observation": "All content is inside the canvas and only the specified six strings appear. Vertical margins are modest; no numerical definition of generous was preregistered."
+        }
+      ],
+      "review_summary": {
+        "pass": 13,
+        "fail": 0,
+        "uncertain": 2
+      },
+      "qualified_id": "vocabulary-V6"
+    }
+  ],
+  "timestamp_note": "saved_at is when the returned original was copied and verified, not generation latency.",
+  "word_counts": {
+    "plain": 309,
+    "jargon": 315,
+    "counting_method": "whitespace-separated words"
+  },
+  "review_protocol": "Manual original-resolution inspection of V2 and V6, then side-by-side visual comparison to previously generated N4/A8. This review was not blinded to vocabulary condition. Results distinguish concrete counts/copy from subjective view and margin qualifiers.",
+  "conclusion": "Both jargon repeats achieved the same core object, arrow and copy requirements visibly present in the two plain-prose baselines. These four samples show no demonstrated need for jargon. They do not establish either wording register as generally superior.",
+  "experiment_id": "vocabulary"
+}

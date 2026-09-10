@@ -1,0 +1,13 @@
+Edit image 1, the complete Rain Engine poster. It is the exact layout and illustration target; do not redesign it.
+
+Change only its six text strings using this complete Spanish glossary:
+THE RAIN ENGINE → EL MOTOR DE LLUVIA
+CLOUD → NUBE
+FILTER → FILTRO
+VAULT → DEPÓSITO
+GARDEN → JARDÍN
+RETURN → RETORNO
+
+Print every replacement exactly once, with the accents shown. Preserve the existing title position, each label's left alignment and baseline, serif character, dark teal ink and hierarchy. Reduce type size or tracking only as necessary to fit each replacement into its current text zone; shorten a leader line only if the longer label requires room.
+
+Lock everything else: the portrait 2:3 canvas, five floating tiers, exactly three white masts, three filter layers, glass reservoir and water level, intricate garden and bridges, copper coil, cloud shapes, four downward arrows, long turquoise return arrow, all material colors, lighting and illustration geometry. No English text, extra labels, new objects, borders or watermarks. Return the translated poster.

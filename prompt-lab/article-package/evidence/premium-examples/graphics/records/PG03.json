@@ -1,0 +1,9 @@
+{
+  "id": "PG03",
+  "title": "Night Shift",
+  "original_file": "../images/03-night-shift.png",
+  "image": "../../../../../premium-examples/graphics/images/03-night-shift.png",
+  "prompt_file": "premium-examples/graphics/prompts/03-night-shift.txt",
+  "model": "not exposed",
+  "review_status": "awaiting pixel review"
+}

@@ -1,0 +1,45 @@
+{
+  "method": "Cobalt-blue pixel run on the horizontal midline of each bar. Guide x positions visually identified at 78 and 1045. Raster measurement, approximately \u00b11 pixel.",
+  "measurements": [
+    {
+      "row": "FOCUS",
+      "scan_y": 590,
+      "bar_start_x": 79,
+      "bar_end_x": 920,
+      "bar_width_px": 842,
+      "plot_width_px": 967,
+      "observed_percent": 87.07,
+      "requested_percent": 90
+    },
+    {
+      "row": "MEETINGS",
+      "scan_y": 765,
+      "bar_start_x": 79,
+      "bar_end_x": 560,
+      "bar_width_px": 482,
+      "plot_width_px": 967,
+      "observed_percent": 49.84,
+      "requested_percent": 50
+    },
+    {
+      "row": "ADMIN",
+      "scan_y": 940,
+      "bar_start_x": 79,
+      "bar_end_x": 457,
+      "bar_width_px": 379,
+      "plot_width_px": 967,
+      "observed_percent": 39.19,
+      "requested_percent": 40
+    },
+    {
+      "row": "LEARNING",
+      "scan_y": 1115,
+      "bar_start_x": 79,
+      "bar_end_x": 280,
+      "bar_width_px": 202,
+      "plot_width_px": 967,
+      "observed_percent": 20.89,
+      "requested_percent": 20
+    }
+  ]
+}

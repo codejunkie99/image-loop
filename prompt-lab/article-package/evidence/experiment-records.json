@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-10",
+  "tool": "built-in image_gen",
+  "backend_model": "not exposed",
+  "seed": "not exposed",
+  "quality": "not exposed",
+  "design": "Illustrative, non-blind, single-candidate workflow demonstration. No general causal or reliability claim.",
+  "records": [
+    {
+      "id": "A1",
+      "mode": "generate",
+      "prompt": "Create a photorealistic studio product image for a website hero, landscape canvas 3:2. On a seamless warm ivory floor and background, place one matte teal ceramic mug on one low coral rectangular plinth, in the left half. The mug handle points to image-right. Place exactly two whole yellow lemons on the ivory floor to the right of the plinth; they are separate, touching neither mug nor plinth. Place one plain silver teaspoon horizontally on the floor in front of the plinth, bowl to image-left. Keep every object fully visible in the lower 55% of the frame. Leave the upper 35% as uninterrupted empty ivory background for a headline to be added later; do not generate the headline. Slightly elevated front view, enough to see the mug opening and the top of the plinth. Broad soft light from upper left; gentle contact shadows extend toward lower right. Real ceramic, subtly textured lemon rind and brushed silver; quiet, uncluttered composition. Only the mug, plinth, two lemons, and spoon. No writing, logos, decorative props or borders.",
+      "references": [],
+      "output": "images/a1-original-draft.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "7d323773f0dfa90c4f7985f4b2544976ccd56747faf35e38f66828274ec91cfd"
+    },
+    {
+      "id": "A2",
+      "mode": "edit",
+      "prompt": "Edit the input product photograph. Change only the composition scale and placement: make the entire existing still-life arrangement about 80% of its current size in the frame, then position it so every object lies between 46% and 90% of the image height measured from the top. The upper 45% must be completely empty ivory background. Keep the 3:2 landscape canvas. Preserve the exact mug design and teal color, right-facing handle, low coral rectangular plinth, exactly two whole yellow lemons to the plinth's right, and one horizontal silver teaspoon in front with bowl at left. Keep the same relative positions and proportions within the arrangement, materials, perspective, soft upper-left illumination and ivory backdrop. Maintain natural contact shadows. No new objects or text.",
+      "references": [
+        "images/a1-original-draft.png"
+      ],
+      "output": "images/a2-layout-repaired.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "9a7e69104ec37d59de2c462d0bb661e19ecd91ee256781d751a462566fd92b4a"
+    },
+    {
+      "id": "B1",
+      "mode": "generate",
+      "prompt": "Create a photorealistic studio still life on a 3:2 landscape canvas. If an image is supplied, use it as the authority for composition, silhouettes, proportions, colors and lighting. Reconstruct the following visible scene: a warm ivory seamless floor and background, gently brighter at upper left. The upper 49% of the canvas is empty. One teal cylindrical ceramic mug with slightly rounded base and thick circular loop handle pointing image-right sits on a low salmon-coral rectangular block in the lower-left-middle. See inside its dark teal opening from a slightly elevated front view. Approximate object bounding boxes, expressed as percentages from the top-left of the canvas: mug including handle x30\u201349, y49\u201372; block x23\u201350, y66\u201379. The block has a broad front face and a visible flat top. Two whole saturated yellow lemons rest on the floor to the block's right, with a gap from the block: the nearer left lemon at x55\u201367,y66\u201381 and the farther right lemon at x67\u201379,y63\u201377. Their long axes lean gently down toward image-right; preserve small pointed tips and detailed dimpled rind. One horizontal silver teaspoon lies below and in front of the block at x29\u201354,y80\u201386, with oval bowl at image-left and a slightly curved slender handle toward image-right. Soft upper-left illumination makes the left side of the mug lighter; soft contact shadows fall to lower right. Matte finely textured ceramic and block, subtly reflective silver, natural lemon texture. No visible horizon, text, logos, borders or other objects. Every object is fully visible; preserve the broad empty space and modest size of the arrangement.",
+      "references": [],
+      "output": "images/b1-text-reconstruction.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "7924f93470c2de31117927417ffce57c15d198f757aa5ffa5731f9fafe5ce650"
+    },
+    {
+      "id": "B2",
+      "mode": "reference-conditioned",
+      "prompt": "Create a photorealistic studio still life on a 3:2 landscape canvas. If an image is supplied, use it as the authority for composition, silhouettes, proportions, colors and lighting. Reconstruct the following visible scene: a warm ivory seamless floor and background, gently brighter at upper left. The upper 49% of the canvas is empty. One teal cylindrical ceramic mug with slightly rounded base and thick circular loop handle pointing image-right sits on a low salmon-coral rectangular block in the lower-left-middle. See inside its dark teal opening from a slightly elevated front view. Approximate object bounding boxes, expressed as percentages from the top-left of the canvas: mug including handle x30\u201349, y49\u201372; block x23\u201350, y66\u201379. The block has a broad front face and a visible flat top. Two whole saturated yellow lemons rest on the floor to the block's right, with a gap from the block: the nearer left lemon at x55\u201367,y66\u201381 and the farther right lemon at x67\u201379,y63\u201377. Their long axes lean gently down toward image-right; preserve small pointed tips and detailed dimpled rind. One horizontal silver teaspoon lies below and in front of the block at x29\u201354,y80\u201386, with oval bowl at image-left and a slightly curved slender handle toward image-right. Soft upper-left illumination makes the left side of the mug lighter; soft contact shadows fall to lower right. Matte finely textured ceramic and block, subtly reflective silver, natural lemon texture. No visible horizon, text, logos, borders or other objects. Every object is fully visible; preserve the broad empty space and modest size of the arrangement.",
+      "references": [
+        "images/a2-layout-repaired.png"
+      ],
+      "output": "images/b2-reference-reconstruction.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "1e3aa654c3c777838b5e05abc793daa7702ed8919bcd4b90b043f9ca76611c0b"
+    },
+    {
+      "id": "C1",
+      "mode": "sketch-to-render",
+      "prompt": "Use the input sketch as a layout and proportion guide for a photorealistic interior image on a 3:2 landscape canvas. The sketch's outlines control the location, relative scale, silhouettes and slightly elevated frontal viewpoint; its line drawing style should not appear in the result. Render a quiet sitting room with warm off-white plaster walls and a pale oak floor. The straight background line is where the wall meets the floor. There is one square four-pane window on the upper-left wall, one cobalt-blue upholstered two-seat sofa in the right half, one round walnut coffee table in front of the sofa and slightly left of it, one broad off-white woven rug beneath the table and sofa, and one black floor lamp with an off-white tapered shade at far right. Preserve the sofa's two back cushions and two seat cushions, simple arms and legs. The elliptical shape in the sketch is a circular tabletop seen in perspective, not an oval table. Keep the same left/right arrangement and approximate sizes shown by the sketch. Soft daylight enters through the left window, creating natural shadows to the right. The window may reveal a soft bright sky. No people, plants, artwork, books, extra furniture, text, diagrams or construction lines. Every named element should stay fully in frame.",
+      "references": [
+        "images/c0-room-sketch.png"
+      ],
+      "output": "images/c1-sketch-render.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "78d9f898b174043c19fdc4129763f992ede6e2ac42a1f9153939a6b6614b62ff"
+    },
+    {
+      "id": "C2",
+      "mode": "edit",
+      "prompt": "Edit this room image. Change only the outdoor scene visible through the upper-left window: remove all trees, greenery and foliage, replacing them with unobstructed soft pale-blue sky and a few diffuse white clouds. Keep the existing four-pane window frame, its shape, position and size unchanged. Preserve the cobalt-blue two-seat sofa, every cushion and leg, round walnut coffee table, off-white woven rug, black floor lamp and off-white shade, wall and floor materials, camera, framing, 3:2 landscape canvas, indoor lighting and interior shadows. Do not change any indoor object, add any new object, or add text.",
+      "references": [
+        "images/c1-sketch-render.png"
+      ],
+      "output": "images/c2-window-repaired.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "0ad5ebbc5aa64c4cd6eb5f0bbc8b3c8fae398f1c6958e49fc5c7f65d1d64520a"
+    },
+    {
+      "id": "C3",
+      "mode": "edit",
+      "prompt": "Edit the supplied room photograph. Change only the sofa upholstery color from cobalt blue to a warm burnt orange, with the same tactile fabric quality. Preserve the sofa's silhouette, dimensions, two back cushions, two seat cushions, arms, seams, legs and exact position. Keep the four-pane window and pale sky, warm plaster wall, pale oak floor, round walnut coffee table, off-white woven rug, black floor lamp and off-white shade unchanged. Preserve the existing camera, perspective, framing, 3:2 landscape canvas, light direction and object placement. Allow the sofa's shading and very subtle immediately adjacent color reflections to respond naturally to the new fabric color. No new objects, greenery or text.",
+      "references": [
+        "images/c2-window-repaired.png"
+      ],
+      "output": "images/c3-orange-edit.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "354c5c4b309248d30530e9c6f35c136eec586a814f0ccd85187478fa03cba90d"
+    },
+    {
+      "id": "C4",
+      "mode": "texture-repair",
+      "prompt": "Image 1 is the edit target: the room with the burnt-orange sofa. Image 2 is a reference ONLY for the sofa upholstery's original plain, finely brushed fabric texture; do not copy its blue color. In image 1, change only the sofa surface texture: remove the conspicuous looping, embossed or damask-like pattern and restore the plain, fine, softly brushed fabric appearance seen on the blue sofa in image 2. Keep the burnt-orange color from image 1, with natural tonal shading. Preserve all sofa geometry, seams, two back cushions, two seat cushions, arms, legs, position and silhouette. Keep the rest of image 1 unchanged: window and sky, wall, floor, lamp, coffee table, rug, lighting direction, composition and 3:2 landscape canvas. Do not add objects or text. The desired change is surface pattern only, not color or geometry.",
+      "references": [
+        "images/c3-orange-edit.png",
+        "images/c2-window-repaired.png"
+      ],
+      "output": "images/c4-texture-repair-attempt.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "sha256": "c0d95815883ed55ffc70f195cca9b6b712939dfdc8d83a4cc20dd9626a2b7638"
+    }
+  ]
+}

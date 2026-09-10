@@ -1,0 +1,645 @@
+[
+  {
+    "id": "G10",
+    "name": "Localize a dense fantasy atlas",
+    "checks": [
+      {
+        "id": "G10-01",
+        "criterion": "Title is exactly EL MOTOR DE LLUVIA, once.",
+        "result": "pass",
+        "evidence": "EL MOTOR DE LLUVIA appears once above the stack."
+      },
+      {
+        "id": "G10-02",
+        "criterion": "Labels NUBE, FILTRO, DEP\u00d3SITO, JARD\u00cdN, RETORNO are correct and appear once each.",
+        "result": "pass",
+        "evidence": "NUBE, FILTRO, DEP\u00d3SITO, JARD\u00cdN and RETORNO appear once each with both required accents."
+      },
+      {
+        "id": "G10-03",
+        "criterion": "No original English labels remain and no other text is added.",
+        "result": "pass",
+        "evidence": "No English label remains."
+      },
+      {
+        "id": "G10-04",
+        "criterion": "Five tiers stay in their original positions, sizes and order.",
+        "result": "pass",
+        "evidence": "The five tiers remain closely aligned with the input's centers, silhouettes and order."
+      },
+      {
+        "id": "G10-05",
+        "criterion": "Three masts and three filter layers remain recognizable and unchanged in count.",
+        "result": "pass",
+        "evidence": "Three white masts and three visibly different filter layers remain."
+      },
+      {
+        "id": "G10-06",
+        "criterion": "Four downward arrows and one turquoise return arrow preserve direction and route.",
+        "result": "pass",
+        "evidence": "All four downward arrows and the external upward turquoise arrow remain in corresponding positions."
+      },
+      {
+        "id": "G10-07",
+        "criterion": "Reservoir water level, garden bridges and copper coil retain appearance.",
+        "result": "fail",
+        "evidence": "Strict preservation fails: the reservoir's internal caustics and parts of the garden foliage were visibly redrawn, even though water level, bridges and coil remain broadly consistent."
+      },
+      {
+        "id": "G10-08",
+        "criterion": "Palette, paper background and light remain visually consistent.",
+        "result": "pass",
+        "evidence": "The cream paper and dark-teal/copper/green palette remain coherent; local surface highlights are not identical."
+      },
+      {
+        "id": "G10-09",
+        "criterion": "Replacement type remains readable in its original zones without colliding with art.",
+        "result": "pass",
+        "evidence": "All replacement labels fit their zones; the longer reservoir label shortens its leader line."
+      },
+      {
+        "id": "G10-10",
+        "criterion": "Canvas remains portrait 2:3; dimensions and any material changes are reported.",
+        "result": "pass",
+        "evidence": "Actual output is 1024\u00d71536 PNG, matching the source dimensions."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/language/trial-N4.png",
+        "role": "edit target: illustration, geometry, material and typography layout",
+        "source_url": null,
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "58de371471aa311c590ed4dabaa3fd4b44af2e4033bfc97233e658c31dcc341f"
+      }
+    ]
+  },
+  {
+    "id": "G11",
+    "name": "Pixel-art motorcycle megacity",
+    "checks": [
+      {
+        "id": "G11-01",
+        "criterion": "Landscape 3:2 canvas.",
+        "result": "pass",
+        "evidence": "Actual output is 1536\u00d71024 PNG."
+      },
+      {
+        "id": "G11-02",
+        "criterion": "Exactly one courier and one motorcycle; both wheels visible.",
+        "result": "pass",
+        "evidence": "One courier rides one motorcycle; both wheels are visible."
+      },
+      {
+        "id": "G11-03",
+        "criterion": "Rider has red jacket and ivory full-face helmet.",
+        "result": "pass",
+        "evidence": "Red jacket and ivory full-face helmet are clear."
+      },
+      {
+        "id": "G11-04",
+        "criterion": "Hands and boots plausibly connect to bike controls.",
+        "result": "uncertain",
+        "evidence": "The near hand and boot connect plausibly; far-side controls and limbs are occluded, so all contacts cannot be verified."
+      },
+      {
+        "id": "G11-05",
+        "criterion": "Foreground bridge, middle canal market and distant towers read as separate depth layers.",
+        "result": "pass",
+        "evidence": "Foreground bridge and rider, midground market/canal, and distant cobalt towers are clearly separated."
+      },
+      {
+        "id": "G11-06",
+        "criterion": "Two background arched skybridges are visible.",
+        "result": "fail",
+        "evidence": "Three arched background bridges are visible at different heights instead of the requested two."
+      },
+      {
+        "id": "G11-07",
+        "criterion": "Style is visibly pixel art with stepped edges and restrained color ramps.",
+        "result": "pass",
+        "evidence": "Edges, lettering and reflections use deliberately blocky pixel clusters."
+      },
+      {
+        "id": "G11-08",
+        "criterion": "Reference palette is recognizable while source spaceships, planets and game interface are absent.",
+        "result": "pass",
+        "evidence": "Blue/cyan and orange-yellow palette transfers; source spacecraft, planet and game menu are absent."
+      },
+      {
+        "id": "G11-09",
+        "criterion": "NIGHT COURIER appears once and no other readable text or numbers appear.",
+        "result": "pass",
+        "evidence": "NIGHT COURIER is spelled correctly, once; no other readable text is visible."
+      },
+      {
+        "id": "G11-10",
+        "criterion": "Main subject is fully framed inside margins; rain/light do not obscure it.",
+        "result": "pass",
+        "evidence": "The full rider/motorcycle is visible and separated from busy background detail."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/pixels.webp",
+        "role": "style only: palette, pixel clusters and edge treatment",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/pixels.webp",
+        "inspected_before_generation": true,
+        "width": 400,
+        "height": 600,
+        "sha256": "ccb42c3f01c3fd527ffe2a7bfd6e8c963fc2256a14574f82aa17442ced0ce8a7"
+      }
+    ]
+  },
+  {
+    "id": "G12",
+    "name": "Identity-preserving wardrobe from three garment references",
+    "checks": [
+      {
+        "id": "G12-01",
+        "criterion": "Recognizable facial likeness, smile, hair and earrings from the original; no identity verification claim.",
+        "result": "pass",
+        "evidence": "The dark-haired woman retains a closely similar face, smile, hair length and visible earrings; this is visual likeness assessment."
+      },
+      {
+        "id": "G12-02",
+        "criterion": "Folded arms and crossed-ankle pose preserved with plausible anatomy.",
+        "result": "pass",
+        "evidence": "Folded arms and crossed ankles are preserved with plausible garment occlusions."
+      },
+      {
+        "id": "G12-03",
+        "criterion": "Beige blazer matches lapels, two dark buttons, flap-pocket character and open fit.",
+        "result": "pass",
+        "evidence": "Beige open blazer has notched lapels, two dark front buttons and flap pockets."
+      },
+      {
+        "id": "G12-04",
+        "criterion": "White scoop-neck tank visible under blazer.",
+        "result": "pass",
+        "evidence": "White scoop-neck tank is visible under the open blazer."
+      },
+      {
+        "id": "G12-05",
+        "criterion": "Two gray knee-high suede boots replace both sneakers.",
+        "result": "pass",
+        "evidence": "Both original white sneakers are replaced with gray high boots."
+      },
+      {
+        "id": "G12-06",
+        "criterion": "Boots preserve low heels and two buckle straps on each boot, insofar as visible.",
+        "result": "uncertain",
+        "evidence": "Low heels and gray suede are visible; two buckle straps are clear on the rear boot, but the front boot's upper buckle cannot be verified from its rotated/occluded view."
+      },
+      {
+        "id": "G12-07",
+        "criterion": "Original black jeans remain wherever not covered by replacement clothes.",
+        "result": "pass",
+        "evidence": "Black jeans remain between blazer and boots, adapted to the boot occlusion."
+      },
+      {
+        "id": "G12-08",
+        "criterion": "Statue, paintings and floor remain in their original arrangement.",
+        "result": "pass",
+        "evidence": "The statue, two gold-framed paintings and tile layout remain closely consistent."
+      },
+      {
+        "id": "G12-09",
+        "criterion": "New garments fit body and lighting with plausible folds and contact shadows.",
+        "result": "pass",
+        "evidence": "Blazer sleeves, lapels and boot shafts follow the existing pose; lighting is coherent."
+      },
+      {
+        "id": "G12-10",
+        "criterion": "No extra people/accessories/text; portrait 2:3 and full-body framing preserved.",
+        "result": "pass",
+        "evidence": "Full body remains framed at 1024\u00d71536 with no extra person, text or accessory."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/woman-in-museum.webp",
+        "role": "edit target, identity, pose, environment",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/woman-in-museum.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "5dd4ba349e5600d51ceb0291ad930d149399167bbdfeacdef577ea3a89474d95"
+      },
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/jacket.webp",
+        "role": "blazer garment only",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/jacket.webp",
+        "inspected_before_generation": true,
+        "width": 300,
+        "height": 450,
+        "sha256": "5f7112e6a2d59c35bd0a3fe80fe80e83992f9b17616319b5b3ef55b556c2fd42"
+      },
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/tank-top.webp",
+        "role": "tank garment only",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/tank-top.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "3b830909e2912389b3342cb435accf8f9646f4f0188b633956dee5d9660f798b"
+      },
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/boots.webp",
+        "role": "boots garment only",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/boots.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "91ba0aff95c6c24b9524ce052966db3b40b6579c9bd1931aff0f1d1331c63abd"
+      }
+    ]
+  },
+  {
+    "id": "G13",
+    "name": "Two-reference botanical railway editorial",
+    "checks": [
+      {
+        "id": "G13-01",
+        "criterion": "Exactly one woman and one chocolate Labrador; no donor woman or extra animals.",
+        "result": "fail",
+        "evidence": "The foreground correctly contains the specified woman and Labrador, but two tiny background human figures appear in the distant concourse despite the exactly-one-person requirement."
+      },
+      {
+        "id": "G13-02",
+        "criterion": "Woman resembles image 1 and retains cap, plaid shirt, black top, ripped jeans, belt and white sneakers.",
+        "result": "pass",
+        "evidence": "The first woman's cap, plaid shirt, black crop top, ripped jeans, belt and white sneakers transfer with recognizable facial appearance."
+      },
+      {
+        "id": "G13-03",
+        "criterion": "Dog resembles the image 2 Labrador in face, ears, color and stocky proportions.",
+        "result": "pass",
+        "evidence": "The Labrador retains chocolate fur, broad face, floppy ears and amber-brown eyes; walking pose differs as requested."
+      },
+      {
+        "id": "G13-04",
+        "criterion": "Both subjects walk toward camera, woman left of center and dog on viewer right.",
+        "result": "pass",
+        "evidence": "Woman is left of center and the dog on viewer's right, both walking toward camera."
+      },
+      {
+        "id": "G13-05",
+        "criterion": "Burgundy leash connects dog to the correct visible hand without floating segments.",
+        "result": "pass",
+        "evidence": "The burgundy leash runs continuously from her left hand to the dog's collar."
+      },
+      {
+        "id": "G13-06",
+        "criterion": "Full bodies, feet and paws are visible and anatomically plausible.",
+        "result": "pass",
+        "evidence": "Whole bodies, shoes and paws remain visible; the walking contacts look plausible."
+      },
+      {
+        "id": "G13-07",
+        "criterion": "Iron-and-glass vault, palms and bronze planters create layered botanical concourse.",
+        "result": "pass",
+        "evidence": "Glass barrel vault, layered palms, bronze planters and reflected sunlight are prominent."
+      },
+      {
+        "id": "G13-08",
+        "criterion": "Moss-green vintage train is behind them on the right; ornate clock is present.",
+        "result": "pass",
+        "evidence": "Moss-green train occupies the right background; ornate clock is present."
+      },
+      {
+        "id": "G13-09",
+        "criterion": "Light, scale, ground contacts and reflections make the composite coherent.",
+        "result": "pass",
+        "evidence": "Subject scale, warm light, tiled-floor contacts and reflections are coherent."
+      },
+      {
+        "id": "G13-10",
+        "criterion": "Landscape 3:2 with no legible signage, logos or watermarks.",
+        "result": "uncertain",
+        "evidence": "1536\u00d71024 landscape output. Tiny train markings are not confidently legible; the clock has numeral-like marks despite the prompt's no-readable-numerals request."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman.webp",
+        "role": "woman identity and outfit only",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "d05039cf1e1893016bb529ea63c4496a8807aaf9f30987607b7ed3438878af3f"
+      },
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/test-woman-2.webp",
+        "role": "dog donor only; exclude donor woman/background",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/test-woman-2.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "aea992a953df9495b137089319e232d87d4a7432b6fe3c3782097d9922b32ca4"
+      }
+    ]
+  },
+  {
+    "id": "G14",
+    "name": "Actual-alpha shampoo cutout",
+    "checks": [
+      {
+        "id": "G14-01",
+        "criterion": "PNG has an alpha channel with genuinely zero-alpha exterior pixels (metadata).",
+        "result": "fail",
+        "evidence": "1254\u00d71254 RGB PNG; no alpha channel or transparency metadata. Converted alpha extrema are [255,255]."
+      },
+      {
+        "id": "G14-02",
+        "criterion": "Background is transparent rather than opaque checkerboard or solid fill.",
+        "result": "fail",
+        "evidence": "The checkerboard is painted into opaque pixels. Transparent pixel count is 0 of 1,572,516 and all four corners have alpha 255."
+      },
+      {
+        "id": "G14-03",
+        "criterion": "Bottle interior is opaque and whole bottle silhouette retained.",
+        "result": "pass",
+        "evidence": "Bottle body remains opaque and its cap-to-base silhouette is whole."
+      },
+      {
+        "id": "G14-04",
+        "criterion": "Peach-orange color, cylindrical body, rounded shoulder and flip-top cap preserved.",
+        "result": "pass",
+        "evidence": "Peach-orange cylindrical bottle, rounded shoulder and flip-top cap remain recognizable."
+      },
+      {
+        "id": "G14-05",
+        "criterion": "WOMEN and SHAMPOO labels retained with exact spelling.",
+        "result": "pass",
+        "evidence": "WOMEN and SHAMPOO are legible and spelled correctly."
+      },
+      {
+        "id": "G14-06",
+        "criterion": "FOR, NORMAL HAIR and 12 FL OZ (355 mL) remain correctly spelled and positioned.",
+        "result": "pass",
+        "evidence": "FOR, NORMAL HAIR and 12 FL OZ (355 mL) remain legible and correctly spelled."
+      },
+      {
+        "id": "G14-07",
+        "criterion": "No tabletop, wall, cast shadow or other object remains.",
+        "result": "pass",
+        "evidence": "Original table, tan wall and cast shadow are removed, but replaced by an unusable opaque checkerboard."
+      },
+      {
+        "id": "G14-08",
+        "criterion": "Square canvas, centered bottle and transparent margin.",
+        "result": "fail",
+        "evidence": "The canvas is square and bottle centered, but its margin is not transparent."
+      },
+      {
+        "id": "G14-09",
+        "criterion": "Edge shape is clean without obvious missing cap/body or fringe.",
+        "result": "pass",
+        "evidence": "The bottle edge is visually clean; this does not compensate for failed alpha."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/shampoo.webp",
+        "role": "exact product identity and typography",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/shampoo.webp",
+        "inspected_before_generation": true,
+        "width": 400,
+        "height": 400,
+        "sha256": "b7afa96b86794446d9c101b72f2cda43827c3f92d0cc2493c541147faaf38695"
+      }
+    ]
+  },
+  {
+    "id": "G15",
+    "name": "Sketch to alpine botanical station",
+    "checks": [
+      {
+        "id": "G15-01",
+        "criterion": "Landscape 3:2 framing preserved.",
+        "result": "pass",
+        "evidence": "Actual output is 1536\u00d71024 PNG, the source sketch's 3:2 aspect ratio."
+      },
+      {
+        "id": "G15-02",
+        "criterion": "Left/right slopes frame the central valley in positions consistent with sketch.",
+        "result": "pass",
+        "evidence": "Left and right mountain masses frame the central valley; detailed peaks rise higher than the simple source outlines."
+      },
+      {
+        "id": "G15-03",
+        "criterion": "River follows comparable S-curves from central horizon toward broad foreground.",
+        "result": "pass",
+        "evidence": "The river runs from the central distance through broad foreground S-curves."
+      },
+      {
+        "id": "G15-04",
+        "criterion": "One prominent leafy right-bank foreground tree remains near its source position.",
+        "result": "uncertain",
+        "evidence": "One prominent leafy tree occupies the right foreground bank, but its canopy is larger and higher than the sketched tree, so precise scale/placement preservation is uncertain."
+      },
+      {
+        "id": "G15-05",
+        "criterion": "River rocks and banks remain visible; no blockage of primary water path.",
+        "result": "pass",
+        "evidence": "Rocky banks and the water path remain visible."
+      },
+      {
+        "id": "G15-06",
+        "criterion": "Natural sunrise glow occupies valley opening without drawn rays or giant cartoon disc.",
+        "result": "pass",
+        "evidence": "A natural low sun and warm valley glow replace the cartoon semicircle/rays."
+      },
+      {
+        "id": "G15-07",
+        "criterion": "Four loose cloud groups occupy broadly corresponding upper-sky regions.",
+        "result": "pass",
+        "evidence": "Four principal cloud clusters occupy upper-left, inner-left, inner-right and upper-right areas; additional small horizon haze appears."
+      },
+      {
+        "id": "G15-08",
+        "criterion": "Exactly three low glass greenhouses on planted left-bank terraces.",
+        "result": "pass",
+        "evidence": "Exactly three separate low glass greenhouses sit on the planted left terraces."
+      },
+      {
+        "id": "G15-09",
+        "criterion": "Exactly one new wooden midground footbridge spans river and connects to greenhouse path.",
+        "result": "pass",
+        "evidence": "One wooden footbridge crosses the river in the middle distance with a connecting path; this was declared a new feature before generation."
+      },
+      {
+        "id": "G15-10",
+        "criterion": "Photographic materials and coherent atmospheric depth; no labels/black outlines/people.",
+        "result": "pass",
+        "evidence": "Glass, stone, foliage and river are photographic in treatment, with layered haze and no labels/outlines/people."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/drawings.webp",
+        "role": "layout and perspective only; no bridge exists in source",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/drawings.webp",
+        "inspected_before_generation": true,
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4d4d7b94418a5ccd2c45516f7f5794f027eba02e60d9ac15294a65f586cd407b"
+      }
+    ]
+  },
+  {
+    "id": "G16",
+    "name": "Remove cap and preserve portrait",
+    "checks": [
+      {
+        "id": "G16-01",
+        "criterion": "Blue cap crown and brim fully absent.",
+        "result": "pass",
+        "evidence": "Blue cap crown and brim are absent."
+      },
+      {
+        "id": "G16-02",
+        "criterion": "Newly exposed scalp has plausible short dark hair continuous with visible temple hair.",
+        "result": "pass",
+        "evidence": "Short dark hair fills the newly visible scalp and connects plausibly to temple hair."
+      },
+      {
+        "id": "G16-03",
+        "criterion": "Facial likeness, smile, teeth, stubble, ears and head tilt remain recognizable.",
+        "result": "pass",
+        "evidence": "Smile, stubble, teeth, ears, gaze and head tilt remain closely recognizable, although fine skin/stubble pixels are regenerated."
+      },
+      {
+        "id": "G16-04",
+        "criterion": "White daisy, yellow center and green stem retained in same position.",
+        "result": "pass",
+        "evidence": "Daisy's white petals, yellow center, stem and position are retained."
+      },
+      {
+        "id": "G16-05",
+        "criterion": "Hand, fingers and arm retain pose and plausible anatomy.",
+        "result": "pass",
+        "evidence": "The hand's flower-holding pose and arm remain plausible and in place."
+      },
+      {
+        "id": "G16-06",
+        "criterion": "White shirt and green tree graphic preserved.",
+        "result": "pass",
+        "evidence": "White T-shirt and central green tree graphic are retained."
+      },
+      {
+        "id": "G16-07",
+        "criterion": "Graffiti bricks, framing, light and colors stay visually consistent.",
+        "result": "pass",
+        "evidence": "Graffiti and brick pattern, crop and lighting remain closely consistent."
+      },
+      {
+        "id": "G16-08",
+        "criterion": "No added text or objects; portrait 2:3 retained.",
+        "result": "pass",
+        "evidence": "Actual output is 1024\u00d71536 PNG with no added object or text."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/inputs/man-with-blue-hat.webp",
+        "role": "edit target; cap removal only",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/man-with-blue-hat.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "3ae738ac0cb05ffe827a2befdbab5317ae7329e812b56adc687e0ae8c40508b2"
+      }
+    ]
+  },
+  {
+    "id": "G17",
+    "name": "Insert referenced person into complex action scene",
+    "checks": [
+      {
+        "id": "G17-01",
+        "criterion": "Exactly one person replaces the original runner; no museum background.",
+        "result": "pass",
+        "evidence": "Exactly one woman occupies the original runner's position; no museum content appears."
+      },
+      {
+        "id": "G17-02",
+        "criterion": "Face/hair show recognizable likeness to G12 reference with plausible alarmed expression.",
+        "result": "pass",
+        "evidence": "Face/hair remain recognizably consistent with G12 while expression becomes alarmed; resemblance is an observational judgment."
+      },
+      {
+        "id": "G17-03",
+        "criterion": "Beige blazer, white tank, black jeans and gray boots retained.",
+        "result": "pass",
+        "evidence": "Beige blazer, white tank, black jeans and visible gray high boot transfer; the far leg is partly occluded by the running pose."
+      },
+      {
+        "id": "G17-04",
+        "criterion": "Running pose, direction and scale fit original scene without malformed limbs.",
+        "result": "pass",
+        "evidence": "Forward-running pose, raised knee, arm swing, body scale and direction follow the source action."
+      },
+      {
+        "id": "G17-05",
+        "criterion": "Bear stays behind on left, retaining plausible scale and appearance.",
+        "result": "pass",
+        "evidence": "Bear remains behind on the left."
+      },
+      {
+        "id": "G17-06",
+        "criterion": "Tent and green case remain on right; overturned chair remains on left.",
+        "result": "pass",
+        "evidence": "Tent and green case stay right; overturned dark chair stays left."
+      },
+      {
+        "id": "G17-07",
+        "criterion": "Scattered gear, pine trunks and foreground ground arrangement preserved.",
+        "result": "pass",
+        "evidence": "Scattered gear, trees and rocky leaf-strewn foreground retain their arrangement, with fine texture redraws."
+      },
+      {
+        "id": "G17-08",
+        "criterion": "Granite mountain profile, sky and background depth retain source arrangement.",
+        "result": "pass",
+        "evidence": "Distant granite peak profile and evening sky remain closely consistent."
+      },
+      {
+        "id": "G17-09",
+        "criterion": "Light, contact shadows, focus and integration remain coherent.",
+        "result": "pass",
+        "evidence": "Subject clothing, motion and scene lighting integrate coherently; dust is heavier than the brief's light-dust suggestion."
+      },
+      {
+        "id": "G17-10",
+        "criterion": "Portrait 2:3 with no extra wildlife, blood, text or watermark.",
+        "result": "pass",
+        "evidence": "Actual output is 1024\u00d71536 PNG; no extra wildlife, blood, text or watermark."
+      }
+    ],
+    "references": [
+      {
+        "path": "outputs/expanded-experiments/edit-coverage/g12.png",
+        "role": "person identity and clothing only; generated G12 result",
+        "source_url": null,
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "4daf91289d465232ff078f845f61c6869d370ae1c436430b0734aa292dfca1d8"
+      },
+      {
+        "path": "outputs/expanded-experiments/official-references/scene-gpt-image-2-5-sunburst.webp",
+        "role": "scene, existing runner pose, scale, camera, lighting",
+        "source_url": "https://developers.openai.com/images/platform/guides/image-prompting/scene-gpt-image-2-5-sunburst.webp",
+        "inspected_before_generation": true,
+        "width": 1024,
+        "height": 1536,
+        "sha256": "0cf84c6ea651dfdead59b2dffc0aa6dd179683c2838e6301f295a0eeea5b63a2"
+      }
+    ]
+  }
+]

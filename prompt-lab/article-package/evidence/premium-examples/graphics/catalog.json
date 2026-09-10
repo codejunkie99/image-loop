@@ -1,0 +1,217 @@
+[
+  {
+    "id": "PG01",
+    "category": "Book cover",
+    "title": "A Small Distance",
+    "slug": "01-a-small-distance",
+    "sources": [
+      {
+        "title": "Pentagram — How to See",
+        "url": "https://www.pentagram.com/work/how-to-see/story",
+        "visual_url": "https://pictures.abebooks.com/isbn/9780714873831-us.jpg",
+        "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+        "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+      }
+    ],
+    "prompt": "Create the finished flat front cover of an original literary novel, portrait 2:3. It should feel like a carefully art-directed contemporary literary hardback, with exceptional typographic finish and a single memorable visual idea. Do not show a physical book, spine, mockup, hands or tabletop.\nUse a vivid vermilion-red field, black-and-white photographic imagery, and warm-white typography. Top 30 percent: the exact title \"A SMALL DISTANCE\" in two lines, A SMALL above DISTANCE, very large elegant high-contrast serif letters with balanced kerning and generous space from all edges. Keep every letter unobstructed. No subtitle.\nIn the middle and lower portion, create one sharply composed monochrome overhead photograph: two very small human figures stand on opposite sides of a broad, empty white concrete terrace, separated by one long, perfectly straight dark shadow. The terrace has crisp architectural geometry and subtle real stone texture. The two figures face each other across the empty space. Their distance is the emotional point; no crowd, furniture or scenery. The photographic rectangle occupies roughly the central 80 percent of the cover width, extending from below the title to near the bottom; a substantial red border stays visible.\nPlace \"MARA ELLIS\" in restrained warm-white uppercase sans-serif type at the bottom, centered with generous breathing room. The title and author are the only text. Precise print-design alignment, smooth solid red ink, clean photographic tonal range, no distressed lettering, no effects around the type, no badges, no fake publisher logo, no decorative frame inside the photograph.",
+    "checks": [
+      "Portrait 2:3 flat cover, no mockup",
+      "A SMALL DISTANCE exact and unobstructed in two lines",
+      "MARA ELLIS exact, with no additional copy",
+      "Two figures only, facing across an empty terrace",
+      "One long straight shadow visibly separates figures",
+      "Vermilion border and monochrome photograph are clear",
+      "Title, picture and author have distinct aligned zones",
+      "All copy comfortably inside outer margins"
+    ],
+    "status": "reviewed",
+    "image": "images/01-a-small-distance.png",
+    "prompt_file": "prompts/01-a-small-distance.txt",
+    "model": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images_supplied": [],
+    "prepared_at": "2026-09-09T21:49:23.636Z",
+    "review": "The two-line title and author are exact and legible. A strong vermilion border frames two figures and a long connecting shadow; the image has a clear conceptual relationship to the title.",
+    "limitations": [
+      "The shadow reads as a graphic connection between the figures rather than clearly separating them as requested. The red field has slight tonal variation. This is cover artwork, without a spine, bleed or print production setup."
+    ],
+    "technique": "Use one conceptual image and three separate zones: title, picture, author.",
+    "calls": 1
+  },
+  {
+    "id": "PG02",
+    "category": "Poster",
+    "title": "Soft Structure",
+    "slug": "02-soft-structure",
+    "sources": [
+      {
+        "title": "Studio Dumbar — Ruhrtriennale",
+        "url": "https://studiodumbar.com/work/ruhrtriennale",
+        "visual_url": "https://www.ruhrtriennale.de/de/news/pressemappe-ruhrtriennale-2025/74",
+        "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+        "inspection": "Designer case study read; official festival press artwork visually inspected."
+      }
+    ],
+    "prompt": "Design a finished portrait 2:3 poster for a fictional contemporary sculpture exhibition. The art direction is precise, visually daring and restrained: pale lavender paper, near-black typography, and a single extraordinary silver sculpture. Return the flat poster itself, no wall or room mockup.\nAcross the upper quarter, set the exact title \"SOFT STRUCTURE\" on two lines in very large, confident, condensed sans-serif capitals. Left aligned to a consistent 7 percent page margin. The two lines have tight controlled leading, normal crisp letters and excellent kerning. All letters are fully visible.\nBelow the title, one large studio photograph shows a single thin sheet of brushed aluminum bent into an elegant open looping ribbon, balancing on one folded end. Make the object physically coherent: one continuous sheet, polished cut edges, fine linear brushing, subtle dents from bending, crisp silver highlights and soft gray reflections. It occupies the middle half of the poster, slightly right of center, and casts one soft grounded shadow on the same pale lavender field. This is a tactile real object, not liquid chrome, a glowing CGI knot or tangled metal. Leave a clear gap between the sculpture and headline.\nAt the bottom, align a compact information block on the same left margin with exactly these three lines:\n\"SCULPTURE / MATERIAL / SPACE\"\n\"04—28 OCT 2026\"\n\"WEST HALL\"\nUse small but clearly legible near-black sans-serif text, generous line spacing, and a fine short horizontal rule above this block. No other text, logos, gradients, decorative symbols, 3D lettering or ornamental borders. The hierarchy must read instantly: exhibition name, sculpture, practical details.",
+    "checks": [
+      "Portrait 2:3 flat poster",
+      "SOFT STRUCTURE exact, two clear lines",
+      "Three footer strings exact including date",
+      "One continuous aluminum sheet, no tangled impossible duplicates",
+      "Clear headline gap, subject centered lower than type",
+      "Lavender ground, near-black type and silver material distinct",
+      "Consistent left margins and ample footer spacing",
+      "No extra copy, logos or mockup context"
+    ],
+    "status": "reviewed",
+    "image": "images/02-soft-structure.png",
+    "prompt_file": "prompts/02-soft-structure.txt",
+    "model": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images_supplied": [],
+    "prepared_at": "2026-09-09T21:49:23.638Z",
+    "review": "The title and all three footer lines are correct. The aluminum ribbon reads as one continuous folded sheet, with a clear gap below the headline, tactile brushing and a grounded shadow.",
+    "limitations": [
+      "Material continuity is visually plausible, not physically simulated. The lavender background has subtle lighting variation rather than perfectly uniform flat ink."
+    ],
+    "technique": "Give the headline, central object and practical information different jobs and fixed zones.",
+    "calls": 1
+  },
+  {
+    "id": "PG03",
+    "category": "Flyer",
+    "title": "Night Shift",
+    "slug": "03-night-shift",
+    "sources": [
+      {
+        "title": "Studio Dumbar — Ruhrtriennale",
+        "url": "https://studiodumbar.com/work/ruhrtriennale",
+        "visual_url": "https://www.ruhrtriennale.de/de/news/pressemappe-ruhrtriennale-2025/74",
+        "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+        "inspection": "Designer case study read; official festival press artwork visually inspected."
+      },
+      {
+        "title": "Pentagram — How to See",
+        "url": "https://www.pentagram.com/work/how-to-see/story",
+        "visual_url": "https://pictures.abebooks.com/isbn/9780714873831-us.jpg",
+        "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+        "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+      }
+    ],
+    "prompt": "Create a finished portrait 4:5 event flyer for a fictional live-jazz night. Make it feel like a highly considered independent music venue campaign: bold cadmium-yellow ink, black typography, one arresting black-and-white photographic crop, and disciplined spacing. Flat artwork, not a paper mockup.\nThe upper third carries the exact words \"NIGHT SHIFT\" on two lines in massive tightly set black condensed sans-serif capitals, left aligned, with an 8 percent safe margin. The title should be the first thing read. Use clean lettering, no outlines, shadows, glow or grunge.\nThe middle of the flyer is a full-width monochrome photograph cropped close to the lower face, hands and tenor saxophone of one adult jazz musician in a dark suit. Show the instrument sweeping diagonally down toward the lower right; hands plausibly meet the keys. The dark photographic area feels intimate and tactile, with deep blacks, crisp metal reflections and a subtle natural grain. Crop deliberately; no awkward cut across fingertips. This photograph has a simple rectangular boundary, not a cutout halo.\nPlace the following exact information in a clean yellow band beneath the photograph, all aligned to the title's left margin:\n\"MIRA QUARTET\"\n\"LIVE JAZZ\"\n\"24 OCT 2026 · 20:00\"\n\"THE FOUNDRY\"\nLet MIRA QUARTET be the largest line in this band; group the date and venue as practical information with enough white space. These strings and the title are the only text. No tickets, website, prices, badges, sponsors, borders or extra musicians. Preserve a clear visual rhythm between giant title, tightly cropped photograph and readable event details.",
+    "checks": [
+      "Portrait 4:5 flat flyer",
+      "NIGHT SHIFT exact on two lines",
+      "All four practical strings exact and readable",
+      "One adult musician only, saxophone clearly identified",
+      "Visible fingers/keys plausible and not awkwardly clipped",
+      "Photograph rectangular with clean boundary",
+      "Yellow/black hierarchy distinct, footer not overcrowded",
+      "No extra copy, badges, price or venue logo"
+    ],
+    "status": "reviewed",
+    "image": "images/03-night-shift.png",
+    "prompt_file": "prompts/03-night-shift.txt",
+    "model": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images_supplied": [],
+    "prepared_at": "2026-09-09T21:49:23.639Z",
+    "review": "The title, performer, date, time and venue are legible. Yellow and black create a strong hierarchy, and the close saxophone photograph has convincing metal and fabric detail.",
+    "limitations": [
+      "The left margin is tighter than the requested 8 percent and the lower hand is partly cut by the photo boundary. The musician and event are fictional. A roomier crop is the next refinement."
+    ],
+    "technique": "Specify the reading order and the exact event copy, then reserve a single photographic area.",
+    "calls": 1
+  },
+  {
+    "id": "PG04",
+    "category": "Infographic",
+    "title": "A Week, by Design",
+    "slug": "04-a-week-by-design",
+    "sources": [
+      {
+        "title": "Nicholas Felton — Feltron 2014 annual report, SFMOMA",
+        "url": "https://www.sfmoma.org/artwork/2015.782/",
+        "visual_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18011648/AD15.105_01_B02-web.jpg",
+        "learned": "Repeated alignment, consistent visual encoding and a clear hierarchy make information feel designed. Our example deliberately uses much less data and a simpler encoding.",
+        "inspection": "Museum collection record read and report image visually inspected."
+      }
+    ],
+    "prompt": "Create a finished editorial infographic, portrait 4:5, for a fictional design studio's sample 40-hour week. The result should look like a beautifully typeset magazine page: white paper, near-black type, one strong cobalt-blue ink, precise alignment and plenty of space. This is illustrative data, not research.\nTop left, within an 8 percent safe margin, set the exact headline \"A WEEK, BY DESIGN\" in large bold sans-serif, on two lines if necessary. Below it place exactly \"40 hours. Four priorities.\" in smaller regular sans-serif.\nThe main graphic is four horizontal bars, with four generously spaced rows. Every bar starts on the same vertical baseline and uses the same linear scale: the full available plotting width represents 20 hours. Keep bars flat, rectangular and equal in thickness; no perspective, rounded capsules, icons or decorative illustrations. Use cobalt blue for every bar.\nRow 1 label \"FOCUS\", bar 18 hours, endpoint value \"18 h\".\nRow 2 label \"MEETINGS\", bar 10 hours, endpoint value \"10 h\".\nRow 3 label \"ADMIN\", bar 8 hours, endpoint value \"8 h\".\nRow 4 label \"LEARNING\", bar 4 hours, endpoint value \"4 h\".\nBar lengths must therefore be 90%, 50%, 40% and 20% of the same plotting width. Place labels above their bars at the shared left baseline, and numeric values just to the right of each bar, with clear spacing. Add only two subtle gray vertical guide lines across the plotting region: the common start and the full 20-hour endpoint. Label these once below the plot as \"0\" and \"20 h\".\nAt the bottom left, put the exact small footer \"ILLUSTRATIVE DATA\". No other text. The four values sum to 40. Use consistent numeral style, clean kerning, generous row spacing and a balanced layout. No gradients, shadows, fake dashboard controls, legend, extra axes, 3D bars or ornaments.",
+    "checks": [
+      "Portrait 4:5 infographic with clean margins",
+      "Headline and subheading exact",
+      "FOCUS18, MEETINGS10, ADMIN8, LEARNING4 correct",
+      "Four bars only, same baseline and thickness",
+      "Bar lengths reflect 18:10:8:4 within 5% visible raster tolerance",
+      "Only common-start and 20-hour guide lines",
+      "All labels and values legible and separated",
+      "ILLUSTRATIVE DATA footer exact",
+      "No invented factual claims or decorative clutter"
+    ],
+    "status": "reviewed",
+    "image": "images/04-a-week-by-design.png",
+    "prompt_file": "prompts/04-a-week-by-design.txt",
+    "model": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images_supplied": [],
+    "prepared_at": "2026-09-09T21:49:23.639Z",
+    "review": "All four labels and values are correct and sum to 40. Bars share a baseline, remain legible and follow the correct ordering. Pixel checks measured approximately 87.1%, 49.8%, 39.2% and 20.9% of the plotting width.",
+    "limitations": [
+      "Requested lengths were 90%, 50%, 40% and 20%. The first bar is visibly short of its target. This is an illustrative layout concept; use a deterministic chart renderer for exact published data geometry."
+    ],
+    "technique": "State the data, the common scale, bar relationships and label placement separately.",
+    "calls": 1
+  },
+  {
+    "id": "PG05",
+    "category": "Thumbnail",
+    "title": "Small Room, Big Idea",
+    "slug": "05-small-room-big-idea",
+    "sources": [
+      {
+        "title": "Pentagram — How to See",
+        "url": "https://www.pentagram.com/work/how-to-see/story",
+        "visual_url": "https://pictures.abebooks.com/isbn/9780714873831-us.jpg",
+        "learned": "A cover can have one conceptual gesture and a sharply controlled hierarchy. Large type and negative space do more work than decorative detail.",
+        "inspection": "Public cover image visually inspected; publisher project page read. Retailer image used when original image CDN returned 403."
+      },
+      {
+        "title": "Studio Dumbar — Ruhrtriennale",
+        "url": "https://studiodumbar.com/work/ruhrtriennale",
+        "visual_url": "https://www.ruhrtriennale.de/de/news/pressemappe-ruhrtriennale-2025/74",
+        "learned": "A limited set of distinctive color and type decisions can carry a cultural campaign. Scale, rhythm and information hierarchy should remain legible.",
+        "inspection": "Designer case study read; official festival press artwork visually inspected."
+      }
+    ],
+    "prompt": "Create a polished YouTube thumbnail for a fictional interior-design video, landscape 16:9. It must read clearly at a small thumbnail size, with one bold text statement and one strong architectural photograph. The aesthetic is a confident contemporary design magazine, not clickbait clutter.\nThe right 62 percent shows a beautifully photographed compact living room: a deep rust-red modular sofa built into a precise pale-oak storage wall, a large circular window, an ivory boucle lounge chair and a small black steel coffee table. Use a purposeful built-in layout that makes a small room feel generous. The circular window admits soft daylight from upper right; upholstery, oak grain, woven fabric and architectural edges have convincing tactile detail. Photograph from the open doorway at a natural eye level, with coherent perspective and clean verticals. No people, plants, books with lettering, screens, decorative piles or visible logos.\nThe left 38 percent is a smooth solid off-white text field. Set exactly \"SMALL ROOM\" above \"BIG IDEA\" in enormous near-black condensed sans-serif capitals, with two words per line and strong vertical spacing. Keep both lines inside the left field, fully legible and at least 6 percent of the full canvas width from the left edge. Add a short rust-red horizontal bar under BIG IDEA as the only graphic accent. No additional copy.\nThe join between text and photograph is a crisp vertical edge. Light, color and framing should make the red sofa the visual anchor opposite the headline. No arrows, circles, stickers, shocked faces, icons, border, 3D text or glowing effects. Keep the bottom-right 12 percent free of essential furniture detail for the platform duration badge. Return only the finished thumbnail.",
+    "checks": [
+      "Landscape16:9 within1% raster ratio tolerance",
+      "SMALL ROOM and BIG IDEA exact, two words each line",
+      "Copy large and unobstructed at reduced size",
+      "Off-white left field about38%, photograph right about62%",
+      "Rust sofa, oak storage wall, circular window, ivory chair, black table visible",
+      "Coherent photo perspective and tactile surfaces",
+      "One rust underline accent, no arrows or stickers",
+      "No people, logos, additional readable text or clutter"
+    ],
+    "status": "reviewed",
+    "image": "images/05-small-room-big-idea.png",
+    "prompt_file": "prompts/05-small-room-big-idea.txt",
+    "model": "not exposed",
+    "seed": "not exposed",
+    "quality": "not exposed",
+    "reference_images_supplied": [],
+    "prepared_at": "2026-09-09T21:49:23.639Z",
+    "review": "The two text lines are exact and readable at reduced size. The rust sofa, circular window, ivory chair and oak storage create a focused architectural image. The right-hand crop leaves room near the lower-right corner.",
+    "limitations": [
+      "The left margin is tighter than the specified 6 percent. Thumbnail legibility was assessed visually; no click-through performance has been measured."
+    ],
+    "technique": "Assign separate image and text zones, constrain the wording and keep one visual anchor.",
+    "calls": 1
+  }
+]
